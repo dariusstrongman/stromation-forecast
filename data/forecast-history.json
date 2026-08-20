@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "snapshots": [
+    {
+      "date": "2026-08-20",
+      "asOf": "2026-08-20T14:12:00-05:00",
+      "current": {
+        "technical": 80,
+        "autonomy": 60,
+        "commercial": 60,
+        "businessProof": 15
+      },
+      "forecast": [
+        {"period": "Today", "technical": 80, "autonomy": 60, "commercial": 60, "businessProof": 15},
+        {"period": "Day 30", "technical": 88, "autonomy": 73, "commercial": 72, "businessProof": 28},
+        {"period": "Day 60", "technical": 92, "autonomy": 83, "commercial": 81, "businessProof": 45},
+        {"period": "Day 90", "technical": 95, "autonomy": 89, "commercial": 87, "businessProof": 62}
+      ],
+      "day90": {
+        "customersMin": 3,
+        "customersMax": 10,
+        "mrrMin": 600,
+        "mrrMax": 3000
+      },
+      "changed": "Initial baseline established from current repository state and live-run evidence.",
+      "method": "Independent estimate based on repository maturity, autonomous run evidence, commercial readiness, and business/economic proof."
+    }
+  ]
+}
