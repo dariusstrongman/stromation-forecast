@@ -24,6 +24,30 @@
       },
       "changed": "Initial baseline established from current repository state and live-run evidence.",
       "method": "Independent estimate based on repository maturity, autonomous run evidence, commercial readiness, and business/economic proof."
+    },
+    {
+      "date": "2026-08-21",
+      "asOf": "2026-08-21T06:00:45-05:00",
+      "current": {
+        "technical": 86,
+        "autonomy": 68,
+        "commercial": 69,
+        "businessProof": 18
+      },
+      "forecast": [
+        {"period": "Today", "technical": 86, "autonomy": 68, "commercial": 69, "businessProof": 18},
+        {"period": "Day 30", "technical": 91, "autonomy": 77, "commercial": 78, "businessProof": 30},
+        {"period": "Day 60", "technical": 94, "autonomy": 85, "commercial": 84, "businessProof": 43},
+        {"period": "Day 90", "technical": 96, "autonomy": 90, "commercial": 89, "businessProof": 56}
+      ],
+      "day90": {
+        "customersMin": 2,
+        "customersMax": 8,
+        "mrrMin": 398,
+        "mrrMax": 1992
+      },
+      "changed": "The biggest positive change is that the customer activation/provisioning stack and Gatekeeper trigger path are now materially more complete and live-proven, including a real PR webhook review cycle and PR #32 merging. The forecast for business proof is still capped by the unchanged fact that Stromation publicly reports no customers yet and has no proven recurring revenue.",
+      "method": "Independent estimate grounded in main-branch repository state, current generated capability/customer state, recent autonomous PR/Gatekeeper activity, the live commercial site and venture evidence, and explicit public customer/revenue claims. Forward-looking values are estimates, not guarantees."
     }
   ]
 }
