@@ -48,6 +48,30 @@
       },
       "changed": "The biggest positive change is that the customer activation/provisioning stack and Gatekeeper trigger path are now materially more complete and live-proven, including a real PR webhook review cycle and PR #32 merging. The forecast for business proof is still capped by the unchanged fact that Stromation publicly reports no customers yet and has no proven recurring revenue.",
       "method": "Independent estimate grounded in main-branch repository state, current generated capability/customer state, recent autonomous PR/Gatekeeper activity, the live commercial site and venture evidence, and explicit public customer/revenue claims. Forward-looking values are estimates, not guarantees."
+    },
+    {
+      "date": "2026-08-22",
+      "asOf": "2026-08-22T06:00:00-05:00",
+      "current": {
+        "technical": 90,
+        "autonomy": 78,
+        "commercial": 74,
+        "businessProof": 20
+      },
+      "forecast": [
+        {"period": "Today", "technical": 90, "autonomy": 78, "commercial": 74, "businessProof": 20},
+        {"period": "Day 30", "technical": 94, "autonomy": 85, "commercial": 82, "businessProof": 32},
+        {"period": "Day 60", "technical": 96, "autonomy": 90, "commercial": 87, "businessProof": 46},
+        {"period": "Day 90", "technical": 97, "autonomy": 93, "commercial": 91, "businessProof": 59}
+      ],
+      "day90": {
+        "customersMin": 3,
+        "customersMax": 9,
+        "mrrMin": 597,
+        "mrrMax": 1791
+      },
+      "changed": "The biggest change is that fresh live engineering sessions finally exercised the department/worker architecture deeply enough to expose real routing, grant, and completion-evidence defects, and those defects were repaired on main. This materially increases confidence in autonomous operations, while business proof remains constrained because the public site still reports no paying customers.",
+      "method": "Independent estimate grounded in current main-branch implementation state, recent merged fixes from live autonomous sessions, Gatekeeper-reviewed site work, the live commercial offer and checkout surface, venture activity, and explicit public customer/revenue evidence. Forward-looking values are estimates, not guarantees."
     }
   ]
 }
