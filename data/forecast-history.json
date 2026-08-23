@@ -72,6 +72,30 @@
       },
       "changed": "The biggest change is that fresh live engineering sessions finally exercised the department/worker architecture deeply enough to expose real routing, grant, and completion-evidence defects, and those defects were repaired on main. This materially increases confidence in autonomous operations, while business proof remains constrained because the public site still reports no paying customers.",
       "method": "Independent estimate grounded in current main-branch implementation state, recent merged fixes from live autonomous sessions, Gatekeeper-reviewed site work, the live commercial offer and checkout surface, venture activity, and explicit public customer/revenue evidence. Forward-looking values are estimates, not guarantees."
+    },
+    {
+      "date": "2026-08-23",
+      "asOf": "2026-08-23T05:58:40-05:00",
+      "current": {
+        "technical": 92,
+        "autonomy": 83,
+        "commercial": 78,
+        "businessProof": 21
+      },
+      "forecast": [
+        {"period": "Today", "technical": 92, "autonomy": 83, "commercial": 78, "businessProof": 21},
+        {"period": "Day 30", "technical": 95, "autonomy": 88, "commercial": 84, "businessProof": 31},
+        {"period": "Day 60", "technical": 97, "autonomy": 92, "commercial": 88, "businessProof": 43},
+        {"period": "Day 90", "technical": 98, "autonomy": 94, "commercial": 91, "businessProof": 54}
+      ],
+      "day90": {
+        "customersMin": 2,
+        "customersMax": 7,
+        "mrrMin": 398,
+        "mrrMax": 1393
+      },
+      "changed": "The biggest change is operational simplification: Gatekeeper was reduced from a costly, churn-prone AI copy critic to a deterministic publish-safety/CI gate with retryable HOLD semantics, while live-run defects around Bash mutation, false-failure permits, worker completion truth, and blocker delivery were repaired. This raises technical and autonomy confidence, but the Day-90 revenue range is more conservative because there is still no paying-customer evidence or proven acquisition channel despite new SEO/resource pages.",
+      "method": "Independent estimate grounded in current main-branch implementation state, recent autonomous-run defect repairs, the simplified publish-safety gate, current fulfillment/billing capability truth, live site/offer evidence, active venture updates, and explicit customer/revenue evidence. Forward-looking values are estimates, not guarantees."
     }
   ]
 }
