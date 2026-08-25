@@ -120,6 +120,30 @@
       },
       "changed": "The biggest change is that the venture lab gained a real evidence-and-economics layer: attributed revenue/direct cost, measured behavior and retention, pre-declared success criteria, and fail-closed advancement gates now exist on main. Routing, branch delivery, and stale self-exec authority defects were also repaired, and new resource pages shipped. This raises technical, autonomy, and commercial confidence, but business proof moves only slightly because Stromation still publicly reports no customers and there is still no proven repeatable acquisition channel or verified venture revenue/PMF.",
       "method": "Independent estimate grounded in the current main-branch implementation, recent autonomous-run and authority/delivery defect repairs, new venture economics/behavior/experiment infrastructure, fresh site/resource and scheduled venture updates, the live commercial offer, and explicit public customer/revenue evidence. Forward-looking values are estimates, not guarantees."
+    },
+    {
+      "date": "2026-08-25",
+      "asOf": "2026-08-25T05:58:32-05:00",
+      "current": {
+        "technical": 95,
+        "autonomy": 87,
+        "commercial": 82,
+        "businessProof": 22
+      },
+      "forecast": [
+        {"period": "Today", "technical": 95, "autonomy": 87, "commercial": 82, "businessProof": 22},
+        {"period": "Day 30", "technical": 97, "autonomy": 91, "commercial": 87, "businessProof": 33},
+        {"period": "Day 60", "technical": 98, "autonomy": 93, "commercial": 91, "businessProof": 44},
+        {"period": "Day 90", "technical": 98, "autonomy": 94, "commercial": 93, "businessProof": 55}
+      ],
+      "day90": {
+        "customersMin": 2,
+        "customersMax": 7,
+        "mrrMin": 398,
+        "mrrMax": 1393
+      },
+      "changed": "The biggest change is that heavy real production use exposed and then closed several autonomy defects in the actual worker delivery path: shared-checkout collisions, stale/reused branch ambiguity, rework target misrouting, missing governed PR creation, lossy objective-to-worker requirements, and site-style drift. The repaired system now serializes Builder git work, governs PR creation, carries objective specs verbatim, enforces fresh-vs-continuation branch intent, and applies one site contract, while automated venture price capture continues. This raises technical, autonomy, and commercial confidence modestly, but business proof does not move because the live site still says no customers yet and there is no verified venture revenue or repeatable acquisition channel.",
+      "method": "Independent estimate grounded in current main-branch implementation, the Aug. 24-25 production incident/fix cycle, recent merged autonomous site deliveries and guardrails, continued scheduled LLM Cost Tracker operation, the live founding-pilot and custom offers, and explicit customer/revenue evidence. Forward-looking values are estimates, not guarantees."
     }
   ]
 }
