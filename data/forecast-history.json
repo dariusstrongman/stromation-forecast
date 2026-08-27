@@ -98,6 +98,20 @@
       "day90": {"customersMin": 2, "customersMax": 6, "mrrMin": 398, "mrrMax": 1194},
       "changed": "The biggest change is the two-executive production split: Sol now owns COMPANY/CUSTOMER while a persistent Venture Operator owns VENTURE, but the first live post-split sessions immediately exposed budget-envelope query, zero-budget launch, accounting-source, and routing-phrasing failures before those defects were repaired. That is stronger architecture but weaker demonstrated operational reliability than yesterday, so current autonomy is marked down. At the same time the venture system used its evidence discipline to kill LLM Cost Tracker while preserving daily data capture, which is modest real business-process proof even though the public site still reports no customers and no recurring revenue.",
       "method": "Independent estimate grounded in current main-branch implementation, the merged two-orchestrator architecture and its first production incident/fix cycle, recent autonomous worker site deliveries, venture kill-and-refill policy evidence, continued scheduled data capture, the live founding-pilot/custom offers, and explicit public customer/revenue evidence. Forward-looking values are estimates, not guarantees."
+    },
+    {
+      "date": "2026-08-27",
+      "asOf": "2026-08-27T05:58:04-05:00",
+      "current": {"technical": 97, "autonomy": 82, "commercial": 84, "businessProof": 23},
+      "forecast": [
+        {"period": "Today", "technical": 97, "autonomy": 82, "commercial": 84, "businessProof": 23},
+        {"period": "Day 30", "technical": 98, "autonomy": 89, "commercial": 88, "businessProof": 32},
+        {"period": "Day 60", "technical": 99, "autonomy": 92, "commercial": 91, "businessProof": 42},
+        {"period": "Day 90", "technical": 99, "autonomy": 94, "commercial": 93, "businessProof": 51}
+      ],
+      "day90": {"customersMin": 2, "customersMax": 6, "mrrMin": 398, "mrrMax": 1494},
+      "changed": "The biggest change is the production model-routing migration: a live multi-cloud tournament completed 48 graded runs and Gemini 3.7 Flash was promoted to primary Builder on Vertex, but the first two real queued Builder jobs then exposed two separate production-only integration defects (catalog tier recognition and drained-row contract loss) before any model spend. Both were repaired quickly and fail-closed behavior prevented bad spend, but the new path is not yet end-to-end proven on real Builder work, so technical maturity rises while current autonomy falls. Commercial surfaces improved modestly, but the public site still explicitly reports no customers and the previously live LLM Cost Tracker venture has been killed on evidence, leaving business proof essentially flat to slightly lower.",
+      "method": "Independent estimate grounded in current main-branch implementation, the 48-run multi-cloud model tournament and merged routing policy, first real Gemini Builder production failures and repairs, current public offer/site state, venture kill evidence, and explicit customer/revenue evidence. Forward-looking values are estimates, not guarantees."
     }
   ]
 }
