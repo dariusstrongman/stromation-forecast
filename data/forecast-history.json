@@ -112,6 +112,20 @@
       "day90": {"customersMin": 2, "customersMax": 6, "mrrMin": 398, "mrrMax": 1494},
       "changed": "The biggest change is the production model-routing migration: a live multi-cloud tournament completed 48 graded runs and Gemini 3.7 Flash was promoted to primary Builder on Vertex, but the first two real queued Builder jobs then exposed two separate production-only integration defects (catalog tier recognition and drained-row contract loss) before any model spend. Both were repaired quickly and fail-closed behavior prevented bad spend, but the new path is not yet end-to-end proven on real Builder work, so technical maturity rises while current autonomy falls. Commercial surfaces improved modestly, but the public site still explicitly reports no customers and the previously live LLM Cost Tracker venture has been killed on evidence, leaving business proof essentially flat to slightly lower.",
       "method": "Independent estimate grounded in current main-branch implementation, the 48-run multi-cloud model tournament and merged routing policy, first real Gemini Builder production failures and repairs, current public offer/site state, venture kill evidence, and explicit customer/revenue evidence. Forward-looking values are estimates, not guarantees."
+    },
+    {
+      "date": "2026-08-28",
+      "asOf": "2026-08-28T10:58:32Z",
+      "current": {"technical": 97, "autonomy": 79, "commercial": 82, "businessProof": 22},
+      "forecast": [
+        {"period": "Today", "technical": 97, "autonomy": 79, "commercial": 82, "businessProof": 22},
+        {"period": "Day 30", "technical": 98, "autonomy": 88, "commercial": 86, "businessProof": 31},
+        {"period": "Day 60", "technical": 99, "autonomy": 92, "commercial": 90, "businessProof": 42},
+        {"period": "Day 90", "technical": 99, "autonomy": 94, "commercial": 92, "businessProof": 52}
+      ],
+      "day90": {"customersMin": 1, "customersMax": 5, "mrrMin": 199, "mrrMax": 1195},
+      "changed": "The biggest change is that the resumed venture tournament exposed a broader reliability gap than yesterday's forecast assumed: repeated live failures around research-pack completion, search spirals, pre-funding target identity, same-family challenge routing, stale evidence epochs, browser-capability false positives, and candidate/evidence identity all required new deterministic fixes. The repairs are strong and the test battery reached 2387 passed, but current autonomy is marked down because those defects appeared in normal operation. Commercial readiness also falls because the public site still says LLM Cost Tracker is live even though the venture was killed on evidence, while it still explicitly reports no customers.",
+      "method": "Independent estimate grounded in latest main-branch production fixes and tests, the Aug. 27-28 hardening and resumed tournament runs, autonomous site PR delivery, current live offer/site truth, venture kill/tournament evidence, and explicit customer/revenue evidence. Forward-looking values are estimates, not guarantees."
     }
   ]
 }
