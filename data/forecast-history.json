@@ -126,6 +126,20 @@
       "day90": {"customersMin": 1, "customersMax": 5, "mrrMin": 199, "mrrMax": 1195},
       "changed": "The biggest change is that the resumed venture tournament exposed a broader reliability gap than yesterday's forecast assumed: repeated live failures around research-pack completion, search spirals, pre-funding target identity, same-family challenge routing, stale evidence epochs, browser-capability false positives, and candidate/evidence identity all required new deterministic fixes. The repairs are strong and the test battery reached 2387 passed, but current autonomy is marked down because those defects appeared in normal operation. Commercial readiness also falls because the public site still says LLM Cost Tracker is live even though the venture was killed on evidence, while it still explicitly reports no customers.",
       "method": "Independent estimate grounded in latest main-branch production fixes and tests, the Aug. 27-28 hardening and resumed tournament runs, autonomous site PR delivery, current live offer/site truth, venture kill/tournament evidence, and explicit customer/revenue evidence. Forward-looking values are estimates, not guarantees."
+    },
+    {
+      "date": "2026-08-29",
+      "asOf": "2026-08-29T11:04:00Z",
+      "current": {"technical": 97, "autonomy": 82, "commercial": 84, "businessProof": 22},
+      "forecast": [
+        {"period": "Today", "technical": 97, "autonomy": 82, "commercial": 84, "businessProof": 22},
+        {"period": "Day 30", "technical": 98, "autonomy": 89, "commercial": 88, "businessProof": 31},
+        {"period": "Day 60", "technical": 99, "autonomy": 92, "commercial": 91, "businessProof": 42},
+        {"period": "Day 90", "technical": 99, "autonomy": 94, "commercial": 93, "businessProof": 53}
+      ],
+      "day90": {"customersMin": 1, "customersMax": 5, "mrrMin": 199, "mrrMax": 1495},
+      "changed": "The biggest change is that the venture tournament moved from isolated scoring to a real relative-capital-allocation system and then survived live Round 10 use: it produced the first real comparison/defer path, exposed defects in evidence extraction, decision recording, provider budgets, Reddit research pacing, and validator semantics, and those failure classes were repaired while the suite grew to 2633 passed / 1 skipped. That improves current autonomy and commercial execution confidence versus yesterday, but not enough to claim mature autonomy because normal operation is still surfacing production-only defects. Business proof remains flat because the live site still explicitly says no customers and still presents LLM Cost Tracker as live despite repository evidence that it was killed earlier.",
+      "method": "Independent estimate grounded in the latest main-branch relative-tournament implementation, Aug. 28-29 live Round 10 incidents and repairs, build-path and security hardening, restored unsupervised pacing, current live offer/site truth, and explicit customer/revenue evidence. Forward-looking values are estimates, not guarantees."
     }
   ]
 }
