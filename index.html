@@ -6,33 +6,38 @@
   <title>Stromation 90-Day Forecast</title>
   <meta name="description" content="Independent 90-day forecast for Stromation, updated from evidence over time.">
   <style>
-    :root{color-scheme:dark;--bg:#090b10;--panel:#11141b;--line:#2a3140;--text:#f5f7fb;--muted:#9ba6b7;--accent:#7dd3fc}
+    :root{color-scheme:dark;--bg:#090b10;--panel:#11141b;--line:#2a3140;--text:#f5f7fb;--muted:#9ba6b7;--accent:#7dd3fc;--good:#34d399;--warn:#fbbf24}
     *{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--text)}
-    main{max-width:1050px;margin:auto;padding:42px 22px 64px}.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:12px}
-    h1{font-size:clamp(34px,6vw,64px);line-height:1;margin:.35rem 0 1rem}.sub{max-width:760px;color:var(--muted);font-size:17px}
-    .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:28px 0}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px}.label{color:var(--muted);font-size:13px}.value{font-size:30px;font-weight:750;margin-top:4px}
-    section{margin-top:26px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px}.legend{display:flex;flex-wrap:wrap;gap:14px;margin:0 0 16px;color:var(--muted);font-size:13px}.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px}
-    svg{width:100%;height:auto;display:block}.axis{stroke:#333b49;stroke-width:1}.tick{fill:var(--muted);font-size:11px}.line{fill:none;stroke-width:3}.point{stroke:var(--panel);stroke-width:2}
-    table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:11px 8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.06em}
-    .note{color:var(--muted);font-size:13px;margin-top:14px}.change{font-size:16px}.status{display:inline-block;padding:4px 8px;border-radius:999px;background:#18202b;color:var(--accent);font-size:12px;font-weight:700}
-    @media(max-width:760px){.grid{grid-template-columns:repeat(2,1fr)}.hide-mobile{display:none}}
+    main{max-width:1180px;margin:auto;padding:42px 22px 64px}.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:12px}
+    h1{font-size:clamp(34px,6vw,64px);line-height:1;margin:.35rem 0 1rem}.sub{max-width:860px;color:var(--muted);font-size:17px}
+    section{margin-top:26px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px}
+    .grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:28px 0}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:17px}.label{color:var(--muted);font-size:13px}.value{font-size:30px;font-weight:750;margin-top:4px}.group{color:var(--accent);font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}.status{display:inline-block;padding:4px 8px;border-radius:999px;background:#18202b;color:var(--accent);font-size:12px;font-weight:700}
+    table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:11px 8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.06em}.num{text-align:right}.under{color:var(--warn);font-weight:700}.over{color:var(--good);font-weight:700}
+    .blockers{display:grid;gap:10px}.blocker{border:1px solid var(--line);border-radius:12px;padding:14px;background:#0d1118}.blocker strong{display:block;margin-bottom:4px}.note{color:var(--muted);font-size:13px;margin-top:14px}.change{font-size:16px}.history-wrap{overflow:auto}
+    @media(max-width:950px){.grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:650px){.grid{grid-template-columns:repeat(2,1fr)}main{padding:28px 14px 48px}.hide-mobile{display:none}}
   </style>
 </head>
 <body>
 <main>
   <div class="eyebrow">Independent forecast</div>
   <h1>Stromation: next 90 days</h1>
-  <p class="sub">A rolling evidence-based forecast of Stromation's technical maturity, autonomous operation, commercial readiness, and business proof. Estimates can move up or down as reality changes.</p>
+  <p class="sub">A rolling evidence-based forecast across system, product and market execution. Older history remains preserved in the original four dimensions; the current model now tracks ten so strong architecture cannot hide weaker real-world execution.</p>
 
   <div class="grid" id="metrics"></div>
 
   <section class="panel">
     <div style="display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap">
-      <div><h2 style="margin:0 0 4px">90-day trajectory</h2><div class="label" id="asof"></div></div>
+      <div><h2 style="margin:0 0 4px">10-dimension forecast</h2><div class="label" id="asof"></div></div>
       <span class="status">Estimate, not guarantee</span>
     </div>
-    <div class="legend" id="legend"></div>
-    <svg id="chart" viewBox="0 0 920 420" role="img" aria-label="Forecast trend chart"></svg>
+    <div class="history-wrap" style="margin-top:14px">
+      <table><thead><tr><th>Dimension</th><th>Group</th><th class="num">Current</th><th class="num">Day 30</th><th class="num">Day 60</th><th class="num">Day 90</th></tr></thead><tbody id="forecast"></tbody></table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2 style="margin-top:0">90% blockers</h2>
+    <div class="blockers" id="blockers"></div>
   </section>
 
   <section class="panel">
@@ -43,27 +48,36 @@
 
   <section class="panel">
     <h2 style="margin-top:0">Forecast history</h2>
-    <table><thead><tr><th>Date</th><th>Technical</th><th>Autonomy</th><th>Commercial</th><th>Business proof</th><th class="hide-mobile">Day-90 customers</th></tr></thead><tbody id="history"></tbody></table>
-    <div class="note">This page reads <code>data/forecast-history.json</code>. Each future assessment should append a new snapshot rather than rewriting history.</div>
+    <div class="history-wrap"><table><thead><tr><th>Date</th><th>Technical</th><th>Autonomy</th><th>Commercial</th><th>Business proof</th><th class="hide-mobile">Day-90 customers</th></tr></thead><tbody id="history"></tbody></table></div>
+    <div class="note">Historical snapshots in <code>data/forecast-history.json</code> are preserved exactly. The expanded current model lives in <code>data/forecast-dimensions.json</code>.</div>
   </section>
 </main>
 <script>
-const COLORS=['#7dd3fc','#a78bfa','#34d399','#fbbf24'];
-const NAMES=[['technical','Technical maturity'],['autonomy','Autonomous operations'],['commercial','Commercial readiness'],['businessProof','Business / economic proof']];
-const fallback={snapshots:[{date:'2026-08-20',asOf:'2026-08-20T14:12:00-05:00',current:{technical:80,autonomy:60,commercial:60,businessProof:15},forecast:[{period:'Today',technical:80,autonomy:60,commercial:60,businessProof:15},{period:'Day 30',technical:88,autonomy:73,commercial:72,businessProof:28},{period:'Day 60',technical:92,autonomy:83,commercial:81,businessProof:45},{period:'Day 90',technical:95,autonomy:89,commercial:87,businessProof:62}],day90:{customersMin:3,customersMax:10,mrrMin:600,mrrMax:3000},changed:'Initial baseline established from current repository state and live-run evidence.'}]};
+const fallback={date:'2026-09-10',asOf:'2026-09-10T08:03:44-05:00',dimensions:[
+{key:'technical',name:'Technical maturity',group:'System',current:98,day30:99,day60:99,day90:99,blocker:null},
+{key:'autonomy',name:'Autonomous operations',group:'System',current:70,day30:80,day60:87,day90:91,blocker:'Repeated unattended production completion is not yet proven.'},
+{key:'reliability',name:'Operational reliability',group:'System',current:74,day30:83,day60:89,day90:93,blocker:'Real runs still surface production-only failures.'},
+{key:'fulfillment',name:'Customer fulfillment',group:'Product',current:87,day30:92,day60:95,day90:97,blocker:'No clean paid end-to-end customer completion yet.'},
+{key:'agents',name:'AI / agent capability',group:'System',current:88,day30:92,day60:95,day90:97,blocker:'Tool/provider/orchestration edge cases remain.'},
+{key:'websiteBuilder',name:'Website Builder maturity',group:'Product',current:86,day30:92,day60:95,day90:97,blocker:'Repeated premium unattended completions remain unproven.'},
+{key:'ventureEngine',name:'Venture engine maturity',group:'Product',current:91,day30:94,day60:96,day90:97,blocker:null},
+{key:'commercial',name:'Commercial readiness',group:'Market',current:92,day30:94,day60:96,day90:97,blocker:null},
+{key:'acquisition',name:'Acquisition readiness',group:'Market',current:66,day30:75,day60:83,day90:89,blocker:'No repeatable acquisition or lead-to-paid conversion channel yet.'},
+{key:'businessProof',name:'Business / economic proof',group:'Market',current:20,day30:26,day60:34,day90:43,blocker:'No verified paying Stromation customers or recurring revenue yet.'}
+],day90:{customersMin:0,customersMax:3,mrrMin:0,mrrMax:2500},changed:'Forecast expanded from four to ten independently scored dimensions.'};
 const fmtMoney=n=>'$'+n.toLocaleString();
-function card(label,value){return `<div class="card"><div class="label">${label}</div><div class="value">${value}</div></div>`}
-function render(data){const s=data.snapshots[data.snapshots.length-1];document.getElementById('asof').textContent='Latest assessment: '+new Date(s.asOf).toLocaleString();
- document.getElementById('metrics').innerHTML=NAMES.map(([k,n])=>card(n,s.current[k]+'%')).join('');
- document.getElementById('business').innerHTML=card('Day-90 paying customers',`${s.day90.customersMin}–${s.day90.customersMax}`)+card('Day-90 MRR',`${fmtMoney(s.day90.mrrMin)}–${fmtMoney(s.day90.mrrMax)}+`);
- document.getElementById('changed').textContent=s.changed;
- document.getElementById('legend').innerHTML=NAMES.map(([,n],i)=>`<span><i class="dot" style="background:${COLORS[i]}"></i>${n}</span>`).join('');
- const svg=document.getElementById('chart'),W=920,H=420,L=52,R=20,T=20,B=48,iw=W-L-R,ih=H-T-B;let out='';
- for(let v=0;v<=100;v+=20){const y=T+ih-(v/100)*ih;out+=`<line class="axis" x1="${L}" y1="${y}" x2="${W-R}" y2="${y}"/><text class="tick" x="${L-10}" y="${y+4}" text-anchor="end">${v}%</text>`}
- s.forecast.forEach((p,i)=>{const x=L+(i/(s.forecast.length-1))*iw;out+=`<text class="tick" x="${x}" y="${H-18}" text-anchor="middle">${p.period}</text>`});
- NAMES.forEach(([k],si)=>{const pts=s.forecast.map((p,i)=>[L+(i/(s.forecast.length-1))*iw,T+ih-(p[k]/100)*ih]);out+=`<polyline class="line" stroke="${COLORS[si]}" points="${pts.map(p=>p.join(',')).join(' ')}"/>`;pts.forEach(([x,y],i)=>out+=`<circle class="point" fill="${COLORS[si]}" cx="${x}" cy="${y}" r="5"><title>${s.forecast[i].period}: ${s.forecast[i][k]}%</title></circle>`)});svg.innerHTML=out;
- document.getElementById('history').innerHTML=[...data.snapshots].reverse().map(x=>`<tr><td>${x.date}</td><td>${x.current.technical}%</td><td>${x.current.autonomy}%</td><td>${x.current.commercial}%</td><td>${x.current.businessProof}%</td><td class="hide-mobile">${x.day90.customersMin}–${x.day90.customersMax}</td></tr>`).join('');}
-fetch('data/forecast-history.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(render).catch(()=>render(fallback));
+const card=(label,value,group='')=>`<div class="card">${group?`<div class="group">${group}</div>`:''}<div class="label">${label}</div><div class="value">${value}</div></div>`;
+function renderExpanded(s){document.getElementById('asof').textContent='Latest assessment: '+new Date(s.asOf).toLocaleString();
+ document.getElementById('metrics').innerHTML=s.dimensions.map(d=>card(d.name,d.current+'%',d.group)).join('');
+ document.getElementById('forecast').innerHTML=s.dimensions.map(d=>`<tr><td><strong>${d.name}</strong></td><td>${d.group}</td><td class="num ${d.current>=90?'over':'under'}">${d.current}%</td><td class="num">${d.day30}%</td><td class="num">${d.day60}%</td><td class="num">${d.day90}%</td></tr>`).join('');
+ const b=s.dimensions.filter(d=>d.current<90&&d.blocker);document.getElementById('blockers').innerHTML=b.length?b.map(d=>`<div class="blocker"><strong>${d.name} · ${d.current}%</strong><span class="label">${d.blocker}</span></div>`).join(''):'<div class="label">No current category is below 90%.</div>';
+ document.getElementById('business').innerHTML=card('Day-90 paying customers',`${s.day90.customersMin}–${s.day90.customersMax}`)+card('Day-90 MRR',`${fmtMoney(s.day90.mrrMin)}–${fmtMoney(s.day90.mrrMax)}`);
+ document.getElementById('changed').textContent=s.changed;}
+function renderHistory(data){document.getElementById('history').innerHTML=[...data.snapshots].reverse().map(x=>`<tr><td>${x.date}</td><td>${x.current.technical}%</td><td>${x.current.autonomy}%</td><td>${x.current.commercial}%</td><td>${x.current.businessProof}%</td><td class="hide-mobile">${x.day90.customersMin}–${x.day90.customersMax}</td></tr>`).join('');}
+Promise.all([
+ fetch('data/forecast-dimensions.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).catch(()=>fallback),
+ fetch('data/forecast-history.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).catch(()=>({snapshots:[]}))
+]).then(([expanded,history])=>{renderExpanded(expanded);renderHistory(history)});
 </script>
 </body>
 </html>
