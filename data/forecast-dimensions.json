@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
-  "date": "2026-09-10",
-  "asOf": "2026-09-10T08:03:44-05:00",
+  "date": "2026-09-11",
+  "asOf": "2026-09-11T07:18:27-05:00",
   "dimensions": [
     {"key":"technical","name":"Technical maturity","group":"System","current":98,"day30":99,"day60":99,"day90":99,"blocker":null},
-    {"key":"autonomy","name":"Autonomous operations","group":"System","current":70,"day30":80,"day60":87,"day90":91,"blocker":"No clean streak of repeated unattended end-to-end production jobs yet; real customer-style runs still surface new failure classes."},
-    {"key":"reliability","name":"Operational reliability","group":"System","current":74,"day30":83,"day60":89,"day90":93,"blocker":"Production runs still require too much incident-driven repair across state, provider, timeout, provenance and recovery paths."},
-    {"key":"fulfillment","name":"Customer fulfillment","group":"Product","current":87,"day30":92,"day60":95,"day90":97,"blocker":"The full intake-to-delivery workflow exists, but a clean paid end-to-end customer completion has not yet been demonstrated."},
-    {"key":"agents","name":"AI / agent capability","group":"System","current":88,"day30":92,"day60":95,"day90":97,"blocker":"Routing, model/tool use and worker execution are strong, but tool discovery, provider limits and orchestration edge cases still appear in real runs."},
-    {"key":"websiteBuilder","name":"Website Builder maturity","group":"Product","current":86,"day30":92,"day60":95,"day90":97,"blocker":"Generated-site quality and workflow completeness are materially improved, but repeated 9.5+/10 unattended production-quality completions remain unproven."},
+    {"key":"autonomy","name":"Autonomous operations","group":"System","current":66,"day30":78,"day60":86,"day90":91,"blocker":"The latest Phase 1A website runs did not autonomously clear the first creative gate: an unblocked build repeatedly gathered evidence but never submitted the required research artifact despite explicit direction."},
+    {"key":"reliability","name":"Operational reliability","group":"System","current":71,"day30":80,"day60":87,"day90":92,"blocker":"Normal unattended work is still exposing new non-convergence and observability failure modes; the newest recovery and action-count diagnostics are open PRs rather than proven main-branch behavior."},
+    {"key":"fulfillment","name":"Customer fulfillment","group":"Product","current":82,"day30":89,"day60":94,"day90":97,"blocker":"Checkout and customer-workflow plumbing are materially stronger, but the current website fulfillment path still has no clean paid end-to-end completion and the newest internal builds produced no rendered previews."},
+    {"key":"agents","name":"AI / agent capability","group":"System","current":82,"day30":89,"day60":94,"day90":97,"blocker":"Workers can research and use the tool stack, but the latest run showed a material action-selection gap: evidence gathering repeated without taking the required submission action even after direct instruction."},
+    {"key":"websiteBuilder","name":"Website Builder maturity","group":"Product","current":80,"day30":89,"day60":94,"day90":97,"blocker":"The product has real workflow, evidence, recovery and payment infrastructure, but the latest two internal builds did not reach rendered directions or previews, so premium autonomous output is not yet demonstrated."},
     {"key":"ventureEngine","name":"Venture engine maturity","group":"Product","current":91,"day30":94,"day60":96,"day90":97,"blocker":null},
-    {"key":"commercial","name":"Commercial readiness","group":"Market","current":92,"day30":94,"day60":96,"day90":97,"blocker":null},
-    {"key":"acquisition","name":"Acquisition readiness","group":"Market","current":66,"day30":75,"day60":83,"day90":89,"blocker":"No repeatable customer-acquisition channel or proven lead-to-paid conversion loop exists yet despite live offer, SEO and lead-handling surfaces."},
-    {"key":"businessProof","name":"Business / economic proof","group":"Market","current":20,"day30":26,"day60":34,"day90":43,"blocker":"No verified paying Stromation customers or recurring revenue yet; venture economic proof remains limited."}
+    {"key":"commercial","name":"Commercial readiness","group":"Market","current":94,"day30":96,"day60":97,"day90":98,"blocker":null},
+    {"key":"acquisition","name":"Acquisition readiness","group":"Market","current":66,"day30":75,"day60":83,"day90":89,"blocker":"No repeatable customer-acquisition channel or proven lead-to-paid conversion loop exists yet; the public offer is live but Stromation still reports no customers."},
+    {"key":"businessProof","name":"Business / economic proof","group":"Market","current":20,"day30":25,"day60":33,"day90":43,"blocker":"No verified paying Stromation customers or recurring revenue yet; the venture portfolio remains parked and economic proof is still limited."}
   ],
-  "day90": {"customersMin":0,"customersMax":3,"mrrMin":0,"mrrMax":2500},
-  "changed":"The forecast is now decomposed into ten independently scored dimensions. The main new visibility is that Stromation's technical and commercial layers are already strong while operational reliability, repeated autonomous execution and acquisition remain the largest gaps.",
-  "method":"Expanded independent forecast grounded in the Sep. 10 main-branch implementation and live-run evidence. The original four-metric historical snapshots remain unchanged; this companion file adds finer-grained current and projected dimensions. Forward-looking values are estimates, not guarantees."
+  "day90": {"customersMin":0,"customersMax":3,"mrrMin":0,"mrrMax":3750},
+  "changed":"The single biggest change is a negative autonomy reality check from the latest Phase 1A Website Builder runs: even after the research contract and evidence path were repaired, an unblocked build repeatedly gathered evidence across multiple sessions but never submitted the research artifact, and neither active build reached rendered directions or previews. Open PRs #79 and #80 add bounded recovery and durable stall diagnostics, but they do not yet prove behavioral convergence. This outweighs the positive commercial gain from the new scope-bound Stripe purchase and access-recovery plumbing.",
+  "method":"Expanded independent forecast grounded in Sep. 11 main-branch implementation through PR #78, the latest Phase 1A autonomous Website Builder run evidence, open PRs #79/#80 as unmerged recovery/diagnostic work, current public Stromation offer and no-customer disclosure, parked venture status, and explicit absence of verified recurring revenue. Forward-looking values are estimates, not guarantees."
 }
