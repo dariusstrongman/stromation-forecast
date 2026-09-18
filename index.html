@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Stromation 90-Day Forecast</title>
-  <meta name="description" content="Independent 90-day forecast for Stromation, updated from evidence over time.">
+  <title>AI Business Builder 90-Day Forecast</title>
+  <meta name="description" content="Independent 90-day forecast for the AI Business Builder product, updated from implementation and operating evidence over time.">
   <style>
     :root{color-scheme:dark;--bg:#090b10;--panel:#11141b;--line:#2a3140;--text:#f5f7fb;--muted:#9ba6b7;--accent:#7dd3fc;--good:#34d399;--warn:#fbbf24}
     *{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--text)}
@@ -19,9 +19,9 @@
 </head>
 <body>
 <main>
-  <div class="eyebrow">Independent forecast</div>
-  <h1>Stromation: next 90 days</h1>
-  <p class="sub">A rolling evidence-based forecast across system, product and market execution. Older history remains preserved in the original four dimensions; the current model now tracks ten so strong architecture cannot hide weaker real-world execution.</p>
+  <div class="eyebrow">Independent AI Business Builder forecast</div>
+  <h1>AI Business Builder: next 90 days</h1>
+  <p class="sub">A rolling evidence-based forecast of the Business Builder product itself: product maturity, autonomous orchestration, reliability, fulfillment, AI workforce, premium website generation, setup and verification, commercial readiness, acquisition and economic proof. Unrelated Stromation ventures and company-wide metrics are excluded from current scoring.</p>
 
   <div class="grid" id="metrics"></div>
 
@@ -49,22 +49,22 @@
   <section class="panel">
     <h2 style="margin-top:0">Forecast history</h2>
     <div class="history-wrap"><table><thead><tr><th>Date</th><th>Technical</th><th>Autonomy</th><th>Commercial</th><th>Business proof</th><th class="hide-mobile">Day-90 customers</th></tr></thead><tbody id="history"></tbody></table></div>
-    <div class="note">Historical snapshots in <code>data/forecast-history.json</code> are preserved exactly. The expanded current model lives in <code>data/forecast-dimensions.json</code>.</div>
+    <div class="note">Historical snapshots are preserved in <code>data/forecast-history.json</code>. The September 18, 2026 snapshot begins the Business Builder-only scoring scope; earlier snapshots were broader Stromation forecasts and are retained as historical records rather than rewritten.</div>
   </section>
 </main>
 <script>
-const fallback={date:'2026-09-10',asOf:'2026-09-10T08:03:44-05:00',dimensions:[
-{key:'technical',name:'Technical maturity',group:'System',current:98,day30:99,day60:99,day90:99,blocker:null},
-{key:'autonomy',name:'Autonomous operations',group:'System',current:70,day30:80,day60:87,day90:91,blocker:'Repeated unattended production completion is not yet proven.'},
-{key:'reliability',name:'Operational reliability',group:'System',current:74,day30:83,day60:89,day90:93,blocker:'Real runs still surface production-only failures.'},
-{key:'fulfillment',name:'Customer fulfillment',group:'Product',current:87,day30:92,day60:95,day90:97,blocker:'No clean paid end-to-end customer completion yet.'},
-{key:'agents',name:'AI / agent capability',group:'System',current:88,day30:92,day60:95,day90:97,blocker:'Tool/provider/orchestration edge cases remain.'},
-{key:'websiteBuilder',name:'Website Builder maturity',group:'Product',current:86,day30:92,day60:95,day90:97,blocker:'Repeated premium unattended completions remain unproven.'},
-{key:'ventureEngine',name:'Venture engine maturity',group:'Product',current:91,day30:94,day60:96,day90:97,blocker:null},
-{key:'commercial',name:'Commercial readiness',group:'Market',current:92,day30:94,day60:96,day90:97,blocker:null},
-{key:'acquisition',name:'Acquisition readiness',group:'Market',current:66,day30:75,day60:83,day90:89,blocker:'No repeatable acquisition or lead-to-paid conversion channel yet.'},
-{key:'businessProof',name:'Business / economic proof',group:'Market',current:20,day30:26,day60:34,day90:43,blocker:'No verified paying Stromation customers or recurring revenue yet.'}
-],day90:{customersMin:0,customersMax:3,mrrMin:0,mrrMax:2500},changed:'Forecast expanded from four to ten independently scored dimensions.'};
+const fallback={date:'2026-09-18',asOf:'2026-09-18T06:02:48-05:00',dimensions:[
+{key:'technical',name:'Product / technical maturity',group:'System',current:94,day30:97,day60:98,day90:99,blocker:null},
+{key:'autonomy',name:'Autonomous orchestration',group:'System',current:80,day30:87,day60:92,day90:95,blocker:'No clean live paid founder journey without engineering or operator intervention yet.'},
+{key:'reliability',name:'Operational reliability',group:'System',current:81,day30:88,day60:93,day90:96,blocker:'Current main is green, but staging is behind the latest correctness work and migrations.'},
+{key:'fulfillment',name:'End-to-end customer fulfillment',group:'Product',current:78,day30:86,day60:92,day90:96,blocker:'The first supervised paid customer and live communications/connections remain gated.'},
+{key:'agents',name:'AI workforce / agent capability',group:'System',current:85,day30:90,day60:94,day90:97,blocker:'A full live multi-agent customer operation has not been demonstrated.'},
+{key:'websiteBuilder',name:'Premium website-generation capability',group:'Product',current:88,day30:92,day60:96,day90:98,blocker:'Repeatable premium output is not yet proven and later Phase 7 work remains unmerged.'},
+{key:'setupVerification',name:'Business setup / founder-action / verification workflow',group:'Product',current:89,day30:93,day60:96,day90:98,blocker:'Real-customer connection and complete evidence-to-verification proof remain outstanding.'},
+{key:'commercial',name:'Commercial readiness',group:'Market',current:76,day30:86,day60:92,day90:96,blocker:'Nine external release gates still block the first supervised paid customer.'},
+{key:'acquisition',name:'Customer acquisition readiness',group:'Market',current:54,day30:65,day60:77,day90:86,blocker:'No repeatable Business Builder lead-to-paid acquisition loop is proven.'},
+{key:'businessProof',name:'Business / economic proof',group:'Market',current:10,day30:18,day60:32,day90:50,blocker:'No verified Business Builder customer cohort, MRR, CAC, margin or retention evidence yet.'}
+],day90:{customersMin:0,customersMax:4,mrrMin:0,mrrMax:1500},changed:'Business Builder-only scoring begins with the September 18, 2026 snapshot.'};
 const fmtMoney=n=>'$'+n.toLocaleString();
 const card=(label,value,group='')=>`<div class="card">${group?`<div class="group">${group}</div>`:''}<div class="label">${label}</div><div class="value">${value}</div></div>`;
 function renderExpanded(s){document.getElementById('asof').textContent='Latest assessment: '+new Date(s.asOf).toLocaleString();
