@@ -1,20 +1,115 @@
 {
   "schemaVersion": 2,
-  "date": "2026-09-24",
-  "asOf": "2026-09-24T05:57:19-05:00",
+  "date": "2026-09-25",
+  "asOf": "2026-09-25T06:01:21-05:00",
   "dimensions": [
-    {"key":"technical","name":"Product / technical maturity","group":"System","current":99,"day30":99,"day60":99,"day90":99,"blocker":null},
-    {"key":"autonomy","name":"Autonomous orchestration","group":"System","current":90,"day30":94,"day60":97,"day90":99,"blocker":null},
-    {"key":"reliability","name":"Operational reliability","group":"System","current":91,"day30":95,"day60":97,"day90":99,"blocker":null},
-    {"key":"fulfillment","name":"End-to-end customer fulfillment","group":"Product","current":95,"day30":97,"day60":98,"day90":99,"blocker":null},
-    {"key":"agents","name":"AI workforce / agent capability","group":"System","current":95,"day30":97,"day60":98,"day90":99,"blocker":null},
-    {"key":"websiteBuilder","name":"Premium website-generation capability","group":"Product","current":89,"day30":93,"day60":96,"day90":98,"blocker":"The signed SelfOperate-to-Stromation capability and HTTPS preview hosting are now live, but the first real pilot exposed that no SelfOperate website job was actually waking Sol until Stromation PR #201 fixed a missing company_id in the handoff event. The pilot is still waiting on engine progress/founder direction and nothing has completed an unattended premium full-build-to-publish journey."},
-    {"key":"setupVerification","name":"Business setup / founder-action / verification workflow","group":"Product","current":98,"day30":99,"day60":99,"day90":99,"blocker":null},
-    {"key":"commercial","name":"Commercial readiness","group":"Market","current":94,"day30":97,"day60":99,"day90":99,"blocker":null},
-    {"key":"acquisition","name":"Customer acquisition readiness","group":"Market","current":83,"day30":89,"day60":94,"day90":97,"blocker":"The funnel is instrumented, SEO/GEO is live, three acceptance journeys pass and the product can host website previews, but there is still no repeatable real-traffic to checkout to paid-customer loop. Live Stripe remains intentionally disabled while the Texas sales-and-use-tax registration is pending, so CAC and conversion cannot yet be measured end to end."},
-    {"key":"businessProof","name":"Business / economic proof","group":"Market","current":10,"day30":18,"day60":32,"day90":50,"blocker":"There is still no verified paying SelfOperate/Business Builder cohort, recurring revenue, CAC, gross margin, retention or paid-delivery economics. Live product operation and stronger reliability evidence do not substitute for external economic proof."}
+    {
+      "key": "technical",
+      "name": "Product / technical maturity",
+      "group": "System",
+      "current": 98,
+      "day30": 99,
+      "day60": 99,
+      "day90": 99,
+      "blocker": null
+    },
+    {
+      "key": "autonomy",
+      "name": "Autonomous orchestration",
+      "group": "System",
+      "current": 90,
+      "day30": 93,
+      "day60": 96,
+      "day90": 98,
+      "blocker": null
+    },
+    {
+      "key": "reliability",
+      "name": "Operational reliability",
+      "group": "System",
+      "current": 90,
+      "day30": 94,
+      "day60": 97,
+      "day90": 98,
+      "blocker": null
+    },
+    {
+      "key": "fulfillment",
+      "name": "End-to-end customer fulfillment",
+      "group": "Product",
+      "current": 93,
+      "day30": 96,
+      "day60": 98,
+      "day90": 99,
+      "blocker": null
+    },
+    {
+      "key": "agents",
+      "name": "AI workforce / agent capability",
+      "group": "System",
+      "current": 93,
+      "day30": 96,
+      "day60": 98,
+      "day90": 99,
+      "blocker": null
+    },
+    {
+      "key": "websiteBuilder",
+      "name": "Premium website-generation capability",
+      "group": "Product",
+      "current": 90,
+      "day30": 94,
+      "day60": 97,
+      "day90": 98,
+      "blocker": null
+    },
+    {
+      "key": "setupVerification",
+      "name": "Business setup / founder-action / verification workflow",
+      "group": "Product",
+      "current": 96,
+      "day30": 98,
+      "day60": 99,
+      "day90": 99,
+      "blocker": null
+    },
+    {
+      "key": "commercial",
+      "name": "Commercial readiness",
+      "group": "Market",
+      "current": 92,
+      "day30": 96,
+      "day60": 98,
+      "day90": 99,
+      "blocker": null
+    },
+    {
+      "key": "acquisition",
+      "name": "Customer acquisition readiness",
+      "group": "Market",
+      "current": 82,
+      "day30": 88,
+      "day60": 94,
+      "day90": 97,
+      "blocker": "The public site and funnel measurement are substantially stronger and live payment infrastructure is deployed, but the running product still cannot release a real paid order until the production release-verification path is wired. There is also no repeatable real-traffic to paid-customer loop or measured CAC."
+    },
+    {
+      "key": "businessProof",
+      "name": "Business / economic proof",
+      "group": "Market",
+      "current": 10,
+      "day30": 18,
+      "day60": 32,
+      "day90": 50,
+      "blocker": "There is still no verified paying SelfOperate/Business Builder cohort, recurring revenue, CAC, gross margin, retention or paid-delivery economics. Product readiness does not substitute for external economic proof."
+    }
   ],
-  "day90": {"customersMin":0,"customersMax":5,"mrrMin":0,"mrrMax":1500},
-  "changed":"The biggest change is that SelfOperate now has direct live evidence of the operating product rather than only implementation depth: three acceptance journeys pass on selfoperate.com, one safe role actually ran unattended from the worker scheduler on Bedrock and settled spend against the company budget, connection checks and security are live, company closure is proven, erasure completion is deployed, and HTTPS customer previews are active. In parallel, main gained an executable failure matrix, adversarial route/payload/secret coverage and a second reliability round with lease heartbeats and outcome reconciliation. The counterweight is the website path: the first real pilot exposed a severe handoff bug in Stromation where a missing company_id meant SelfOperate jobs were accepted but never actually handed to Sol until PR #201 fixed it. That keeps website-generation below 90 and limits how much the reliability/autonomy scores rise; the newest reliability/security work is also merged but not yet deployed on the live revision.",
-  "method":"Business Builder/SelfOperate-only independent forecast grounded in the 2026-09-24 canonical dariusstrongman/businessbuilder main through 0480a59, the live selfoperate.com deployment at product commit 612f5c5 on API revision :141 and worker :14, three passing live acceptance journeys, one live unattended budget-settled worker run, deployed connection-security/closure/erasure/website-preview evidence, merged-but-not-yet-deployed adversarial API and reliability-round-two hardening, the pending Texas tax-registration/live-Stripe gate, and only directly relevant Stromation website evidence through PR #201 plus prior premium-quality proof. Merged implementation is distinguished from deployed/live proof; unrelated Stromation ventures, company-wide autonomy and Stromation customer/revenue status are excluded. Forward-looking values are estimates, not guarantees."
+  "day90": {
+    "customersMin": 0,
+    "customersMax": 5,
+    "mrrMin": 0,
+    "mrrMax": 1500
+  },
+  "changed": "The biggest change is a truth correction rather than a simple upward step. SelfOperate now has live payment infrastructure and production transactional email, and the directly relevant Stromation website stack gained a stronger calibrated builder and deployment parity. But the same day's release and connector audits made two gaps explicit: the running product still cannot release a live customer charge because the paid-pilot verification layer is not wired, and several capabilities previously described too broadly are actually read-only, shadow-mode or still coming soon. That lowers several current-readiness scores despite real engineering progress; the website-generation score rises because the new builder-polish stack is merged, while full unattended website delivery remains unproven.",
+  "method": "Business Builder/SelfOperate-only independent forecast grounded in the 2026-09-25 canonical dariusstrongman/businessbuilder main through 602d56f, the live selfoperate.com deployment at product commit 70cb342, current deployment documentation, live payment and transactional-email state, the deployed Build My Website purchase-path correction, the honest-claims audit, open founder-release work that is not credited as complete, and only directly relevant Stromation website evidence through e44e49e. The archived buisnessbuilder-future repo is historical only. Unrelated Stromation ventures, company-wide autonomy and Stromation customer/revenue status are excluded. Forward-looking values are estimates, not guarantees."
 }
