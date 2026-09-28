@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "date": "2026-09-25",
-  "asOf": "2026-09-25T06:01:21-05:00",
+  "date": "2026-09-28",
+  "asOf": "2026-09-28T05:58:11-05:00",
   "dimensions": [
     {
       "key": "technical",
       "name": "Product / technical maturity",
       "group": "System",
-      "current": 98,
+      "current": 99,
       "day30": 99,
       "day60": 99,
       "day90": 99,
@@ -17,29 +17,29 @@
       "key": "autonomy",
       "name": "Autonomous orchestration",
       "group": "System",
-      "current": 90,
-      "day30": 93,
-      "day60": 96,
-      "day90": 98,
+      "current": 94,
+      "day30": 96,
+      "day60": 98,
+      "day90": 99,
       "blocker": null
     },
     {
       "key": "reliability",
       "name": "Operational reliability",
       "group": "System",
-      "current": 90,
+      "current": 88,
       "day30": 94,
       "day60": 97,
-      "day90": 98,
-      "blocker": null
+      "day90": 99,
+      "blocker": "The new concurrent AWS staging simulation exposed another cross-process state boundary: with three web tasks, 7 of 9 personas lost their sign-in because identity/session state was loaded once per process. Session read-through is fixed, but the simulation is temporarily constrained to one web task until the remaining repositories are proven safe across multiple copies, and there is not yet a clean full post-fix rerun on the current main."
     },
     {
       "key": "fulfillment",
       "name": "End-to-end customer fulfillment",
       "group": "Product",
-      "current": 93,
-      "day30": 96,
-      "day60": 98,
+      "current": 97,
+      "day30": 98,
+      "day60": 99,
       "day90": 99,
       "blocker": null
     },
@@ -47,9 +47,9 @@
       "key": "agents",
       "name": "AI workforce / agent capability",
       "group": "System",
-      "current": 93,
-      "day30": 96,
-      "day60": 98,
+      "current": 96,
+      "day30": 98,
+      "day60": 99,
       "day90": 99,
       "blocker": null
     },
@@ -57,18 +57,18 @@
       "key": "websiteBuilder",
       "name": "Premium website-generation capability",
       "group": "Product",
-      "current": 90,
-      "day30": 94,
-      "day60": 97,
-      "day90": 98,
+      "current": 93,
+      "day30": 95,
+      "day60": 98,
+      "day90": 99,
       "blocker": null
     },
     {
       "key": "setupVerification",
       "name": "Business setup / founder-action / verification workflow",
       "group": "Product",
-      "current": 96,
-      "day30": 98,
+      "current": 98,
+      "day30": 99,
       "day60": 99,
       "day90": 99,
       "blocker": null
@@ -77,9 +77,9 @@
       "key": "commercial",
       "name": "Commercial readiness",
       "group": "Market",
-      "current": 92,
-      "day30": 96,
-      "day60": 98,
+      "current": 96,
+      "day30": 98,
+      "day60": 99,
       "day90": 99,
       "blocker": null
     },
@@ -87,11 +87,11 @@
       "key": "acquisition",
       "name": "Customer acquisition readiness",
       "group": "Market",
-      "current": 82,
-      "day30": 88,
-      "day60": 94,
-      "day90": 97,
-      "blocker": "The public site and funnel measurement are substantially stronger and live payment infrastructure is deployed, but the running product still cannot release a real paid order until the production release-verification path is wired. There is also no repeatable real-traffic to paid-customer loop or measured CAC."
+      "current": 89,
+      "day30": 93,
+      "day60": 96,
+      "day90": 98,
+      "blocker": "The acquisition surface is now much stronger, including a sellable $395 audit, a real audit-to-$795-website credit/upsell, faster background research, premium dashboard parity and live Stripe infrastructure. But there is still no repeatable real-traffic to paid Business Builder customer loop, no measured CAC, and no verified external conversion cohort."
     },
     {
       "key": "businessProof",
@@ -101,15 +101,15 @@
       "day30": 18,
       "day60": 32,
       "day90": 50,
-      "blocker": "There is still no verified paying SelfOperate/Business Builder cohort, recurring revenue, CAC, gross margin, retention or paid-delivery economics. Product readiness does not substitute for external economic proof."
+      "blocker": "There is still no verified paying Business Builder cohort, recurring Business Builder MRR, measured CAC, gross margin, retention, or paid-delivery economics. Internal/founder tests, synthetic personas, Stripe test flows and implementation depth do not count as external economic proof."
     }
   ],
   "day90": {
     "customersMin": 0,
-    "customersMax": 5,
+    "customersMax": 6,
     "mrrMin": 0,
-    "mrrMax": 1500
+    "mrrMax": 1800
   },
-  "changed": "The biggest change is a truth correction rather than a simple upward step. SelfOperate now has live payment infrastructure and production transactional email, and the directly relevant Stromation website stack gained a stronger calibrated builder and deployment parity. But the same day's release and connector audits made two gaps explicit: the running product still cannot release a live customer charge because the paid-pilot verification layer is not wired, and several capabilities previously described too broadly are actually read-only, shadow-mode or still coming soon. That lowers several current-readiness scores despite real engineering progress; the website-generation score rises because the new builder-polish stack is merged, while full unattended website delivery remains unproven.",
-  "method": "Business Builder/SelfOperate-only independent forecast grounded in the 2026-09-25 canonical dariusstrongman/businessbuilder main through 602d56f, the live selfoperate.com deployment at product commit 70cb342, current deployment documentation, live payment and transactional-email state, the deployed Build My Website purchase-path correction, the honest-claims audit, open founder-release work that is not credited as complete, and only directly relevant Stromation website evidence through e44e49e. The archived buisnessbuilder-future repo is historical only. Unrelated Stromation ventures, company-wide autonomy and Stromation customer/revenue status are excluded. Forward-looking values are estimates, not guarantees."
+  "changed": "The biggest positive change is that the $395 existing-business audit has become a real end-to-end Business Builder product wedge rather than a marketing concept: the engine, evidence-backed report, PDF/sample, human review console, business-aware website checks, 60-day audit credit and fixed-price $795 website upsell are merged on canonical main, while background research now runs concurrently with live progress. The main negative change is reliability evidence: the newer cloud simulation found that 7 of 9 personas lost their session when staging scaled to three API copies, exposing another process-local state boundary. The session read-through fix is merged, but the simulation is intentionally back to one web task until the remaining repositories are proven multi-copy safe, so reliability is marked down despite the fix.",
+  "method": "Business Builder/SelfOperate-only independent forecast grounded in the 2026-09-28 canonical dariusstrongman/businessbuilder main through 759f3e9, recent merged audit/research/dashboard/workforce work including PRs #277-#298, the AWS staging persona-simulation evidence and multi-copy session regression/fix through 5c6f21e, prior live Stripe/worker/customer-journey evidence, the unchanged transitional website-builder repository, and only directly relevant Stromation website-engine evidence through 974d11c (first-screen quality contract) plus c1b278c (three directions/four business-order revision rounds). The archived buisnessbuilder-future repository is treated as historical architecture evidence only. Merged implementation is distinguished from deployed/live proof. Unrelated Stromation ventures, company-wide autonomy and Stromation customer/revenue status are excluded. Forward-looking values are estimates, not guarantees."
 }
