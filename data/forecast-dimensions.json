@@ -1,115 +1,221 @@
 {
-  "schemaVersion": 2,
-  "date": "2026-09-28",
-  "asOf": "2026-09-28T11:56:34-05:00",
+  "schemaVersion": 3,
+  "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+  "date": "2026-10-02",
+  "asOf": "2026-10-02T06:12:57-05:00",
+  "milestones": {
+    "v1": {
+      "name": "V1 readiness",
+      "current": 88,
+      "confidence": "medium-high",
+      "status": "Pilot-ready with supervision",
+      "summary": "Premium website-first SelfOperate can support controlled pilots, but website-engine recovery/reliability still needs repeated end-to-end proof before V1 is fully ready."
+    },
+    "v2": {
+      "name": "V2 readiness",
+      "current": 72,
+      "confidence": "medium",
+      "status": "Progressing",
+      "summary": "Core integrations, workers, orchestration, ownership and recurring-operation foundations exist, but breadth of repeatedly proven real operations across the five workers and multiple business types is still incomplete."
+    },
+    "v3": {
+      "name": "V3 / Full 10/10 vision",
+      "current": 60,
+      "confidence": "medium",
+      "status": "Progress index",
+      "summary": "The full vision is materially advanced in websites, business understanding and customer infrastructure, but complete SaaS delivery, automated custom-agent creation, measured economics and near-zero founder intervention remain major gaps."
+    }
+  },
+  "autonomyProof": {
+    "measurement": "not measured",
+    "numerator": null,
+    "denominator": null,
+    "scope": "Representative supported routine workflows",
+    "observationWindow": null,
+    "note": "Individual autonomous worker and acceptance proofs exist, but no representative denominator is tracked yet."
+  },
+  "founderWorkload": {
+    "measurement": "unknown",
+    "hoursPerWeek": null,
+    "targetHoursPerWeek": "1–2",
+    "targetContext": "mature V3 scale",
+    "note": "Current automation exists, but Darius minutes versus customer-required, specialist and operator/contractor work are not measured consistently."
+  },
   "dimensions": [
     {
-      "key": "technical",
-      "name": "Product / technical maturity",
-      "group": "System",
-      "current": 99,
-      "day30": 99,
-      "day60": 99,
-      "day90": 99,
-      "blocker": null
+      "key": "understanding",
+      "name": "Business understanding & scope selection",
+      "group": "V3 capability",
+      "current": 87,
+      "day30": 90,
+      "day60": 93,
+      "day90": 95,
+      "confidence": "high",
+      "blocker": "Broad real-customer classification and scoping evidence is still limited across varied businesses.",
+      "nextMilestone": "Blind-test 20 varied businesses with no unsupported paid scope accepted."
     },
     {
-      "key": "autonomy",
-      "name": "Autonomous orchestration",
-      "group": "System",
-      "current": 94,
-      "day30": 96,
-      "day60": 98,
-      "day90": 99,
-      "blocker": null
+      "key": "website",
+      "name": "Premium website delivery",
+      "group": "V3 capability",
+      "current": 80,
+      "day30": 88,
+      "day60": 93,
+      "day90": 96,
+      "confidence": "medium",
+      "blocker": "The AWS builder still has unresolved recovery, fencing, image-settlement and final-artifact proof gaps under realistic failure conditions.",
+      "nextMilestone": "Complete 3 consecutive website journeys from directions through revision and handoff with no manual rescue."
+    },
+    {
+      "key": "saas",
+      "name": "Complete SaaS & existing-app engineering",
+      "group": "V3 capability",
+      "current": 15,
+      "day30": 18,
+      "day60": 25,
+      "day90": 35,
+      "confidence": "medium",
+      "blocker": "SelfOperate does not yet have a productized governed workflow that delivers complete customer SaaS applications end to end.",
+      "nextMilestone": "Deliver one bounded app type with frontend, backend, database, auth, tests and deployment through a customer-facing workflow."
+    },
+    {
+      "key": "workforce",
+      "name": "Standard AI workforce capability",
+      "group": "V3 capability",
+      "current": 72,
+      "day30": 78,
+      "day60": 84,
+      "day90": 90,
+      "confidence": "medium",
+      "blocker": "Maya, Jordan, Avery, Alex and Richard have uneven real provider-backed action depth and repeated outcome proof.",
+      "nextMilestone": "Have all five workers complete at least one meaningful approved real-provider workflow with recorded outcomes."
+    },
+    {
+      "key": "customAgents",
+      "name": "Automated custom-agent delivery",
+      "group": "V3 capability",
+      "current": 8,
+      "day30": 10,
+      "day60": 15,
+      "day90": 25,
+      "confidence": "high",
+      "blocker": "The custom-agent offer/request path is not yet an automated agent-building and verification system.",
+      "nextMilestone": "Complete one custom agent through scope, build, independent test, practice mode, activation, monitoring and handoff."
+    },
+    {
+      "key": "coordination",
+      "name": "Autonomous coordination & recovery",
+      "group": "V3 capability",
+      "current": 80,
+      "day30": 85,
+      "day60": 89,
+      "day90": 93,
+      "confidence": "medium-high",
+      "blocker": "Recovery foundations are strong, but realistic website failure cases still expose stalls, stale ownership and manual-repair risk.",
+      "nextMilestone": "Pass kill/restart/provider-failure tests without duplicate work, lost progress or manual repair."
     },
     {
       "key": "reliability",
-      "name": "Operational reliability",
-      "group": "System",
-      "current": 88,
-      "day30": 94,
-      "day60": 97,
-      "day90": 99,
-      "blocker": "A multi-copy AWS staging simulation exposed process-local identity/session state: 7 of 9 personas lost sign-in. The read-through fix is merged, but a clean fully concurrent post-fix rerun with multiple API copies is still required."
+      "name": "Reliability, security & ongoing maintenance",
+      "group": "V3 capability",
+      "current": 78,
+      "day30": 84,
+      "day60": 89,
+      "day90": 93,
+      "confidence": "medium-high",
+      "blocker": "Restore proof, incident/alerting coverage, scale/concurrency evidence and website-engine recovery are not yet complete.",
+      "nextMilestone": "Complete a timed restore drill and a clean multi-copy failure/soak run on the current deployed stack."
     },
     {
-      "key": "fulfillment",
-      "name": "End-to-end customer fulfillment",
-      "group": "Product",
-      "current": 97,
-      "day30": 98,
-      "day60": 99,
-      "day90": 99,
-      "blocker": null
-    },
-    {
-      "key": "agents",
-      "name": "AI workforce / agent capability",
-      "group": "System",
-      "current": 96,
-      "day30": 98,
-      "day60": 99,
-      "day90": 99,
-      "blocker": null
-    },
-    {
-      "key": "websiteBuilder",
-      "name": "Premium website-generation capability",
-      "group": "Product",
-      "current": 93,
-      "day30": 95,
-      "day60": 98,
-      "day90": 99,
-      "blocker": null
-    },
-    {
-      "key": "setupVerification",
-      "name": "Business setup / founder-action / verification workflow",
-      "group": "Product",
-      "current": 98,
-      "day30": 99,
-      "day60": 99,
-      "day90": 99,
-      "blocker": null
+      "key": "journey",
+      "name": "Complete customer journey & ownership",
+      "group": "V3 capability",
+      "current": 86,
+      "day30": 90,
+      "day60": 94,
+      "day90": 97,
+      "confidence": "high",
+      "blocker": "Ownership and handoff are well designed, but repeated real paid journeys through final delivery, support and independent-operation handoff are not yet proven.",
+      "nextMilestone": "Complete 3 paid-like journeys including revision, support and exit/handoff with export/ownership checks."
     },
     {
       "key": "commercial",
-      "name": "Commercial readiness",
-      "group": "Market",
-      "current": 96,
-      "day30": 98,
-      "day60": 99,
-      "day90": 99,
-      "blocker": null
+      "name": "Commercial delivery & acquisition readiness",
+      "group": "V3 capability",
+      "current": 82,
+      "day30": 86,
+      "day60": 91,
+      "day90": 95,
+      "confidence": "medium",
+      "blocker": "Checkout and product infrastructure are strong, but repeatable acquisition, measured CAC and dependable real-customer conversion are not yet demonstrated.",
+      "nextMilestone": "Measure the first complete traffic → qualified intake → paid order funnel with source attribution."
     },
     {
-      "key": "acquisition",
-      "name": "Customer acquisition readiness",
-      "group": "Market",
-      "current": 89,
-      "day30": 93,
-      "day60": 96,
-      "day90": 98,
-      "blocker": "The audit-to-website funnel, onboarding, live payment infrastructure and product UX are strong enough to sell, but there is still no repeatable real-traffic to paying-customer loop or measured CAC."
-    },
-    {
-      "key": "businessProof",
-      "name": "Business / economic proof",
-      "group": "Market",
+      "key": "economics",
+      "name": "Economic proof & low-founder-workload operation",
+      "group": "V3 capability",
       "current": 10,
       "day30": 18,
-      "day60": 32,
-      "day90": 50,
-      "blocker": "There is still no verified external paying Business Builder cohort, recurring Business Builder MRR, CAC, gross margin, retention or paid-delivery economics. Internal tests and synthetic personas do not count."
+      "day60": 30,
+      "day90": 45,
+      "confidence": "high",
+      "blocker": "There is no representative paid cohort with measured margins, retries, support burden, retention and Darius intervention hours.",
+      "nextMilestone": "Measure the first 5 paid deliveries with total spend, retries, support minutes, contractor/operator minutes and Darius minutes."
     }
   ],
-  "day90": {
+  "v1Remaining": [
+    "Prove the AWS website builder across repeated realistic failure/recovery conditions.",
+    "Complete repeated purchase → directions → selection → build → revision → verification → deployment/handoff journeys without hidden manual rescue.",
+    "Demonstrate support/recovery behavior for failed or stalled website jobs and preserve spend/progress correctly."
+  ],
+  "v2Remaining": [
+    "Give Maya, Jordan, Avery, Alex and Richard each repeated useful provider-backed operating workflows with honest capability boundaries.",
+    "Prove recurring SelfOperate operation across several supported business types, not a single archetype.",
+    "Finish dependable monitoring, restore/incident handling and customer ownership/exit paths for what V2 sells.",
+    "Measure and materially reduce Darius/operator intervention across representative customer journeys."
+  ],
+  "biggestChange": "The scoring rubric has changed from launch-readiness-heavy Business Builder scoring to explicit V1, V2 and V3 milestones. Nothing became less capable because of this migration; the lower V3 progress index reflects that complete SaaS delivery, automated custom-agent construction, measured economics and near-zero founder workload are now correctly included in the end goal. Current execution evidence also shows website-builder recovery/reliability remains the highest-priority V1 proof gap.",
+  "improvements": [
+    "Business understanding, payments, Founder Actions, verification, ownership/export and worker/runtime foundations are substantially implemented.",
+    "The directly integrated website engine has continued improving leases, parallel direction handling, imagery delivery, human-stop projection and calibrated scoring.",
+    "Recent Business Builder main work makes worker and provider capability claims more honest and improves dashboard/runtime behavior."
+  ],
+  "regressions": [
+    "Realistic AWS website runs exposed recovery, fencing, image-settlement and stale-worker failure modes that reduce confidence in unattended V1 website completion.",
+    "Founder workload reduction remains unverified because intervention minutes are not systematically measured."
+  ],
+  "nextActions": [
+    "Land and prove the website-builder repair stack, then complete 3 clean end-to-end website journeys with failure injection.",
+    "Instrument Darius, operator/contractor, customer-required and autonomous minutes/actions on every full journey.",
+    "After website reliability is proven, prove one bounded V2 operating slice repeatedly across multiple businesses before expanding into V3 SaaS/custom-agent work."
+  ],
+  "promisesOverreach": [
+    "Any implication that SelfOperate can already build arbitrary complete SaaS products exceeds demonstrated capability.",
+    "Any implication that the custom-agent request path is already an automated end-to-end agent factory exceeds demonstrated capability.",
+    "Any implication that 95–99% autonomous completion or 1–2 Darius hours/week is already measured exceeds current evidence."
+  ],
+  "founderWorkloadTrend": "Unknown: automation is increasing, but without measured Darius/operator/customer hours it is not possible to distinguish true workload reduction from work shifting elsewhere.",
+  "businessOutlook": {
+    "reliability": "illustrative scenario",
     "customersMin": 0,
-    "customersMax": 6,
+    "customersMax": 8,
     "mrrMin": 0,
-    "mrrMax": 1800
+    "mrrMax": 1800,
+    "recurringRevenueOnly": true,
+    "assumptions": [
+      "Website reliability becomes consistently sellable within roughly 30 days.",
+      "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+      "Paid conversion is roughly 1–2%.",
+      "Supervised delivery capacity remains roughly 2–4 projects per month.",
+      "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+    ],
+    "note": "One-time website/business build revenue is excluded from MRR."
   },
-  "changed": "The biggest positive change is the $395 existing-business audit becoming a genuinely sellable end-to-end Business Builder wedge: the canonical product now has the audit engine, evidence-backed downloadable report, public sample, human review console, business-aware website analysis, a 60-day $395 credit, and a fixed-price $795 website upsell that applies that credit. The main regression is reliability: a newer AWS cloud simulation scaled staging to three API copies and 7 of 9 personas lost sign-in because identity/session state was still process-local. The session read-through defect is fixed on main, but a clean multi-copy rerun is still required before reliability earns 90+.",
-  "method": "Business Builder/SelfOperate-only independent forecast grounded in the 2026-09-28 canonical dariusstrongman/businessbuilder execution state, live/staging simulation evidence, the audit-to-website commercial flow, current founder-action/verification and AI-workforce behavior, and only directly relevant Stromation website-generation evidence. Archived buisnessbuilder-future history and unrelated Stromation ventures/company metrics are excluded. Forward-looking values are estimates, not guarantees."
+  "costReporting": {
+    "measuredSpend": null,
+    "reservedUnconfirmedSpend": null,
+    "estimatedFutureCosts": null,
+    "note": "No consolidated representative cost dataset was available in this assessment; do not combine overlapping estimates."
+  },
+  "method": "New V1/V2/V3 baseline. SelfOperate-only assessment grounded in canonical businessbuilder main, directly integrated Stromation website-engine evidence, live/deployment records available in repositories, open PR status, recent test/synthetic journey evidence and current commercial/customer-operation truth. Open PRs receive no implemented-capability credit. Merged code is distinguished from deployed and repeatedly proven behavior. Unrelated Stromation ventures are excluded."
 }

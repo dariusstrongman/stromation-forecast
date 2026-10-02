@@ -3,81 +3,109 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>AI Business Builder 90-Day Forecast</title>
-  <meta name="description" content="Independent 90-day forecast for the AI Business Builder product, updated from implementation and operating evidence over time.">
+  <title>SelfOperate V1 / V2 / V3 Progress</title>
+  <meta name="description" content="Evidence-based progress toward SelfOperate V1, V2, and the full 10/10 V3 vision.">
   <style>
-    :root{color-scheme:dark;--bg:#090b10;--panel:#11141b;--line:#2a3140;--text:#f5f7fb;--muted:#9ba6b7;--accent:#7dd3fc;--good:#34d399;--warn:#fbbf24}
+    :root{color-scheme:dark;--bg:#090b10;--panel:#11141b;--line:#2a3140;--text:#f5f7fb;--muted:#9ba6b7;--accent:#7dd3fc;--good:#34d399;--warn:#fbbf24;--bad:#fb7185}
     *{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--text)}
-    main{max-width:1180px;margin:auto;padding:42px 22px 64px}.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:12px}
-    h1{font-size:clamp(34px,6vw,64px);line-height:1;margin:.35rem 0 1rem}.sub{max-width:860px;color:var(--muted);font-size:17px}
+    main{max-width:1220px;margin:auto;padding:42px 22px 64px}.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:12px}
+    h1{font-size:clamp(34px,6vw,62px);line-height:1.02;margin:.35rem 0 1rem}.sub{max-width:930px;color:var(--muted);font-size:17px}
     section{margin-top:26px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px}
-    .grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:28px 0}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:17px}.label{color:var(--muted);font-size:13px}.value{font-size:30px;font-weight:750;margin-top:4px}.group{color:var(--accent);font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}.status{display:inline-block;padding:4px 8px;border-radius:999px;background:#18202b;color:var(--accent);font-size:12px;font-weight:700}
-    table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:11px 8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.06em}.num{text-align:right}.under{color:var(--warn);font-weight:700}.over{color:var(--good);font-weight:700}
-    .blockers{display:grid;gap:10px}.blocker{border:1px solid var(--line);border-radius:12px;padding:14px;background:#0d1118}.blocker strong{display:block;margin-bottom:4px}.note{color:var(--muted);font-size:13px;margin-top:14px}.change{font-size:16px}.history-wrap{overflow:auto}
-    @media(max-width:950px){.grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:650px){.grid{grid-template-columns:repeat(2,1fr)}main{padding:28px 14px 48px}.hide-mobile{display:none}}
+    .grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:28px 0}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:17px}.label{color:var(--muted);font-size:13px}.value{font-size:30px;font-weight:750;margin-top:4px}.group{color:var(--accent);font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+    .status{display:inline-block;padding:4px 8px;border-radius:999px;background:#18202b;color:var(--accent);font-size:12px;font-weight:700}.status.good{color:var(--good)}.status.warn{color:var(--warn)}
+    table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:11px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.06em}.num{text-align:right}.under{color:var(--warn);font-weight:700}.over{color:var(--good);font-weight:700}
+    .blockers,.actions{display:grid;gap:10px}.blocker,.action{border:1px solid var(--line);border-radius:12px;padding:14px;background:#0d1118}.blocker strong,.action strong{display:block;margin-bottom:4px}.note{color:var(--muted);font-size:13px;margin-top:14px}.change{font-size:16px}.history-wrap{overflow:auto}.tiny{font-size:12px;color:var(--muted)}
+    @media(max-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:680px){.grid{grid-template-columns:repeat(2,1fr)}main{padding:28px 14px 48px}.hide-mobile{display:none}}
   </style>
 </head>
 <body>
 <main>
-  <div class="eyebrow">Independent AI Business Builder forecast</div>
-  <h1>AI Business Builder: next 90 days</h1>
-  <p class="sub">A rolling evidence-based forecast of the Business Builder product itself: product maturity, autonomous orchestration, reliability, fulfillment, AI workforce, premium website generation, setup and verification, commercial readiness, acquisition and economic proof. Unrelated Stromation ventures and company-wide metrics are excluded from current scoring.</p>
+  <div class="eyebrow">Independent SelfOperate progress</div>
+  <h1>SelfOperate: V1 → V2 → V3</h1>
+  <p class="sub">A rolling evidence-based assessment of launch readiness, platform expansion, and the full 10/10 vision. V1, V2 and V3 are scored against different acceptance criteria; the V3 index is the equal-weight average of ten end-goal dimensions.</p>
 
-  <div class="grid" id="metrics"></div>
+  <div class="grid" id="headlines"></div>
 
   <section class="panel">
     <div style="display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap">
-      <div><h2 style="margin:0 0 4px">10-dimension forecast</h2><div class="label" id="asof"></div></div>
-      <span class="status">Estimate, not guarantee</span>
+      <div><h2 style="margin:0 0 4px">Full V3 / 10/10 progress</h2><div class="label" id="asof"></div></div>
+      <span class="status">Forecasts are conditional estimates</span>
     </div>
     <div class="history-wrap" style="margin-top:14px">
-      <table><thead><tr><th>Dimension</th><th>Group</th><th class="num">Current</th><th class="num">Day 30</th><th class="num">Day 60</th><th class="num">Day 90</th></tr></thead><tbody id="forecast"></tbody></table>
+      <table><thead><tr><th>Dimension</th><th class="num">Current</th><th class="num">Day 30</th><th class="num">Day 60</th><th class="num">Day 90</th><th>Confidence</th></tr></thead><tbody id="forecast"></tbody></table>
     </div>
   </section>
 
+  <section class="panel"><h2 style="margin-top:0">Below 90%: blocker + next proof</h2><div class="blockers" id="blockers"></div></section>
+
   <section class="panel">
-    <h2 style="margin-top:0">90% blockers</h2>
-    <div class="blockers" id="blockers"></div>
+    <h2 style="margin-top:0">What remains</h2>
+    <div class="history-wrap"><table><thead><tr><th>Milestone</th><th>Remaining proof</th></tr></thead><tbody id="remaining"></tbody></table></div>
   </section>
 
   <section class="panel">
-    <h2 style="margin-top:0">Business prediction</h2>
+    <h2 style="margin-top:0">Next three actions</h2><div class="actions" id="actions"></div>
+    <p class="change"><strong>Biggest change:</strong> <span id="changed"></span></p>
+  </section>
+
+  <section class="panel">
+    <h2 style="margin-top:0">Business outlook</h2>
     <div class="grid" style="margin:12px 0 8px" id="business"></div>
-    <p class="change"><strong>What changed:</strong> <span id="changed"></span></p>
+    <div class="note" id="assumptions"></div>
   </section>
 
   <section class="panel">
-    <h2 style="margin-top:0">Forecast history</h2>
-    <div class="history-wrap"><table><thead><tr><th>Date</th><th>Technical</th><th>Autonomy</th><th>Commercial</th><th>Business proof</th><th class="hide-mobile">Day-90 customers</th></tr></thead><tbody id="history"></tbody></table></div>
-    <div class="note">Historical snapshots are preserved in <code>data/forecast-history.json</code>. The September 18, 2026 snapshot begins the Business Builder-only scoring scope; earlier snapshots were broader Stromation forecasts and are retained as historical records rather than rewritten.</div>
+    <h2 style="margin-top:0">History</h2>
+    <div class="note" style="margin:0 0 12px">Rubric changed on October 2, 2026. Older snapshots are preserved exactly and shown as legacy records; they are not directly comparable to V1/V2/V3 scores.</div>
+    <div class="history-wrap"><table><thead><tr><th>Date</th><th>Rubric</th><th>Summary</th><th class="hide-mobile">Day-90 customers</th></tr></thead><tbody id="history"></tbody></table></div>
   </section>
 </main>
 <script>
-const fallback={date:'2026-09-18',asOf:'2026-09-18T06:02:48-05:00',dimensions:[
-{key:'technical',name:'Product / technical maturity',group:'System',current:94,day30:97,day60:98,day90:99,blocker:null},
-{key:'autonomy',name:'Autonomous orchestration',group:'System',current:80,day30:87,day60:92,day90:95,blocker:'No clean live paid founder journey without engineering or operator intervention yet.'},
-{key:'reliability',name:'Operational reliability',group:'System',current:81,day30:88,day60:93,day90:96,blocker:'Current main is green, but staging is behind the latest correctness work and migrations.'},
-{key:'fulfillment',name:'End-to-end customer fulfillment',group:'Product',current:78,day30:86,day60:92,day90:96,blocker:'The first supervised paid customer and live communications/connections remain gated.'},
-{key:'agents',name:'AI workforce / agent capability',group:'System',current:85,day30:90,day60:94,day90:97,blocker:'A full live multi-agent customer operation has not been demonstrated.'},
-{key:'websiteBuilder',name:'Premium website-generation capability',group:'Product',current:88,day30:92,day60:96,day90:98,blocker:'Repeatable premium output is not yet proven and later Phase 7 work remains unmerged.'},
-{key:'setupVerification',name:'Business setup / founder-action / verification workflow',group:'Product',current:89,day30:93,day60:96,day90:98,blocker:'Real-customer connection and complete evidence-to-verification proof remain outstanding.'},
-{key:'commercial',name:'Commercial readiness',group:'Market',current:76,day30:86,day60:92,day90:96,blocker:'Nine external release gates still block the first supervised paid customer.'},
-{key:'acquisition',name:'Customer acquisition readiness',group:'Market',current:54,day30:65,day60:77,day90:86,blocker:'No repeatable Business Builder lead-to-paid acquisition loop is proven.'},
-{key:'businessProof',name:'Business / economic proof',group:'Market',current:10,day30:18,day60:32,day90:50,blocker:'No verified Business Builder customer cohort, MRR, CAC, margin or retention evidence yet.'}
-],day90:{customersMin:0,customersMax:4,mrrMin:0,mrrMax:1500},changed:'Business Builder-only scoring begins with the September 18, 2026 snapshot.'};
-const fmtMoney=n=>'$'+n.toLocaleString();
-const card=(label,value,group='')=>`<div class="card">${group?`<div class="group">${group}</div>`:''}<div class="label">${label}</div><div class="value">${value}</div></div>`;
-function renderExpanded(s){document.getElementById('asof').textContent='Latest assessment: '+new Date(s.asOf).toLocaleString();
- document.getElementById('metrics').innerHTML=s.dimensions.map(d=>card(d.name,d.current+'%',d.group)).join('');
- document.getElementById('forecast').innerHTML=s.dimensions.map(d=>`<tr><td><strong>${d.name}</strong></td><td>${d.group}</td><td class="num ${d.current>=90?'over':'under'}">${d.current}%</td><td class="num">${d.day30}%</td><td class="num">${d.day60}%</td><td class="num">${d.day90}%</td></tr>`).join('');
- const b=s.dimensions.filter(d=>d.current<90&&d.blocker);document.getElementById('blockers').innerHTML=b.length?b.map(d=>`<div class="blocker"><strong>${d.name} · ${d.current}%</strong><span class="label">${d.blocker}</span></div>`).join(''):'<div class="label">No current category is below 90%.</div>';
- document.getElementById('business').innerHTML=card('Day-90 paying customers',`${s.day90.customersMin}–${s.day90.customersMax}`)+card('Day-90 MRR',`${fmtMoney(s.day90.mrrMin)}–${fmtMoney(s.day90.mrrMax)}`);
- document.getElementById('changed').textContent=s.changed;}
-function renderHistory(data){document.getElementById('history').innerHTML=[...data.snapshots].reverse().map(x=>`<tr><td>${x.date}</td><td>${x.current.technical}%</td><td>${x.current.autonomy}%</td><td>${x.current.commercial}%</td><td>${x.current.businessProof}%</td><td class="hide-mobile">${x.day90.customersMin}–${x.day90.customersMax}</td></tr>`).join('');}
+const fmtMoney=n=>'$'+Number(n||0).toLocaleString();
+const card=(label,value,group='',extra='')=>`<div class="card">${group?`<div class="group">${group}</div>`:''}<div class="label">${label}</div><div class="value">${value}</div>${extra?`<div class="tiny">${extra}</div>`:''}</div>`;
+function renderV3(s){
+  document.getElementById('asof').textContent='Latest assessment: '+new Date(s.asOf).toLocaleString();
+  const m=s.milestones||{};
+  document.getElementById('headlines').innerHTML=[
+    card('V1 readiness',(m.v1?.current??'—')+'%','Milestone',`${m.v1?.confidence||'unknown'} confidence · ${m.v1?.status||''}`),
+    card('V2 readiness',(m.v2?.current??'—')+'%','Milestone',`${m.v2?.confidence||'unknown'} confidence · ${m.v2?.status||''}`),
+    card('V3 / 10/10 progress',(m.v3?.current??'—')+'%','Progress index',`${m.v3?.confidence||'unknown'} confidence`),
+    card('Autonomous completion',s.autonomyProof?.numerator!=null?`${s.autonomyProof.numerator}/${s.autonomyProof.denominator}`:'Not measured','Evidence'),
+    card('Darius hours / week',s.founderWorkload?.hoursPerWeek!=null?s.founderWorkload.hoursPerWeek:'Unknown','Workload',`Target: ${s.founderWorkload?.targetHoursPerWeek||'1–2'} hrs`)
+  ].join('');
+  document.getElementById('forecast').innerHTML=s.dimensions.map(d=>`<tr><td><strong>${d.name}</strong></td><td class="num ${d.current>=90?'over':'under'}">${d.current}%</td><td class="num">${d.day30}%</td><td class="num">${d.day60}%</td><td class="num">${d.day90}%</td><td>${d.confidence||'—'}</td></tr>`).join('');
+  const b=s.dimensions.filter(d=>d.current<90);
+  document.getElementById('blockers').innerHTML=b.map(d=>`<div class="blocker"><strong>${d.name} · ${d.current}%</strong><div class="label">${d.blocker||'Missing evidence.'}</div><div class="tiny" style="margin-top:6px"><b>Next:</b> ${d.nextMilestone||'Define measurable proof.'}</div></div>`).join('')||'<div class="label">No category is below 90%.</div>';
+  const rows=[
+    ['V1',s.v1Remaining||[]],['V2',s.v2Remaining||[]]
+  ];
+  document.getElementById('remaining').innerHTML=rows.map(([n,a])=>`<tr><td><strong>${n}</strong></td><td>${a.map(x=>`• ${x}`).join('<br>')}</td></tr>`).join('');
+  document.getElementById('actions').innerHTML=(s.nextActions||[]).map((x,i)=>`<div class="action"><strong>${i+1}. Priority</strong><span class="label">${x}</span></div>`).join('');
+  document.getElementById('changed').textContent=s.biggestChange||'';
+  const o=s.businessOutlook||{};
+  document.getElementById('business').innerHTML=card('Day-90 paying customers',`${o.customersMin??0}–${o.customersMax??0}`,'Illustrative scenario')+card('Day-90 recurring MRR',`${fmtMoney(o.mrrMin)}–${fmtMoney(o.mrrMax)}`,'Recurring only');
+  document.getElementById('assumptions').innerHTML='<strong>Assumptions:</strong> '+(o.assumptions||[]).join(' · ')+(o.note?`<br>${o.note}`:'');
+}
+function renderLegacy(s){
+  document.getElementById('asof').textContent='Legacy assessment: '+new Date(s.asOf).toLocaleString();
+  document.getElementById('headlines').innerHTML=card('Legacy forecast','Historical','Pre V1/V2/V3 rubric');
+  document.getElementById('forecast').innerHTML=(s.dimensions||[]).map(d=>`<tr><td><strong>${d.name}</strong></td><td class="num">${d.current}%</td><td class="num">${d.day30}%</td><td class="num">${d.day60}%</td><td class="num">${d.day90}%</td><td>legacy</td></tr>`).join('');
+  document.getElementById('blockers').innerHTML='<div class="label">Refresh data to the V1/V2/V3 schema.</div>';
+}
+function renderHistory(data){
+  document.getElementById('history').innerHTML=[...(data.snapshots||[])].reverse().map(x=>{
+    if(x.rubricVersion){
+      const m=x.milestones||{};
+      return `<tr><td>${x.date}</td><td>V1/V2/V3</td><td>V1 ${m.v1?.current??'—'}% · V2 ${m.v2?.current??'—'}% · V3 ${m.v3?.current??'—'}%</td><td class="hide-mobile">${x.businessOutlook?.customersMin??'—'}–${x.businessOutlook?.customersMax??'—'}</td></tr>`;
+    }
+    const c=x.current||{};
+    return `<tr><td>${x.date}</td><td>Legacy</td><td>Technical ${c.technical??'—'}% · Autonomy ${c.autonomy??'—'}% · Commercial ${c.commercial??'—'}% · Proof ${c.businessProof??'—'}%</td><td class="hide-mobile">${x.day90?.customersMin??'—'}–${x.day90?.customersMax??'—'}</td></tr>`;
+  }).join('');
+}
 Promise.all([
- fetch('data/forecast-dimensions.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).catch(()=>fallback),
- fetch('data/forecast-history.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).catch(()=>({snapshots:[]}))
-]).then(([expanded,history])=>{renderExpanded(expanded);renderHistory(history)});
+ fetch('data/forecast-dimensions.json',{cache:'no-store'}).then(r=>r.json()),
+ fetch('data/forecast-history.json',{cache:'no-store'}).then(r=>r.json())
+]).then(([s,h])=>{s.schemaVersion>=3&&s.milestones?renderV3(s):renderLegacy(s);renderHistory(h)}).catch(e=>{document.getElementById('asof').textContent='Forecast data failed to load.'});
 </script>
 </body>
 </html>
