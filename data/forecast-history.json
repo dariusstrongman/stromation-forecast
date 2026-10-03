@@ -1937,6 +1937,119 @@
       },
       "biggestChange": "The scoring rubric has changed from launch-readiness-heavy Business Builder scoring to explicit V1, V2 and V3 milestones. Nothing became less capable because of this migration; the lower V3 progress index reflects that complete SaaS delivery, automated custom-agent construction, measured economics and near-zero founder workload are now correctly included in the end goal. Current execution evidence also shows website-builder recovery/reliability remains the highest-priority V1 proof gap.",
       "method": "New V1/V2/V3 baseline. SelfOperate-only assessment grounded in canonical businessbuilder main, directly integrated Stromation website-engine evidence, live/deployment records available in repositories, open PR status, recent test/synthetic journey evidence and current commercial/customer-operation truth. Open PRs receive no implemented-capability credit. Merged code is distinguished from deployed and repeatedly proven behavior. Unrelated Stromation ventures are excluded."
+    },
+    {
+      "date": "2026-10-03",
+      "asOf": "2026-10-03T06:01:55-05:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "current": 89,
+          "confidence": "medium-high",
+          "status": "Pilot-ready with supervision"
+        },
+        "v2": {
+          "current": 73,
+          "confidence": "medium",
+          "status": "Progressing"
+        },
+        "v3": {
+          "current": 60,
+          "confidence": "medium",
+          "status": "Progress index"
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2"
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 87,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 82,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium-high"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 73,
+          "day30": 79,
+          "day60": 85,
+          "day90": 91,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 8,
+          "day30": 10,
+          "day60": 15,
+          "day90": 25,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 82,
+          "day30": 86,
+          "day60": 90,
+          "day90": 94,
+          "confidence": "medium-high"
+        },
+        "reliability": {
+          "current": 79,
+          "day30": 85,
+          "day60": 90,
+          "day90": 94,
+          "confidence": "medium-high"
+        },
+        "journey": {
+          "current": 86,
+          "day30": 90,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 82,
+          "day30": 86,
+          "day60": 91,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 18,
+          "day60": 30,
+          "day90": 45,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "reliability": "illustrative scenario"
+      },
+      "biggestChange": "Stromation release #270 merged to main and all four hosted CI workflows passed, but the next realistic synthetic build exposed an asset-delivery/recovery contract bug. PR #271 fixes it and is CI-green but remains open, so V1 improves only slightly and the full V3 index stays 60%.",
+      "method": "SelfOperate-only assessment for 2026-10-03 using businessbuilder main 09dca5c9 versus deployed 50f9c739, Stromation main f89d202f with merged #270 and open CI-green #271, Business Builder draft #400, current deployment/capability documents and synthetic-test25-002 evidence. Open PRs receive no implemented-capability credit."
     }
   ]
 }
