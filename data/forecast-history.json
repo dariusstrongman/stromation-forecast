@@ -2050,6 +2050,119 @@
       },
       "biggestChange": "Stromation release #270 merged to main and all four hosted CI workflows passed, but the next realistic synthetic build exposed an asset-delivery/recovery contract bug. PR #271 fixes it and is CI-green but remains open, so V1 improves only slightly and the full V3 index stays 60%.",
       "method": "SelfOperate-only assessment for 2026-10-03 using businessbuilder main 09dca5c9 versus deployed 50f9c739, Stromation main f89d202f with merged #270 and open CI-green #271, Business Builder draft #400, current deployment/capability documents and synthetic-test25-002 evidence. Open PRs receive no implemented-capability credit."
+    },
+    {
+      "date": "2026-10-15",
+      "asOf": "2026-10-15T09:32:00-05:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "current": 92,
+          "confidence": "medium-high",
+          "status": "Pilot-ready with supervision"
+        },
+        "v2": {
+          "current": 83,
+          "confidence": "medium",
+          "status": "Progressing"
+        },
+        "v3": {
+          "current": 65,
+          "confidence": "medium",
+          "status": "Progress index"
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2"
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 90,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 86,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium-high"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 84,
+          "day30": 79,
+          "day60": 85,
+          "day90": 91,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 10,
+          "day60": 15,
+          "day90": 25,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 87,
+          "day30": 86,
+          "day60": 90,
+          "day90": 94,
+          "confidence": "medium-high"
+        },
+        "reliability": {
+          "current": 86,
+          "day30": 85,
+          "day60": 90,
+          "day90": 94,
+          "confidence": "medium-high"
+        },
+        "journey": {
+          "current": 92,
+          "day30": 90,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 88,
+          "day30": 86,
+          "day60": 91,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 18,
+          "day60": 30,
+          "day90": 45,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "reliability": "illustrative scenario"
+      },
+      "biggestChange": "October 14–15 engineering evidence expands worker and connector work, but several paths remain default-off or review-only; the website reviewer still misses founder taste.",
+      "method": "Independent conservative rescore using accessible PR evidence, current forecast baseline and reported builder-quality failures. No new live customer proof assumed."
     }
   ]
 }
