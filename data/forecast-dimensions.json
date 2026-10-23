@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-10-15",
-  "asOf": "2026-10-15T09:32:00-05:00",
+  "date": "2026-10-23",
+  "asOf": "2026-10-23T05:58:11-05:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
-      "current": 92,
-      "confidence": "medium-high",
+      "current": 91,
+      "confidence": "medium",
       "status": "Pilot-ready with supervision",
-      "summary": "Website revisions and quality tooling advanced, but independent reviewer still approved founder-rejected output and repeatable production website handoffs remain unproven."
+      "summary": "Customer and builder foundations exist, but real builder stalls, inconsistent premium design judging and missing repeated production website handoffs prevent 100% readiness."
     },
     "v2": {
       "name": "V2 readiness",
-      "current": 83,
+      "current": 85,
       "confidence": "medium",
       "status": "Progressing",
-      "summary": "Worker, managed-read, print and booking functionality advanced mainly through default-off and reviewed integration work; live outcomes for all five remain unproven."
+      "summary": "Owner, worker, Brand Studio and connection recovery implementation advanced, but not all five workers have representative live outcomes or reliable broad recurring-operation proof."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
-      "current": 65,
+      "current": 66,
       "confidence": "medium",
       "status": "Progress index",
-      "summary": "Breadth expanded but complete SaaS delivery, automated custom agent lifecycle, observed profits and near-zero founder workload remain unproven."
+      "summary": "Website and operational code improved; complete SaaS delivery, automated custom-agent creation, measured economics, and low-founder-intervention evidence are still materially missing."
     }
   },
   "autonomyProof": {
@@ -32,14 +32,14 @@
     "denominator": null,
     "scope": "Representative supported routine workflows",
     "observationWindow": null,
-    "note": "Individual autonomous proofs exist, but no representative tracked denominator exists yet."
+    "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
   },
   "founderWorkload": {
     "measurement": "unknown",
     "hoursPerWeek": null,
     "targetHoursPerWeek": "1–2",
     "targetContext": "mature V3 scale",
-    "note": "Darius minutes are not consistently separated from customer-required actions, specialist review and operator/contractor work."
+    "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
   },
   "dimensions": [
     {
@@ -47,24 +47,24 @@
       "name": "Business understanding & scope selection",
       "group": "V3 capability",
       "current": 90,
-      "day30": 90,
-      "day60": 93,
+      "day30": 92,
+      "day60": 94,
       "day90": 95,
       "confidence": "high",
-      "blocker": "Test broad real-customer classification and scope.",
-      "nextMilestone": "Test broad real-customer classification and scope."
+      "blocker": "Real cross-industry scope accuracy and unsupported-scope refusal still lack a broad blind-tested customer sample.",
+      "nextMilestone": "Blind-test 20 varied businesses for accurate scope and refusals."
     },
     {
       "key": "website",
       "name": "Premium website delivery",
       "group": "V3 capability",
-      "current": 86,
-      "day30": 89,
+      "current": 85,
+      "day30": 90,
       "day60": 94,
       "day90": 97,
-      "confidence": "medium-high",
-      "blocker": "Prove three premium live builds with recovery and handoff.",
-      "nextMilestone": "Prove three premium live builds with recovery and handoff."
+      "confidence": "medium",
+      "blocker": "Recent production builder stalls and founder-rejected visual quality have not been followed by three consecutively verified premium live deliveries.",
+      "nextMilestone": "Prove 3 premium production website journeys with accepted design, revision, publication, handoff and one unattended recovery."
     },
     {
       "key": "saas",
@@ -75,140 +75,142 @@
       "day60": 25,
       "day90": 35,
       "confidence": "medium",
-      "blocker": "Deliver full SaaS build and existing-app changes through customer flow.",
-      "nextMilestone": "Deliver full SaaS build and existing-app changes through customer flow."
+      "blocker": "No verified complete customer SaaS build and existing-app change workflow covering auth, backend, data, billing and deployment.",
+      "nextMilestone": "Deliver one bounded complete SaaS and one governed existing-app change end to end."
     },
     {
       "key": "workforce",
       "name": "Standard AI workforce capability",
       "group": "V3 capability",
-      "current": 84,
-      "day30": 79,
-      "day60": 85,
-      "day90": 91,
+      "current": 85,
+      "day30": 89,
+      "day60": 92,
+      "day90": 95,
       "confidence": "medium",
-      "blocker": "Prove five workers with real authorized outcomes.",
-      "nextMilestone": "Prove five workers with real authorized outcomes."
+      "blocker": "Merged recovery and integration code is not sufficient proof of useful live outcomes across Maya, Jordan, Avery, Alex and Richard.",
+      "nextMilestone": "Record owner-approved live provider outcomes across all 5 workers."
     },
     {
       "key": "customAgents",
       "name": "Automated custom-agent delivery",
       "group": "V3 capability",
       "current": 20,
-      "day30": 10,
-      "day60": 15,
-      "day90": 25,
+      "day30": 24,
+      "day60": 30,
+      "day90": 40,
       "confidence": "high",
-      "blocker": "Prove automated custom agent build, test, activation and support.",
-      "nextMilestone": "Prove automated custom agent build, test, activation and support."
+      "blocker": "Custom-agent assessment and sandbox groundwork are not a verified autonomous custom-agent build, test, activation and monitoring cycle.",
+      "nextMilestone": "Prove one supported custom agent from requirements through independent tests, activation and handoff."
     },
     {
       "key": "coordination",
       "name": "Autonomous coordination & recovery",
       "group": "V3 capability",
-      "current": 87,
-      "day30": 86,
-      "day60": 90,
-      "day90": 94,
-      "confidence": "medium-high",
-      "blocker": "Show unattended recovery on actual stopped builds.",
-      "nextMilestone": "Show unattended recovery on actual stopped builds."
+      "current": 86,
+      "day30": 90,
+      "day60": 93,
+      "day90": 95,
+      "confidence": "medium",
+      "blocker": "Real stuck/reopened builder jobs have exposed ownership/research and retry issues; post-fix unattended end-to-end recovery is not proven.",
+      "nextMilestone": "Recover real stopped/parked website work without manual rescue or duplicate spend."
     },
     {
       "key": "reliability",
       "name": "Reliability, security & ongoing maintenance",
       "group": "V3 capability",
-      "current": 86,
-      "day30": 85,
-      "day60": 90,
-      "day90": 94,
-      "confidence": "medium-high",
-      "blocker": "Complete production restore, soak and incident proofs.",
-      "nextMilestone": "Complete production restore, soak and incident proofs."
+      "current": 85,
+      "day30": 89,
+      "day60": 92,
+      "day90": 95,
+      "confidence": "medium",
+      "blocker": "Recent deploy-helper and builder lock corrections merged, but current production revision, restart/restore and soak evidence remain incomplete.",
+      "nextMilestone": "Prove safe release, timed restore and multi-copy failure soak on the deployed revision."
     },
     {
       "key": "journey",
       "name": "Complete customer journey & ownership",
       "group": "V3 capability",
-      "current": 92,
-      "day30": 90,
-      "day60": 94,
-      "day90": 97,
+      "current": 94,
+      "day30": 95,
+      "day60": 97,
+      "day90": 98,
       "confidence": "high",
-      "blocker": "Prove repeated payment-to-revision-to-handoff journeys.",
-      "nextMilestone": "Prove repeated payment-to-revision-to-handoff journeys."
+      "blocker": "Owner flows and Brand Studio improved, but repeatable paid build through revision, publishing, support, export and handoff is unverified.",
+      "nextMilestone": "Repeat full paid-like website journeys through revision, live handoff and ownership export."
     },
     {
       "key": "commercial",
       "name": "Commercial delivery & acquisition readiness",
       "group": "V3 capability",
       "current": 88,
-      "day30": 86,
-      "day60": 91,
+      "day30": 90,
+      "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Measure paid customer acquisition.",
-      "nextMilestone": "Measure paid customer acquisition."
+      "blocker": "Checkout and offers exist, but source-attributed real customer conversion and retention are not measured.",
+      "nextMilestone": "Verify real source-to-paid acquisition and ongoing customer delivery."
     },
     {
       "key": "economics",
       "name": "Economic proof & low-founder-workload operation",
       "group": "V3 capability",
       "current": 10,
-      "day30": 18,
-      "day60": 30,
-      "day90": 45,
+      "day30": 15,
+      "day60": 25,
+      "day90": 40,
       "confidence": "high",
-      "blocker": "Measure paid margins and founder time.",
-      "nextMilestone": "Measure paid margins and founder time."
+      "blocker": "Paid delivery margins, failed-attempt costs, support burden and Darius hours are still not measured on a representative cohort.",
+      "nextMilestone": "Measure paid job margins and Darius intervention time on a representative cohort."
     }
   ],
   "v1Remaining": [
-    "Repeat 3 production-quality website builds with approved visual quality, revisions, recovery and handoff.",
-    "Prove new live-site changes and stopped-build handling on released code."
+    "Pass 3 consecutive premium website journeys on an identified production builder/app release with approved design, full build, revision, live publication and ownership handoff.",
+    "Calibrate independent website visual and motion review to reject founder-rejected output rather than relying on high automated scores.",
+    "Demonstrate unattended recovery from one real stopped or restarted website job, including preserved progress and accurate spend settlement.",
+    "Verify truthful owner-facing status and support, export/ownership and rollback on that same production release."
   ],
   "v2Remaining": [
-    "Prove five standard workers through safe real-provider outcomes.",
-    "Activate and verify supported integrations and recurring work.",
-    "Prove stable maintenance and customer ownership with founder-minute tracking."
+    "Verify genuinely useful real-provider outcomes and safe approvals for Maya, Jordan, Avery, Alex and Richard.",
+    "Prove the supported configured integration set across varied business types (catalog availability is not live connectivity).",
+    "Prove ongoing maintenance, customer ownership and incident/restore operation, including measured founder, operator and customer-required actions."
   ],
-  "biggestChange": "October 14–15 engineering evidence expands worker and connector work, but several paths remain default-off or review-only; the website reviewer still misses founder taste.",
+  "biggestChange": "Oct 22–23 merges improved Brand Studio preparation, customer-state clarity and owner/worker recovery, but none establishes repeatable premium website delivery or production proof of recent builder recovery fixes.",
   "improvements": [
-    "Stromation PR #270 merged stronger website hard gates, section/library delivery checks, image-feasibility rules, interaction-quality checks and bounded recovery behavior; four hosted CI workflows passed.",
-    "Business Builder main is nine commits ahead of the captured production product commit and includes Avery weekly background scheduling/reconciliation, safer shared-SQLite broker reads and support answers aligned with available connections.",
-    "The latest production SelfOperate state records healthy web/worker tasks, live Stripe, transactional founder email, Maya's gated sending path and AWS website builder selected."
+    "Business Builder PRs #672, #684, #685 and #686 merged Brand Studio galleries/preparation, corrected editor navigation and honest pre-start notices.",
+    "Business Builder PR #687 merged guarded owner/worker/financial/connection recovery on Oct 23, while follow-up PR #688 remains open.",
+    "Stromation PR #326 merged bounded stuck-job/lock hygiene; #328 merged safer release lock handling; latest on-demand builder PR #327 remains open."
   ],
   "regressions": [
-    "The newest synthetic website run exposed an incoherent asset contract and false recovery-stop wording on current Stromation main; the proposed fix is green but unmerged.",
-    "Business Builder production is nine commits behind main, so newest support-knowledge, Avery scheduling and runtime fixes are implementation evidence rather than current production behavior.",
-    "Build Room can still present paused/failed website progress too optimistically until draft PR #400 receives the final builder reason contract, merges and deploys."
+    "A real builder job was parked after stale or invalid research and a separate job had unwritable lock symptoms; merged code does not yet show successful unattended production recovery.",
+    "An incorrect deployment-readiness import previously blocked a production promotion before any service changed; the helper fix merged, but successful production promotion of all recent merges is not independently established.",
+    "Real paid premium website acceptance and visual-motion judging remain insufficiently demonstrated, and automated reviewer scores have contradicted founder evaluation."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "Stromation main f89d202f contains release PR #270, 23 commits ahead of documented deployed builder baseline 5b7cc7f8/rev 38.",
-      "Business Builder main 09dca5c9 contains nine commits beyond deployed product 50f9c739."
+      "Business Builder #672, #683–#687 are merged by Oct 23; #688 remains open and earns no implemented-capability credit.",
+      "Stromation #325, #326 and #328 are merged; #327 remains open and earns no implemented-capability credit."
     ],
     "deployed": [
-      "Business Builder CURRENT_STATE records production web :268 and worker :138 at product commit 50f9c739 with live Stripe, AWS builder backend and Maya sending enabled subject to owner/safety gates.",
-      "No accessible deployment evidence showed Stromation release f89d202f deployed; PR #270 names 5b7cc7f8/rev 38 as its deployed base."
+      "Business Builder #683 reported healthy production at e99e8185, web :363 / worker :228, before a stopped promotion; #685 cited a later settled dc56c1be, API :366 / worker :231, as a rollback point. Latest merges are not independently verified live here.",
+      "Stromation #326 described real earlier job stalls; no independently observed repeat of three complete successful premium website deliveries after its merge."
     ],
     "verified": [
-      "Recent reviewed/CI-backed PR descriptions and local test reports are engineering evidence, not proof of live customer outcomes.",
-      "Founder rejected a website scored 7.43 ship by the old reviewer; new taste/video reviewer is flag-off.",
-      "Three consecutive quality-approved full production deliveries remain unverified."
+      "Brand Studio PR #672 reported 19 required CI passes on an earlier head and extensive offline browser/API suites; merge status is verified, but provider-backed customer acceptance is not.",
+      "PR #687 reported full local build and numerous unit/browser/API tests; merge is verified, but current deployment and live worker outcomes are not.",
+      "Stromation stuck-job code contains regression tests, but did not run a paid build or customer journey as part of its fix."
     ]
   },
   "promisesOverreach": [
-    "The current website status experience can overstate progress for paused or failed builds until PR #400 or equivalent is deployed.",
-    "Any implication that SelfOperate can already build arbitrary complete SaaS products exceeds demonstrated capability.",
-    "Any implication that the custom-agent request path is already an automated end-to-end agent factory exceeds demonstrated capability.",
-    "Any implication that 95–99% autonomous completion or 1–2 Darius hours/week is already measured exceeds current evidence."
+    "Do not present founder-rejected website designs rated 'ship' as proven premium quality.",
+    "Do not claim merged website/worker repairs are deployed or repeatedly proven without production evidence.",
+    "Do not claim complete arbitrary SaaS or autonomous custom-agent manufacturing.",
+    "Do not claim 95–99% unattended routine workflows, 1–2 Darius hours/week, or proven unit economics; these remain unmeasured."
   ],
-  "founderWorkloadTrend": "Unknown. More work is automated, but intervention time is not instrumented, so evidence cannot yet distinguish true founder-workload reduction from work shifting elsewhere.",
+  "founderWorkloadTrend": "Unknown: no consistent measured time series separates Darius intervention from customer approval, specialist review or operator effort.",
   "nextActions": [
-    "Prioritize the website taste reviewer and full live delivery evidence.",
-    "Repeat three complete premium website journeys, one with a controlled stop/recovery.",
-    "Only widen worker activation after website quality is reliable."
+    "Calibrate a motion-and-design-aware independent quality reviewer against founder-approved and founder-rejected samples.",
+    "Run 3 production premium website delivery journeys, including full revision, hosting, export and one controlled failure/restart, without hidden human rescue.",
+    "Record exact production revision, recovery/spend receipts and Darius/operator/customer-required time on those journeys."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -232,5 +234,5 @@
     "estimatedFutureCosts": "Not estimated in this assessment.",
     "note": "Do not combine the $0.42 partial measured spend with older or overlapping estimates."
   },
-  "method": "SelfOperate-only assessment for 2026-10-03 using canonical businessbuilder main 09dca5c9, captured production product commit 50f9c739 / web :268 / worker :138, the 2026-10-02 production capability audit, Stromation main f89d202f with merged release PR #270, open CI-green PR #271, Business Builder draft PR #400, hosted workflow results and synthetic-test25-002 evidence. Open PRs receive no implemented-capability credit. Merged code is distinguished from deployed and repeatedly proven behavior."
+  "method": "2026-10-23 independent SelfOperate V1/V2/V3 rescore using canonical GitHub PR merge metadata, merged and open integrated Stromation builder PRs, recent owner/worker/Brand Studio acceptance claims and point-in-time production release evidence. No open PR credit; merged code is distinct from production deployment and repeat live proof. Forward estimates are conditional."
 }
