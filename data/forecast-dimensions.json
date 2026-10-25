@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-10-24",
-  "asOf": "2026-10-24T05:58:26-05:00",
+  "date": "2026-10-25",
+  "asOf": "2026-10-25T05:59:08-05:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
       "current": 90,
       "confidence": "medium",
-      "status": "Pilot-ready with supervision; first on-demand AWS smoke failed",
-      "summary": "Premium builder completion remains unproven; an initial AWS smoke run failed all three design specs before inference because of a Bedrock token-limit mismatch. A source fix merged but a successful repeated live run, independent premium judging, publishing and handoff remain unverified."
+      "status": "Pilot-ready with supervision; successful post-fix AWS build and repeated premium delivery still unverified",
+      "summary": "First on-demand AWS builder smoke failed all three design specs before inference; the merged Bedrock output-limit fix has no verified full retest. Independent premium design acceptance, unattended restart, publication and owner handoff remain unproven."
     },
     "v2": {
       "name": "V2 readiness",
       "current": 85,
       "confidence": "medium",
-      "status": "Progressing; store additions default-off",
-      "summary": "Owner-correction and store-support code expanded, but newly merged store features remain default-off and have no deployment or recurring live outcome proof. All five workers and integrations still need repeated provider-backed results."
+      "status": "Progressing; new team dashboard and store extensions still default-off",
+      "summary": "Latest merged worker/accounting fixes and an improved team dashboard expand code scope, but Team Dashboard and store functions remain default-off or unproven for real customer recurring outcomes. No verified provider-backed useful cycle from all five workers."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
       "current": 66,
       "confidence": "medium",
       "status": "Progress index",
-      "summary": "AWS website smoke uncovered a new blocker despite a merged fix; merged store/support and release improvements remain incompletely live-verified. Supported complete SaaS and custom-agent deliveries, mature autonomy, and economics are still missing."
+      "summary": "Approved public marketing site and flagged Team Dashboard merged, but repeat premium site deliveries, complete SaaS and custom-agent delivery, routine autonomy and measured margins/founder time remain unproven."
     }
   },
   "autonomyProof": {
@@ -63,8 +63,8 @@
       "day60": 94,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "The first AWS on-demand smoke build failed all three design specs before inference on a Bedrock output-token ceiling; fix #329 merged, but successful rerun and 3 accepted production website handoffs remain unproven.",
-      "nextMilestone": "Retest AWS design-spec generation after #329, then prove 3 premium live deliveries with approval, revision, publication, export and unattended recovery."
+      "blocker": "Bedrock design-spec output ceiling fix merged Oct 23 after all three AWS smoke specs failed before inference; no verified successful full rerun or 3 premium independently accepted site deliveries.",
+      "nextMilestone": "Rerun AWS site builder end-to-end and prove three premium accepted builds with revision, publication, export and one safe restart."
     },
     {
       "key": "saas",
@@ -87,7 +87,7 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Store support and order integrations merged but are behind default-off flags; no verified provider-backed useful outcomes for all 5 standard workers.",
+      "blocker": "New Team Dashboard #708/#710 merged but disabled by default; store support flagged off and repeat live provider-backed outcomes for all five standard workers remain unverified.",
       "nextMilestone": "Record owner-approved live provider outcomes across all 5 workers."
     },
     {
@@ -111,7 +111,7 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Builder stall/lock fixes merged, but actual unattended restart and spend-safe recovery of a parked website job remain unverified after release.",
+      "blocker": "Previous builder job lock/stall repairs merged; no verified unattended resume of a real parked job without duplicate spend on a current released revision.",
       "nextMilestone": "Recover real stopped/parked website work without manual rescue or duplicate spend."
     },
     {
@@ -123,7 +123,7 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Release speed/lock and test-harness fixes merged; on-demand AWS build fix has no confirmed successful end-to-end smoke or current production restore/soak receipt.",
+      "blocker": "Release fixes and targeted tests merged; no verified successful AWS build rerun or timed restore, current production soak and production deployment receipt for latest marketing/dashboard merges.",
       "nextMilestone": "Prove safe release, timed restore and multi-copy failure soak on the deployed revision."
     },
     {
@@ -135,7 +135,7 @@
       "day60": 97,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Owner source-corrections and logo export preservation merged; complete paid-like build, revision, live handoff and ownership export remain unrepeated on a single verified release.",
+      "blocker": "Approved public site redesign and landing/navigation improvements merged; full actual paid-to-premium-live-site revision, ownership export and handoff not repeatedly proven on a single release.",
       "nextMilestone": "Repeat full paid-like website journeys through revision, live handoff and ownership export."
     },
     {
@@ -147,7 +147,7 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Checkout and offers exist, but source-attributed real customer conversion and retention are not measured.",
+      "blocker": "Approved public website redesign #707 merged and copy/analytics fixes #709/#711 merged, but deployment and source-attributed customer conversion/retention are unverified.",
       "nextMilestone": "Verify real source-to-paid acquisition and ongoing customer delivery."
     },
     {
@@ -164,55 +164,57 @@
     }
   ],
   "v1Remaining": [
-    "Rerun the on-demand AWS builder after merged Bedrock output-ceiling correction; confirm design spec, full build and settled spend, with no manual repair.",
-    "Pass three consecutive founder-accepted premium website deliveries with independent motion/design review, revision, publication and ownership export.",
-    "Prove unattended recovery from a real job stall/restart, preserving progress, accounting and no duplicate spend.",
-    "Verify true owner status, safe rollback, support and production handoff on the same identified live release."
+    "Complete a post-fix on-demand AWS website build and confirm accepted design spec, finished build and settled spend.",
+    "Pass three consecutive independent premium website reviews with owner revisions, live publishing, export and handoff.",
+    "Prove unattended restart/stall recovery with correct state, safe spending and no duplicate work.",
+    "Verify final live release, rollback, approval-to-publish flow and support ownership."
   ],
   "v2Remaining": [
-    "Verify useful real-provider outcomes and approval controls for Maya, Jordan, Avery, Alex and Richard.",
-    "Activate and test the supported integration set across representative customers; flagged-off store features earn no live credit.",
-    "Prove recurring operation, incident recovery, ownership and maintenance with measured founder/operator involvement."
+    "Show repeated real-provider outcomes for Maya, Jordan, Avery, Alex and Richard under owner approval controls.",
+    "Activate and verify supported integrations across representative real customers; default-off store/team features do not count as live.",
+    "Prove reliable recurring operation, recovery, customer ownership and maintenance with low technical rescue."
   ],
-  "biggestChange": "The first on-demand AWS website smoke build failed all three design specifications before inference; the Bedrock token-ceiling fix merged Oct 23, but no successful end-to-end rerun is verified.",
+  "biggestChange": "Oct 24–25 approved public-site redesign #707 and Team Dashboard #708/#710 merged; the latter remains disabled by default, and no completed post-fix premium AWS builder run is verified.",
   "improvements": [
-    "Business Builder #673 merged on-demand AWS builder launching/runbook; dry-run reached running in ~45 seconds, not a full premium delivery.",
-    "Stromation #329 merged a bounded 16,384-token Bedrock design-spec ceiling fix with a regression test; no paid design-spec inference occurred in the failed smoke.",
-    "Business Builder #677/#678 merged release-cache and parallel validation work; #692/#698 merged owner correction/retained logo export fixes.",
-    "Business Builder #701 merged store support and Etsy/Shopify read-only integrations Oct 24, all behind flags default OFF."
+    "Business Builder #707 approved public site redesign merged Oct 24 with targeted accessibility/layout checks; post-merge live promotion not independently confirmed.",
+    "Business Builder #708/#710 merged team-dashboard command center and support during business setup, guarded by TEAM_DASHBOARD_ENABLED (off by default). Local browser tests, not real recurring proof.",
+    "Business Builder #709/#711 merged home-navigation correction, analytics page checks and truthful team/FAQ copy; local 47-route scan and tests reported.",
+    "Business Builder #702/#703/#705 merged bounded delivery/finance/artwork evidence and recovery improvements; provider-backed repeat delivery still unverified.",
+    "Stromation #329 remains merged, correcting the Bedrock design-spec token ceiling; no post-fix AWS end-to-end smoke receipt found."
   ],
   "regressions": [
-    "First AWS smoke builder attempted all three design specs and hit an invalid Bedrock output ceiling before inference; successful post-fix rerun has not been established.",
-    "Actual previous builder stalls and job-lock failures have no confirmed repeatable unattended production recovery after merged fixes.",
-    "Premium judging previously accepted founder-rejected work; three consecutively accepted complete production deliveries are still absent."
+    "First AWS on-demand builder smoke Oct 23 failed all three design specifications before inference; the source fix has no verified end-to-end retest.",
+    "Home-to-other-page client navigation crash was found and fixed in #709; latest production promotion or a production recheck not independently shown.",
+    "Past premium judge accepted founder-rejected designs and builder locks/stalls needed fixes; repeated current-release premium delivery and unattended recovery proof remain missing."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "Stromation #329 merged Oct 23 cap to 16,384 output tokens for Bedrock; #327 remains open and earns no implementation credit.",
-      "Business Builder #673, #677/#678, #692, #698 and #701 merged; store support remains default-off.",
-      "Business Builder #702 remains open/draft and earns no implemented-capability credit."
+      "Business Builder #707, #708, #709, #710 and #711 merged on Oct 24–25; #712 is an unmerged draft and gets no credit.",
+      "Business Builder #702/#703/#705 merged; #706 remains open and receives no implementation credit.",
+      "Stromation #329 merged Oct 23; AWS design generation fix is code/test evidence, not completed deployment or customer proof."
     ],
     "deployed": [
-      "PR #673 reports on-demand AWS infrastructure deployed with launch dry-run; app backend selector was unchanged, no live paid builder delivery established.",
-      "PR #702 cites previously healthy production release 7d794736, web :375 / worker :240; latest October 24 merges are not independently shown deployed."
+      "Team Dashboard #708/#710 is behind TEAM_DASHBOARD_ENABLED off by default; no production activation evidence.",
+      "Local browser review and references to an internal demo company do not establish latest merged public-site/customer-flow production deployment.",
+      "Previously documented AWS launcher dry run is not a completed premium website; post-#329 launch/production proof unavailable."
     ],
     "verified": [
-      "PR #329 reports a targeted source regression test and pre-inference failed AWS smoke; no post-fix complete smoke receipt verified.",
-      "PR #701 claims local 90+ store tests and large provider-stub cohorts, but flags OFF and no store customer proof.",
-      "PR #698 reproduces and fixes omitted historical logo originals in authenticated HTTP regression tests; live owner exports on latest release unverified."
+      "#709/#711 report local public route scans (47/47), quality checks and rendered-page tests; #710 reports local browser, accessibility and unit passes.",
+      "#707 reports an approved concept and local production-build checks; no repeated production customer delivery demonstrated.",
+      "No independently confirmed completed post-fix AWS design/build delivery, 3 accepted live handoffs, or sustained real-provider outcomes from all five workers."
     ]
   },
   "promisesOverreach": [
-    "Do not describe AWS builder as successfully running until a real post-fix on-demand design/build cycle completes.",
-    "Do not equate merged, flag-off store support with live integration or workforce value.",
-    "Do not present founder-rejected designs or failed first builder smoke as premium quality proof.",
-    "Do not claim complete SaaS/custom-agent delivery or measured 95–99% autonomy and 1–2 weekly Darius hours."
+    "Do not equate approved public marketing-site redesign with premium website-builder delivery.",
+    "Do not present Team Dashboard, store integrations or optional reader as live-by-default capability.",
+    "Do not claim the AWS builder has passed after #329 without a genuine post-fix build receipt.",
+    "Do not claim complete supported SaaS/custom-agent delivery or measured 95–99% autonomy and 1–2 weekly founder hours."
   ],
   "founderWorkloadTrend": "Unknown: no consistent measured time series separates Darius intervention from customer approval, specialist review or operator effort.",
   "nextActions": [
-    "Verify post-#329 on-demand AWS builder completes real design generation, and independently judge the output against founder-approved/rejected examples.",
-    "Prove 3 premium end-to-end website deliveries on an identified released revision, with revision, published site, export and one controlled restart.",
-    "Record deployment SHA, recovery/spend receipts, independent acceptance and Darius/operator/customer-required minutes."
+    "Verify the Oct 23 Bedrock fix with a real on-demand AWS builder job that completes design spec, full build and cost settlement.",
+    "Independently judge and complete 3 premium website journeys including revisions, publication, export and deliberate safe recovery.",
+    "Capture exact deployed SHAs, end-to-end review receipts, spend and founder/operator/customer time, leaving all other new flags off."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -236,5 +238,5 @@
     "estimatedFutureCosts": "Not estimated in this assessment.",
     "note": "Avoid presenting isolated dry-run spend as complete job costs."
   },
-  "method": "2026-10-24 independent rescore from latest canonical businessbuilder and integrated Stromation main commits, PR merge status, AWS launch/dry-run and first smoke failure, test reports and claimed limited live revisions. Open PR and default-off capabilities earn no implemented/live credit; merged fixes are not repeat production verification. No paid tests or deployments triggered."
+  "method": "2026-10-25 independent rescore from current businessbuilder/Stromation main commits and exact merged/open PR metadata (#707–#712, #329), reported local/browser checks and earlier AWS smoke outcome. Open PRs and disabled flags earn no live credit; no independent current production proof of accepted customer-site deliveries. No paid tests, deployments or configuration changes."
 }
