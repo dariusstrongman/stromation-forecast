@@ -2529,6 +2529,128 @@
       },
       "biggestChange": "Oct 24–25 approved public-site redesign #707 and Team Dashboard #708/#710 merged; the latter remains disabled by default, and no completed post-fix premium AWS builder run is verified.",
       "method": "2026-10-25 independent rescore from current businessbuilder/Stromation main commits and exact merged/open PR metadata (#707–#712, #329), reported local/browser checks and earlier AWS smoke outcome. Open PRs and disabled flags earn no live credit; no independent current production proof of accepted customer-site deliveries. No paid tests, deployments or configuration changes."
+    },
+    {
+      "date": "2026-10-26",
+      "asOf": "2026-10-26T06:01:32-05:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "current": 89,
+          "confidence": "medium",
+          "status": "Pilot-ready with supervision; live owner payment dialog blocked and AWS premium delivery unverified"
+        },
+        "v2": {
+          "current": 85,
+          "confidence": "medium",
+          "status": "Dashboard makeover and recap globally enabled, useful real-provider five-worker cycles unverified"
+        },
+        "v3": {
+          "current": 66,
+          "confidence": "medium",
+          "status": "Progress index"
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2"
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 90,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 84,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 85,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 86,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 84,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 93,
+          "day30": 95,
+          "day60": 97,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 88,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Oct 25 global dashboard makeover and daily recap switches are evidenced by Oct 26 ECS capture; live Team Chat now obstructs payment/connect dialogs, and #728 fix is open.",
+      "method": "2026-10-26 independent rescore of canonical businessbuilder/Stromation main, PR merge status, owner-reported live defect #728 and Oct 26 UTC ECS flag capture in open #729. Open PRs receive no implemented credit; enabled flags are not delivered outcomes; no paid tests/deployments."
     }
   ]
 }
