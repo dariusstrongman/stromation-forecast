@@ -2773,6 +2773,128 @@
       },
       "biggestChange": "Oct 26 #733 merged the #728 live payment-dialog overlay fix; Oct 27 #735 merged Brand Studio and Website navigation recovery. No production confirmation or premium AWS site completion is verified.",
       "method": "2026-10-27 independent rescore from businessbuilder main ca539a97 (green CodeBuild), Stromation main #329, merged PR #728/#733/#735/#736, open draft builder craft #330, latest cited production flags web :402/worker :254. Green code and merged fixes do not prove real production payment success or repeated premium builder acceptance."
+    },
+    {
+      "date": "2026-10-28",
+      "asOf": "2026-10-28T05:58:00-05:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "current": 88,
+          "confidence": "medium",
+          "status": "Supervised pilot only; reported live rollout CSS/502 defects and full premium AWS site delivery unverified"
+        },
+        "v2": {
+          "current": 85,
+          "confidence": "medium",
+          "status": "More dashboard/chat and guarded connectors merged; five-worker real-provider outcomes unverified"
+        },
+        "v3": {
+          "current": 65,
+          "confidence": "medium",
+          "status": "Progress index; production rollout reliability evidence reduces confidence"
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2"
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 90,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 84,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 85,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 86,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 83,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 93,
+          "day30": 95,
+          "day60": 97,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 88,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Oct 28 live UX audit recorded missing CSS during web release overlaps and an intermittent ALB 502; #779 is still open, while many dashboard/chat improvements merged without proof of premium AWS delivery.",
+      "method": "2026-10-28 independent rescore from businessbuilder main 43f74a6d, Stromation main 36cd7b13 (#329), merged #738/#749/#750/#751/#754/#756/#758/#759/#761/#762, and open #779/#760/#764/#769/#773 and Stromation #330. Live audit in #779 reports rollout CSS 404 and ALB 502; source describes no deployed repair. Real delivered AWS premium sites and paid handoffs are unverified. No paid tests, deployments or configuration changes."
     }
   ]
 }
