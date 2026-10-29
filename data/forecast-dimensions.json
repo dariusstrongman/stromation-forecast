@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-10-28",
-  "asOf": "2026-10-28T05:58:00-05:00",
+  "date": "2026-10-29",
+  "asOf": "2026-10-29T05:59:25-05:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
-      "current": 88,
+      "current": 87,
       "confidence": "medium",
-      "status": "Supervised pilot only; reported live rollout CSS/502 defects and full premium AWS site delivery unverified",
-      "summary": "Oct 28 production UI audit documented stylesheet 404s during overlapping web releases and an intermittent ALB 502; #779 repair is open, locally tested only. Merged customer checkout and chat improvements are not repeated live payment-to-handoff evidence. No complete post-#329 AWS premium builder delivery or 3 independently accepted customer websites; draft Stromation #330 gets no implemented credit."
+      "status": "Supervised pilot: AWS backend selected, premium site acceptance unverified and owner/security defects open",
+      "summary": "Oct 29 production capture web :420 / worker :268 reports WEBSITE_BUILDER_BACKEND=aws. Stromation #331 new skill engine merged but default off; Fargate Chromium sandbox and unmerged #820/#833 form contract prevent a real skill-built site. No accepted post-fix premium AWS delivery or three handoffs. CSS/502 #779 merged but production rollout-probe proof unverified. Open #850/#853 expose auth/owner isolation defects; #831 site ownership 404; #862 staging Stripe TEST finds spent-credit refund-request bug."
     },
     "v2": {
       "name": "V2 readiness",
       "current": 85,
       "confidence": "medium",
-      "status": "More dashboard/chat and guarded connectors merged; five-worker real-provider outcomes unverified",
-      "summary": "Oct 27–28 merged team chat actions, rebuild payment sheet, and Housecall Pro/Jotform preview connectors improve available code paths; preview and managed-read flags remain off. No proof of delivered recaps, recurring real-provider work for all five employees, or repeat customer outcomes."
+      "status": "Useful worker code merged; repeated real-provider five-worker outcomes unverified",
+      "summary": "Alex Lighthouse, Avery page watch and Richard enhancements merged mostly behind default-off switches. Open #827–#829 simulated employee outcome bench offers no implemented credit. Production capture has dashboard/recap enabled, but no verified five-worker real-provider cycles, delivered recaps or recurring independent outcomes."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
       "current": 65,
       "confidence": "medium",
-      "status": "Progress index; production rollout reliability evidence reduces confidence",
-      "summary": "Confirmed reported release-time CSS errors and intermittent ALB 502, while the fix is open, offset unproven code gains. Full supported SaaS, autonomous custom-agent delivery, repeated premium sites, measured mature autonomy, unit economics and founder workload remain unverified."
+      "status": "Broader platform work advances; premium delivery, security proof, SaaS/custom agents and economics remain incomplete",
+      "summary": "Skill-engine code is merged but unproven on live AWS; newly documented security/form/customer-flow defects offset code gains. Full supported SaaS, custom-agent delivery, 95–99% routine autonomy, margins and founder technical hours lack measured evidence."
     }
   },
   "autonomyProof": {
@@ -51,8 +51,8 @@
       "day60": 94,
       "day90": 95,
       "confidence": "high",
-      "blocker": "Broad blind cross-industry customer testing of scope accuracy and unsupported-scope refusal remains missing.",
-      "nextMilestone": "Blind-test 20 varied businesses for accurate scope and refusals."
+      "blocker": "Broad blinded cross-industry scope accuracy and unsupported-scope refusal remain untested.",
+      "nextMilestone": "Blind-test 20 different real businesses for scope accuracy and refusals."
     },
     {
       "key": "website",
@@ -63,8 +63,8 @@
       "day60": 94,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "No verified full post-#329 AWS premium design-to-publish run or 3 independently accepted deliveries with revisions/export, handoff and safe recovery. Draft craft #330 is not delivered.",
-      "nextMilestone": "Run one complete post-fix AWS premium build with quality and cost receipts; then 3 accepted site handoffs."
+      "blocker": "Skill website engine #331 merged but off, Fargate Chromium sandbox unsupported, site form contract #820/#833 open; no accepted live AWS skill build or three premium handoffs.",
+      "nextMilestone": "Unblock sandbox/form contract, prove one full AWS skill build with cost receipt and three accepted deliveries."
     },
     {
       "key": "saas",
@@ -75,8 +75,8 @@
       "day60": 25,
       "day90": 35,
       "confidence": "medium",
-      "blocker": "No verified complete customer SaaS build and existing-app change workflow covering auth, backend, data, billing and deployment.",
-      "nextMilestone": "Deliver one bounded complete SaaS and one governed existing-app change end to end."
+      "blocker": "Complete supported SaaS and existing-app repair/build/deployment still lack end-to-end customer proof.",
+      "nextMilestone": "Deliver a full supported SaaS and an existing-app change end to end."
     },
     {
       "key": "workforce",
@@ -87,8 +87,8 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Team chat capabilities and Housecall Pro/Jotform preview connectors merged, but enabled/used provider-backed workflows, delivered recap and repeated useful work from all five employees remain unverified.",
-      "nextMilestone": "Verify a real delivered recap and repeat provider-backed useful cycles across all five workers."
+      "blocker": "Alex/Avery/Richard features merged mostly disabled; open simulated bench #827–#829 does not establish live five-worker success.",
+      "nextMilestone": "Demonstrate provider-backed outcomes for all five workers and an actual delivered recap."
     },
     {
       "key": "customAgents",
@@ -99,8 +99,8 @@
       "day60": 30,
       "day90": 40,
       "confidence": "high",
-      "blocker": "Custom-agent assessment and sandbox groundwork are not a verified autonomous custom-agent build, test, activation and monitoring cycle.",
-      "nextMilestone": "Prove one supported custom agent from requirements through independent tests, activation and handoff."
+      "blocker": "No proven autonomous custom agent from requirements to tests, activation and monitoring.",
+      "nextMilestone": "Prove one supported automated custom-agent delivery and activation."
     },
     {
       "key": "coordination",
@@ -111,32 +111,32 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "No repeatedly verified unattended restart/recovery of a real parked website build without manual rescue or duplicate spend.",
-      "nextMilestone": "Demonstrate safe live stalled-job recovery and no duplicate spend."
+      "blocker": "No repeat proof of unattended stopped/parked site-job recovery without duplicate work or spending.",
+      "nextMilestone": "Prove live failure recovery with no duplicate billable actions."
     },
     {
       "key": "reliability",
       "name": "Reliability, security & ongoing maintenance",
       "group": "V3 capability",
-      "current": 83,
+      "current": 81,
       "day30": 89,
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Oct 28 live audit reports missing CSS during overlapping web releases and intermittent ALB 502; #779 repair open, locally tested only. Post-deploy payment-dialog verification, timed restore and soak evidence missing.",
-      "nextMilestone": "Merge, stage and production-prove rollout CSS/502 repair; test recovery and restore."
+      "blocker": "Open #850/#853 find auth redirect, refresh-cookie, private-link tracking and owner authorization vulnerabilities; #779 CSS/502 fix merged but live rollout probe and restore/soak are missing.",
+      "nextMilestone": "Close auth/authorization bugs and verify CSS/502 rollout plus timed restore."
     },
     {
       "key": "journey",
       "name": "Complete customer journey & ownership",
       "group": "V3 capability",
-      "current": 93,
+      "current": 92,
       "day30": 95,
       "day60": 97,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Live customer payment/connection dialog repair lacks independent end-to-end production confirmation; Oct 28 live demo still showed a stale billing renewal date (#760 open); repeated paid-to-publish handoffs missing.",
-      "nextMilestone": "Prove live payment/renewal UX and repeat paid-to-publish/export handoff."
+      "blocker": "Open #831 blocks site-ownership API, #820 leaves skill forms incompatible; #862 staging found spent audit credit refund-request error; no paid-to-site handoff proof.",
+      "nextMilestone": "Fix forms, ownership and refund-credit flow; complete paid-to-publish/export journey."
     },
     {
       "key": "commercial",
@@ -147,8 +147,8 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Customer-facing polish and rebuild checkout code merged, but repeated real production conversion, fulfillment, retention and source attribution proof remain absent.",
-      "nextMilestone": "Verify real source-to-paid order through fulfillment and continued operations."
+      "blocker": "No repeated attributable real source-to-purchase-and-delivery and retention; website form contract remains open.",
+      "nextMilestone": "Prove paid customer acquisition and completed premium fulfillment."
     },
     {
       "key": "economics",
@@ -159,58 +159,64 @@
       "day60": 25,
       "day90": 40,
       "confidence": "high",
-      "blocker": "Paid delivery margins, failed-attempt costs, support burden and Darius hours are still not measured on a representative cohort.",
-      "nextMilestone": "Measure paid job margins and Darius intervention time on a representative cohort."
+      "blocker": "No representative delivered-site margins, failed attempts, founder technical-rescue hours or autonomy denominator.",
+      "nextMilestone": "Measure paid job margins and Darius technical hours on a real cohort."
     }
   ],
   "v1Remaining": [
-    "Complete a post-#329 AWS builder end-to-end premium site with independently judged quality and cost receipt.",
-    "Prove 3 premium website orders through revisions, publication, export and ownership handoff.",
-    "Demonstrate unattended recovery without duplicate work or spending.",
-    "Fix and production-verify live release CSS/ALB 502 (#779), plus checkout/payment dialogs and rollback."
+    "Connect skill-engine form contract and Fargate Chromium sandbox (#331/#820/#833), then independently accept one real AWS premium site with settled model costs.",
+    "Prove 3 premium sites through revisions, publication, export and ownership handoff.",
+    "Demonstrate unattended failure recovery with zero duplicate work or charges.",
+    "Merge and production-check auth/owner security, site-ownership and spent-credit fixes (#850/#853/#831/#862).",
+    "Verify CSS/502 mitigation (#779) during live rollouts, checkout dialogs, rollback and restore."
   ],
   "v2Remaining": [
-    "Prove delivered daily recaps and repeated useful provider-backed results across all 5 workers.",
-    "Verify real activated integrations and recurring customer outcomes.",
-    "Show recurring recovery and ownership without technical rescue."
+    "Verify repeated real-provider outcomes for all five employees and delivered daily recaps.",
+    "Enable and test the essential standard integrations and recurring owner workflows.",
+    "Demonstrate safe autonomous recovery and operation without founder rescue."
   ],
-  "biggestChange": "Oct 28 live UX audit recorded missing CSS during web release overlaps and an intermittent ALB 502; #779 is still open, while many dashboard/chat improvements merged without proof of premium AWS delivery.",
+  "biggestChange": "The premium website skill engine merged behind an off switch, but Fargate Chromium and form-contract integration still block live proof; Stripe TEST staging exposed a spent-credit refund flaw.",
   "improvements": [
-    "Oct 27–28 businessbuilder merged #749 same-page website rebuild review/pay; #745/#750/#751/#755/#759 expanded guarded team-chat requests and security; #738 dashboard-rate-limit/request-storm hardening.",
-    "Oct 28 businessbuilder merged #756 honest completed-work list, #754 owner first-frame/chat UX, #762 accessibility, #758 Housecall Pro/Jotform preview connector plumbing, #761 budgeted Composio reads (globally off).",
-    "Open #764/#769/#773 add a governed site content-edit/visual-editor/rebuild preservation path with local/browser checks, but earn no implemented credit until merged and verified."
+    "Stromation main 01fbcd79 merged #331 skill website engine: immutable engine choice, independent ship gate, retries, package handoff and one-switch rollback; no deployed skill job.",
+    "Businessbuilder main 77694f3d includes #779 CSS/ALB keep-alive fix, #797 owner page edits, #809 live-reported alarms, and default-off Alex/Avery/Richard upgrades.",
+    "Stripe TEST staging report from open #862 recorded passing audit, website, business, subscriptions, declines, 3DS, webhook replay and price checks on 1440/390; a spent-credit refund bug remains.",
+    "Production ECS flags snapshot from open #836 (web :420, worker :268) confirms AWS transport selected and dashboard/recap on, visual editor/content edits globally off."
   ],
   "regressions": [
-    "Oct 28 production live audit in #779 documents transient unstyled pages / missing CSS across web releases and an intermittent ALB 502; no deployed repair confirmed.",
-    "Oct 28 live demo audit in open #760 found a stale 'next charge' renewal date and misleading billing wording; not production-reverified fixed.",
-    "Full post-#329 AWS premium builder delivery and 3 accepted handoffs remain unverified rather than newly broken."
+    "Open #850/#853 document real auth redirect/session-cookie, private-link tracking and owner-only authorization weaknesses; fixes remain unmerged.",
+    "Open #831 documents live site-ownership route 404, and #820/#833 contain unmerged skill form-contract and no-test-inbox fixes.",
+    "Open #862 found a spent $395 audit credit could still be requested back; proposed correction not merged.",
+    "New skill engine requires Fargate Chromium sandbox solution; no real paid/production website acceptance yet."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "businessbuilder main 43f74a6d (Oct 28) includes #749 rebuild payment flow, #738 dashboard QA mitigations, #745/#750/#751/#755/#759 team chat safeguards, #754 and #756 owner UI repairs, #758 preview owner-key connectors, #761 off-by-default Composio admission, #762 contrast.",
-      "Stromation main remains #329 Bedrock cap correction, with design craft #330 draft/open and no new released builder quality evidence."
+      "businessbuilder main 77694f3d contains merged #779/#797/#809/#821/#822/#823; many new worker functions remain off by default.",
+      "Stromation main 01fbcd79 contains merged #331 skill engine; craft #330 remains open and no live skill engine job is confirmed."
     ],
     "deployed": [
-      "Oct 28 live demo / web :409 observation in #779 reports CSS 404 while web tasks overlap and an intermittent 502; proposed repair #779 remains open and un-deployed.",
-      "Previously reported production dashboard/recap flag state was enabled, but no independent delivered recap evidence and no authenticated full post-fix payment journey receipt.",
-      "No paid tests, deployments, flags, resource accesses or cloud/account/budget changes initiated by this forecast."
+      "Point-in-time Oct 29 production config capture from open #836: web :420, worker :268, WEBSITE_BUILDER_BACKEND=aws, TEAM_DASHBOARD_ENABLED and DAILY_RECAP_EMAIL_ENABLED true, WEBSITE_CONTENT_EDITS_ENABLED and WEBSITE_VISUAL_EDITOR_ENABLED false.",
+      "PR #809 says six service/email/webhook alarms applied live with SNS test; no live rollout-skew proof tied to #779 was found.",
+      "No production proof of skill-engine release, premium website handoff or timed restore."
     ],
     "verified": [
-      "Merged pull request/commit metadata confirm code integration; individual PR test descriptions include local UI and unit coverage but are not live outcome proof.",
-      "No verified post-#329 AWS full premium delivery, 3 site handoffs, unattended site recovery, delivered real-provider five-worker cycle, restore/soak test or repeat owner journey.",
-      "No measured margins or founder intervention hours; Composio reads and new owner-key connectors remain disabled or preview-only."
+      "Open #862 branch documents Oct 29 Stripe TEST staging real-browser runs; refund-after-credit-spent failure exposed; no real payment or production release.",
+      "Skill engine #331 passed offline tests and local Docker image, but Fargate sandbox and form contract block real execution.",
+      "Employee outcome bench #827–#829 is still open and simulated; no verified live all-worker capability.",
+      "No completed accepted premium AWS site, three customer handoffs, unattended recovery, margins or founder-hours measurements."
     ]
   },
   "promisesOverreach": [
-    "Do not treat Oct 28 merged chat/checkout code or CI tests as a verified live paid website delivery.",
-    "Do not count open #779 rollout repair, #764 content engine, #769 visual site editor, #773 edit preservation, #760 billing renewal repair, or Stromation #330 craft planning as delivered capability.",
-    "Do not imply 5 workers are proven, 95–99% autonomous routine workflows are measured, margins are positive, or 1–2 Darius technical hours/week is achieved."
+    "Do not claim #331 skill engine or #779 CSS mitigation is successfully live without full cloud job/rollout proof.",
+    "Open #820/#831/#833/#850/#853/#862 fixes get no implemented credit.",
+    "Stripe TEST staging success is not evidence of a live paid-to-published site.",
+    "Open #827–#829 bench and merged disabled worker features are not real-provider results.",
+    "Do not claim 95–99% unattended workflow success, positive job margins or 1–2 Darius technical hours/week."
   ],
-  "founderWorkloadTrend": "Still no measured founder rescue-hour denominator; customer approvals and specialist review are not technical intervention.",
+  "founderWorkloadTrend": "Founder technical rescue remains unmeasured; owner approvals and specialist review do not count as founder rescue.",
   "nextActions": [
-    "First: verify a complete post-#329 AWS premium website design-to-delivery with independent quality evaluation and settled costs.",
-    "Fix rollout CSS/502 issue via #779 and prove production release, payment and checkout; then accept 3 fully handed-off premium sites.",
-    "Record real job recovery, provider actions, costs and founder technical rescue separately."
+    "First unblock Fargate browser and form contract; run one independently accepted end-to-end premium AWS website with settled costs.",
+    "Then prove three distinct paid-to-publication/export/ownership journeys with unattended recovery.",
+    "Before launch merge, stage and production-verify auth/owner permission, refund-credit, site ownership, CSS/502 and restore fixes."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -229,10 +235,10 @@
     "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
   },
   "costReporting": {
-    "measuredSpend": "No new completed accepted premium website receipt; current CI and local test evidence do not measure delivery margins.",
-    "reservedUnconfirmedSpend": "No independently verified new builder cost receipts.",
+    "measuredSpend": "No completed real premium site margin receipt; Stripe TEST staging charges are not revenue.",
+    "reservedUnconfirmedSpend": "No independently verified settled premium builder job receipt.",
     "estimatedFutureCosts": "Not estimated in this assessment.",
-    "note": "No paid tests, deployments, purchases, cloud/account setup or spending-limit changes performed."
+    "note": "No paid tests, deployments, cloud/account mutations or spending-limit changes."
   },
-  "method": "2026-10-28 independent rescore from businessbuilder main 43f74a6d, Stromation main 36cd7b13 (#329), merged #738/#749/#750/#751/#754/#756/#758/#759/#761/#762, and open #779/#760/#764/#769/#773 and Stromation #330. Live audit in #779 reports rollout CSS 404 and ALB 502; source describes no deployed repair. Real delivered AWS premium sites and paid handoffs are unverified. No paid tests, deployments or configuration changes."
+  "method": "2026-10-29 assessment using businessbuilder main 77694f3d, Stromation main 01fbcd79, merged #779/#797/#809/#821/#822/#823 and Stromation #331, open #820/#827–#829/#831/#833/#850/#853/#862, production env capture open #836 web :420 worker :268, and Oct 29 Stripe TEST staging report #862. Open PR code earns no implemented credit. No paid tests/deployments. Real premium website acceptance and economics unverified."
 }
