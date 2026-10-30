@@ -3017,6 +3017,128 @@
       },
       "biggestChange": "The premium website skill engine merged behind an off switch, but Fargate Chromium and form-contract integration still block live proof; Stripe TEST staging exposed a spent-credit refund flaw.",
       "method": "2026-10-29 assessment using businessbuilder main 77694f3d, Stromation main 01fbcd79, merged #779/#797/#809/#821/#822/#823 and Stromation #331, open #820/#827–#829/#831/#833/#850/#853/#862, production env capture open #836 web :420 worker :268, and Oct 29 Stripe TEST staging report #862. Open PR code earns no implemented credit. No paid tests/deployments. Real premium website acceptance and economics unverified."
+    },
+    {
+      "date": "2026-10-30",
+      "asOf": "2026-10-30T05:59:57-05:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "current": 88,
+          "confidence": "medium",
+          "status": "Supervised pilot: customer-flow fixes merged, but premium AWS skill delivery and production security still unproven"
+        },
+        "v2": {
+          "current": 85,
+          "confidence": "medium",
+          "status": "Five-worker bench merged, but provider-backed all-five outcomes unverified"
+        },
+        "v3": {
+          "current": 65,
+          "confidence": "medium",
+          "status": "Customer-flow and test coverage improve; premium production delivery, security, SaaS/custom agents and economics unproven"
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2"
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 90,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 84,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 85,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 86,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 82,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 93,
+          "day30": 95,
+          "day60": 97,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 88,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Forms, ownership, refund and API-security repairs merged with green main CI, but the premium AWS skill builder remains unproven and #833/#853 still open.",
+      "method": "2026-10-30 read-only rescore from businessbuilder main 0170970fc148 (green CodeBuild), Stromation main 01fbcd794905, merged #820/#829/#831/#835/#849/#850/#855/#862/#869/#870-#875/#877/#880, open #833/#853/#881/#882; Stromation merged #331 skill off; last documented production env #836 Oct 29 web :420 worker :268; staging Stripe TEST #862. Open PRs no implementation credit; merged != production-verified; no paid actions."
     }
   ]
 }
