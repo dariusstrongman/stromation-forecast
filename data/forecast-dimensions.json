@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-10-30",
-  "asOf": "2026-10-30T05:59:57-05:00",
+  "date": "2026-10-31",
+  "asOf": "2026-10-31T05:56:48-05:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
-      "current": 88,
+      "current": 89,
       "confidence": "medium",
-      "status": "Supervised pilot: customer-flow fixes merged, but premium AWS skill delivery and production security still unproven",
-      "summary": "Oct 30 businessbuilder main 0170970f has green CodeBuild; merged #820 forms, #831 ownership, #850 API security, #862 audit-credit refund and #869 build-page crash. Production verification unconfirmed. Stromation #331 skill engine merged but disabled and Fargate Chromium sandbox unresolved. #833 safe form check and #853 high-severity web auth/privacy fixes remain open. No independently accepted full AWS premium skill site, three site handoffs or unattended recovery."
+      "status": "Supervised pilot: form and security fixes merged; premium AWS skill delivery and live release verification missing",
+      "summary": "Oct 31 BusinessBuilder main 817d513a is CodeBuild-green and contains merged #833 safe form check, #853 authentication/private-link fixes, and #885 team-chat safety and understanding repairs (PR reports 97.7% blind owner evaluation and 162/162 attack cases). These are code/test improvements, not verified production behavior. Stromation main 01fbcd79 still has #331 skill engine default-off; no full accepted Fargate/Chromium AWS site with settled cost, three approved publish/export handoffs, repeated unattended recovery or timed restore was verified."
     },
     "v2": {
       "name": "V2 readiness",
       "current": 85,
       "confidence": "medium",
-      "status": "Five-worker bench merged, but provider-backed all-five outcomes unverified",
-      "summary": "Merged #829 employee bench runs real worker logic against simulated external edges: Maya and Richard each 89% pass^4; three other employees 100% on small samples, with known Maya/Richard misses. #870-#875 add fixes but there is no repeated five-worker real-provider outcome, delivered recap or independently verified recurring operation."
+      "status": "Five-worker bench and guarded chat improvements merged; real-provider recurring outcomes not demonstrated",
+      "summary": "BusinessBuilder #885 substantially improves chat safety/intent on offline and model-backed probes; #891 repairs Maya practice model routing but production activation is still unverified. Prior #829 five-worker benchmark uses simulated external providers, with no repeated all-five real-provider outcomes, delivered recap, activated essential integrations or unattended operating results."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
-      "current": 65,
+      "current": 66,
       "confidence": "medium",
-      "status": "Customer-flow and test coverage improve; premium production delivery, security, SaaS/custom agents and economics unproven",
-      "summary": "Merged V1 fixes and employee evaluations improve code readiness, but #833/#853 open and Fargate skill sandbox remains unproven. Full supported SaaS/custom-agent delivery, measured 95-99% routine workflow autonomy, representative margins and founder technical hours are unavailable."
+      "status": "Material security/form code fixes merged; premium delivery, SaaS/custom agents, production autonomy and economics unproven",
+      "summary": "Merged #833/#853/#885 reduce documented form-inbox, sign-in/session/privacy and chat guard risks, with green main CI but no independently established production rollout. The premium skill is off/unproven on Fargate; complete SaaS and custom-agent delivery, 95–99% representative routine workflow autonomy, settled margins and 1–2 founder technical hours/week have not been measured."
     }
   },
   "autonomyProof": {
@@ -63,8 +63,8 @@
       "day60": 94,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "Stromation #331 skill merged but off, Fargate Chromium sandbox unproven and safe form-check #833 open; no real accepted AWS skill delivery or three premium sites.",
-      "nextMilestone": "Prove one full AWS skill build with judge and settled costs, then three independent accepted handoffs."
+      "blocker": "Skill #331 remains default-off with no verified successful Fargate Chromium browser+full AWS delivery; safe form-check #833 now merged but not live-proven; three independently accepted premium site handoffs remain absent.",
+      "nextMilestone": "Run one premium full AWS Fargate skill build with safe form checks, independent visual acceptance and settled cost, then three accepted handoffs."
     },
     {
       "key": "saas",
@@ -87,8 +87,8 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "#829 bench merged with simulated provider edges, Maya/Richard only 89% pass^4 and no repeat real-provider outcomes.",
-      "nextMilestone": "Verify all five employees repeatedly produce useful real-provider results and a delivered recap."
+      "blocker": "All-five bench #829 has simulated provider edges; #885 chat guard and #891 Maya practice repairs merged, but repeated real-provider employee outcomes and a delivered recap remain unverified.",
+      "nextMilestone": "Prove all five employees produce repeat real-provider outcomes and a real delivered recap."
     },
     {
       "key": "customAgents",
@@ -111,32 +111,32 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "No repeated unattended recovery of a real parked/stopped website job without duplicate work or spend.",
+      "blocker": "No repeat proof of unattended Fargate website-job recovery after crash, with reconciled charges and no duplicate model spend.",
       "nextMilestone": "Show repeat unattended live builder recovery without founder rescue or double charges."
     },
     {
       "key": "reliability",
       "name": "Reliability, security & ongoing maintenance",
       "group": "V3 capability",
-      "current": 82,
+      "current": 84,
       "day30": 89,
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "API #850 fix merged, but high-severity web auth/privacy #853 open; CSS/502 live rollout, rollback/restore and soak verification missing.",
-      "nextMilestone": "Merge #853, production-prove auth/privacy and CSS/502 rollout plus timed restore."
+      "blocker": "Merged #853 auth/privacy and #833 safe form-check, plus #885 chat guard protections; no verified production rollout, overlapping-release CSS/502 resolution, timed restore or sustained soak.",
+      "nextMilestone": "Production-verify sign-in/session/privacy, chat and form safety, CSS/502 rollout and timed restore."
     },
     {
       "key": "journey",
       "name": "Complete customer journey & ownership",
       "group": "V3 capability",
-      "current": 93,
+      "current": 94,
       "day30": 95,
       "day60": 97,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Merged #820 forms, #831 ownership, #862 audit refund and #869 build page repairs, but production payment-to-handoff and safe formcheck #833 are unproven.",
-      "nextMilestone": "Production-prove full payment, revisions, safe forms, publish, export and ownership handoff."
+      "blocker": "Owner forms #820, ownership #831, refunds #862, safe form-check #833 are merged, but a repeated real paid-to-revision-to-publish/export ownership handoff and production verification are missing.",
+      "nextMilestone": "Repeatedly prove live payment, revisions, safe forms, publish/export and ownership transfer."
     },
     {
       "key": "commercial",
@@ -147,7 +147,7 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "No repeat real source-to-paid-order-to-fulfillment and retention proof; ad-attribution code dark.",
+      "blocker": "Repeat real source-to-paid-to-delivered customer conversion, attribution, and retention not proven; print orders #890 merged but disabled.",
       "nextMilestone": "Prove customer acquisition, purchase, complete fulfillment and attribution."
     },
     {
@@ -164,58 +164,50 @@
     }
   ],
   "v1Remaining": [
-    "Resolve Fargate Chromium sandbox and safe form-check #833; accept one complete AWS skill site with settled cost.",
-    "Prove 3 premium paid-to-published deliveries, revisions, live forms, export and ownership handoff.",
-    "Prove unattended crash recovery without duplicate model spend or charges.",
-    "Merge auth/privacy #853 and production-check form, owner, refund and build-page fixes, CSS/502 rollout and timed restore."
+    "Prove one accepted premium AWS skill website through Fargate Chromium, safe forms, publication and cost receipt.",
+    "Complete 3 independent premium deliveries with revisions, export, domain/ownership handoff.",
+    "Demonstrate unattended crash recovery without duplicated provider spend or charges.",
+    "Production-verify #833/#853/#885, payment/refund flows, CSS/502 rollout and timed restore."
   ],
   "v2Remaining": [
-    "Prove repeated real-provider results from all five workers and delivered recap.",
-    "Activate/test essential integrations and recurring standard workflows.",
-    "Verify safe unattended operation without founder rescue."
+    "Prove all five employees repeatedly produce useful real-provider outcomes and a delivered recap.",
+    "Activate/verify essential integrations and sustained standard recurring operations.",
+    "Demonstrate safe unattended worker recovery without founder technical rescue."
   ],
-  "biggestChange": "Forms, ownership, refund and API-security repairs merged with green main CI, but the premium AWS skill builder remains unproven and #833/#853 still open.",
+  "biggestChange": "Oct 31 main now includes previously open safe-form #833 and auth/privacy #853 fixes plus #885 chat guard gains; green CI, but no accepted live AWS premium skill build.",
   "improvements": [
-    "BusinessBuilder main 0170970f green AWS CodeBuild; merged #820 form contract, #831 ownership proxy, #850 API security, #862 staging refund credit and #869 build-page crash fixes.",
-    "Merged #827-#829 worker bench establishes simulated k=4 baseline; #870-#875 add worker reasoning and accuracy fixes, not real-provider proof.",
-    "Merged #835/#849 owner existing-site connection features, #855 phone speed and #877 phone fixes; #880 domain-connect choices remain off."
+    "BusinessBuilder main 817d513a with green AWS CodeBuild; #833 form checks no longer deliver fake enquiries by design and #853 closes sign-in redirect/session cookie/private-link analytics bugs in source.",
+    "#885 merged: PR reports blind owner answer pass 80.0% to 97.7%, 162/162 attack probes blocked with local regression coverage; not repeated live proof.",
+    "#889 fixes phone approval bar, #891 Maya practice model handling, #890 print-order integration (print switch remains off)."
   ],
-  "regressions": [
-    "Open #853 exposes high-severity sign-in redirect, refresh-cookie logout and private-link analytics issues, with only proposed repair.",
-    "Open #833 describes unsafe builder live formcheck delivery to owner inbox; check-mode fix not merged/deployed.",
-    "Reported build-room React crash corrected in merged #869 but not confirmed production-fixed.",
-    "Simulated #829 bench shows repeat Maya/Richard semantic failures and no live provider-backed outcomes."
-  ],
+  "regressions": [],
   "mergedDeployedVerified": {
     "merged": [
-      "BusinessBuilder main 0170970f contains #820/#831/#850/#862/#869/#829; combined CodeBuild status successful.",
-      "Stromation main 01fbcd79 contains #331 skill engine, default off.",
-      "#880 Domain Connect choice UI merged but default off."
+      "BusinessBuilder main 817d513a: #833/#853/#885/#889/#890/#891 merged; CodeBuild main success.",
+      "Stromation main 01fbcd79: #331 website skill engine remains present and default-off.",
+      "Print orders #890 and several dashboard/worker features are default-off, not active capabilities."
     ],
     "deployed": [
-      "Last directly documented production configuration capture is Oct 29 #836 (web :420/worker :268): AWS website transport selected; dashboard/recap on; no independent later deployed-feature proof.",
-      "No verified production rollout for newest main #820/#831/#850/#862/#869, skill engine or safe browser.",
-      "No verified premium AWS handoff, repeat crash recovery, CSS/502 overlapping rollout probe or timed restore."
+      "Last documented production config snapshot Oct 29 (#836, web :420/worker :268) indicated AWS website transport; no newer independently verified release snapshot.",
+      "No verified production deployment of Oct 30-31 form/auth/chat fixes or successful premium Fargate skill handoff."
     ],
     "verified": [
-      "Green AWS CodeBuild combined status for businessbuilder main 0170970fc148; CI is not proof of deployment.",
-      "Stripe TEST staging run in merged #862 covers many money paths and diagnosed refund flaw; it does not prove live paid fulfillment.",
-      "Merged #829 five-worker bench is model-in-the-loop with simulated external systems, not live five-employee business outcomes.",
-      "#833/#853 remain open; #881/#882 are open and feature-off and earn no implemented credit."
+      "AWS CodeBuild combined status success on BusinessBuilder main 817d513a and Stromation main 01fbcd79; CI is not production validation.",
+      "#885 PR reports blind model test scores 97.7% and 162/162 attack cases blocked; exact tests not independently rerun here.",
+      "No accepted full Fargate website builder output, three handed-off sites, unattended crash recovery, production restore, or representative settled margins."
     ]
   },
   "promisesOverreach": [
-    "Skill #331 is not proven to run a full customer build in Fargate.",
-    "Green CI and merged fixes are not equivalent to successful production operation.",
-    "Open #833/#853 receive no capability credit.",
-    "Simulated bench #829 is not proof of live five-worker usefulness.",
-    "Do not assert 3 accepted website handoffs, mature autonomy, positive unit margins or 1-2 founder hours/week."
+    "Do not treat #833/#853/#885 merged code or test passes as proof their security and workflow behavior is deployed.",
+    "Do not infer skill #331 can produce a premium Fargate website; its default-off path remains unverified.",
+    "Do not count print orders #890 or dashboard #879/#893 as live when disabled/open.",
+    "Do not assert five employees have repeat live-provider success, or full SaaS/custom-agent delivery, mature autonomy, positive margins or 1–2 founder hours/week."
   ],
-  "founderWorkloadTrend": "Founder technical rescue remains unmeasured; owner approvals, account setup and specialist review do not count.",
+  "founderWorkloadTrend": "Founder's technical recovery/maintenance time remains unmeasured; exclude normal customer approvals, account setup and specialist review.",
   "nextActions": [
-    "First make the website skill work in Fargate with safe forms and prove one independently accepted full AWS delivery and settled cost.",
-    "Then run three distinct premium customer deliveries through publish/export/handoff and unattended recovery.",
-    "Before launch, merge #833/#853 and production-verify auth, payments/refund, ownership, build room, CSS/502 and restore."
+    "First run a complete premium AWS skill website with Fargate Chromium and safe form-check and independently judge quality, with settled cost.",
+    "Then complete three accepted, distinct site delivery journeys with revisions, export, ownership and injected unattended crash recovery.",
+    "Before V1 release, production-verify merged security/form/payment fixes, CSS/502 rollout and timed restore."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -234,10 +226,10 @@
     "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
   },
   "costReporting": {
-    "measuredSpend": "No real completed premium skill website margin; Stripe TEST staging payments are not revenue.",
-    "reservedUnconfirmedSpend": "No independently verified settled premium skill builder cost.",
-    "estimatedFutureCosts": "No fresh estimates used.",
-    "note": "Read-only audit; no paid tests, deployment, cloud or spending-limit change."
+    "measuredSpend": "No measured delivered premium skill site margin or live recurring profit.",
+    "reservedUnconfirmedSpend": "No independently reconciled full AWS premium skill-build cost receipt.",
+    "estimatedFutureCosts": "No new financial forecast used.",
+    "note": "Read-only audit; no paid tests, deployments, AWS configuration or spending-limit change."
   },
-  "method": "2026-10-30 read-only rescore from businessbuilder main 0170970fc148 (green CodeBuild), Stromation main 01fbcd794905, merged #820/#829/#831/#835/#849/#850/#855/#862/#869/#870-#875/#877/#880, open #833/#853/#881/#882; Stromation merged #331 skill off; last documented production env #836 Oct 29 web :420 worker :268; staging Stripe TEST #862. Open PRs no implementation credit; merged != production-verified; no paid actions."
+  "method": "2026-10-31 independent read-only rescore using businessbuilder main 817d513a392c (green AWS CodeBuild), Stromation main 01fbcd794905 (green AWS CodeBuild), merged PRs #833/#853/#885/#889/#890/#891, open #879/#892/#893 and previously documented Oct 29 production env capture #836. #885 evaluation results reported in PR, not independently rerun. No verified post-merge production deployment or premium builder acceptance; open/disabled features receive no live-capability credit. No paid actions."
 }
