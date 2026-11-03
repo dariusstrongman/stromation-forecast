@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-11-02",
-  "asOf": "2026-11-02T06:02:35-06:00",
+  "date": "2026-11-03",
+  "asOf": "2026-11-03T06:04:18-06:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
       "current": 89,
       "confidence": "medium",
-      "status": "Supervised pilot: mobile dashboard repair merged, premium Fargate skill/image delivery and live handoff still unproven",
-      "summary": "Nov 2: businessbuilder main 97868b89 is CodeBuild-success; phone usability #915 merged with real phone/browser test coverage, and release-gate #924 merged after exposing hollow-green CI verdicts. Captured production ECS flags from #925 (web :447/worker :285) show WEBSITE_BUILDER_BACKEND=aws, SMART_ONBOARDING_ENABLED=true and TEAM_CHAT_SMART_ENABLED=true; snapshot alone does not verify the phone fix or customer journeys on the live image. The skill-side browser change (selfoperate-front-end-skill #1), Stromation skill host/image #333 and businessbuilder task wiring #920 remain OPEN; image library/approval remains missing. No complete accepted Fargate skill build, 3 premium handoffs, unattended recovery or restore proof."
+      "status": "Supervised pilot: Fargate premium skill wiring still open; accepted site delivery and production reliability proof missing",
+      "summary": "Nov 3: businessbuilder main 97868b89 unchanged since Nov 2 (CodeBuild-success). Stromation main 25a80fcc merged #334, the all-skipped CI guard (CodeBuild-success); useful release safety, not proof of customer delivery. Skill browser #1, Stromation skill hosts/image #333 and businessbuilder task wiring #920 remain OPEN, as does method repair #332. Latest accessible production flags snapshot (#925, web :447/worker :285) confirms AWS transport but not premium skill activation or current live app quality. No accepted skill-powered Fargate site, three paid-to-owned handoffs, unattended interrupted-build recovery, image library approval, or timed restore proof."
     },
     "v2": {
       "name": "V2 readiness",
       "current": 85,
       "confidence": "medium",
-      "status": "Five-worker platform and switches exist; repeated provider-backed operating outcomes unverified",
-      "summary": "Captured production web :447/worker :285 has TEAM_CHAT_SMART_ENABLED=true, daily recap and multiple workers/integration switches; the newly merged marketing, no-code form, phone and dashboard improvements do not demonstrate repeated useful real-provider outcomes from all five workers, owner-delivered recaps or unattended recurring recovery. Print orders are sandbox and expanded print pieces/marketing remain gated."
+      "status": "Five-worker operating platform exists; repeated live provider-backed employee outcomes and recurring recovery unverified",
+      "summary": "Nov 3: no newly verified live worker outcomes, complete customer integration journeys or recurring operating results. The last captured production flags (#925) show smart chat and certain workers/integrations enabled, not five independently verified provider-backed workflows. Stromation #334 improves release gating, not workforce operational proof."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
       "current": 66,
       "confidence": "medium",
-      "status": "Mobile/code and release-gate progress, but premium site handoff, complete SaaS, custom agents and economic autonomy unproven",
-      "summary": "Businessbuilder #915 repairs observed premium phone defects in merged code; release-gate #924 rejects all-skipped CI green runs; redacted production revision :447/:285 confirms enabled smart chat and onboarding, but not independently validated phone or full live business outcomes. Premium website skill integration still gated by three open PRs and missing picture sourcing/approval; no accepted Fargate delivery. Complete SaaS, automated custom agents, 95-99% routine autonomy and 1-2 founder technical hours weekly remain unproven."
+      "status": "Foundation and safer release gating, but premium AWS site delivery, SaaS, custom agents and economic autonomy unproven",
+      "summary": "Stromation #334 merged Nov 2 afternoon and CodeBuild main checks are green, but premium skill #1/#333/#920 remain open and no accepted full Fargate customer build is evidenced. The latest available production flag snapshot is from Nov 2, not a new deployment/soak proof. Complete SaaS, custom-agent delivery, 95-99% independently measured routine autonomy and 1-2 technical founder hours per week remain unproven."
     }
   },
   "autonomyProof": {
@@ -63,8 +63,8 @@
       "day60": 94,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "Premium skill browser #1, Stromation skill image/hosts #333 and businessbuilder wiring #920 remain open; image library/image-approval absent; no accepted Fargate build or 3 handoffs.",
-      "nextMilestone": "Finish T1 and image sourcing/approval; deliver one independently judged accepted AWS site with reconciled spend, then 3 handoffs."
+      "blocker": "Skill browser #1, Stromation Fargate skill hosts/image #333 and businessbuilder task wiring #920 remain open; image sourcing/approval unverified; no accepted Fargate premium website or 3 handoffs.",
+      "nextMilestone": "Land and safely activate pinned skill/browser/form and image sourcing, then prove one independently accepted Fargate AWS build with reconciled spend and three handoffs."
     },
     {
       "key": "saas",
@@ -87,7 +87,7 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Team chat smart mode is enabled in captured production flags, but all 5 workers repeatedly achieving provider-backed outcomes and delivering recaps is unverified.",
+      "blocker": "Last captured smart-team production flags show access enabled, but five workers' repeated real-provider results, delivered recaps and recovery remain unverified.",
       "nextMilestone": "Prove repeated real-provider results for each of five workers, with verified customer-facing side effects and owner recap."
     },
     {
@@ -111,7 +111,7 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "No demonstrated interrupted live AWS premium skill job recovery with reconciled provider spend and no founder repair.",
+      "blocker": "No complete skill-powered premium AWS build interrupted and resumed automatically with reconciled provider budget and no duplicated side effects.",
       "nextMilestone": "Inject failure during a real skill build and prove automatic safe continuation and exactly-once effects."
     },
     {
@@ -123,8 +123,8 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Release-gate hollow-green fix #924 and phone review #915 merged with tests; current production app/release resilience, mobile behavior, CSS/502, auth/forms, soak and timed restore not independently proven.",
-      "nextMilestone": "Verify actual production phone and protected flow, stage-to-live release health, outage/rollback and timed restore."
+      "blocker": "Stromation #334 merged the all-skipped CI gate and both main CodeBuild checks pass; no new proof of production rollout/phone/CSS-502 resilience, auth/forms, soak, unattended restore or live customer reliability.",
+      "nextMilestone": "Verify the exact production revision through safe live phone/payment/forms and CSS-502 rollout checks, with rollback, interrupted-job recovery and timed restore."
     },
     {
       "key": "journey",
@@ -135,7 +135,7 @@
       "day60": 97,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Mobile usability #915 merged but not independently phone-confirmed in live image; website content edits and visual editor remain disabled in captured production and paid-to-owned-site handoff missing.",
+      "blocker": "Latest committed production flags indicate owner site content/visual editors not enabled; no production-verified three paid-to-approved-revision-to-live-domain/export/ownership handoffs or recent independent mobile confirmation.",
       "nextMilestone": "Phone-test deployed premium dashboard; prove three owner-approved paid-to-revision-to-publish/export/domain handoffs."
     },
     {
@@ -164,56 +164,48 @@
     }
   ],
   "v1Remaining": [
-    "Finish and safely activate premium Fargate skill/browser/form and image sourcing/approval (open skill #1, Stromation #333, businessbuilder #920); prove one accepted AWS site with settled cost.",
-    "Prove 3 distinct premium website orders through approvals, revisions, safe forms, publishing, export and domain/ownership handoff.",
-    "Prove interrupted-job unattended restart/recovery with reconciled budgets and no duplicate spend or actions.",
-    "Confirm phone dashboard #915 on the deployed production image, payment/auth and CSS/502 paths, deployment soak and timed restore."
+    "Merge and safely activate premium Fargate skill/browser/form wiring (skill #1, Stromation #333, businessbuilder #920) with real image sourcing/approval; prove one independently accepted AWS build and settled cost.",
+    "Prove three distinct premium paid-to-live orders with customer approvals, revisions, safe forms, export, domain/ownership and delivery acceptance.",
+    "Demonstrate automatic interrupted-build recovery without duplicated actions or unreconciled spend.",
+    "Verify live phone/payment/auth/form and CSS/502 paths, release soak/rollback and timed restore on the deployed production revision."
   ],
   "v2Remaining": [
-    "Demonstrate repeated real-provider outcomes from all 5 standard workers, delivered recaps and owner-visible results.",
-    "Verify activated essential integrations and durable recurring work in production.",
-    "Prove hands-off recovery of routine worker failures without founder technical rescue."
+    "Prove repeated real-provider customer outcomes and delivered owner recaps from all five standard workers.",
+    "Verify essential activated integrations, durable recurring operations and visible results.",
+    "Show automated recovery from routine worker failures without founder technical intervention."
   ],
-  "biggestChange": "Premium mobile dashboard repair #915 and release-gate correction #924 merged; production flags snapshot advanced to web :447/worker :285, while skill-engine and image delivery remain unproven.",
+  "biggestChange": "Stromation #334 merged the all-skipped CI release guard, but premium skill integration PRs remain open and no accepted Fargate website build has been verified.",
   "improvements": [
-    "Businessbuilder #915 merged after concrete 390/360/430 phone/WebKit/Chromium findings, with 16px inputs, 44px targets, safe-area sheets and added phone regression tests; no independent production phone retest supplied.",
-    "Businessbuilder #924 merged after identifying hollow-green CI runs where all substantive tests skipped; its release gate now checks whether real test jobs ran, with 21 local tests reported.",
-    "Nov 2 captured production flags (#925) web :447/worker :285 confirm AWS website transport, premium dashboard, smart onboarding, smart team chat, daily recaps and selected connectors. Staging overlay now accounts for new live flags.",
-    "Businessbuilder #917 dead-button proxy smoke, #916 To-dos redesign (flag/allowlist gated), #888 owner-friendly form setup and other public-facing changes merged; no customer completion implied."
+    "Stromation #334 merged on 2026-11-02 19:47 UTC, rejecting release verdicts when all real test jobs skip; main 25a80fcc has AWS CodeBuild success. This is merged/CI evidence, not production release proof.",
+    "Businessbuilder main 97868b89 remains CodeBuild-success; last captured production flags (#925) are web :447/worker :285 with WEBSITE_BUILDER_BACKEND=aws, smart chat and onboarding enabled. No new live promotion was verified."
   ],
-  "regressions": [
-    "Prior live premium phone UI defects remain unverified as fixed in the deployed image despite #915 merge.",
-    "Release-gate audit #924 exposed an unsafe false-green condition on skipped-test verdicts; now fixed in main with unit/read-only-history validation, but no independent future release test yet.",
-    "Premium Fargate skill wiring and picture approval still unavailable, with no full site delivery proof; this is an existing evidence gap, not a new demonstrated failure."
-  ],
+  "regressions": [],
   "mergedDeployedVerified": {
     "merged": [
-      "Businessbuilder main 97868b89 includes #915 phone dashboard repair, #917 real-proxy dead-button test, #924 release verdict guard and #925 redacted flags/overlay sync.",
-      "Stromation main 01fbcd79 still includes #331 skill engine behind default-off switch; skill #1, Stromation #333/#332 and businessbuilder #920 remain unmerged.",
-      "Businessbuilder #916 To-dos redesign, #888 own-site form simplification and commercial/public-content changes merged but must not be treated as production proof."
+      "Stromation main 25a80fcc (CodeBuild-success) includes merged #334, preventing all-skipped CI from counting as release success.",
+      "Businessbuilder main 97868b89 (CodeBuild-success) still includes premium phone fixes #915, release gate #924 and flags snapshot #925; no newly merged businessbuilder main progress since yesterday.",
+      "Front-end skill PR #1, Stromation #333/#332 and businessbuilder #920 remain OPEN and receive zero implemented capability credit."
     ],
     "deployed": [
-      "Nov 2 redacted production ECS task-definition snapshot from #925: web :447 / worker :285; AWS builder transport, premium dashboard, smart onboarding and team-chat smart enabled; PRINT_ORDERS_ENABLED=true on API is sandbox as previously reported.",
-      "Website content edits and visual editor flags remain false in captured production; no verified skill-company allowlist activation. Snapshot captures env settings, not current image SHA or customer acceptance."
+      "Latest accessible captured production ECS flags (#925, captured Nov 2): web :447/worker :285, AWS builder backend selected, smart chat and onboarding enabled. This is a committed snapshot, not an independently observed live deployment today.",
+      "Premium skill-company activation, approved image sourcing, current image/commit, content editor and visual editor availability were not independently production verified."
     ],
     "verified": [
-      "Businessbuilder main 97868b89 CodeBuild combined status success; Stromation main 01fbcd79 CodeBuild combined status success, not end-to-end production quality proof.",
-      "PR #915 includes reported phone-browser measurements and planted-fault tests; #924 includes 21 tests and read-only validation across 40 commits; both are merged code evidence.",
-      "No independently accepted completed Fargate skill site, three handed-off premium sites, unattended crash recovery, live mobile retest, timed restore, settled contribution margins or founder-hour measurement."
+      "AWS CodeBuild combined status success for businessbuilder main 97868b89383f and Stromation main 25a80fcc8d9f; success does not establish customer experience or non-skipped end-to-end release without inspectable test logs.",
+      "Stromation #334 merged, browser skill #1 and Fargate integration #333/#920 remain open (last checked Nov 3).",
+      "No accepted complete premium Fargate site, three distinct customer handoffs, auto crash recovery, settled premium economics, measured founder hours or timed restore evidenced."
     ]
   },
   "promisesOverreach": [
-    "Do not treat open skill #1, Stromation #333/#332 and businessbuilder #920 as implemented or released; the premium skill remains off for real customers.",
-    "Do not claim image sourcing/approval is complete; #333 itself says picture library and image-approval.json are missing.",
-    "Do not equate a production env snapshot or merged #915 with tested production phone usability or live paid-site delivery.",
-    "Do not count new smart chat, gated To-dos, print pieces, marketing flags or sandbox print orders as verified recurring customer outcomes.",
-    "Do not claim full SaaS, custom agents or economics/founder-workload proof."
+    "Do not count skill PR #1, Stromation #333/#332 or businessbuilder #920 as merged, active or accepted; no production premium skill path demonstrated.",
+    "Do not equate CodeBuild-success or a Nov 2 flags snapshot with independently tested premium website delivery, production security/recovery or a live customer journey.",
+    "Do not claim image sourcing, consent/approval, recurring five-worker real-provider results, full SaaS delivery, custom agents, 95-99% routine autonomy or measured margins/founder workload."
   ],
-  "founderWorkloadTrend": "No measured founder technical hours or routine-workflow success denominator; owner approvals and specialist review are not founder engineering intervention.",
+  "founderWorkloadTrend": "Still no representative technical founder-hours measurement or routine-autonomy outcome denominator; customer approvals and specialist review do not count as founder technical intervention.",
   "nextActions": [
-    "Finish skill #1 + Stromation #333 + businessbuilder #920 and real image library/approval, then prove one premium AWS Fargate website with independent quality and settled cost.",
-    "Verify #915 premium dashboard on deployed phones; complete three accepted paid-to-published/exported owner handoffs.",
-    "Prove interrupted-build recovery without duplicate spend, production payment/auth/forms/CSS/502 release resilience and timed restore."
+    "Merge and safely enable the pinned skill browser/hosts/task wiring (#1/#333/#920), complete image sourcing/approval, then demonstrate one independently accepted premium AWS Fargate website with settled provider cost.",
+    "Only after the first accepted build, prove three varied customer paid-to-published, edited/exported and owned-site handoffs.",
+    "Prove safe interrupted-job recovery, production phone/payment/auth/forms/CSS-502 resilience, release rollback and timed restore."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -232,10 +224,10 @@
     "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
   },
   "costReporting": {
-    "measuredSpend": "No measured accepted premium skill-build gross margin or complete delivered-site cost.",
-    "reservedUnconfirmedSpend": "No independently reconciled Fargate premium build or failed-attempt cost receipt.",
-    "estimatedFutureCosts": "No new economic projection.",
-    "note": "Read-only repo, GitHub CI and committed production-flags-snapshot assessment; no paid run, account creation, deployment or infrastructure change."
+    "measuredSpend": "No confirmed complete premium Fargate accepted site with reconciled contribution margin.",
+    "reservedUnconfirmedSpend": "No verified settled job charge/retry receipt for a completed skill build.",
+    "estimatedFutureCosts": "No new forecast.",
+    "note": "Read-only repository/PR/CI/committed-flags assessment; no paid runs, deployments or cloud changes."
   },
-  "method": "2026-11-02 America/Chicago independent read-only audit of businessbuilder main 97868b89 (CodeBuild-success), Stromation main 01fbcd79 (CodeBuild-success), live ECS env snapshot as committed in #925 (web :447/worker :285, captured UTC Nov 2), phone PR #915, gate #924, smoke #917, smart To-dos #916, skill PR #1, Stromation #332/#333, businessbuilder #920. Distinguishes merged, default-off, captured deployed flags, isolated tests and missing complete customer evidence. No paid tests or deployment."
+  "method": "2026-11-03 06:04 America/Chicago read-only audit: verified GitHub main refs businessbuilder 97868b89383f, Stromation 25a80fcc8d9f and their AWS CodeBuild combined success; #334 merged Nov 2 afternoon; skill #1, Stromation #333/#332 and businessbuilder #920 remain open. Last available production flags are the committed Nov 2 web :447/worker :285 snapshot (#925), not a Nov 3 live runtime inspection. No verified complete Fargate premium build, customer handoffs, real workforce outcomes or economics. No paid tests, deployments, product/code/config edits or access changes."
 }

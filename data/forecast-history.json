@@ -3505,6 +3505,128 @@
       },
       "biggestChange": "Premium mobile dashboard repair #915 and release-gate correction #924 merged; production flags snapshot advanced to web :447/worker :285, while skill-engine and image delivery remain unproven.",
       "method": "2026-11-02 America/Chicago independent read-only audit of businessbuilder main 97868b89 (CodeBuild-success), Stromation main 01fbcd79 (CodeBuild-success), live ECS env snapshot as committed in #925 (web :447/worker :285, captured UTC Nov 2), phone PR #915, gate #924, smoke #917, smart To-dos #916, skill PR #1, Stromation #332/#333, businessbuilder #920. Distinguishes merged, default-off, captured deployed flags, isolated tests and missing complete customer evidence. No paid tests or deployment."
+    },
+    {
+      "date": "2026-11-03",
+      "asOf": "2026-11-03T06:04:18-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "current": 89,
+          "confidence": "medium",
+          "status": "Supervised pilot: Fargate premium skill wiring still open; accepted site delivery and production reliability proof missing"
+        },
+        "v2": {
+          "current": 85,
+          "confidence": "medium",
+          "status": "Five-worker operating platform exists; repeated live provider-backed employee outcomes and recurring recovery unverified"
+        },
+        "v3": {
+          "current": 66,
+          "confidence": "medium",
+          "status": "Foundation and safer release gating, but premium AWS site delivery, SaaS, custom agents and economic autonomy unproven"
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2"
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 84,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 85,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 86,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 85,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 94,
+          "day30": 95,
+          "day60": 97,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 88,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Stromation #334 merged the all-skipped CI release guard, but premium skill integration PRs remain open and no accepted Fargate website build has been verified.",
+      "method": "2026-11-03 06:04 America/Chicago read-only audit: verified GitHub main refs businessbuilder 97868b89383f, Stromation 25a80fcc8d9f and their AWS CodeBuild combined success; #334 merged Nov 2 afternoon; skill #1, Stromation #333/#332 and businessbuilder #920 remain open. Last available production flags are the committed Nov 2 web :447/worker :285 snapshot (#925), not a Nov 3 live runtime inspection. No verified complete Fargate premium build, customer handoffs, real workforce outcomes or economics. No paid tests, deployments, product/code/config edits or access changes."
     }
   ]
 }
