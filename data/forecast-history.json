@@ -3749,6 +3749,128 @@
       },
       "biggestChange": "A Nov 3 skill audit found 185 of 300 first-screen comparisons across 25 showcase sites visually similar, exposing a repeat-design gap; its warning check merged but Fargate skill delivery is still unproven.",
       "method": "2026-11-04 05:58 America/Chicago independent GitHub/committed-evidence review: businessbuilder main 97868b89383f and Stromation main 25a80fcc8d9f unchanged with AWS CodeBuild combined success. selfoperate-front-end-skill main 2f778938 includes 25-site 2026-11-03 look-alike bank (185/300 flagged) and warning-level checks. Skill browser #1, Stromation #333/#332 and businessbuilder #920 remain open. Latest committed production flags Nov 2 web :447 / worker :285; no independent live environment validation, accepted full premium delivery, recurring five-worker effects, tested recovery, economics or founder-hours evidence. No product/cloud/spending modifications or paid work."
+    },
+    {
+      "date": "2026-11-05",
+      "asOf": "2026-11-05T06:02:09-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "current": 89,
+          "confidence": "medium",
+          "status": "Supervised pilot: skill engine integration merged into repos but not activated/deployed; imagery approval and 3 accepted site handoffs missing"
+        },
+        "v2": {
+          "current": 84,
+          "confidence": "medium",
+          "status": "Five-worker platform code present; repeated live-provider outcomes unverified and Stromation deadman reports a stale paused heartbeat"
+        },
+        "v3": {
+          "current": 65,
+          "confidence": "medium",
+          "status": "Skill integration merged but unproven live; stale Sol heartbeat and missing SaaS, custom-agent, economic autonomy evidence"
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2"
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 83,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 85,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 84,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 83,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 94,
+          "day30": 95,
+          "day60": 97,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 88,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Skill browser #1, Stromation Fargate engine #333 and businessbuilder task/form #920 merged with successful main CI, but skill remains off; a failing watchdog shows the paused Stromation loop last heartbeated Oct 23.",
+      "method": "2026-11-05 06:02 America/Chicago independent GitHub review: read businessbuilder main 74176c8171e3, Stromation main 471bc4930634 (AWS CodeBuild success), skill skill-main f363727b5c5b; #1, #333, #920 merged, #335 still open; no deployed skill verification. GitHub Actions stro-deadman run 41994183963 read a stale paused public_state heartbeat since 2026-10-23, but the scope/intentional retirement of loop unverified. Evidence not available for accepted live website, three owner handoffs, five-worker recurring effects, real SaaS/custom agents, economic margins or founder technical hours. No product/cloud/spending changes."
     }
   ]
 }

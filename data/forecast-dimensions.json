@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-11-04",
-  "asOf": "2026-11-04T05:58:41-06:00",
+  "date": "2026-11-05",
+  "asOf": "2026-11-05T06:02:09-06:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
-      "current": 88,
+      "current": 89,
       "confidence": "medium",
-      "status": "Supervised pilot: Fargate skill delivery and image approvals unproven; new cross-showcase sameness finding; 3 accepted live site handoffs missing",
-      "summary": "Nov 4: businessbuilder main 97868b89 and Stromation main 25a80fcc remain CodeBuild-success but no new verified full customer delivery. Nov 3's skill-bank audit reports 185/300 pairs across 25 showcase first screens as visually similar by its likeness thresholds; look-alike detection is warning-only, not visual repair or deployed customer proof. Skill PR #1, Stromation #333 and businessbuilder #920 are still open, without active premium Fargate integration/image library or three accepted handoffs, safe unattended crash recovery, and production rollout/restore evidence."
+      "status": "Supervised pilot: skill engine integration merged into repos but not activated/deployed; imagery approval and 3 accepted site handoffs missing",
+      "summary": "Nov 5: skill protected browser #1, Stromation Fargate hosts/image #333 and businessbuilder task/form integration #920 merged; main CodeBuild successful. Skill company allowlist stays empty and no deployed skill build, picture approval/library, settled production premium handoff or recovery proof. Follow-up Stromation #335 remains open."
     },
     "v2": {
       "name": "V2 readiness",
-      "current": 85,
+      "current": 84,
       "confidence": "medium",
-      "status": "Five-worker operating platform exists; repeated live provider-backed employee outcomes and recurring recovery unverified",
-      "summary": "Nov 4: five standard workers have not newly demonstrated repeat live-provider customer results, delivered recaps, tested essential integration loops or recurring recovery; product main refs unchanged."
+      "status": "Five-worker platform code present; repeated live-provider outcomes unverified and Stromation deadman reports a stale paused heartbeat",
+      "summary": "Nov 5: five workers' repeat real-provider side effects/owner recaps and recurring recovery still lack proof. GitHub Actions stro-deadman failed repeatedly, with 2026-11-05 08:24Z reading public_state heartbeat_at=2026-10-23T18:48:35.801567Z and run_state=paused; alert says paused loop should still tick. Whether this loop was intentionally retired is not established."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
-      "current": 66,
+      "current": 65,
       "confidence": "medium",
-      "status": "Foundation and safer release gating, but premium AWS site delivery, SaaS, custom agents and economic autonomy unproven",
-      "summary": "Nov 4: new 25-site skill design distinctiveness warning quantifies missing creative variety. No accepted live premium AWS skill website, complete deployed SaaS, automated custom-agent delivery, measured 95-99% routine autonomy or 1-2 weekly technical founder hours."
+      "status": "Skill integration merged but unproven live; stale Sol heartbeat and missing SaaS, custom-agent, economic autonomy evidence",
+      "summary": "Nov 5: code-integrated premium skill platform moved forward without deployment or accepted site. Production heartbeat watchdog shows stale paused Sol loop; no deployed complete SaaS, custom-agent request-to-activation, repeated autonomous recovery, measured 95-99% routine success or founder-hours proof."
     }
   },
   "autonomyProof": {
@@ -58,13 +58,13 @@
       "key": "website",
       "name": "Premium website delivery",
       "group": "V3 capability",
-      "current": 82,
+      "current": 83,
       "day30": 89,
       "day60": 94,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "Nov 3's 25-site first-screen bank found 185/300 cross-showcase pairs (62%) visually similar by its thresholds, with warning only; skill browser #1, Stromation Fargate hosts/image #333 and businessbuilder task wiring #920 remain open; real approved imagery and 3 accepted live deliveries unverified.",
-      "nextMilestone": "Reduce repeated hero/layout family across sites and establish independent quality, merge/activate skill browser/Fargate/image flow, then prove one accepted paid AWS site and 3 distinct completed handoffs."
+      "blocker": "Skill browser #1, Stromation Fargate integration #333 and businessbuilder task/form #920 now merged, but deployed skill pilot and real accepted design remain unverified. No configured picture library/Pexels key or named AI image-spend approval, visual sameness warning remains unresolved, and 3 full paid handoffs missing.",
+      "nextMilestone": "Verify pinned skill image and safe per-company pilot activation with approved pictures/stock; accept one paid premium site and 3 distinct publication/export handoffs."
     },
     {
       "key": "saas",
@@ -87,8 +87,8 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Last captured smart-team production flags show access enabled, but five workers' repeated real-provider results, delivered recaps and recovery remain unverified.",
-      "nextMilestone": "Prove repeated real-provider results for each of five workers, with verified customer-facing side effects and owner recap."
+      "blocker": "The five-worker platform exists but repeated real-provider actions/recaps remain unverified; a related Stromation public_state heartbeat has been stale since Oct 23, so autonomous recurring operation needs checking.",
+      "nextMilestone": "Verify which live scheduler owns each worker, restore stale heartbeat if still required and prove repeated customer-visible outcomes from all five."
     },
     {
       "key": "customAgents",
@@ -106,25 +106,25 @@
       "key": "coordination",
       "name": "Autonomous coordination & recovery",
       "group": "V3 capability",
-      "current": 86,
+      "current": 84,
       "day30": 90,
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "No complete skill-powered premium AWS build interrupted and resumed automatically with reconciled provider budget and no duplicated side effects.",
-      "nextMilestone": "Inject failure during a real skill build and prove automatic safe continuation and exactly-once effects."
+      "blocker": "The new skill engine's 3-strike and budget-pause recovery defects remain in open Stromation #335; repeat judge billing on resume also remains an open skill-side fix. Unattended crash recovery unproven; Sol's heartbeat is stale since Oct 23 per the deadman workflow.",
+      "nextMilestone": "Land tested strike/budget/judge-resume repairs; demonstrate an interrupted real skill build resumes once within spend caps, and resolve stale heartbeat alert."
     },
     {
       "key": "reliability",
       "name": "Reliability, security & ongoing maintenance",
       "group": "V3 capability",
-      "current": 85,
+      "current": 83,
       "day30": 89,
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "CodeBuild succeeds on both unchanged product main refs and release gate code is merged; no new independent production security, CSS/502 rollover, payment/auth/form, backup restore or soak proof.",
-      "nextMilestone": "Verify the exact production revision through safe live phone/payment/forms and CSS-502 rollout checks, with rollback, interrupted-job recovery and timed restore."
+      "blocker": "Stromation stro-deadman workflow fails on stale paused heartbeat (last 2026-10-23T18:48Z per 2026-11-05 run). CI on merged code is green, but no independent production recovery, payment/forms/CSS-502 rollover, rollback or timed restore proof.",
+      "nextMilestone": "Investigate/restore or explicitly retire the stale Sol watchdog target, then production-prove rollout/forms/rollback/restore on the released skill-enabled revision."
     },
     {
       "key": "journey",
@@ -135,8 +135,8 @@
       "day60": 97,
       "day90": 98,
       "confidence": "high",
-      "blocker": "No 3 independently proven live paid-to-approved/revised-to-published and exported/owned sites; owner editor activation and recent phone-flow confirmation still unverified.",
-      "nextMilestone": "Phone-test deployed premium dashboard; prove three owner-approved paid-to-revision-to-publish/export/domain handoffs."
+      "blocker": "Site form contract now reaches the skill engine in merged code, but its production skill path, owner approval, revisions, publication/export/domain handoff and phone-flow confirmation remain unverified.",
+      "nextMilestone": "Complete three owner-approved live paid-to-revision-to-publish/export/domain handoffs."
     },
     {
       "key": "commercial",
@@ -164,50 +164,54 @@
     }
   ],
   "v1Remaining": [
-    "Fix first-screen sameness flagged across 25 showcase sites and prove independently distinctive 9+/10 design; merge/enable skill browser #1, Stromation Fargate #333 and task #920 with image sourcing/approval.",
-    "Prove one complete premium AWS skill site with cost reconciliation, then 3 accepted paid-to-published website handoffs with approvals, revisions, forms, export/domain ownership.",
-    "Show unattended interrupted build recovery without double work, incorrect state or unreconciled spend.",
-    "Production-verify payment/auth/phone/forms, CSS/502 rollout, soak, rollback and timed restore on exact live release."
+    "Activate and deploy a pinned skill engine for one guarded Fargate pilot; configure licensed/owner pictures or approved image generation and resolve design sameness.",
+    "Prove one independently accepted premium AWS skill site with real form and cost receipt, then 3 paid-to-revised-to-published/exported/domain-owned handoffs.",
+    "Fix open skill retry/budget-pause/judge-resume issues (#335 and skill side) and prove interrupted-job recovery without duplicate work or spend.",
+    "Production-verify payments/auth/phone/forms, CSS/502 rollout, soak, rollback and timed restore."
   ],
   "v2Remaining": [
-    "Prove repeated real-provider customer outcomes and delivered owner recaps from all five standard workers.",
-    "Verify essential activated integrations, durable recurring operations and visible results.",
-    "Show automated recovery from routine worker failures without founder technical intervention."
+    "Prove recurring real-provider outcomes and delivered owner recaps for all five standard workers.",
+    "Validate live connections, recurring scheduling and durable customer-visible results; check the stale Stromation heartbeat alert.",
+    "Prove routine worker failure recovery without founder technical intervention."
   ],
-  "biggestChange": "A Nov 3 skill audit found 185 of 300 first-screen comparisons across 25 showcase sites visually similar, exposing a repeat-design gap; its warning check merged but Fargate skill delivery is still unproven.",
+  "biggestChange": "Skill browser #1, Stromation Fargate engine #333 and businessbuilder task/form #920 merged with successful main CI, but skill remains off; a failing watchdog shows the paused Stromation loop last heartbeated Oct 23.",
   "improvements": [
-    "selfoperate-front-end-skill main 2f778938, created Nov 4 00:34 UTC (Nov 3 local), added R-LOOK-1 warning-level visual-sameness bank and R-LOOK-2 heading cap. Diagnostic capability, not redesign/acceptance proof.",
-    "Both product main HEADs unchanged: businessbuilder 97868b89383f and Stromation 25a80fcc8d9f; AWS CodeBuild combined status success for each."
+    "Nov 5: skill #1 merged into skill-main f363727b; protected Chromium container override, cost/time stop safeguards and form contract tested locally, not verified on Fargate.",
+    "Nov 5: Stromation #333 merged to main 471bc493; pinned skill hosts/browser, form contract and spend-guard integration added; main CI success, not deployed.",
+    "Nov 5: businessbuilder #920 merged to main 74176c817; AWS skill task settings and form contract merged, default off; main CI success."
   ],
   "regressions": [
-    "New quantified visual distinctiveness gap (not verified live production breakage): 185/300 first-screen pair matches in the 25-site showcase bank. Premium website 84→82 and V1 89→88 on weaker quality evidence."
+    "Nov 5 inspection of repeatedly failing stro-deadman action found public_state heartbeat_at 2026-10-23T18:48:35Z despite run_state=paused; alert states a paused Sol loop should still tick. This is a verified monitoring failure, not proof all workers or the AWS builder are down.",
+    "Stromation #335 identifies discover-strike, budget-pause and repeat paid judging on resume defects in integrated skill path; fix is open, not credited. Coordination and reliability proof reduced."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "Selfoperate-front-end-skill main 2f778938 includes warning-level look-alike detector and heading cap; no evidence of completed family redesign or hard pass gate.",
-      "Businessbuilder main 97868b89383f and Stromation main 25a80fcc8d9f remain AWS CodeBuild-success without a new merged product-main feature.",
-      "Skill protected browser #1, Stromation Fargate image/hosts #333 and businessbuilder task #920 still OPEN; zero implemented-capability credit."
+      "selfoperate-front-end-skill #1 merged, skill-main f363727b; browser/container contract and local tests.",
+      "Stromation #333 merged, main 471bc493; skill engine hosts/image integration, form contract and budget ledger.",
+      "businessbuilder #920 merged, main 74176c817; task config and 90-minute form-contract support.",
+      "Stromation #335 open, no completed feature/fix credit; skill judge resume repeat-charge fix unproven."
     ],
     "deployed": [
-      "Last available committed live ECS flags snapshot (#925) captured Nov 2: web :447 / worker :285, AWS transport selected; not an independent Nov 4 ECS observation or skill-powered customer run.",
-      "Skill engine/company switch activation, image library consent/approval, current live version and full customer handoff remain unverified."
+      "Repo task definition deliberately leaves WEBSITE_ENGINE=stromation, WEBSITE_ENGINE_SKILL_COMPANIES empty; PRs explicitly state no new Fargate image/revision deployed.",
+      "Last committed live AWS backend evidence from 2026-11-01; independent current ECS observation unavailable, so actual skill pilot deployment remains unverified."
     ],
     "verified": [
-      "25-showcase first-screen bank captured Nov 3 reports 185/300 pairs flagged similar under its P/F thresholds; WARN only, not 62% actual customer failures.",
-      "Read-only GitHub main and open-PR review plus CodeBuild combined status success; no paid model call or deployment executed.",
-      "No verified complete premium Fargate site with reconciled cost, 3 customer handoffs, safe injected-failure recovery, timed restore, recurring five-worker results or economic/founder-hour metrics."
+      "GitHub main 74176c817 (businessbuilder) and 471bc493 (Stromation) have AWS CodeBuild success; skill browser PR #1 merged to skill-main f363727b.",
+      "2026-11-05 stro-deadman run 41994183963 failed: last heartbeat 2026-10-23T18:48:35.801567+00:00, run_state paused, reported age 18096 minutes; whether loop intentionally retired unverified.",
+      "No independently accepted premium Fargate site, 3 paid handoffs, repeated real-worker outcomes, safe recovery, timed restore or reconciled economics."
     ]
   },
   "promisesOverreach": [
-    "Do not equate 185/300 showcase pair similarities with 62% customer rejection; this is a defined first-screen similarity detector, not an acceptance study.",
-    "New warning-level skill code and open integration PRs are not a deployed or independently accepted premium AWS builder.",
-    "No verified image sourcing/approval, 5 real-worker recurring outcomes, SaaS/custom-agent delivery, 95–99% autonomy or measured margins/founder technical hours."
+    "Three merged T1 repo PRs are integration code, not a deployed or independently accepted premium website.",
+    "Stale Stromation Sol heartbeat does not by itself prove all five customer workers or AWS Fargate are down; only the watchdog target is verified stale.",
+    "Showcase similarity detector flagged 185/300 pairs; not a measured 62% customer rejection rate.",
+    "Unverified licensed image availability, AI picture approval, judge retry safety, complete SaaS/custom agents, measured 95-99% autonomy or 1-2 Darius technical hours/week."
   ],
   "founderWorkloadTrend": "Technical founder work-hours and supported routine-workflow success denominator still unmeasured; customer approvals and specialist reviews do not count as Darius technical intervention.",
   "nextActions": [
-    "Reduce cross-showcase design family similarities, then merge and safely activate pinned skill browser/Fargate wiring (#1/#333/#920) with legitimate image sourcing and approval.",
-    "Prove one independently accepted premium AWS skill-powered paid site including performance/motion/forms/cost receipt, then 3 distinct paid-to-owned-site handoffs.",
-    "Verify interrupted-job safe recovery and live phone/payment/auth/forms/CSS/502 rollout, rollback and timed restore."
+    "Investigate stale Stromation heartbeat; confirm if the Sol loop is supposed to tick, and repair/retire its watchdog target as appropriate without touching customer workloads.",
+    "Fix skill engine #335 and judge-resume billing defects, provide consented/legitimate imagery, then safely enable one Fargate skill pilot and prove one premium form-working website with judge and settled spend.",
+    "Expand to 3 independently accepted distinct paid-to-owned-site handoffs and verify customer/rollback/security/recovery paths."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -226,10 +230,10 @@
     "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
   },
   "costReporting": {
-    "measuredSpend": "No full independently accepted premium Fargate skill website and reconciled contribution margin verified.",
-    "reservedUnconfirmedSpend": "No completed skill website's settled retries/failure/charges independently verified.",
+    "measuredSpend": "No independently accepted premium Fargate skill delivery with reconciled contribution margin verified.",
+    "reservedUnconfirmedSpend": "Open skill resume/judge repetition risk means real interrupted-job cost proof is still required.",
     "estimatedFutureCosts": "No new forecast.",
-    "note": "Read-only repository, PR, CI and committed-flag review; no paid tests, cloud changes, deployments, new accounts or spending changes."
+    "note": "Read-only GitHub/CI/workflow review and forecast-only repository commit; no paid tests, ECS changes, deployments, account creation or spending changes."
   },
-  "method": "2026-11-04 05:58 America/Chicago independent GitHub/committed-evidence review: businessbuilder main 97868b89383f and Stromation main 25a80fcc8d9f unchanged with AWS CodeBuild combined success. selfoperate-front-end-skill main 2f778938 includes 25-site 2026-11-03 look-alike bank (185/300 flagged) and warning-level checks. Skill browser #1, Stromation #333/#332 and businessbuilder #920 remain open. Latest committed production flags Nov 2 web :447 / worker :285; no independent live environment validation, accepted full premium delivery, recurring five-worker effects, tested recovery, economics or founder-hours evidence. No product/cloud/spending modifications or paid work."
+  "method": "2026-11-05 06:02 America/Chicago independent GitHub review: read businessbuilder main 74176c8171e3, Stromation main 471bc4930634 (AWS CodeBuild success), skill skill-main f363727b5c5b; #1, #333, #920 merged, #335 still open; no deployed skill verification. GitHub Actions stro-deadman run 41994183963 read a stale paused public_state heartbeat since 2026-10-23, but the scope/intentional retirement of loop unverified. Evidence not available for accepted live website, three owner handoffs, five-worker recurring effects, real SaaS/custom agents, economic margins or founder technical hours. No product/cloud/spending changes."
 }
