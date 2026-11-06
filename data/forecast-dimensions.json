@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-11-05",
-  "asOf": "2026-11-05T06:02:09-06:00",
+  "date": "2026-11-06",
+  "asOf": "2026-11-06T05:58:44-06:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
       "current": 89,
       "confidence": "medium",
-      "status": "Supervised pilot: skill engine integration merged into repos but not activated/deployed; imagery approval and 3 accepted site handoffs missing",
-      "summary": "Nov 5: skill protected browser #1, Stromation Fargate hosts/image #333 and businessbuilder task/form integration #920 merged; main CodeBuild successful. Skill company allowlist stays empty and no deployed skill build, picture approval/library, settled production premium handoff or recovery proof. Follow-up Stromation #335 remains open."
+      "status": "Skill retry safeguards improved in merged code; premium AWS skill still has no verified activated/accepted build or 3 complete handoffs",
+      "summary": "Nov 6: Stromation #335 merged with AWS CodeBuild success, resolving discover-strike, spent-job requeue and budget-paused wake conditions in source. Skill-main #5/#6/#9 adds owner actions, B2B and online-only routing, but Fargate pin/activation, imagery, independent quality and 3 paid handoffs remain unverified."
     },
     "v2": {
       "name": "V2 readiness",
       "current": 84,
       "confidence": "medium",
-      "status": "Five-worker platform code present; repeated live-provider outcomes unverified and Stromation deadman reports a stale paused heartbeat",
-      "summary": "Nov 5: five workers' repeat real-provider side effects/owner recaps and recurring recovery still lack proof. GitHub Actions stro-deadman failed repeatedly, with 2026-11-05 08:24Z reading public_state heartbeat_at=2026-10-23T18:48:35.801567Z and run_state=paused; alert says paused loop should still tick. Whether this loop was intentionally retired is not established."
+      "status": "Standard five-worker platform coded; live recurring outcomes, connections and autonomous recovery not repeatedly proven",
+      "summary": "Nov 6: no newly verified repeated provider-backed outputs from all five workers. Nov 5 stale paused Sol heartbeat observation remains unresolved; cannot conclude all customer workers are down."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
       "current": 65,
       "confidence": "medium",
-      "status": "Skill integration merged but unproven live; stale Sol heartbeat and missing SaaS, custom-agent, economic autonomy evidence",
-      "summary": "Nov 5: code-integrated premium skill platform moved forward without deployment or accepted site. Production heartbeat watchdog shows stale paused Sol loop; no deployed complete SaaS, custom-agent request-to-activation, repeated autonomous recovery, measured 95-99% routine success or founder-hours proof."
+      "status": "Skill routing and recovery code advancing without full live premium delivery; complete SaaS, custom agents and economic autonomy unproven",
+      "summary": "Nov 6: merged skill #5/#6/#9 and Stromation #335 strengthen source, not end-to-end proof. No independently accepted premium Fargate site, full SaaS delivery, automated custom agent, 95-99% workflow denominator or founder-hours measurement."
     }
   },
   "autonomyProof": {
@@ -51,8 +51,8 @@
       "day60": 94,
       "day90": 95,
       "confidence": "high",
-      "blocker": "Production smart-onboarding enabled, but broad real-owner cross-industry scope/refusal validation missing.",
-      "nextMilestone": "Blind-test 20 varied business briefs and verify live confirmed scope and supported/unsupported decisions."
+      "blocker": "Onboarding and business-scope selection exist. Skill-main now supports online-only routing (#9) and B2B/creator packs (#6), but updated skill is not verified on the deployed Fargate image, and blind real-owner cross-industry refusals remain unproven.",
+      "nextMilestone": "Blind-test 20 diverse real business briefs against deployed scope decisions, refusals and online-only routing."
     },
     {
       "key": "website",
@@ -63,8 +63,8 @@
       "day60": 94,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "Skill browser #1, Stromation Fargate integration #333 and businessbuilder task/form #920 now merged, but deployed skill pilot and real accepted design remain unverified. No configured picture library/Pexels key or named AI image-spend approval, visual sameness warning remains unresolved, and 3 full paid handoffs missing.",
-      "nextMilestone": "Verify pinned skill image and safe per-company pilot activation with approved pictures/stock; accept one paid premium site and 3 distinct publication/export handoffs."
+      "blocker": "Stromation #335 merged retry/strikes and budget-pause protections; skill-main #5/#6/#9 added live actions, B2B/creator and online-only flows. No verified activated/re-pinned Fargate skill build, approved licensed imagery, independent premium-quality acceptance or 3 paid-to-owned-site handoffs; design sameness remains unresolved.",
+      "nextMilestone": "Verify approved imagery and pinned skill revision, activate one guarded Fargate pilot, accept one full build, then three distinct paid revision/publish/export handoffs."
     },
     {
       "key": "saas",
@@ -87,7 +87,7 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "The five-worker platform exists but repeated real-provider actions/recaps remain unverified; a related Stromation public_state heartbeat has been stale since Oct 23, so autonomous recurring operation needs checking.",
+      "blocker": "All five standard-worker architecture paths exist; repeated live-provider outcomes and owner recaps remain unverified. Related Sol watchdog last observed stale on Nov 5 but may be a separate paused loop.",
       "nextMilestone": "Verify which live scheduler owns each worker, restore stale heartbeat if still required and prove repeated customer-visible outcomes from all five."
     },
     {
@@ -106,13 +106,13 @@
       "key": "coordination",
       "name": "Autonomous coordination & recovery",
       "group": "V3 capability",
-      "current": 84,
+      "current": 85,
       "day30": 90,
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "The new skill engine's 3-strike and budget-pause recovery defects remain in open Stromation #335; repeat judge billing on resume also remains an open skill-side fix. Unattended crash recovery unproven; Sol's heartbeat is stale since Oct 23 per the deadman workflow.",
-      "nextMilestone": "Land tested strike/budget/judge-resume repairs; demonstrate an interrupted real skill build resumes once within spend caps, and resolve stale heartbeat alert."
+      "blocker": "Stromation #335 merged with successful CodeBuild: discover counted in three strikes, spent jobs parked, budget-paused jobs remain paused, judge verdict persisted. Yet the skill-side repeat-paid-judge-on-resume concern and unattended crash/expense reconciliation remain unverified live; stale paused Sol heartbeat last observed Nov 5.",
+      "nextMilestone": "Prove one interrupted Fargate skill build resumes safely with idempotent judging, settled spend and no technical founder intervention; clarify stale watchdog."
     },
     {
       "key": "reliability",
@@ -123,8 +123,8 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Stromation stro-deadman workflow fails on stale paused heartbeat (last 2026-10-23T18:48Z per 2026-11-05 run). CI on merged code is green, but no independent production recovery, payment/forms/CSS-502 rollover, rollback or timed restore proof.",
-      "nextMilestone": "Investigate/restore or explicitly retire the stale Sol watchdog target, then production-prove rollout/forms/rollback/restore on the released skill-enabled revision."
+      "blocker": "Businessbuilder and Stromation main CI report success, including merged #335 recovery guards. The last observed Nov 5 stro-deadman check flagged a paused Sol public_state heartbeat stale since Oct 23; current scheduler intent/status, CSS/502 rollover, payment/forms, rollback and timed restore are not freshly verified.",
+      "nextMilestone": "Verify actual live worker/watchdog ownership, production rollover/forms/rollback and timed restore on release candidate."
     },
     {
       "key": "journey",
@@ -135,8 +135,8 @@
       "day60": 97,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Site form contract now reaches the skill engine in merged code, but its production skill path, owner approval, revisions, publication/export/domain handoff and phone-flow confirmation remain unverified.",
-      "nextMilestone": "Complete three owner-approved live paid-to-revision-to-publish/export/domain handoffs."
+      "blocker": "Skill-main now includes merged live owner actions (#5) and online-only routes (#9), but deployment/pinned revision and paid owner approvals, revisions, real working forms, publication, export and domain ownership are not proven repeatedly.",
+      "nextMilestone": "Complete three independent customer paid-to-owned-site journeys, including forms and mobile flow."
     },
     {
       "key": "commercial",
@@ -147,7 +147,7 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Public proof/content and no-code own-site form merged, but live acquisition, source attribution, real paid-to-fulfilled conversion and retention evidence absent.",
+      "blocker": "Product marketing and owner routing exist in merged code, but no independently documented traffic-source-to-paid-to-fulfilled conversion and continuing owner usage.",
       "nextMilestone": "Prove source-to-paid-to-delivered website conversion and ongoing owner use."
     },
     {
@@ -164,54 +164,53 @@
     }
   ],
   "v1Remaining": [
-    "Activate and deploy a pinned skill engine for one guarded Fargate pilot; configure licensed/owner pictures or approved image generation and resolve design sameness.",
-    "Prove one independently accepted premium AWS skill site with real form and cost receipt, then 3 paid-to-revised-to-published/exported/domain-owned handoffs.",
-    "Fix open skill retry/budget-pause/judge-resume issues (#335 and skill side) and prove interrupted-job recovery without duplicate work or spend.",
-    "Production-verify payments/auth/phone/forms, CSS/502 rollout, soak, rollback and timed restore."
+    "Prove activated pinned Fargate premium skill with lawful/approved imagery and high-diversity independent visual acceptance.",
+    "Complete one working premium form/cost site and 3 accepted paid-to-revised-to-published/exported/domain-owned website deliveries.",
+    "Demonstrate safe crash/retry/judge resume with no duplicate spend; confirm Stromation #335 behavior live.",
+    "Production-verify payments/auth/mobile/forms, CSS/502 rollout, security, rollback, soak and timed restore."
   ],
   "v2Remaining": [
-    "Prove recurring real-provider outcomes and delivered owner recaps for all five standard workers.",
-    "Validate live connections, recurring scheduling and durable customer-visible results; check the stale Stromation heartbeat alert.",
-    "Prove routine worker failure recovery without founder technical intervention."
+    "Prove recurring real-provider outcomes and delivered owner summaries from all five standard employees.",
+    "Validate integrations, scheduler ownership and currently stale/unverified Sol heartbeat purpose/status.",
+    "Demonstrate recurring autonomous worker recovery and continued customer-visible outcomes."
   ],
-  "biggestChange": "Skill browser #1, Stromation Fargate engine #333 and businessbuilder task/form #920 merged with successful main CI, but skill remains off; a failing watchdog shows the paused Stromation loop last heartbeated Oct 23.",
+  "biggestChange": "Stromation #335 merged three-strike, spent-job and budget-pause guards; skill-main #5/#6/#9 also merged live actions and online-only/B2B routing, but no premium Fargate delivery has been independently verified.",
   "improvements": [
-    "Nov 5: skill #1 merged into skill-main f363727b; protected Chromium container override, cost/time stop safeguards and form contract tested locally, not verified on Fargate.",
-    "Nov 5: Stromation #333 merged to main 471bc493; pinned skill hosts/browser, form contract and spend-guard integration added; main CI success, not deployed.",
-    "Nov 5: businessbuilder #920 merged to main 74176c817; AWS skill task settings and form contract merged, default off; main CI success."
+    "Nov 6: Stromation #335 merged to main cd025471 with AWS CodeBuild success: discover/advance/produce counted in strike limits, spent jobs parked and paused budget preserved; live recovery not proven.",
+    "Nov 6: front-end-skill #5, #6 and #9 merged to skill-main 7de2743 with live owner action/booking form contract, B2B/creator packs and online-only intake routing; Fargate image pin not verified.",
+    "Businessbuilder main 74176c8 still reports AWS CodeBuild success; previously merged #920 remains a disabled-by-default Fargate integration, not an activated pilot."
   ],
   "regressions": [
-    "Nov 5 inspection of repeatedly failing stro-deadman action found public_state heartbeat_at 2026-10-23T18:48:35Z despite run_state=paused; alert states a paused Sol loop should still tick. This is a verified monitoring failure, not proof all workers or the AWS builder are down.",
-    "Stromation #335 identifies discover-strike, budget-pause and repeat paid judging on resume defects in integrated skill path; fix is open, not credited. Coordination and reliability proof reduced."
+    "No new confirmed production regression on Nov 6. The Nov 5 observed stale paused Sol public_state heartbeat (since Oct 23) lacks a verified current resolution or intentional-retirement decision."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "selfoperate-front-end-skill #1 merged, skill-main f363727b; browser/container contract and local tests.",
-      "Stromation #333 merged, main 471bc493; skill engine hosts/image integration, form contract and budget ledger.",
-      "businessbuilder #920 merged, main 74176c817; task config and 90-minute form-contract support.",
-      "Stromation #335 open, no completed feature/fix credit; skill judge resume repeat-charge fix unproven."
+      "Stromation #335 merged, main cd025471, AWS CodeBuild success: strike/requeue/pause recovery safeguards in source only.",
+      "selfoperate-front-end-skill #5/#6/#9 merged, skill-main 7de2743: owner action, B2B/creator and online-only routing additions; not proven in deployed pinned image.",
+      "businessbuilder #920 remains merged, main 74176c8, with inactive-by-default Fargate skill config and successful CodeBuild."
     ],
     "deployed": [
-      "Repo task definition deliberately leaves WEBSITE_ENGINE=stromation, WEBSITE_ENGINE_SKILL_COMPANIES empty; PRs explicitly state no new Fargate image/revision deployed.",
-      "Last committed live AWS backend evidence from 2026-11-01; independent current ECS observation unavailable, so actual skill pilot deployment remains unverified."
+      "Latest accessible task definition checked previously has WEBSITE_ENGINE=stromation and empty WEBSITE_ENGINE_SKILL_COMPANIES; no independently observed re-pin, activation or successful live Fargate skill site today.",
+      "No live deployment or runtime/cloud changes made by this forecast review."
     ],
     "verified": [
-      "GitHub main 74176c817 (businessbuilder) and 471bc493 (Stromation) have AWS CodeBuild success; skill browser PR #1 merged to skill-main f363727b.",
-      "2026-11-05 stro-deadman run 41994183963 failed: last heartbeat 2026-10-23T18:48:35.801567+00:00, run_state paused, reported age 18096 minutes; whether loop intentionally retired unverified.",
-      "No independently accepted premium Fargate site, 3 paid handoffs, repeated real-worker outcomes, safe recovery, timed restore or reconciled economics."
+      "GitHub CodeBuild combined status success on Stromation main cd025471 and businessbuilder main 74176c8.",
+      "Skill-main 7de2743 contains merged #5/#6/#9; branch selftests are not a proof of Fargate customer delivery.",
+      "Last observed Nov 5 stro-deadman run flagged stale paused Sol heartbeat since Oct 23; no fresh scheduler or heartbeat evidence today.",
+      "No independently accepted full premium skill site, 3 owner handoffs, repeated all-worker outputs, live crash recovery or measured economics/founder hours."
     ]
   },
   "promisesOverreach": [
-    "Three merged T1 repo PRs are integration code, not a deployed or independently accepted premium website.",
-    "Stale Stromation Sol heartbeat does not by itself prove all five customer workers or AWS Fargate are down; only the watchdog target is verified stale.",
-    "Showcase similarity detector flagged 185/300 pairs; not a measured 62% customer rejection rate.",
-    "Unverified licensed image availability, AI picture approval, judge retry safety, complete SaaS/custom agents, measured 95-99% autonomy or 1-2 Darius technical hours/week."
+    "Stromation #335 fixes source-level strike/requeue/pause bugs but does not establish zero duplicate paid judging on resumed real Fargate jobs.",
+    "New skill-main sector and online routing merges do not establish that the pinned production builder image includes or executes them.",
+    "Nov 5 stale paused Sol heartbeat does not prove all five worker services are unavailable; current watchdog target could be obsolete.",
+    "Quality, payment-to-export handoffs, complete SaaS/custom agents and 95-99% routine autonomy or 1-2 Darius technical hours per week remain unmeasured."
   ],
-  "founderWorkloadTrend": "Technical founder work-hours and supported routine-workflow success denominator still unmeasured; customer approvals and specialist reviews do not count as Darius technical intervention.",
+  "founderWorkloadTrend": "No representative measured Darius technical hours or supported routine workflow success denominator; customer approvals and specialist review excluded from intervention.",
   "nextActions": [
-    "Investigate stale Stromation heartbeat; confirm if the Sol loop is supposed to tick, and repair/retire its watchdog target as appropriate without touching customer workloads.",
-    "Fix skill engine #335 and judge-resume billing defects, provide consented/legitimate imagery, then safely enable one Fargate skill pilot and prove one premium form-working website with judge and settled spend.",
-    "Expand to 3 independently accepted distinct paid-to-owned-site handoffs and verify customer/rollback/security/recovery paths."
+    "Verify current Fargate skill image/pin/activation state and the purpose of the last observed stale Sol watchdog; no guesswork about production status.",
+    "Prove one consented-image premium Fargate build including working form, independent visual acceptance, resume safety and settled cost.",
+    "Then complete three distinct paid-to-revised-to-published/exported/domain-owned handoffs plus recovery, rollback and restore checks."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -230,10 +229,10 @@
     "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
   },
   "costReporting": {
-    "measuredSpend": "No independently accepted premium Fargate skill delivery with reconciled contribution margin verified.",
-    "reservedUnconfirmedSpend": "Open skill resume/judge repetition risk means real interrupted-job cost proof is still required.",
+    "measuredSpend": "No independently accepted premium Fargate skill website with reconciled margin as of Nov 6.",
+    "reservedUnconfirmedSpend": "Merged #335 persists judge verdict on timeout, but end-to-end idempotent repeated paid judging and failure spend remain unverified.",
     "estimatedFutureCosts": "No new forecast.",
-    "note": "Read-only GitHub/CI/workflow review and forecast-only repository commit; no paid tests, ECS changes, deployments, account creation or spending changes."
+    "note": "Read-only repository and CI review; forecast-only git commit, no paid runs or product/cloud/limit changes."
   },
-  "method": "2026-11-05 06:02 America/Chicago independent GitHub review: read businessbuilder main 74176c8171e3, Stromation main 471bc4930634 (AWS CodeBuild success), skill skill-main f363727b5c5b; #1, #333, #920 merged, #335 still open; no deployed skill verification. GitHub Actions stro-deadman run 41994183963 read a stale paused public_state heartbeat since 2026-10-23, but the scope/intentional retirement of loop unverified. Evidence not available for accepted live website, three owner handoffs, five-worker recurring effects, real SaaS/custom agents, economic margins or founder technical hours. No product/cloud/spending changes."
+  "method": "2026-11-06 05:58 America/Chicago: inspected forecast schema/history, businessbuilder main 74176c8171e3 (AWS CodeBuild success), Stromation main cd0254710f23 (#335 merged, AWS CodeBuild success), skill-main 7de274388fc2 (#5/#6/#9 merged), open relevant skill PRs #7/#8/#10 and Stromation #332/#330. No independent AWS ECS runtime or successful activated skill build observation; previously observed Nov 5 Sol deadman heartbeat stale since Oct 23 not freshly resolved. No verified three paid owner handoffs, all-worker recurring outcomes, full SaaS/custom agents or measured margins and founder hours. Product/cloud/spending untouched."
 }

@@ -3871,6 +3871,139 @@
       },
       "biggestChange": "Skill browser #1, Stromation Fargate engine #333 and businessbuilder task/form #920 merged with successful main CI, but skill remains off; a failing watchdog shows the paused Stromation loop last heartbeated Oct 23.",
       "method": "2026-11-05 06:02 America/Chicago independent GitHub review: read businessbuilder main 74176c8171e3, Stromation main 471bc4930634 (AWS CodeBuild success), skill skill-main f363727b5c5b; #1, #333, #920 merged, #335 still open; no deployed skill verification. GitHub Actions stro-deadman run 41994183963 read a stale paused public_state heartbeat since 2026-10-23, but the scope/intentional retirement of loop unverified. Evidence not available for accepted live website, three owner handoffs, five-worker recurring effects, real SaaS/custom agents, economic margins or founder technical hours. No product/cloud/spending changes."
+    },
+    {
+      "date": "2026-11-06",
+      "asOf": "2026-11-06T05:58:44-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "name": "V1 readiness",
+          "current": 89,
+          "confidence": "medium",
+          "status": "Skill retry safeguards improved in merged code; premium AWS skill still has no verified activated/accepted build or 3 complete handoffs",
+          "summary": "Nov 6: Stromation #335 merged with AWS CodeBuild success, resolving discover-strike, spent-job requeue and budget-paused wake conditions in source. Skill-main #5/#6/#9 adds owner actions, B2B and online-only routing, but Fargate pin/activation, imagery, independent quality and 3 paid handoffs remain unverified."
+        },
+        "v2": {
+          "name": "V2 readiness",
+          "current": 84,
+          "confidence": "medium",
+          "status": "Standard five-worker platform coded; live recurring outcomes, connections and autonomous recovery not repeatedly proven",
+          "summary": "Nov 6: no newly verified repeated provider-backed outputs from all five workers. Nov 5 stale paused Sol heartbeat observation remains unresolved; cannot conclude all customer workers are down."
+        },
+        "v3": {
+          "name": "V3 / Full 10/10 vision",
+          "current": 65,
+          "confidence": "medium",
+          "status": "Skill routing and recovery code advancing without full live premium delivery; complete SaaS, custom agents and economic autonomy unproven",
+          "summary": "Nov 6: merged skill #5/#6/#9 and Stromation #335 strengthen source, not end-to-end proof. No independently accepted premium Fargate site, full SaaS delivery, automated custom agent, 95-99% workflow denominator or founder-hours measurement."
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null,
+        "scope": "Representative supported routine workflows",
+        "observationWindow": null,
+        "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2",
+        "targetContext": "mature V3 scale",
+        "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 83,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 85,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 85,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 83,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 94,
+          "day30": 95,
+          "day60": 97,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 88,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Stromation #335 merged three-strike, spent-job and budget-pause guards; skill-main #5/#6/#9 also merged live actions and online-only/B2B routing, but no premium Fargate delivery has been independently verified.",
+      "method": "2026-11-06 05:58 America/Chicago: inspected forecast schema/history, businessbuilder main 74176c8171e3 (AWS CodeBuild success), Stromation main cd0254710f23 (#335 merged, AWS CodeBuild success), skill-main 7de274388fc2 (#5/#6/#9 merged), open relevant skill PRs #7/#8/#10 and Stromation #332/#330. No independent AWS ECS runtime or successful activated skill build observation; previously observed Nov 5 Sol deadman heartbeat stale since Oct 23 not freshly resolved. No verified three paid owner handoffs, all-worker recurring outcomes, full SaaS/custom agents or measured margins and founder hours. Product/cloud/spending untouched."
     }
   ]
 }
