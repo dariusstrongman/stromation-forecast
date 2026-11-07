@@ -4004,6 +4004,139 @@
       },
       "biggestChange": "Stromation #335 merged three-strike, spent-job and budget-pause guards; skill-main #5/#6/#9 also merged live actions and online-only/B2B routing, but no premium Fargate delivery has been independently verified.",
       "method": "2026-11-06 05:58 America/Chicago: inspected forecast schema/history, businessbuilder main 74176c8171e3 (AWS CodeBuild success), Stromation main cd0254710f23 (#335 merged, AWS CodeBuild success), skill-main 7de274388fc2 (#5/#6/#9 merged), open relevant skill PRs #7/#8/#10 and Stromation #332/#330. No independent AWS ECS runtime or successful activated skill build observation; previously observed Nov 5 Sol deadman heartbeat stale since Oct 23 not freshly resolved. No verified three paid owner handoffs, all-worker recurring outcomes, full SaaS/custom agents or measured margins and founder hours. Product/cloud/spending untouched."
+    },
+    {
+      "date": "2026-11-07",
+      "asOf": "2026-11-07T06:03:58-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "name": "V1 readiness",
+          "current": 88,
+          "confidence": "medium",
+          "status": "Skill inner-page quality improved but still below its stated floor; hosting/form compatibility #927 remains draft and premium Fargate delivery unverified",
+          "summary": "Nov 7: front-end-skill #13 merged with stronger per-page compositions, but final absolute inner-page judge was 7.4/10 on law firm and HVAC (8/10 floor) and unchanged plumber remained 6.5. Businessbuilder #927 remains draft: current hosting rejects skill _redirects and site slots/form purpose are not integrated. No verified activated Fargate premium build or 3 accepted handoffs."
+        },
+        "v2": {
+          "name": "V2 readiness",
+          "current": 84,
+          "confidence": "medium",
+          "status": "Standard worker architecture exists; recurring live five-worker outcomes, provider connections and autonomous recovery remain unproven",
+          "summary": "Nov 7: no new repeated provider-backed live outcome from all five workers or verified resolution of the Nov 5 stale paused-Sol deadman heartbeat; do not conflate that watchdog with all customer workers."
+        },
+        "v3": {
+          "name": "V3 / Full 10/10 vision",
+          "current": 65,
+          "confidence": "medium",
+          "status": "Source-level website design improvements, but premium delivery quality and live completeness remain below aspiration; full SaaS, custom agents and economic autonomy unproven",
+          "summary": "Nov 7: merged skill #13 improves example inner pages but reported absolute judge remains below 8; draft skill direction/parts #14/#15 and draft product #927 get no implemented credit. No repeat premium Fargate handoff, full SaaS, custom agent or measured 95–99% autonomy/founder hours."
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null,
+        "scope": "Representative supported routine workflows",
+        "observationWindow": null,
+        "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2",
+        "targetContext": "mature V3 scale",
+        "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 82,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 85,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 85,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 83,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 94,
+          "day30": 95,
+          "day60": 97,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 88,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Skill-main #13 merged improved inner-page designs, but its final absolute judge still scores 7.4/10 below the 8/10 floor, while draft product #927 exposes unresolved site hosting/forms compatibility.",
+      "method": "2026-11-07 06:03 America/Chicago: examined canonical businessbuilder main 74176c8171e3 and open draft #927 (hosting `_redirects`, slots, form purpose), Stromation main cd0254710f23 (#335 source retry safety), skill-main 8c86e6e51fbe and merged #13 with paired/absolute judge and tests, open skill drafts #14/#15. Both product mains report success via AWS CodeBuild. No new direct AWS ECS runtime, pinned skill activation or 3 accepted full delivery evidence; Nov 5 paused Sol watchdog last seen stale unresolved. No SaaS/custom-agent full proof, five-worker repeated live outcomes, profit margins or Darius-hours log. No product/cloud/spending changes or paid tests."
     }
   ]
 }
