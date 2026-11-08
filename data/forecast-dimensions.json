@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-11-07",
-  "asOf": "2026-11-07T06:03:58-06:00",
+  "date": "2026-11-08",
+  "asOf": "2026-11-08T06:03:25-06:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
       "current": 88,
       "confidence": "medium",
-      "status": "Skill inner-page quality improved but still below its stated floor; hosting/form compatibility #927 remains draft and premium Fargate delivery unverified",
-      "summary": "Nov 7: front-end-skill #13 merged with stronger per-page compositions, but final absolute inner-page judge was 7.4/10 on law firm and HVAC (8/10 floor) and unchanged plumber remained 6.5. Businessbuilder #927 remains draft: current hosting rejects skill _redirects and site slots/form purpose are not integrated. No verified activated Fargate premium build or 3 accepted handoffs."
+      "status": "Design quality still below 8/10, draft site hosting/forms #927 and diversity #14/#15 unmerged; premium Fargate delivery unverified",
+      "summary": "Nov 8: main unchanged since Nov 7: businessbuilder 74176c8171e3, Stromation cd0254710f23, skill-main 8c86e6e51fbe. Draft #927 site hosting/slots/forms and skill #14/#15 have no implementation credit. Latest absolute inner-page design judge 7.4/10 for law/HVAC and 6.5 for plumber, below 8 floor; no verified premium activated Fargate website or 3 accepted handoffs."
     },
     "v2": {
       "name": "V2 readiness",
       "current": 84,
       "confidence": "medium",
-      "status": "Standard worker architecture exists; recurring live five-worker outcomes, provider connections and autonomous recovery remain unproven",
-      "summary": "Nov 7: no new repeated provider-backed live outcome from all five workers or verified resolution of the Nov 5 stale paused-Sol deadman heartbeat; do not conflate that watchdog with all customer workers."
+      "status": "All five worker paths need repeated live provider-backed results, verified integrations and unattended recovery",
+      "summary": "Nov 8: no new recurring live provider outcome from all 5 workers or new resolution of historically stale paused Sol watchdog; do not conflate a paused Sol loop with all customer workers."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
       "current": 65,
       "confidence": "medium",
-      "status": "Source-level website design improvements, but premium delivery quality and live completeness remain below aspiration; full SaaS, custom agents and economic autonomy unproven",
-      "summary": "Nov 7: merged skill #13 improves example inner pages but reported absolute judge remains below 8; draft skill direction/parts #14/#15 and draft product #927 get no implemented credit. No repeat premium Fargate handoff, full SaaS, custom agent or measured 95–99% autonomy/founder hours."
+      "status": "No new full SaaS/custom-agent deliveries or proof of mature economic autonomy",
+      "summary": "Nov 8: latest repo/source/CI checks show no new integrated deployed premium skill build; complete SaaS, custom-agent delivery, accepted premium sites and 95-99% routine autonomy plus measured founder hours not established."
     }
   },
   "autonomyProof": {
@@ -63,7 +63,7 @@
       "day60": 94,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "Nov 7 merged skill #13 improved pairwise inner compositions but absolute judged law firm and HVAC both 7.4/10, below its 8/10 floor; unchanged plumber 6.5. Site `_redirects` hosting and booking slots/purpose need draft businessbuilder #927; no live activated/pinned Fargate premium build, approved imagery or three accepted handoffs.",
+      "blocker": "Final merged #13 absolute inner-page judge 7.4/10 law/HVAC and 6.5 plumber, below 8 floor; #14/#15 and product #927 remain draft; no activated pinned premium skill Fargate run or 3 accepted owner sites verified.",
       "nextMilestone": "Close and prove product #927 compatibility, repair quality/sameness below 8, activate one guarded pinned Fargate site with consented imagery, then 3 accepted deliveries."
     },
     {
@@ -111,7 +111,7 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Stromation #335 merged safeguards for retries, pause and paid-verdict persistence; skill-side repeated paid judge on resume, real Fargate crash recovery/settled cost and stale watchdog status remain unverified.",
+      "blocker": "Merged #335 retry/pause safeguards need live Fargate interrupted-resume idempotent judging and reconciled spend evidence; historical paused Sol watchdog status unclear.",
       "nextMilestone": "Prove one interrupted Fargate skill build resumes safely with idempotent judging, settled spend and no technical founder intervention; clarify stale watchdog."
     },
     {
@@ -123,7 +123,7 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Product main still reports green CodeBuild and Stromation main successful, but draft #927 has no main/deployed credit; live rollover CSS/502, complete form/payout pathways, rollback/restore and Nov 5 stale paused Sol deadman purpose/status are unverified.",
+      "blocker": "Last product/main commit statuses green in AWS CodeBuild but no live Fargate skill/recovery/rollback/timed restore proof and paused Sol watchdog status unverified.",
       "nextMilestone": "Verify actual live worker/watchdog ownership, production rollover/forms/rollback and timed restore on release candidate."
     },
     {
@@ -135,7 +135,7 @@
       "day60": 97,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Owner actions exist in merged skill code, but product #927 slots/form purpose and `_redirects` stageability remain draft; 3 paid approvals, revisions, working forms, live publication, export and ownership handoffs are not demonstrated.",
+      "blocker": "Product #927 hosting/site redirects, booking slots and form purpose still draft; no verified paid-to-published/exported/domain-owned customer handoffs.",
       "nextMilestone": "Merge and verify skill-site action/hosting compatibility, then complete three paid-to-owned-site journeys including booking/forms."
     },
     {
@@ -164,54 +164,50 @@
     }
   ],
   "v1Remaining": [
-    "Prove staging/production compatibility for skill-site `_redirects`, slots and form purpose (businessbuilder #927 is draft).",
-    "Prove an activated/pinned premium Fargate skill site with consented imagery and genuinely accepted 8+/10 designs; repair inner-page sameness.",
-    "Complete 3 accepted paid-to-revised-to-published/exported/domain-owned website handoffs.",
-    "Demonstrate unattended crash/retry and paid-judge cost safety plus live payment/auth/mobile/CSS/502, rollback and restore verification."
+    "Stage/production prove skill-site redirects, booking slots and form-purpose hosting actions (#927 is draft).",
+    "Prove an 8+/10 distinct premium Fargate skill site with consented imagery; #14/#15 still draft.",
+    "Complete 3 independently accepted paid-to-revised-to-published/exported/domain-owned handoffs.",
+    "Prove unattended crash recovery and paid-judge cost safety; production forms/auth/payment/mobile and rollback/restore."
   ],
   "v2Remaining": [
-    "Prove repeated real-provider outcomes and delivered owner summaries from all five standard employees.",
-    "Validate live integrations, scheduler ownership and the still-unresolved stale paused Sol heartbeat purpose/status.",
-    "Demonstrate recurring unattended worker recovery and useful customer results."
+    "Prove repeated real-provider outcomes and owner recaps for all five standard workers.",
+    "Verify real integrations, scheduler ownership and historic paused Sol watchdog status.",
+    "Demonstrate unattended recurring recovery and useful customer results."
   ],
-  "biggestChange": "Skill-main #13 merged improved inner-page designs, but its final absolute judge still scores 7.4/10 below the 8/10 floor, while draft product #927 exposes unresolved site hosting/forms compatibility.",
+  "biggestChange": "No new main merge or independently verified live premium delivery since Nov 7; hosting/forms #927 and design diversity #14/#15 remain drafts, with last absolute quality 7.4/10 below the 8/10 floor.",
   "improvements": [
-    "Nov 7: selfoperate-front-end-skill #13 merged to main 8c86e6e51fbe, adding business-specific four-composition inner pages; paired judge favored after over before for law firm, CPA and HVAC, source-reported.",
-    "Nov 7: #13 reported final absolute inner-page scores law firm and HVAC 7.4/10 twice, still below its 8 floor, with 58/58 specialized selftests and two cloud checks; source also says existing plumber remains 6.5.",
-    "Businessbuilder main 74176c8171e3 and Stromation main cd0254710f23 unchanged in recent commits; both reported successful AWS CodeBuild on those SHAs."
+    "Nov 8: fresh read-only verification of unchanged product/skill main heads, and green AWS CodeBuild statuses for businessbuilder and Stromation; no new capability credit."
   ],
   "regressions": [
-    "No new verified production outage. V1/website readiness was rescored down one point because merged site's explicit quality floor is still missed and the currently required site redirect/booking compatibility is still an open draft (#927)."
+    "No newly proven regression or incident Nov 8; held ratings on independent review rather than treating missing live proof as breakage."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "Skill-main #13 merged Nov 7 at 8c86e6e51fbe; reviewed paired and absolute judge evidence, but no Fargate deployed-engine proof.",
-      "Businessbuilder main 74176c8171e3, Stromation main cd0254710f23; both verified successful AWS CodeBuild, with inert skill switch in existing repo task definition."
+      "Latest main heads remain businessbuilder 74176c8171e3 (Nov 5 #920), Stromation cd0254710f23 (Nov 5 #335), skill 8c86e6e51fbe (Nov 7 #13). No new merge observed."
     ],
     "deployed": [
-      "Last task-definition evidence remains `WEBSITE_ENGINE=stromation` and empty `WEBSITE_ENGINE_SKILL_COMPANIES`; no direct new AWS ECS or Fargate image pin/activation verified.",
-      "No deployments, paid tests, cloud configuration or spending changes initiated for this forecast."
+      "Repo task definition still specifies WEBSITE_ENGINE=stromation with empty WEBSITE_ENGINE_SKILL_COMPANIES; this is source evidence, not a fresh ECS runtime check.",
+      "No new independent ECS live activation evidence or deployment action."
     ],
     "verified": [
-      "Skill #13 self-reports 58/58 specialized tests, 2 cloud runs, improved paired judge and 7.4/10 final absolute law-firm/HVAC inner score (not premium 8).",
-      "Businessbuilder #927 remains unmerged draft and documents existing stage rejection of skill `_redirects` and missing slots/purpose product compatibility, with local testing only.",
-      "Skill #14 parts library and #15 direction engine are open drafts; no implemented production credit.",
-      "Businessbuilder and Stromation latest-main AWS CodeBuild combined statuses successful; no verified accepted premium end-to-end skill site, 3 owner handoffs or updated paused Sol watchdog.",
-      "No independent complete SaaS/custom-agent outcomes, repeated all-worker production evidence or reconciled margins/founder-hour record."
+      "AWS CodeBuild combined commit statuses for businessbuilder main and Stromation main report success; successful CI is not delivered/accepted premium website proof.",
+      "Businessbuilder #927 unmerged draft: skill-site redirect/slots/form purpose compatibility not staging-verified.",
+      "Skill design #14/#15 remain open drafts; #13 final absolute judge 7.4/10 law/HVAC and 6.5 plumber below floor.",
+      "No new independent 3 paid site handoffs, all-worker real provider recurrence, complete SaaS/custom agents, reconciled profit or founder-hour log."
     ]
   },
   "promisesOverreach": [
-    "Paired site improvement from skill #13 is not premium acceptance: final absolute inner judge is 7.4/10 (below 8) and unchanged plumber 6.5.",
-    "Draft #927 redirects/slots/purpose product compatibility and draft #14/#15 parts/direction engine are not merged, deployed or proven.",
-    "The source-level #335 safe retry and verdict persistence fixes do not prove no duplicate paid judge calls after live Fargate resume.",
-    "Nov 5 paused Sol heartbeat alert does not prove all five standard employees down; current worker scheduler needs verification.",
-    "No actual three paid/accepted owner sites, full SaaS, automated custom agent or measured 95–99% autonomous workflows and 1–2 founder hours/week."
+    "Draft product #927 and skill #14/#15 get no merged, staged or live implementation credit.",
+    "Merged skill #13 and green CodeBuild are not proof of 8+/10 unique customer-approved websites or an enabled/pinned Fargate skill image.",
+    "Merged #335 retry guards not yet proven idempotent on live paid-judge Fargate resume.",
+    "Historical stale paused Sol watchdog is not evidence all customer workers are broken.",
+    "Complete SaaS/custom-agent delivery and measured 95-99% autonomous routine workflows/1-2 Darius technical hours per week remain unproven."
   ],
-  "founderWorkloadTrend": "No representative independent log of Darius technical hours or routine workflow success/attempt denominator; exclude owner approvals and specialist review.",
+  "founderWorkloadTrend": "No defensible supported-workflow success/attempt denominator or Darius-only technical hours/week; do not count customer approval/setup or specialist review.",
   "nextActions": [
-    "Close the product #927 redirect/form/slot stageability contract and address the skill #13 absolute judge quality floor; do not count draft #14/#15 as delivered.",
-    "Verify pinned skill image and pilot flag; run one guarded consented-image premium Fargate site through real working forms, independent visual acceptance, failure-safe resume and settled cost.",
-    "Then demonstrate 3 distinct paid-to-revised-to-published/exported/domain-owned handoffs, rollout/rollback/restore and recurring worker outcomes."
+    "Finish and stage-verify product #927 site redirects, slots and form purpose; strengthen skill quality/diversity beyond 8 without counting draft #14/#15.",
+    "Then verify one guarded pinned premium Fargate website with owner-consented imagery, working forms, independent 8+ acceptance, crash resume and reconciled cost.",
+    "Then collect 3 distinct paid-to-published/owned-site completions and operations evidence."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -230,10 +226,10 @@
     "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
   },
   "costReporting": {
-    "measuredSpend": "No independently accepted premium Fargate paid customer website with reconciled profit margin as of Nov 7.",
+    "measuredSpend": "Nov 8: no accepted paid premium Fargate site with reconciled real customer profit.",
     "reservedUnconfirmedSpend": "Merged #335 persists paid judge verdict on timeout; no repeat-live Fargate resume or idempotency proof. Skill #13 reports showcase cloud/judge spend, not accepted-customer economics.",
     "estimatedFutureCosts": "No new forecast.",
-    "note": "Read-only GitHub evidence review; forecast-only atomic two-file commit. No paid tests, deployments, product/cloud/spending-limit changes."
+    "note": "Read-only GitHub review; one forecast-only atomic two-file write. No product code, cloud configs, paid tests, deployments or spending caps changed."
   },
-  "method": "2026-11-07 06:03 America/Chicago: examined canonical businessbuilder main 74176c8171e3 and open draft #927 (hosting `_redirects`, slots, form purpose), Stromation main cd0254710f23 (#335 source retry safety), skill-main 8c86e6e51fbe and merged #13 with paired/absolute judge and tests, open skill drafts #14/#15. Both product mains report success via AWS CodeBuild. No new direct AWS ECS runtime, pinned skill activation or 3 accepted full delivery evidence; Nov 5 paused Sol watchdog last seen stale unresolved. No SaaS/custom-agent full proof, five-worker repeated live outcomes, profit margins or Darius-hours log. No product/cloud/spending changes or paid tests."
+  "method": "2026-11-08 06:03 America/Chicago: confirmed businessbuilder main 74176c8171e3, Stromation main cd0254710f23, skill-main 8c86e6e51fbe; CodeBuild success for product mains; checked skill engine still off by default in repo task definition, merged skill #13 final absolute judge, drafts businessbuilder #927 and skill #14/#15. No new direct ECS activation, accepted premium delivery/3 handoffs, verified 5 workers, complete SaaS/custom agents or measured economic/autonomy/founder-time evidence. No paid tests/deployment/cloud/product code change."
 }
