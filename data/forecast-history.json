@@ -4270,6 +4270,139 @@
       },
       "biggestChange": "No new main merge or independently verified live premium delivery since Nov 7; hosting/forms #927 and design diversity #14/#15 remain drafts, with last absolute quality 7.4/10 below the 8/10 floor.",
       "method": "2026-11-08 06:03 America/Chicago: confirmed businessbuilder main 74176c8171e3, Stromation main cd0254710f23, skill-main 8c86e6e51fbe; CodeBuild success for product mains; checked skill engine still off by default in repo task definition, merged skill #13 final absolute judge, drafts businessbuilder #927 and skill #14/#15. No new direct ECS activation, accepted premium delivery/3 handoffs, verified 5 workers, complete SaaS/custom agents or measured economic/autonomy/founder-time evidence. No paid tests/deployment/cloud/product code change."
+    },
+    {
+      "date": "2026-11-09",
+      "asOf": "2026-11-09T05:55:15-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "name": "V1 readiness",
+          "current": 88,
+          "confidence": "medium",
+          "status": "Premium Fargate delivery unverified, merged skill judge below 8/10, site action PR #927 and design variety PRs #14/#15 still draft",
+          "summary": "Nov 9: product main 1adfbf1e9 merges Bedrock-only Claude routing and zlib image fix, CI green. Task definition WEBSITE_ENGINE=stromation and empty WEBSITE_ENGINE_SKILL_COMPANIES remains off. No activated accepted Fargate skill build, no 8+/10 site or three paid-to-owned-site handoffs. Hosting/forms #927, quality direction #14/#15 unmerged."
+        },
+        "v2": {
+          "name": "V2 readiness",
+          "current": 84,
+          "confidence": "medium",
+          "status": "Five live provider-backed workforce outcomes, reliable integrations and unattended recurring recovery not proven",
+          "summary": "Nov 9: model routing now avoids Azure Claude, but this is merged source change, not repeated provider-backed results for the five standard workers. Nov 9 11:16Z deadman fails because separate paused Sol loop public_state heartbeat remains at Oct 23 18:48Z; no evidence all customer workforce paths are down."
+        },
+        "v3": {
+          "name": "V3 / Full 10/10 vision",
+          "current": 65,
+          "confidence": "medium",
+          "status": "No accepted complete SaaS/custom-agent delivery, representative mature autonomy or measured economic proof",
+          "summary": "Nov 9: full accepted SaaS/existing-app, custom-agent activation, 95–99% autonomous routine workflow denominator and founder workload of 1–2 technical hours/week remain unproven. Bedrock-only routing helps prospective cost control, not delivered customer economics."
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null,
+        "scope": "Representative supported routine workflows",
+        "observationWindow": null,
+        "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2",
+        "targetContext": "mature V3 scale",
+        "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 82,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 85,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 85,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 84,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 94,
+          "day30": 95,
+          "day60": 97,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 88,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Nov 9 businessbuilder #928 merged Bedrock-only Claude routing (eliminating Azure Claude charges outside credits) plus a zlib high-CVE image upgrade with green CI; no proven premium website delivery.",
+      "method": "2026-11-09 05:55 America/Chicago: fetched main heads and merged/open PRs for businessbuilder, Stromation, skill-main; inspected product #928 routing and CVE patch, latest green CodeBuild/CI, skill #14/#15 and product #927 drafts, builder task definition still engine=stromation with blank skill allowlist, and failed Nov 9 11:16Z deadman log showing Oct 23 paused Sol heartbeat. No independently verified production skill activation or accepted websites, five live worker results, complete SaaS/custom agents, representative economics or founder-hours proof. No paid tests, deployments, changes to product code/cloud/spend."
     }
   ]
 }

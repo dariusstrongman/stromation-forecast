@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-11-08",
-  "asOf": "2026-11-08T06:03:25-06:00",
+  "date": "2026-11-09",
+  "asOf": "2026-11-09T05:55:15-06:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
       "current": 88,
       "confidence": "medium",
-      "status": "Design quality still below 8/10, draft site hosting/forms #927 and diversity #14/#15 unmerged; premium Fargate delivery unverified",
-      "summary": "Nov 8: main unchanged since Nov 7: businessbuilder 74176c8171e3, Stromation cd0254710f23, skill-main 8c86e6e51fbe. Draft #927 site hosting/slots/forms and skill #14/#15 have no implementation credit. Latest absolute inner-page design judge 7.4/10 for law/HVAC and 6.5 for plumber, below 8 floor; no verified premium activated Fargate website or 3 accepted handoffs."
+      "status": "Premium Fargate delivery unverified, merged skill judge below 8/10, site action PR #927 and design variety PRs #14/#15 still draft",
+      "summary": "Nov 9: product main 1adfbf1e9 merges Bedrock-only Claude routing and zlib image fix, CI green. Task definition WEBSITE_ENGINE=stromation and empty WEBSITE_ENGINE_SKILL_COMPANIES remains off. No activated accepted Fargate skill build, no 8+/10 site or three paid-to-owned-site handoffs. Hosting/forms #927, quality direction #14/#15 unmerged."
     },
     "v2": {
       "name": "V2 readiness",
       "current": 84,
       "confidence": "medium",
-      "status": "All five worker paths need repeated live provider-backed results, verified integrations and unattended recovery",
-      "summary": "Nov 8: no new recurring live provider outcome from all 5 workers or new resolution of historically stale paused Sol watchdog; do not conflate a paused Sol loop with all customer workers."
+      "status": "Five live provider-backed workforce outcomes, reliable integrations and unattended recurring recovery not proven",
+      "summary": "Nov 9: model routing now avoids Azure Claude, but this is merged source change, not repeated provider-backed results for the five standard workers. Nov 9 11:16Z deadman fails because separate paused Sol loop public_state heartbeat remains at Oct 23 18:48Z; no evidence all customer workforce paths are down."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
       "current": 65,
       "confidence": "medium",
-      "status": "No new full SaaS/custom-agent deliveries or proof of mature economic autonomy",
-      "summary": "Nov 8: latest repo/source/CI checks show no new integrated deployed premium skill build; complete SaaS, custom-agent delivery, accepted premium sites and 95-99% routine autonomy plus measured founder hours not established."
+      "status": "No accepted complete SaaS/custom-agent delivery, representative mature autonomy or measured economic proof",
+      "summary": "Nov 9: full accepted SaaS/existing-app, custom-agent activation, 95–99% autonomous routine workflow denominator and founder workload of 1–2 technical hours/week remain unproven. Bedrock-only routing helps prospective cost control, not delivered customer economics."
     }
   },
   "autonomyProof": {
@@ -63,7 +63,7 @@
       "day60": 94,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "Final merged #13 absolute inner-page judge 7.4/10 law/HVAC and 6.5 plumber, below 8 floor; #14/#15 and product #927 remain draft; no activated pinned premium skill Fargate run or 3 accepted owner sites verified.",
+      "blocker": "Latest accepted merged skill #13 judge 7.4/10 law/HVAC, 6.5 plumber below 8 floor; draft skill #14/#15 and hosting/forms product #927 still open; WEBSITE_ENGINE_SKILL_COMPANIES empty in main task definition; no 3 accepted live handoffs.",
       "nextMilestone": "Close and prove product #927 compatibility, repair quality/sameness below 8, activate one guarded pinned Fargate site with consented imagery, then 3 accepted deliveries."
     },
     {
@@ -87,7 +87,7 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "All five standard-worker architecture paths exist; repeated live-provider outcomes and owner recaps remain unverified. Related Sol watchdog last observed stale on Nov 5 but may be a separate paused loop.",
+      "blocker": "Architecture for five standard workers exists but repeated live provider-backed outcomes and owner recaps not verified; Sol deadman still detects Oct 23 paused heartbeat without establishing status of customer workers.",
       "nextMilestone": "Verify which live scheduler owns each worker, restore stale heartbeat if still required and prove repeated customer-visible outcomes from all five."
     },
     {
@@ -111,20 +111,20 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Merged #335 retry/pause safeguards need live Fargate interrupted-resume idempotent judging and reconciled spend evidence; historical paused Sol watchdog status unclear.",
+      "blocker": "Merged #335 retry/pause guard lacks a witnessed interrupted-resume Fargate run, idempotent paid judging and settled spend; deadman still fails for separate paused Sol loop as of Nov 9.",
       "nextMilestone": "Prove one interrupted Fargate skill build resumes safely with idempotent judging, settled spend and no technical founder intervention; clarify stale watchdog."
     },
     {
       "key": "reliability",
       "name": "Reliability, security & ongoing maintenance",
       "group": "V3 capability",
-      "current": 83,
+      "current": 84,
       "day30": 89,
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Last product/main commit statuses green in AWS CodeBuild but no live Fargate skill/recovery/rollback/timed restore proof and paused Sol watchdog status unverified.",
-      "nextMilestone": "Verify actual live worker/watchdog ownership, production rollover/forms/rollback and timed restore on release candidate."
+      "blocker": "Nov 9 product #928 merged a zlib high-CVE image fix and strict Bedrock-only Claude path with green CI, but production deployment and restores are unverified; Nov 9 Sol deadman still fails against paused state and Oct 23 stale heartbeat.",
+      "nextMilestone": "Confirm production image/routing and alert ownership, repair or intentionally retire stale Sol heartbeat, and prove rollback/timed restore and live Fargate recovery."
     },
     {
       "key": "journey",
@@ -164,50 +164,53 @@
     }
   ],
   "v1Remaining": [
-    "Stage/production prove skill-site redirects, booking slots and form-purpose hosting actions (#927 is draft).",
-    "Prove an 8+/10 distinct premium Fargate skill site with consented imagery; #14/#15 still draft.",
+    "Stage/production verify hosting redirects, slots and forms purpose for skill sites; #927 remains unmerged draft.",
+    "Prove one owner-consented image-rich unique 8+/10 premium Fargate skill site with skill engine activated; #14/#15 drafts unmerged.",
     "Complete 3 independently accepted paid-to-revised-to-published/exported/domain-owned handoffs.",
-    "Prove unattended crash recovery and paid-judge cost safety; production forms/auth/payment/mobile and rollback/restore."
+    "Prove unattended safe resume and cost controls plus production forms/auth/payment/mobile, rollback and timed restore."
   ],
   "v2Remaining": [
-    "Prove repeated real-provider outcomes and owner recaps for all five standard workers.",
-    "Verify real integrations, scheduler ownership and historic paused Sol watchdog status.",
-    "Demonstrate unattended recurring recovery and useful customer results."
+    "Prove five workers repeatedly deliver customer-visible real-provider results with recaps.",
+    "Verify integrations and scheduler ownership; resolve separate stale paused Sol alarm.",
+    "Demonstrate unattended recurring recovery."
   ],
-  "biggestChange": "No new main merge or independently verified live premium delivery since Nov 7; hosting/forms #927 and design diversity #14/#15 remain drafts, with last absolute quality 7.4/10 below the 8/10 floor.",
+  "biggestChange": "Nov 9 businessbuilder #928 merged Bedrock-only Claude routing (eliminating Azure Claude charges outside credits) plus a zlib high-CVE image upgrade with green CI; no proven premium website delivery.",
   "improvements": [
-    "Nov 8: fresh read-only verification of unchanged product/skill main heads, and green AWS CodeBuild statuses for businessbuilder and Stromation; no new capability credit."
+    "Nov 9: businessbuilder #928 merged all Claude/Anthropic protocol paths onto Bedrock rather than Azure Marketplace and removed Azure Claude secret from website task definition.",
+    "Nov 9: API backend image zlib1g upgrade for CVE-2026-85091 and CVE-2026-76844; merged main CodeBuild status success and CI workflow successful.",
+    "Nov 9: read-only main/PR review confirmed no new premium Fargate activated build; explicit skill allowlist still empty."
   ],
   "regressions": [
-    "No newly proven regression or incident Nov 8; held ratings on independent review rather than treating missing live proof as breakage."
+    "No proven novel customer-facing regression on Nov 9; existing paused Sol deadman alarm continues failing (Nov 9 11:16Z, heartbeat Oct 23 18:48Z). Treat separately from standard customer workers."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "Latest main heads remain businessbuilder 74176c8171e3 (Nov 5 #920), Stromation cd0254710f23 (Nov 5 #335), skill 8c86e6e51fbe (Nov 7 #13). No new merge observed."
+      "businessbuilder main 1adfbf1e964b5e2e21271462238d8f4aaf39bbc4, Nov 9 PR #928 routing + zlib CVE patch.",
+      "Stromation main cd0254710f23ad36fd2f7c4edefa7ab349e5c2b0 (Nov 5 #335) unchanged; skill-main 8c86e6e51fbe (Nov 7 #13) unchanged.",
+      "Draft product #927, draft skill #14/#15 and open Stromation #332/#327 are not merged."
     ],
     "deployed": [
-      "Repo task definition still specifies WEBSITE_ENGINE=stromation with empty WEBSITE_ENGINE_SKILL_COMPANIES; this is source evidence, not a fresh ECS runtime check.",
-      "No new independent ECS live activation evidence or deployment action."
+      "No direct ECS running-task/image digest, staging result, CloudFront rollout or production routing proof accessible; product task definition in main retains WEBSITE_ENGINE=stromation and blank skill companies.",
+      "Nov 9 product merge/green CI establishes repository change, not automatically deployed runtime behavior."
     ],
     "verified": [
-      "AWS CodeBuild combined commit statuses for businessbuilder main and Stromation main report success; successful CI is not delivered/accepted premium website proof.",
-      "Businessbuilder #927 unmerged draft: skill-site redirect/slots/form purpose compatibility not staging-verified.",
-      "Skill design #14/#15 remain open drafts; #13 final absolute judge 7.4/10 law/HVAC and 6.5 plumber below floor.",
-      "No new independent 3 paid site handoffs, all-worker real provider recurrence, complete SaaS/custom agents, reconciled profit or founder-hour log."
+      "businessbuilder main AWS CodeBuild us-east-1 success; GitHub CI Nov 9 run 42581089171 success. Stromation main AWS CodeBuild success.",
+      "Nov 9 11:16Z Stromation stro-deadman run 42607716827 fails: public_state run_state=paused, heartbeat_at 2026-10-23T18:48:35.801567Z, not ticking, distinct from customer worker state.",
+      "Latest merged skill #13 absolute judge below 8/10; #14/#15 drafts and product #927 draft remain unproven."
     ]
   },
   "promisesOverreach": [
-    "Draft product #927 and skill #14/#15 get no merged, staged or live implementation credit.",
-    "Merged skill #13 and green CodeBuild are not proof of 8+/10 unique customer-approved websites or an enabled/pinned Fargate skill image.",
-    "Merged #335 retry guards not yet proven idempotent on live paid-judge Fargate resume.",
-    "Historical stale paused Sol watchdog is not evidence all customer workers are broken.",
-    "Complete SaaS/custom-agent delivery and measured 95-99% autonomous routine workflows/1-2 Darius technical hours per week remain unproven."
+    "Product #928 Bedrock-only routing and zlib fix are merged/CI-verified; not independently verified deployed or reflected in actual billing.",
+    "Product #927 and skill #14/#15 drafts earn no implemented-capability credit.",
+    "Green CI, source flags and skill #13 design tests do not prove active premium builder or three accepted owner sites.",
+    "Stale Sol deadman heartbeat is proven; it does not by itself prove the five standard worker schedules fail.",
+    "Mature SaaS/custom-agent, margin, autonomy denominator and founder time remain unproven."
   ],
   "founderWorkloadTrend": "No defensible supported-workflow success/attempt denominator or Darius-only technical hours/week; do not count customer approval/setup or specialist review.",
   "nextActions": [
-    "Finish and stage-verify product #927 site redirects, slots and form purpose; strengthen skill quality/diversity beyond 8 without counting draft #14/#15.",
-    "Then verify one guarded pinned premium Fargate website with owner-consented imagery, working forms, independent 8+ acceptance, crash resume and reconciled cost.",
-    "Then collect 3 distinct paid-to-published/owned-site completions and operations evidence."
+    "Finish product #927 skill-site hosting redirects, booking slots and forms purpose and cross-verify with site preview/hosting.",
+    "Raise visual originality/absolute design quality to 8+ before activating guarded pinned Fargate builder pilot with owner-consented imagery.",
+    "Prove one independent accepted site with working owner actions, safe interrupted resume and reconciled costs, then repeat to three handoffs."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -226,10 +229,10 @@
     "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
   },
   "costReporting": {
-    "measuredSpend": "Nov 8: no accepted paid premium Fargate site with reconciled real customer profit.",
-    "reservedUnconfirmedSpend": "Merged #335 persists paid judge verdict on timeout; no repeat-live Fargate resume or idempotency proof. Skill #13 reports showcase cloud/judge spend, not accepted-customer economics.",
+    "measuredSpend": "Nov 9: no independent accepted paid premium Fargate site with reconciled real contribution margin.",
+    "reservedUnconfirmedSpend": "Nov 9: product #928 removes Azure Claude spillover in merged code and moves models to Bedrock; actual deployed routing and savings not verified. #335 paid-judge recovery not proven in live Fargate.",
     "estimatedFutureCosts": "No new forecast.",
-    "note": "Read-only GitHub review; one forecast-only atomic two-file write. No product code, cloud configs, paid tests, deployments or spending caps changed."
+    "note": "Read-only GitHub/CI/deadman evidence, no paid tests, deployment, cloud/product/spending edits; only forecast repo atomic two-file commit."
   },
-  "method": "2026-11-08 06:03 America/Chicago: confirmed businessbuilder main 74176c8171e3, Stromation main cd0254710f23, skill-main 8c86e6e51fbe; CodeBuild success for product mains; checked skill engine still off by default in repo task definition, merged skill #13 final absolute judge, drafts businessbuilder #927 and skill #14/#15. No new direct ECS activation, accepted premium delivery/3 handoffs, verified 5 workers, complete SaaS/custom agents or measured economic/autonomy/founder-time evidence. No paid tests/deployment/cloud/product code change."
+  "method": "2026-11-09 05:55 America/Chicago: fetched main heads and merged/open PRs for businessbuilder, Stromation, skill-main; inspected product #928 routing and CVE patch, latest green CodeBuild/CI, skill #14/#15 and product #927 drafts, builder task definition still engine=stromation with blank skill allowlist, and failed Nov 9 11:16Z deadman log showing Oct 23 paused Sol heartbeat. No independently verified production skill activation or accepted websites, five live worker results, complete SaaS/custom agents, representative economics or founder-hours proof. No paid tests, deployments, changes to product code/cloud/spend."
 }
