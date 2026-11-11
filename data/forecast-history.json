@@ -4536,6 +4536,139 @@
       },
       "biggestChange": "Nov 10: skill #14/#15 merged fact-led direction/68 parts and cloud-loop layout/spacing gates, while businessbuilder merged dashboard fixes and default-off SaaS/marketing infrastructure; premium delivery still unverified.",
       "method": "2026-11-10T06:01:17-06:00 America/Chicago: inspected forecast files and product/skill/Stromation main heads, Nov 10 merged/open PRs, cloud skill tests/merge log, GitHub Actions merge train, and Nov 10 stale Sol deadman. Verified website skill direction/parts plus responsive and spacing checks merged; #927 remains open; no independent absolute 8+/10 or active accepted premium site, no 3 handoffs; default-OFF SaaS and marketing modules do not imply live outcomes; complete SaaS/custom-agent/economics unverified. No paid tests/deployments/product or cloud changes."
+    },
+    {
+      "date": "2026-11-11",
+      "asOf": "2026-11-11T06:00:48-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "name": "V1 readiness",
+          "current": 89,
+          "confidence": "medium",
+          "status": "Merged skill direction and own-site form-test improvements, but 8+/10 independent Fargate premium delivery and 3 accepted paid site handoffs remain unverified",
+          "summary": "Nov 11: skill-main 5781d3a5 improves direction variety (12 direction choices used among 31 customer-default briefs), but no post-direction 8+/10 independent design judge or Fargate site proof. businessbuilder #1004 owner-form synthetic self-test, Brand Studio #981/#989/#993, dashboards #998/#1000/#1010 merged; #927 skill hosting, slots, form purpose still OPEN; no active pinned premium Fargate customer delivery or 3 paid-to-owned handoffs."
+        },
+        "v2": {
+          "name": "V2 readiness",
+          "current": 84,
+          "confidence": "medium",
+          "status": "Five standard workers, repeated live provider results, reliable integrations and recurring unattended recovery not yet proven",
+          "summary": "Nov 11: marketing past-customer campaigns #959 and referrals #961 merged default-OFF, Jordan payment reminders #997 flag-OFF; many dashboard/Brand Studio improvements. These are implemented potential, not five repeatedly proven live customer outcomes; separate Sol deadman failed again on paused heartbeat."
+        },
+        "v3": {
+          "name": "V3 / Full 10/10 vision",
+          "current": 65,
+          "confidence": "medium",
+          "status": "Complete deployed SaaS, automatic custom-agent delivery, mature routine autonomy and economic/founder effort proof still unverified",
+          "summary": "Nov 11: more merged UX, studio, default-off marketing and safe form self-test code; no independently accepted deployed SaaS or existing-app change, activated custom agent, 95–99% supported routine-workflow measurement, reconciled margin or founder 1–2 technical hours/week."
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null,
+        "scope": "Representative supported routine workflows",
+        "observationWindow": null,
+        "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2",
+        "targetContext": "mature V3 scale",
+        "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 83,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 85,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 85,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 84,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 94,
+          "day30": 95,
+          "day60": 97,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 88,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Nov 11: own-site form self-testing #1004 and Brand Studio/print improvements merged; skill direction spread reached 12 choices in 31 briefs, but #927, independent judge and live premium handoff are still unproven.",
+      "method": "2026-11-11 06:00 America/Chicago: inspected canonical businessbuilder main a4dcb8cb, skill-main 5781d3a5, Stromation main cd025471, live/open PR status (#927 open; #1004 and Studio merged), CI job outcomes 43001711257, separate Sol deadman 42981204264, skill CLOUD-LOOP, last deployed flags snapshot. Unverified: independent 8+/10 post-direction judge, pinned live premium Fargate site, 3 accepted paid-to-owned handoffs, 5 repeated standard-worker results, full SaaS/agent, economics and Darius-only workload. Changed only two forecast JSON files."
     }
   ]
 }

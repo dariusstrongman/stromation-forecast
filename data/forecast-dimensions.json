@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-11-10",
-  "asOf": "2026-11-10T06:01:17-06:00",
+  "date": "2026-11-11",
+  "asOf": "2026-11-11T06:00:48-06:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
       "current": 89,
       "confidence": "medium",
-      "status": "Merged skill direction/parts and layout/spacing checks improve showcase readiness, but 8+/10 blind premium Fargate delivery and 3 live handoffs remain unverified",
-      "summary": "Nov 10: front-end skill #14/#15 merged to skill-main; direction engine plus 68 parts, 24-showcase layout variety improvements, accessibility text-spacing checks pass. Product #935 dashboard fixes merged; #927 site hosting/redirects/slots/forms still open; no proven active pinned premium AWS Fargate site, fresh 8+/10 absolute independent judge, or 3 owner-accepted paid-to-owned handoffs. Last merged skill absolute judge 7.4/10 for law/HVAC and 6.5 plumber."
+      "status": "Merged skill direction and own-site form-test improvements, but 8+/10 independent Fargate premium delivery and 3 accepted paid site handoffs remain unverified",
+      "summary": "Nov 11: skill-main 5781d3a5 improves direction variety (12 direction choices used among 31 customer-default briefs), but no post-direction 8+/10 independent design judge or Fargate site proof. businessbuilder #1004 owner-form synthetic self-test, Brand Studio #981/#989/#993, dashboards #998/#1000/#1010 merged; #927 skill hosting, slots, form purpose still OPEN; no active pinned premium Fargate customer delivery or 3 paid-to-owned handoffs."
     },
     "v2": {
       "name": "V2 readiness",
       "current": 84,
       "confidence": "medium",
-      "status": "Five provider-backed standard worker outcomes, reliable live integrations and recurring autonomous recovery not demonstrated",
-      "summary": "Nov 10: product #936 ads core, #940 creative studio and #944 Meta adapter merged behind default-OFF flags; #933 Complete SaaS order intake also flag off; dashboard #935/#942/#946 improve UX. None establishes five live worker outcomes or live campaign delivery. Separate Sol deadman continues failing Nov 10 at 04:01Z against Oct 23 stale paused heartbeat; do not equate with all customer workers."
+      "status": "Five standard workers, repeated live provider results, reliable integrations and recurring unattended recovery not yet proven",
+      "summary": "Nov 11: marketing past-customer campaigns #959 and referrals #961 merged default-OFF, Jordan payment reminders #997 flag-OFF; many dashboard/Brand Studio improvements. These are implemented potential, not five repeatedly proven live customer outcomes; separate Sol deadman failed again on paused heartbeat."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
       "current": 65,
       "confidence": "medium",
-      "status": "Full SaaS/existing-app delivery, automated custom agents, mature autonomy and real economic/founder-effort evidence remain unproven",
-      "summary": "Nov 10: Complete SaaS request/quote/approval code #933 merged but default disabled, not accepted complete deployed SaaS or existing-app engineering. Marketing adapter/studio merged but default disabled, not customer results. No autonomously activated custom agent, representative 95-99% routine-workflow proof, measured margin or 1–2 founder technical hours per week."
+      "status": "Complete deployed SaaS, automatic custom-agent delivery, mature routine autonomy and economic/founder effort proof still unverified",
+      "summary": "Nov 11: more merged UX, studio, default-off marketing and safe form self-test code; no independently accepted deployed SaaS or existing-app change, activated custom agent, 95–99% supported routine-workflow measurement, reconciled margin or founder 1–2 technical hours/week."
     }
   },
   "autonomyProof": {
@@ -51,8 +51,8 @@
       "day60": 94,
       "day90": 95,
       "confidence": "high",
-      "blocker": "Scope and online-only routing exist; blind real-owner cross-industry decisions and refusals not live-verified.",
-      "nextMilestone": "Blind-test diverse owner briefs against deployed scope/refusal routing."
+      "blocker": "No repeated deployed cross-industry owner scope/refusal validation.",
+      "nextMilestone": "Blind cross-industry owner briefs, including refusals."
     },
     {
       "key": "website",
@@ -63,8 +63,8 @@
       "day60": 94,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "Skill #14/#15 direction engine and 68 parts plus live showcase layout/spacing checks merged; no new absolute 8+/10 blind judge, Fargate skill activation or 3 accepted live sites. Product #927 hosting/forms still open.",
-      "nextMilestone": "Merge and verify #927 compatibility, pass 8+/10 independent design judge with imagery, activate one pinned Fargate run, then 3 accepted site handoffs."
+      "blocker": "Direction variety improved locally; no independently judged 8+/10 pinned Fargate site, 3 accepted sites or merged hosting/actions #927.",
+      "nextMilestone": "Merge and live-verify #927, blind 8+/10 judge with imagery, prove Fargate delivery and 3 handoffs."
     },
     {
       "key": "saas",
@@ -75,8 +75,8 @@
       "day60": 25,
       "day90": 35,
       "confidence": "medium",
-      "blocker": "#933 intake and quote code merged with feature disabled; no full independent SaaS build, deployment, acceptance or existing-app change shown.",
-      "nextMilestone": "Accept and maintain one end-to-end complete SaaS and supported existing-app change."
+      "blocker": "SaaS intake code default OFF; no accepted complete SaaS or existing-app change deployed.",
+      "nextMilestone": "Deliver and maintain one SaaS and one existing-app change."
     },
     {
       "key": "workforce",
@@ -87,8 +87,8 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Marketing components #936/#940/#944 merged flags OFF; five live workers with repeated provider-backed outcomes/owner recaps unproven; separate paused Sol deadman still failing.",
-      "nextMilestone": "Verify live scheduler and repeated completed provider-backed outcomes for five workers."
+      "blocker": "New marketing/referral/Jordan pieces default OFF; five live provider-backed worker outcomes/recaps unproven.",
+      "nextMilestone": "Repeat real provider outcomes for each of five workers."
     },
     {
       "key": "customAgents",
@@ -99,8 +99,8 @@
       "day60": 30,
       "day90": 40,
       "confidence": "high",
-      "blocker": "No automated custom-agent request-to-build-to-activation-to-monitoring customer delivery.",
-      "nextMilestone": "Build, activate and monitor one governed useful custom agent."
+      "blocker": "No end-to-end automated customer agent request, build, activation and monitoring.",
+      "nextMilestone": "Build, activate and monitor one governed custom agent."
     },
     {
       "key": "coordination",
@@ -111,8 +111,8 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Unattended interrupted Fargate resume, idempotent paid judging, budget settlement still unwitnessed; separate Sol deadman failure continues.",
-      "nextMilestone": "Prove safely resumed Fargate premium build with settled charges and no founder technical work."
+      "blocker": "Unattended interrupted Fargate restart, idempotent retry settlement, safe budget resume unverified.",
+      "nextMilestone": "Prove automatic safe premium Fargate recovery."
     },
     {
       "key": "reliability",
@@ -123,8 +123,8 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Dashboard accessibility checks and merged source improvements not production/restore proof; separate Sol deadman Nov 10 still fails, Oct 23 heartbeat remains stale.",
-      "nextMilestone": "Verify running prod tasks and watchdog ownership, rollback/timed restore and live recovery."
+      "blocker": "Nov 11 main CI train-land failed after green test jobs; separate paused Sol deadman fails; no timed production restore evidence.",
+      "nextMilestone": "Verify live ECS, watchdog ownership and timed restore."
     },
     {
       "key": "journey",
@@ -135,8 +135,8 @@
       "day60": 97,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Dashboard #935/#942/#946 merged; #927 site redirect/booking/forms still unmerged, #933 SaaS intake default off, no paid-to-owned-site proof.",
-      "nextMilestone": "Prove 3 paid, revised, published/exported, domain-owned sites with live forms and booking."
+      "blocker": "Own-site form synthetic self-test merged, but #927 live actions open; paid-to-owned-site journey unverified.",
+      "nextMilestone": "Prove 3 owner-accepted paid site/booking/form/domain handoffs."
     },
     {
       "key": "commercial",
@@ -147,8 +147,8 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Richard marketing studio and ads engine/Meta adapter merged default OFF; no actual source-to-paid-to-delivered conversion or sustained owner usage.",
-      "nextMilestone": "Demonstrate one attributable lead-to-paid-to-fulfilled journey and ongoing owner use."
+      "blocker": "Brand Studio/print/marketing code merged, but attributable paid-to-fulfilled acquisition unproven.",
+      "nextMilestone": "Prove a real source-to-paid-to-fulfilled customer."
     },
     {
       "key": "economics",
@@ -159,60 +159,61 @@
       "day60": 25,
       "day90": 40,
       "confidence": "high",
-      "blocker": "No reconciled cohort contribution margin, retries, autonomous success denominator or founder technical hours.",
-      "nextMilestone": "Record actual site-level margins, denominator-based autonomy rate and founder hours over representative deliveries."
+      "blocker": "No actual reconciled margin, autonomy denominator or founder technical hours.",
+      "nextMilestone": "Measure site margins, autonomous success rate and founder hours."
     }
   ],
   "v1Remaining": [
-    "Merge #927 and stage/live-verify skill-site redirects, booking/open-times, form purpose/hosting and customer actions.",
-    "Prove distinct owner-consented image-rich 8+/10 premium AWS Fargate site, correctly pinned and activated.",
-    "Complete 3 independently accepted paid-to-revised-to-published/exported/domain-owned handoffs.",
-    "Prove unattended safe resume, settled spend, production auth/payment/forms/mobile, rollback and timed restore."
+    "Merge and stage/live-verify #927 redirects, open times, purpose and booking/forms.",
+    "Independently judge a distinct image-rich premium 8+/10 pinned AWS Fargate build.",
+    "Deliver 3 paid-to-accepted-to-published/exported/domain-owned handoffs.",
+    "Prove safe unattended recovery, billing/forms/mobile, spent costs and restore."
   ],
   "v2Remaining": [
-    "Demonstrate five standard workers repeatedly deliver real-provider customer outcomes and owner recaps.",
-    "Verify live provider integrations/scheduler ownership; resolve separate stale paused Sol heartbeat alarm.",
-    "Prove unattended recurring recovery."
+    "Repeated real-provider live results and owner recaps for five standard workers.",
+    "Live integration/scheduler reliability and separate Sol watchdog ownership.",
+    "Unattended recurring recovery."
   ],
-  "biggestChange": "Nov 10: skill #14/#15 merged fact-led direction/68 parts and cloud-loop layout/spacing gates, while businessbuilder merged dashboard fixes and default-off SaaS/marketing infrastructure; premium delivery still unverified.",
+  "biggestChange": "Nov 11: own-site form self-testing #1004 and Brand Studio/print improvements merged; skill direction spread reached 12 choices in 31 briefs, but #927, independent judge and live premium handoff are still unproven.",
   "improvements": [
-    "Skill-main #14/#15 direction and parts merged Nov 9 CST; 24 showcase inner-page same-layout rates down (contact 51% to 17%, pricing 50% to 17%), 0 flagged page kinds in local check.",
-    "Nov 10 skill-main cloud loop spacingcheck WCAG 1.4.12 gate: 15/24 initially failed and 0/24 after source-level fixes; 693/693 local npm tests, browser 12/12, still not an independent absolute judge or production delivery.",
-    "businessbuilder #935 dashboard truthful states/layout and #942/#946 inbox/mobile performance merged to main; CI merge-train Nov 10 success.",
-    "businessbuilder #933 Complete SaaS request/quote/approve, #936 ads core, #940 creative studio, #944 Meta adapter merged default-OFF; implemented infrastructure, not a live operating result."
+    "Skill-main 5781d3a5 (Nov 11 11:45Z) improves customer-default direction/heading variety: 12 directions in 31 briefs; structural checks only. Picture bank and paid blind quality judge pending.",
+    "Product main a4dcb8cb (Nov 11 10:12Z) merges owner-site synthetic form test #1004, Studio print fixes #981/#989/#993 and dashboard/lobby #998/#1000/#1010.",
+    "Marketing #959 campaigns, #961 referrals and Jordan #997 reminders merged flag-OFF, increasing potential without live commercial proof.",
+    "Nov 11 CI run 43001711257 code tests/web/API/browser/security succeeded; final land-train step failed, overall workflow failure."
   ],
   "regressions": [
-    "No demonstrated new live customer regression. Sol separate stro-deadman Nov 10 04:01Z still fails the heartbeat check for paused Oct 23 loop; customer worker status cannot be inferred.",
-    "Product #927 site redirects/slots/forms compatibility remains open and earns no implemented credit."
+    "No newly confirmed production regression. Separate paused Sol deadman run 42981204264 failed Nov 11; not evidence that customer workers are all down.",
+    "Latest product main CI run 43001711257 failed at land-train after test jobs passed; investigate, not proof of prod outage.",
+    "Site hosting/actions PR #927 remains open and earns no implemented credit."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "businessbuilder main 2b7b0118472fe9e91c0e4835f8430ebc3fffe265 (Nov 10) includes #935 dashboard, #933 default-off Complete SaaS order flow, #936 default-off ads safety core, #940 default-off marketing studio, #944 default-off Meta adapter, #942/#946 mobile dashboards.",
-      "front-end-skill skill-main bdb551c6a26c63019b79c4130a9543940a7fda79 (Nov 10); #14/#15 merged direction/parts and cloud-loop layout/spacing checks.",
-      "Stromation main cd0254710f23ad36fd2f7c4edefa7ab349e5c2b0 unchanged; product site compatibility #927 and owner actions #932 remain unmerged; SaaS public CTA #934 draft."
+      "businessbuilder main a4dcb8cb0c52704206be21b12310e17cac0907c4: own-site form #1004, Studio print #981/#989/#993, dashboard #998/#1000/#1010, marketing #959/#961 and Jordan #997 (several flags OFF).",
+      "selfoperate-front-end-skill skill-main 5781d3a5dde008fcfc59c6520e303d4853fb0795: direction picks spread and heading variety; local-only assurance.",
+      "Stromation main cd0254710f23ad36fd2f7c4edefa7ab349e5c2b0 unchanged since Nov 5; Fargate skill integrated behind allowlist, unactivated."
     ],
     "deployed": [
-      "No independent live ECS running task/image digest, pinned skill activation, CloudFront production rollout, end-to-end SaaS order, Meta ads production activation or hosting/forms compatibility proof.",
-      "Default-off marketing/SaaS switches do not imply launch; merge train CI success not evidence of customer deployment."
+      "No current independent Nov 11 running ECS task/image digest, CloudFront rollout, pinned Fargate skill or accepted live customer website proof.",
+      "Deployed-flags document last captured Nov 2 and explicitly is not proof those task revisions remain live."
     ],
     "verified": [
-      "Product Nov 10 merge train workflow run 42809987234 success; product main head 2b7b0118472f.",
-      "Skill local showcase checks logged: direction/parts, sameness, spacing, 693/693 npm tests and 12/12 browser tests; last merged absolute blind design judge remains below 8.",
-      "Stromation stro-deadman 42753198436 failure Nov 10 04:01Z with heartbeat check failure for separate Sol loop."
+      "Product main CI 43001711257 failed only at land step after success in web/API/security/flag and verification jobs; previous merge-train 43001611960 succeeded.",
+      "Separate paused Sol deadman run 42981204264 failed heartbeat on Nov 11.",
+      "Skill CLOUD-LOOP Nov 11 04:15 CT explicitly requires paid judge/visual bank and 3 fictional owner-journey proofs; no live paid Fargate build."
     ]
   },
   "promisesOverreach": [
-    "New skill diversity/spacing improvements are merged and locally tested but NOT independently judged 8+/10 or customer Fargate validated.",
-    "Merged #933/#936/#940/#944 remain default-OFF, cannot count as proven live SaaS or marketing workforce.",
-    "#927/#932/#934 unmerged cannot count as implemented.",
-    "Separate Sol deadman stale heartbeat is verified but cannot prove the five standard workers are down.",
-    "No current credible measured autonomy denominator, founder-hours or real completed SaaS/custom agent economic proof."
+    "Skill direction spread and green local checks are not an 8+/10 independent image-rich customer site.",
+    "Merged marketing, referral and Jordan code largely flags OFF; no repeated live 5-worker outcomes.",
+    "#927 open is not capability; #1004 synthetic test is not full customer acceptance.",
+    "Separate paused Sol deadman and product train-land failure are not proof of customer production outage.",
+    "Mature autonomous rate, paid margins and founder-only technical hours unmeasured."
   ],
-  "founderWorkloadTrend": "No representative denominator or accurate Darius-only weekly technical workload; exclude owner approvals/setup and specialist review.",
+  "founderWorkloadTrend": "No representative denominator-based autonomy success measurement or Darius-only weekly technical hours distinguished from approvals/account setup/specialist review.",
   "nextActions": [
-    "Close and verify #927 skill-site redirects, booking, forms and hosting compatibility before customer launch.",
-    "Independently judge new fact-led skill 8+/10 with licensed/owner-consented imagery; prove one guarded pinned premium Fargate site.",
-    "Repeat three owner accepted paid-to-published/exported/domain-owned handoffs and validate recovery/cost."
+    "Merge and verify #927 skill hosting/actions before customer launch.",
+    "Independently judge the new default skill 8+/10 with licensed or owner-consented imagery on pinned Fargate.",
+    "Prove 3 paid accepted and owned-site handoffs, reliable recovery and settled costs."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -231,10 +232,10 @@
     "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
   },
   "costReporting": {
-    "measuredSpend": "No newly verified independently accepted premium Fargate site with actual reconciled margin as of Nov 10.",
-    "reservedUnconfirmedSpend": "Newly merged creative/Meta and paid-ads budget scaffolding is default OFF. Skill showcase/local tests do not prove spend, Fargate paid judging or reconciled retries.",
-    "estimatedFutureCosts": "No new forecast.",
-    "note": "Read-only GitHub/CI/Sol deadman investigation; no paid tests or product/cloud/spend changes, forecast repo atomic two-file commit only."
+    "measuredSpend": "No verified accepted premium Fargate site with actual reconciled contribution margin as of Nov 11.",
+    "reservedUnconfirmedSpend": "New marketing and print feature code and skill local checks are not spend proof; paid independent quality judging awaits approval.",
+    "estimatedFutureCosts": "No updated estimate.",
+    "note": "This run made no paid tests, deployments, account changes, cloud/product changes or spend-limit changes."
   },
-  "method": "2026-11-10T06:01:17-06:00 America/Chicago: inspected forecast files and product/skill/Stromation main heads, Nov 10 merged/open PRs, cloud skill tests/merge log, GitHub Actions merge train, and Nov 10 stale Sol deadman. Verified website skill direction/parts plus responsive and spacing checks merged; #927 remains open; no independent absolute 8+/10 or active accepted premium site, no 3 handoffs; default-OFF SaaS and marketing modules do not imply live outcomes; complete SaaS/custom-agent/economics unverified. No paid tests/deployments/product or cloud changes."
+  "method": "2026-11-11 06:00 America/Chicago: inspected canonical businessbuilder main a4dcb8cb, skill-main 5781d3a5, Stromation main cd025471, live/open PR status (#927 open; #1004 and Studio merged), CI job outcomes 43001711257, separate Sol deadman 42981204264, skill CLOUD-LOOP, last deployed flags snapshot. Unverified: independent 8+/10 post-direction judge, pinned live premium Fargate site, 3 accepted paid-to-owned handoffs, 5 repeated standard-worker results, full SaaS/agent, economics and Darius-only workload. Changed only two forecast JSON files."
 }
