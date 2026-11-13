@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-11-12",
-  "asOf": "2026-11-12T05:55:55-06:00",
+  "date": "2026-11-13",
+  "asOf": "2026-11-13T06:01:10-06:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
-      "current": 89,
+      "current": 88,
       "confidence": "medium",
-      "status": "Premium site skill first-paint stability improved, but live 8+/10 Fargate quality, hosting/forms and 3 accepted owner handoffs remain unverified",
-      "summary": "Nov 12: skill-main 949e734 first-paint/late-font repairs with 729/729 unit and 15/15 browser checks; businessbuilder main 6a41c9d merges #1001/#1003/#1012/#1013/#1014, with #1001 default OFF. #927 skill hosting redirect, slots and form purpose remains OPEN. No independently 8+/10 judged pinned premium AWS Fargate site, 3 accepted paid-to-owned handoffs, or live ECS rollout proof."
+      "status": "Hosting/forms #927 has merged and builder safeguards improved, but repeated paid ATSHack builds still stop before acceptable premium delivery; live site acceptance remains unverified",
+      "summary": "Nov 13: businessbuilder #927 merged and R19 flags deployed; current product main fce931e. Stromation main 9a45c25 integrates business-shape fixes and skill pins, but paid ATSHack website jobs 1112a-e repeatedly stopped in plan/build/foundation, including 1112e; skill #21 and Stromation #342 repair PRs remain OPEN. No completed independently 8+/10 judged pinned AWS Fargate site, 3 paid owner-accepted handoffs, or independently inspected production build/recovery."
     },
     "v2": {
       "name": "V2 readiness",
-      "current": 84,
+      "current": 85,
       "confidence": "medium",
-      "status": "Five standard workers still lack repeated live provider outcomes, reliable integrations and recurring unattended recovery",
-      "summary": "Nov 12: #1001 Maya appointment self-service merged behind default-OFF switch; professional evidence-based audit #1003 and dashboard improvements merged. CI 43130643705 and train 43209581428 green, but no demonstrated five real-provider worker outcomes. Separate Sol deadman 43150176500 still failed heartbeat; this is not a customer-worker production outage proof."
+      "status": "R19 production turned on several standard-worker switches, but all five workers still lack repeated live outcomes and unattended recovery proof",
+      "summary": "Nov 13: redacted live ECS flags snapshot #1026 records production web :457 and worker :293, with Maya/Jordan/Alex R19 switches active; product #1031/#1032/#1033/#1036/#1037 merged activity honesty, chat, historic provider import, checkout inspection, unified money states. These are not repeated real-provider outcomes for all five workers, reliable payments import completion or autonomous recovery."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
       "current": 65,
       "confidence": "medium",
-      "status": "Complete SaaS and existing-app delivery, automated custom agents, mature routine autonomy and economics/founder-workload proof remain unverified",
-      "summary": "Nov 12: merged premium dashboard, audit and flag-OFF booking improvements, plus local builder layout stability; no accepted deployed full SaaS or existing-app change, activated custom agent, measured 95–99% supported routine-workflow rate, reconciled delivery margin or 1–2 founder technical hours/week."
+      "status": "End-to-end premium site proof, complete SaaS and existing-app delivery, automatic custom agents, mature autonomy and measured economics/founder workload remain incomplete",
+      "summary": "Nov 13: meaningful production flag activation, merged product reliability/finance honesty and website business-shape fixes, but repeat paid builder failures prevent premium handoff proof. No verified full SaaS, existing-app change, activated custom agent, 95–99% autonomous routine workflows, reconciled margin or 1–2 founder technical hours per week."
     }
   },
   "autonomyProof": {
@@ -51,20 +51,20 @@
       "day60": 94,
       "day90": 95,
       "confidence": "high",
-      "blocker": "No repeated live cross-industry scope/refusal validations.",
-      "nextMilestone": "Blind cross-industry owner briefs and refusals."
+      "blocker": "No repeated live, cross-industry brief/refusal validation.",
+      "nextMilestone": "Blindly validate cross-industry owner briefs and scope refusals."
     },
     {
       "key": "website",
       "name": "Premium website delivery",
       "group": "V3 capability",
-      "current": 83,
+      "current": 82,
       "day30": 89,
       "day60": 94,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "Skill first-paint layout stable in local tests; #927 open and no independently judged 8+/10 pinned Fargate site or 3 accepted handoffs.",
-      "nextMilestone": "Merge/live-verify #927; independently judge image-rich 8+/10 Fargate build and 3 handoffs."
+      "blocker": "#927 merged, but paid ATSHack jobs repeatedly stop; #21/#342 open, no 8+/10 live accepted site.",
+      "nextMilestone": "Land and verify #21/#342, finish one accepted 8+/10 Fargate site."
     },
     {
       "key": "saas",
@@ -75,8 +75,8 @@
       "day60": 25,
       "day90": 35,
       "confidence": "medium",
-      "blocker": "SaaS intake gated; no accepted deployed full SaaS or existing-app change.",
-      "nextMilestone": "Deliver and maintain complete SaaS and an existing-app change."
+      "blocker": "No accepted production SaaS or existing-app change.",
+      "nextMilestone": "Deliver and support complete SaaS and existing-app work."
     },
     {
       "key": "workforce",
@@ -87,8 +87,8 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Booking self-service and marketing additions default OFF; five repeated real-provider worker outcomes unproven.",
-      "nextMilestone": "Repeat provider outcomes for all five workers."
+      "blocker": "Production R19 switches activated; five repeated provider-verified worker outcomes unproven.",
+      "nextMilestone": "Prove repeat real-provider outcomes for all five workers."
     },
     {
       "key": "customAgents",
@@ -99,32 +99,32 @@
       "day60": 30,
       "day90": 40,
       "confidence": "high",
-      "blocker": "No automated customer custom agent build, activation and monitoring.",
-      "nextMilestone": "Activate and monitor a governed custom agent."
+      "blocker": "No customer custom agent automatically built, activated and monitored.",
+      "nextMilestone": "Prove governed custom-agent build and monitoring."
     },
     {
       "key": "coordination",
       "name": "Autonomous coordination & recovery",
       "group": "V3 capability",
-      "current": 85,
+      "current": 86,
       "day30": 90,
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Unattended Fargate restart, idempotent settlement and safe budget recovery unproven.",
-      "nextMilestone": "Prove safe autonomous premium Fargate recovery."
+      "blocker": "Stale-step and task-protection fixes merged; paid builder recovery still stops on quality checks.",
+      "nextMilestone": "Prove unattended premium build restart and settlement."
     },
     {
       "key": "reliability",
       "name": "Reliability, security & ongoing maintenance",
       "group": "V3 capability",
-      "current": 84,
+      "current": 85,
       "day30": 89,
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Main CI/merge train green, but separate deadman still fails and current ECS/restore evidence absent.",
-      "nextMilestone": "Verify live ECS, watchdog ownership and timed restore."
+      "blocker": "CI and live flag snapshots improved; production website build, watchdog and restore proof incomplete.",
+      "nextMilestone": "Prove live Fargate resilience and timed restore."
     },
     {
       "key": "journey",
@@ -135,8 +135,8 @@
       "day60": 97,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Form self-tests and dashboards not full owner-accepted site journeys; #927 still open.",
-      "nextMilestone": "Prove three paid to owned-site booking/form/domain handoffs."
+      "blocker": "Hosting/forms compatibility merged, but paid published/owned site journey unaccepted.",
+      "nextMilestone": "Prove three paid-to-domain-owned handoffs."
     },
     {
       "key": "commercial",
@@ -147,8 +147,8 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Improved audit and walkthrough without real attributed paid customer fulfillment.",
-      "nextMilestone": "Prove one attributed paid-to-fulfilled customer."
+      "blocker": "Checkout and audit code improved, but attributed paid-to-fulfilled customer proof absent.",
+      "nextMilestone": "Verify attributed payment through fulfillment."
     },
     {
       "key": "economics",
@@ -159,60 +159,61 @@
       "day60": 25,
       "day90": 40,
       "confidence": "high",
-      "blocker": "No reconciled margin, measured autonomy denominator or founder technical-hours log.",
-      "nextMilestone": "Measure delivery margin, autonomy rate and founder hours."
+      "blocker": "No accepted premium Fargate cost reconciliation, autonomy denominator or founder-hours log.",
+      "nextMilestone": "Measure margins, routine success rate and weekly founder hours."
     }
   ],
   "v1Remaining": [
-    "Merge and stage/live verify #927 redirects, slots, form purpose and booking/forms.",
-    "Independently judge a pinned image-rich 8+/10 premium AWS Fargate build.",
-    "Deliver 3 accepted, paid, published/exported/domain-owned sites.",
-    "Prove safe unattended recovery, billing/mobile/forms, settled costs and restore."
+    "Merge and verify skill #21/Stromation #342 paid-build repair, then complete an 8+/10 independent premium Fargate website.",
+    "Stage/live-verify merged #927 booking, forms, redirects and ownership behavior.",
+    "Prove 3 paid accepted sites published/exported with owner domain access.",
+    "Prove unattended retries/recovery, responsive and form checks, and reconciled cost."
   ],
   "v2Remaining": [
-    "Prove all five workers with repeated real-provider outcomes and owner recaps.",
-    "Verify live provider integrations, scheduler, heartbeat and safe recovery.",
-    "Prove recurring unattended operation."
+    "Prove all five standard workers repeatedly with real connected providers and owner recaps.",
+    "Verify active R19 switches and historical Stripe import through production results, not just release flags.",
+    "Prove recurring unattended worker operation and recovery."
   ],
-  "biggestChange": "Nov 12: product merged premium dashboard #1014, walkthrough #1013, professional audit #1003 and default-OFF booking #1001; skill eliminated customer-path slow-font/late-script layout shifts, but premium live delivery is still unproven.",
+  "biggestChange": "Nov 13: #927 hosting/forms finally merged and R19 standard-worker flags were live, but the ATSHack paid Fargate builder tests repeatedly stopped before a premium site was accepted; #21/#342 repairs remain open.",
   "improvements": [
-    "businessbuilder main 6a41c9d26476 on Nov 11 18:53 CT: #1001 Maya booking self-service (flag OFF), #1003 evidence-based business audit, #1012 correct trust copy, #1013 home walkthrough and #1014 premium dashboard merged.",
-    "Main product CI 43130643705 and merge train 43209581428 succeeded, clearing the prior train-land anomaly (not production validation).",
-    "Skill-main 949e734c84ae Nov 12 05:14 CT: slow scripts/fonts and open-now header fixes with 729/729 unit and 15/15 browser checks; 10 remaining parts-harness findings, reportedly not on selected customer directions."
+    "businessbuilder #927 merged Nov 12 12:42 CT, removing code incompatibilities for skill _redirects, booking slots and form purposes; staging/production acceptance not independently proven.",
+    "Live ECS redacted flags snapshot #1026 reports web :457, worker :293 and R19 activation; product main fce931eb with #1031/#1032/#1033/#1036/#1037 merged; CI run 43403818822 and merge train 43415492799 passed.",
+    "Stromation main 9a45c25 includes repair ladder #339, finish touchup #341 and business-shape pin #340, with CI 43396781943 green; skill #19 and #20 merged, including 29 shape builds in local selftest.",
+    "Skill #21 and Stromation #342 propose further foundation-stage repair and fold checks; their green PR CI is not implemented evidence."
   ],
   "regressions": [
-    "No newly proven customer production regression. Separate Sol deadman run 43150176500 failed the heartbeat check on Nov 11; customer workers' health must be judged separately.",
-    "Website hosting/actions #927 and dependency/security upgrades #926 remain open and receive no implemented credit.",
-    "Default-OFF integration code and local builder layout checks do not establish active production delivery."
+    "Paid ATSHack website jobs 1112a-e uncovered repeated stops during plan/build/foundation rather than completing an accepted site; 1112e remains an active class of foundation defects pending PR #21/#342.",
+    "Merged hosting/forms compatibility #927 and R19 release flags do not establish finished production handoff or five live-provider worker outcomes.",
+    "No independently verified current ECS skill rollout, 8+/10 premium judge, owner acceptance, production restore, or economic/founder workload measurements."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "businessbuilder main 6a41c9d26476577982233817d662c4b634947112: #1001/#1003/#1012/#1013/#1014 plus earlier UI/form work.",
-      "selfoperate-front-end-skill skill-main 949e734c84ae22dae0fbd47c54f0b3ba4ca4620d: local first-paint/CLS fixes.",
-      "Stromation main cd0254710f23ad36fd2f7c4edefa7ab349e5c2b0 unchanged since Nov 5; premium skill behind allowlist."
+      "businessbuilder main fce931eb5d63: #927 hosting/forms, #1031 activity accuracy, #1032 chat, #1033 payment-history import, #1036 checkout walk, #1037 unified money, and earlier R19 flags/staging fixes.",
+      "Stromation main 9a45c25e98f: #337 stale-step gate, #339 repair ladder, #340 business-shape integration, #341 finish touchup skill pin.",
+      "selfoperate-front-end-skill skill-main 0c10054be081: #18 repair ladder, #19 touchup keys, #20 29 owner-derived business shapes."
     ],
     "deployed": [
-      "No current independently inspected ECS image/task digest, CloudFront rollout or pinned premium Fargate customer site.",
-      "CI or merged code alone cannot establish current production flags or live provider integrations."
+      "Read-only ECS snapshot referenced in #1026: R19 worker/API activation on web :457 and worker :293; not independent full customer workflow validation.",
+      "No inspected deployed premium Fargate customer site or post-#927 host site tested end to end."
     ],
     "verified": [
-      "Product CI 43130643705 including main API/web/browser checks, and merge train 43209581428, green.",
-      "Skill CLOUD-LOOP through Nov 12 05:20 CT reports 729/729 unit and 15/15 browser with 10 residual parts findings; paid design judge pending.",
-      "Stromation paused Sol deadman 43150176500 failed heartbeat; #927 open as of Nov 12."
+      "businessbuilder main CI 43403818822 and merge train 43415492799 green; Stromation main CI 43396781943 green and train 43415404478 green.",
+      "Paid ATSHack site run 1112e stopped at foundation checks; local replay proof for pending #21/#342 not main.",
+      "Stromation #339/#340 and skill #20 report local replay and 29-shape checks; no repeat successful paid acceptance yet."
     ]
   },
   "promisesOverreach": [
-    "Local layout pass does not equal 8+/10 independent premium design or deployed accepted Fargate site.",
-    "Merged booking and audit work does not establish default-OFF features or real owner/provider results.",
-    "Green CI/merge train does not prove running ECS, timed restore or customer handoff.",
-    "Separate paused Sol deadman is not proof all customer workers are down.",
-    "Autonomy success rate, site contribution margin and founder technical hours remain unmeasured."
+    "Open #21/#342 and #1038/#1034 get no merged capability credit; green PR CI is not production proof.",
+    "Merged #927 is hosting code, not a verified production site handoff; paid builder runs have not cleared quality gates.",
+    "R19 enabled worker flags and new payment-import code do not establish repeated real-provider outcomes or accurate imported balances in production.",
+    "Paid test stops are actual evidence of builder defects, not proof that all customer workers are down.",
+    "Autonomy success rate, cost-adjusted margin, weekly founder technical hours and restore test are not yet measured."
   ],
-  "founderWorkloadTrend": "No representative autonomy success/attempt denominator or Darius-only weekly technical-hours record; approvals, specialist checks and account setup are excluded from intervention.",
+  "founderWorkloadTrend": "No representative success/attempt denominator or measured Darius-only technical-hours trend; exclude customer approvals, specialist reviews and account setup.",
   "nextActions": [
-    "Merge and live-verify #927 site redirects, slots, forms and booking.",
-    "Blind judge a pinned image-rich premium Fargate build at 8+/10.",
-    "Prove 3 paid accepted owner handoffs plus safe recovery and settled cost."
+    "Finish #21/#342 foundation repairs and independently pass one paid end-to-end premium Fargate site.",
+    "Verify #927 forms, bookings and redirect handling after production rollout; meet 8+/10 independent judge bar.",
+    "Deliver three paid and accepted owned-site handoffs with reconciled costs and safe recovery."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -231,10 +232,10 @@
     "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
   },
   "costReporting": {
-    "measuredSpend": "No verified accepted premium customer Fargate site with reconciled cost or margin on Nov 12.",
-    "reservedUnconfirmedSpend": "Skill's local checks and default-OFF product features are not paid site or customer spend proof.",
-    "estimatedFutureCosts": "No updated estimate.",
-    "note": "Read-only review only; no paid tests, deployments, account changes, product/cloud configuration changes or spending changes."
+    "measuredSpend": "Paid ATSHack pilot runs are documented in the skill and Stromation PRs but no completed premium site with reconciled margin or return yet.",
+    "reservedUnconfirmedSpend": "Do not treat stopped paid attempts as accepted site delivery; no additional tests commissioned for this report.",
+    "estimatedFutureCosts": "No fresh verified estimate.",
+    "note": "Read-only assessment; no paid tests, deployments, account creation, product/cloud changes or spend limit changes."
   },
-  "method": "2026-11-12 05:55 America/Chicago: inspected businessbuilder main 6a41c9d, #1001/#1003/#1012/#1013/#1014 merged, #927 and #926 open, CI 43130643705 and train 43209581428 green; skill-main 949e734 and CLOUD-LOOP 729/729 + 15/15, Stromation main cd025471, deadman 43150176500 failed. No active pinned Fargate/ECS deploy, independently judged 8+/10 site, 3 accepted handoffs, 5 repeated live-worker outcomes, full SaaS/custom agent, mature autonomy, margin or founder workload proof. Only forecast two JSON files changed."
+  "method": "2026-11-13 about 06:00 America/Chicago: checked forecast base main 64f8a27d2f0e, businessbuilder main fce931eb, Stromation main 9a45c25, skill-main 0c10054; #927 merged; #1038/#1034, #21/#342 open; product CI 43403818822 and train 43415492799 green; Stromation CI 43396781943 green; production R19 flags from #1026; paid ATSHack 1112a-e stop reports. No independent accepted 8+/10 Fargate site, three owner handoffs, five repeat real-provider outcomes, SaaS/custom-agent/mature autonomy/margin/founder-hours proof."
 }
