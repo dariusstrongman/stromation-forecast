@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-11-13",
-  "asOf": "2026-11-13T06:01:10-06:00",
+  "date": "2026-11-14",
+  "asOf": "2026-11-14T06:03:48-06:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
       "current": 88,
       "confidence": "medium",
-      "status": "Hosting/forms #927 has merged and builder safeguards improved, but repeated paid ATSHack builds still stop before acceptable premium delivery; live site acceptance remains unverified",
-      "summary": "Nov 13: businessbuilder #927 merged and R19 flags deployed; current product main fce931e. Stromation main 9a45c25 integrates business-shape fixes and skill pins, but paid ATSHack website jobs 1112a-e repeatedly stopped in plan/build/foundation, including 1112e; skill #21 and Stromation #342 repair PRs remain OPEN. No completed independently 8+/10 judged pinned AWS Fargate site, 3 paid owner-accepted handoffs, or independently inspected production build/recovery."
+      "status": "Foundation/finish repair and design-variation code merged, but no independently accepted 8+/10 paid Fargate customer site or owner handoff",
+      "summary": "Nov 14: front-end skill #21–#23/#25–#28 and Stromation pins #342–#346 merged; #347 pin still OPEN. Paid ATSHack 1112f stopped at finish, 1112g at planning ($1.66). Internal variety reduced one-family comparisons 46% to 17.7%, but no live 8+/10 accepted Fargate site, three accepted handoffs, safe recovery and reconciled site cost. Product #1038 intake merged."
     },
     "v2": {
       "name": "V2 readiness",
       "current": 85,
       "confidence": "medium",
-      "status": "R19 production turned on several standard-worker switches, but all five workers still lack repeated live outcomes and unattended recovery proof",
-      "summary": "Nov 13: redacted live ECS flags snapshot #1026 records production web :457 and worker :293, with Maya/Jordan/Alex R19 switches active; product #1031/#1032/#1033/#1036/#1037 merged activity honesty, chat, historic provider import, checkout inspection, unified money states. These are not repeated real-provider outcomes for all five workers, reliable payments import completion or autonomous recovery."
+      "status": "Merged Maya phone protections and Avery ownership improve scope; all five workers still lack repeated verified live-provider outcomes and recovery",
+      "summary": "Nov 14: businessbuilder main 18dbb587 merged #1082 public Twilio callback, #1084 Maya phone fault isolation, #1083 Avery Operations Manager ownership with operations switch OFF, #1087 layout shifts and other fixes. Avery playbooks #1088/#1092 remain OPEN and flag OFF. R19 flags previously seen Nov 13, but no new five-worker live outcomes or recovery proof."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
       "current": 65,
       "confidence": "medium",
-      "status": "End-to-end premium site proof, complete SaaS and existing-app delivery, automatic custom agents, mature autonomy and measured economics/founder workload remain incomplete",
-      "summary": "Nov 13: meaningful production flag activation, merged product reliability/finance honesty and website business-shape fixes, but repeat paid builder failures prevent premium handoff proof. No verified full SaaS, existing-app change, activated custom agent, 95–99% autonomous routine workflows, reconciled margin or 1–2 founder technical hours per week."
+      "status": "Complete premium site acceptance, SaaS and existing-app delivery, custom agents, mature autonomy and measured operating economics still unproven",
+      "summary": "Nov 14: several real builder, product and security defects fixed in merged code, but ATSHack paid trials still stopped short of acceptance. No fully accepted SaaS or existing-app change, automatic custom agent, verified 95–99% autonomy success denominator, founder 1–2 technical hours/week, or completed-site margins."
     }
   },
   "autonomyProof": {
@@ -51,8 +51,8 @@
       "day60": 94,
       "day90": 95,
       "confidence": "high",
-      "blocker": "No repeated live, cross-industry brief/refusal validation.",
-      "nextMilestone": "Blindly validate cross-industry owner briefs and scope refusals."
+      "blocker": "No repeated cross-industry live owner brief/refusal validation.",
+      "nextMilestone": "Validate cross-industry owner briefs and scope refusals."
     },
     {
       "key": "website",
@@ -63,8 +63,8 @@
       "day60": 94,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "#927 merged, but paid ATSHack jobs repeatedly stop; #21/#342 open, no 8+/10 live accepted site.",
-      "nextMilestone": "Land and verify #21/#342, finish one accepted 8+/10 Fargate site."
+      "blocker": "Paid ATSHack 1112f/g stopped; skill #28 merged but Stromation pin #347 open; no independently accepted 8+/10 Fargate site.",
+      "nextMilestone": "Pass one independent 8+/10 Fargate premium website acceptance."
     },
     {
       "key": "saas",
@@ -75,7 +75,7 @@
       "day60": 25,
       "day90": 35,
       "confidence": "medium",
-      "blocker": "No accepted production SaaS or existing-app change.",
+      "blocker": "No verified complete deployed SaaS or supported existing-app change.",
       "nextMilestone": "Deliver and support complete SaaS and existing-app work."
     },
     {
@@ -87,8 +87,8 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Production R19 switches activated; five repeated provider-verified worker outcomes unproven.",
-      "nextMilestone": "Prove repeat real-provider outcomes for all five workers."
+      "blocker": "Maya phone/Avery role code merged, Avery playbooks flag-off/open; five repeat live-provider outcomes unverified.",
+      "nextMilestone": "Prove repeated outcomes for five workers using real providers."
     },
     {
       "key": "customAgents",
@@ -99,8 +99,8 @@
       "day60": 30,
       "day90": 40,
       "confidence": "high",
-      "blocker": "No customer custom agent automatically built, activated and monitored.",
-      "nextMilestone": "Prove governed custom-agent build and monitoring."
+      "blocker": "No governed customer custom agent automatically built, activated and monitored.",
+      "nextMilestone": "Build and activate a monitored custom agent with owner governance."
     },
     {
       "key": "coordination",
@@ -111,8 +111,8 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Stale-step and task-protection fixes merged; paid builder recovery still stops on quality checks.",
-      "nextMilestone": "Prove unattended premium build restart and settlement."
+      "blocker": "Repair ladders merged; unpaid/local repair tests have not proven unattended paid build recovery.",
+      "nextMilestone": "Prove unattended recovery and settlement of paid premium build."
     },
     {
       "key": "reliability",
@@ -123,8 +123,8 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "CI and live flag snapshots improved; production website build, watchdog and restore proof incomplete.",
-      "nextMilestone": "Prove live Fargate resilience and timed restore."
+      "blocker": "Maya phone and erasure hardening merged; live Fargate, restore and maintenance resilience still unverified.",
+      "nextMilestone": "Prove production website resilience and timed restore."
     },
     {
       "key": "journey",
@@ -135,8 +135,8 @@
       "day60": 97,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Hosting/forms compatibility merged, but paid published/owned site journey unaccepted.",
-      "nextMilestone": "Prove three paid-to-domain-owned handoffs."
+      "blocker": "Merged owner-specific intake and hosting/forms code but no complete paid-to-owned published handoff.",
+      "nextMilestone": "Prove three paid-to-domain-owned accepted handoffs."
     },
     {
       "key": "commercial",
@@ -147,8 +147,8 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Checkout and audit code improved, but attributed paid-to-fulfilled customer proof absent.",
-      "nextMilestone": "Verify attributed payment through fulfillment."
+      "blocker": "No verified attributed paid customer through accepted fulfillment.",
+      "nextMilestone": "Verify attributed payment through completed fulfillment."
     },
     {
       "key": "economics",
@@ -159,61 +159,55 @@
       "day60": 25,
       "day90": 40,
       "confidence": "high",
-      "blocker": "No accepted premium Fargate cost reconciliation, autonomy denominator or founder-hours log.",
-      "nextMilestone": "Measure margins, routine success rate and weekly founder hours."
+      "blocker": "No accepted premium Fargate cost reconciliation or representative autonomy/founder work logs.",
+      "nextMilestone": "Reconcile per-site margin, autonomy rate, weekly founder hours."
     }
   ],
   "v1Remaining": [
-    "Merge and verify skill #21/Stromation #342 paid-build repair, then complete an 8+/10 independent premium Fargate website.",
-    "Stage/live-verify merged #927 booking, forms, redirects and ownership behavior.",
-    "Prove 3 paid accepted sites published/exported with owner domain access.",
-    "Prove unattended retries/recovery, responsive and form checks, and reconciled cost."
+    "Verify current pinned builder fixes and independently finish an 8+/10 paid Fargate site.",
+    "Live-verify forms, booking, redirects, hosting, and safe unattended recovery.",
+    "Finish 3 paid owner-accepted published/exported sites with domain ownership and reconciled cost."
   ],
   "v2Remaining": [
     "Prove all five standard workers repeatedly with real connected providers and owner recaps.",
-    "Verify active R19 switches and historical Stripe import through production results, not just release flags.",
-    "Prove recurring unattended worker operation and recovery."
+    "Verify recurring unattended worker integrations and recovery; activate Avery only after governed production readiness."
   ],
-  "biggestChange": "Nov 13: #927 hosting/forms finally merged and R19 standard-worker flags were live, but the ATSHack paid Fargate builder tests repeatedly stopped before a premium site was accepted; #21/#342 repairs remain open.",
+  "biggestChange": "Nov 14: builder repair and first-screen variation merged (one-family similarity 46% to 17.7%), but paid ATSHack 1112f/g still stopped and new skill pin #347 remains open.",
   "improvements": [
-    "businessbuilder #927 merged Nov 12 12:42 CT, removing code incompatibilities for skill _redirects, booking slots and form purposes; staging/production acceptance not independently proven.",
-    "Live ECS redacted flags snapshot #1026 reports web :457, worker :293 and R19 activation; product main fce931eb with #1031/#1032/#1033/#1036/#1037 merged; CI run 43403818822 and merge train 43415492799 passed.",
-    "Stromation main 9a45c25 includes repair ladder #339, finish touchup #341 and business-shape pin #340, with CI 43396781943 green; skill #19 and #20 merged, including 29 shape builds in local selftest.",
-    "Skill #21 and Stromation #342 propose further foundation-stage repair and fold checks; their green PR CI is not implemented evidence."
+    "Skill #21/#22/#23/#25/#26/#27/#28 merged; Stromation #342–#346 merged. #344 records internal design variety: median similarity 16.4 to 11.6 and one-family pairs 46% to 17.7%; no independent 8+/10 acceptance.",
+    "businessbuilder main 18dbb587 merged #1038 owner-specific website intake, #1082 Twilio callback, #1083 Avery Operations Manager ownership behind default-off flag, #1084 Maya phone isolation, #1087 layout stability and #1089 erasure hardening.",
+    "Main CI businessbuilder run 43587894697 and Stromation run 43585114838 green. No new production paid-site acceptance; R19 flags last captured via #1026 Nov 13."
   ],
   "regressions": [
-    "Paid ATSHack website jobs 1112a-e uncovered repeated stops during plan/build/foundation rather than completing an accepted site; 1112e remains an active class of foundation defects pending PR #21/#342.",
-    "Merged hosting/forms compatibility #927 and R19 release flags do not establish finished production handoff or five live-provider worker outcomes.",
-    "No independently verified current ECS skill rollout, 8+/10 premium judge, owner acceptance, production restore, or economic/founder workload measurements."
+    "Paid ATSHack 1112f failed finish and 1112g failed plan after repeated touch-ups (reported $1.66); no accepted site evidence.",
+    "Skill #28 merged but its Stromation pin #347 is OPEN as of 06:03 CT, no implemented credit.",
+    "Merged worker/UI changes and green tests do not prove live production success or recurring worker recovery."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "businessbuilder main fce931eb5d63: #927 hosting/forms, #1031 activity accuracy, #1032 chat, #1033 payment-history import, #1036 checkout walk, #1037 unified money, and earlier R19 flags/staging fixes.",
-      "Stromation main 9a45c25e98f: #337 stale-step gate, #339 repair ladder, #340 business-shape integration, #341 finish touchup skill pin.",
-      "selfoperate-front-end-skill skill-main 0c10054be081: #18 repair ladder, #19 touchup keys, #20 29 owner-derived business shapes."
+      "businessbuilder main 18dbb587 (Nov 14 10:45Z) with #1038 #1082 #1083 #1084 #1087 #1089; Avery playbooks #1088/#1092 still open/flag-off.",
+      "Stromation main f77b98a344 (Nov 14 10:24Z) #342–#346 merged; #347 open.",
+      "skill-main 0a7ee435 (Nov 14 11:58Z): #21–#23 and #25–#28 merged."
     ],
     "deployed": [
-      "Read-only ECS snapshot referenced in #1026: R19 worker/API activation on web :457 and worker :293; not independent full customer workflow validation.",
-      "No inspected deployed premium Fargate customer site or post-#927 host site tested end to end."
+      "No new independently inspected live premium Fargate skill site or paid owner handoff; last R19 worker flag snapshot came from product #1026 Nov 13."
     ],
     "verified": [
-      "businessbuilder main CI 43403818822 and merge train 43415492799 green; Stromation main CI 43396781943 green and train 43415404478 green.",
-      "Paid ATSHack site run 1112e stopped at foundation checks; local replay proof for pending #21/#342 not main.",
-      "Stromation #339/#340 and skill #20 report local replay and 29-shape checks; no repeat successful paid acceptance yet."
+      "businessbuilder main CI 43587894697 success and Stromation main CI 43585114838 success; queued CI excluded.",
+      "Internal skill variety check reports 46% to 17.7% one-family pair drop; #27 5 local real-site html/speed checks; #28 29-shape local check, not accepted production site."
     ]
   },
   "promisesOverreach": [
-    "Open #21/#342 and #1038/#1034 get no merged capability credit; green PR CI is not production proof.",
-    "Merged #927 is hosting code, not a verified production site handoff; paid builder runs have not cleared quality gates.",
-    "R19 enabled worker flags and new payment-import code do not establish repeated real-provider outcomes or accurate imported balances in production.",
-    "Paid test stops are actual evidence of builder defects, not proof that all customer workers are down.",
-    "Autonomy success rate, cost-adjusted margin, weekly founder technical hours and restore test are not yet measured."
+    "Open #347, #1088 and #1092 have no implemented-capability credit.",
+    "Merged QA, design variety and pinning do not establish a live 8+/10 accepted Fargate site.",
+    "Maya phone/worker flags do not establish five repeat real-provider outcomes.",
+    "Paid tests 1112f/g stopped before acceptance; no 3 handoffs, SaaS, custom-agent, autonomy rate, margins or founder hours proven."
   ],
-  "founderWorkloadTrend": "No representative success/attempt denominator or measured Darius-only technical-hours trend; exclude customer approvals, specialist reviews and account setup.",
+  "founderWorkloadTrend": "No representative denominator for autonomous routine workflows or Darius-only technical hours; do not count customer approvals, account setup or specialist review.",
   "nextActions": [
-    "Finish #21/#342 foundation repairs and independently pass one paid end-to-end premium Fargate site.",
-    "Verify #927 forms, bookings and redirect handling after production rollout; meet 8+/10 independent judge bar.",
-    "Deliver three paid and accepted owned-site handoffs with reconciled costs and safe recovery."
+    "Finish integrating verified builder repairs, then prove a completed independently judged 8+/10 paid Fargate website.",
+    "Verify its forms/booking/redirects, owner handoff and unattended recovery.",
+    "Repeat 3 accepted paid owned-site deliveries with reconciled cost."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -232,10 +226,10 @@
     "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
   },
   "costReporting": {
-    "measuredSpend": "Paid ATSHack pilot runs are documented in the skill and Stromation PRs but no completed premium site with reconciled margin or return yet.",
-    "reservedUnconfirmedSpend": "Do not treat stopped paid attempts as accepted site delivery; no additional tests commissioned for this report.",
-    "estimatedFutureCosts": "No fresh verified estimate.",
-    "note": "Read-only assessment; no paid tests, deployments, account creation, product/cloud changes or spend limit changes."
+    "measuredSpend": "ATSHack paid trial 1112g reported $1.66 and stopped before accepted site; no completed site margin reconciliation.",
+    "reservedUnconfirmedSpend": "No extra paid tests initiated for this report.",
+    "estimatedFutureCosts": "No new verified estimate.",
+    "note": "Read-only assessment outside exact forecast files; no product/cloud/spending changes."
   },
-  "method": "2026-11-13 about 06:00 America/Chicago: checked forecast base main 64f8a27d2f0e, businessbuilder main fce931eb, Stromation main 9a45c25, skill-main 0c10054; #927 merged; #1038/#1034, #21/#342 open; product CI 43403818822 and train 43415492799 green; Stromation CI 43396781943 green; production R19 flags from #1026; paid ATSHack 1112a-e stop reports. No independent accepted 8+/10 Fargate site, three owner handoffs, five repeat real-provider outcomes, SaaS/custom-agent/mature autonomy/margin/founder-hours proof."
+  "method": "2026-11-14 06:03 CT: independently read businessbuilder main 18dbb587, Stromation main f77b98a3, skill-main 0a7ee435, product PRs #1038/#1082/#1083/#1084/#1087/#1089, skill #21–#28 and pins #342–#347, run CI 43587894697/43585114838, historical R19 #1026 and failed paid ATSHack 1112f/g; no paid test/deploy triggered; no accepted 8+/10 Fargate site, 3 handoffs, 5 real-provider worker outcomes, SaaS/custom agent, autonomy denominator, margin or founder-hours proof."
 }
