@@ -5201,6 +5201,139 @@
       },
       "biggestChange": "Nov 15: Stromation #348/#349 merged ATSHack 1112h purchase/judge and front-end skill guards, but skill #33's real owner checkout preservation is open and businessbuilder #1099 documents unmerged P0 security and P1 billing issues.",
       "method": "Nov 15 05:59 America/Chicago: read businessbuilder main 149409f, Stromation main c473e450, skill-main 69cf735, product #1098/#1099/#1095/#1096, skill #32/#33, Stromation #347/#348/#349 and recent workflow runs. Assessed prior R19 production flags and paid ATSHack 1112f/g/h reports; no independent accepted 8+/10 Fargate site, three handoffs, five repeated live-provider outcomes, SaaS/custom agent, autonomy proof, margin or founder technical-hour logs. Read-only evidence assessment; no paid tests or product/cloud changes."
+    },
+    {
+      "date": "2026-11-16",
+      "asOf": "2026-11-16T06:16:53-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "name": "V1 readiness",
+          "current": 87,
+          "confidence": "medium",
+          "status": "Security and safe owner-site swap fixes merged, but no live independently accepted premium Fargate website or complete owner handoffs.",
+          "summary": "Nov 16: businessbuilder #1099/#1108 merged security, payment and safety fixes; #1102/#1103 merged owner-site reader and feature-off go-live protection. Stromation #354 merged Bedrock fallback and pinned #38 skill repairs. Paid ATSHack 1115a cleared pre-judge gates, but its independent judge was 6/10. No accepted 8+/10 live Fargate site, preserved $1 checkout end to end, three accepted handoffs, proven recovery or verified production release."
+        },
+        "v2": {
+          "name": "V2 readiness",
+          "current": 85,
+          "confidence": "medium",
+          "status": "Cross-tenant, billing, channel and spending safeguards merged; five repeated live worker outcomes, reliable integrations, recovery and release proof remain unverified.",
+          "summary": "Nov 16: #1099 fixes verified domain/session ownership and opt-out, inbound S3, refunds and overdue states; #1108 adds ad-spend, TXT proof and refund/erasure safety. All are merged, not production-verified. Earlier R19 standard worker flags are not five recurring real-provider outcomes. #1095 retries and new guard/owner-site reader PRs remain open or switched off."
+        },
+        "v3": {
+          "name": "V3 / Full 10/10 vision",
+          "current": 65,
+          "confidence": "medium",
+          "status": "Main safety and customer-site continuity code improved, but full SaaS, custom agents, autonomy, margins and low founder workload remain unproven.",
+          "summary": "Nov 16: product verified P0 defects repaired in main and ownership safeguards merged; no clean verified production release or accepted premium website. ATSHack 1115a judge 6/10, newer skill #41/#42 not pinned, site reader v2 #1117/#1118 and Stromation #355-#357 unmerged with feature off. No complete supported SaaS, governed custom-agent delivery, measured autonomy denominator, accepted margins or founder-hour evidence."
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null,
+        "scope": "Representative supported routine workflows",
+        "observationWindow": null,
+        "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2",
+        "targetContext": "mature V3 scale",
+        "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 83,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 85,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 86,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 84,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 93,
+          "day30": 95,
+          "day60": 97,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 87,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Nov 16: businessbuilder #1099/#1108 merged verified P0 security/billing/domain fixes, #1102/#1103 added owner-site safety, and Stromation #354 pinned skill repairs; paid ATSHack 1115a still missed the judge at 6/10.",
+      "method": "Nov 16 06:16 America/Chicago: inspected businessbuilder main 3daf10f, Stromation main 760bc1c, pinned skill 0ae42cf3, current skill-main PR #41/#42, PRs businessbuilder #1099/#1102/#1103/#1108/#1112/#1114/#1115/#1117/#1118, Stromation #354-#357, and recent workflow runs. Paid ATSHack 1115a judged 6/10; prior R19 active worker flags are not repeated outcomes. No independent accepted 8+/10 production Fargate site, 3 handoffs, 5 repeated workers, SaaS, custom agents, restore, cost margins or measured autonomy/founder hours. ATSHack public site fetched read-only; SelfOperate site not retrievable, not claimed broken. No paid/product/cloud changes."
     }
   ]
 }

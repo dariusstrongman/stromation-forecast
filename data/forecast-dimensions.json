@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-11-15",
-  "asOf": "2026-11-15T05:59:13-06:00",
+  "date": "2026-11-16",
+  "asOf": "2026-11-16T06:16:53-06:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
-      "current": 86,
+      "current": 87,
       "confidence": "medium",
-      "status": "Paid premium AWS Fargate website and owner buy-path acceptance still unverified; newly documented cross-tenant domain and session revocation P0 gaps remain draft.",
-      "summary": "Nov 15: Stromation #348/#349 merged paid ATSHack 1112h judge/purchase-action and pinned skill #30 repairs; skill #33 remains open to preserve the owner's real checkout/tool links. No independently judged 8+/10 paid AWS Fargate site, working preserved $1 purchase flow, 3 accepted handoffs or unattended recovery. Businessbuilder draft #1099 reports verified main-branch P0 verified-domain tenant isolation and cross-copy session revocation gaps."
+      "status": "Security and safe owner-site swap fixes merged, but no live independently accepted premium Fargate website or complete owner handoffs.",
+      "summary": "Nov 16: businessbuilder #1099/#1108 merged security, payment and safety fixes; #1102/#1103 merged owner-site reader and feature-off go-live protection. Stromation #354 merged Bedrock fallback and pinned #38 skill repairs. Paid ATSHack 1115a cleared pre-judge gates, but its independent judge was 6/10. No accepted 8+/10 live Fargate site, preserved $1 checkout end to end, three accepted handoffs, proven recovery or verified production release."
     },
     "v2": {
       "name": "V2 readiness",
-      "current": 83,
+      "current": 85,
       "confidence": "medium",
-      "status": "Five standard worker real-provider outcomes and recovery remain unverified; security, email and billing bugs discovered in #1099 are not yet merged.",
-      "summary": "Nov 15: businessbuilder #1098 merged a cheaper CI plan with mandatory release gate, but no green current release is verified; #1099 remains draft with P0 cross-tenant/session bugs and P1 opt-out, S3 inbound email, refund and overdue-state gaps. Previous Nov 13 R19 active flags are not five repeated real-provider outcomes; open Avery work remains uncredited."
+      "status": "Cross-tenant, billing, channel and spending safeguards merged; five repeated live worker outcomes, reliable integrations, recovery and release proof remain unverified.",
+      "summary": "Nov 16: #1099 fixes verified domain/session ownership and opt-out, inbound S3, refunds and overdue states; #1108 adds ad-spend, TXT proof and refund/erasure safety. All are merged, not production-verified. Earlier R19 standard worker flags are not five recurring real-provider outcomes. #1095 retries and new guard/owner-site reader PRs remain open or switched off."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
-      "current": 64,
+      "current": 65,
       "confidence": "medium",
-      "status": "No accepted premium site, complete SaaS/existing-app delivery, automated custom agents, mature autonomy or measured economics; security regression proof reduces readiness.",
-      "summary": "Nov 15: new builder quality work and two merged Stromation skill fixes, but no live premium acceptance or three owner handoffs. Draft #1099 identifies main-branch security/billing faults and the targeted CI change reduces pre-merge coverage. Still no complete SaaS, customer custom agent, autonomy denominator, measured site margins or 1–2 Darius technical hours/week."
+      "status": "Main safety and customer-site continuity code improved, but full SaaS, custom agents, autonomy, margins and low founder workload remain unproven.",
+      "summary": "Nov 16: product verified P0 defects repaired in main and ownership safeguards merged; no clean verified production release or accepted premium website. ATSHack 1115a judge 6/10, newer skill #41/#42 not pinned, site reader v2 #1117/#1118 and Stromation #355-#357 unmerged with feature off. No complete supported SaaS, governed custom-agent delivery, measured autonomy denominator, accepted margins or founder-hour evidence."
     }
   },
   "autonomyProof": {
@@ -51,20 +51,20 @@
       "day60": 94,
       "day90": 95,
       "confidence": "high",
-      "blocker": "No repeated live owner scope/refusal validation across industries.",
-      "nextMilestone": "Validate cross-industry briefs and justified refusals."
+      "blocker": "Live cross-industry owner scope and refusal validation not repeated.",
+      "nextMilestone": "Validate live briefs and justified refusals."
     },
     {
       "key": "website",
       "name": "Premium website delivery",
       "group": "V3 capability",
-      "current": 82,
+      "current": 83,
       "day30": 89,
       "day60": 94,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "ATSHack 1112h prompted purchase/judge patches; owner's real checkout preservation skill #33 remains OPEN, with no accepted 8+/10 paid Fargate handoff.",
-      "nextMilestone": "Prove a real paid 8+/10 Fargate site with preserved buy path."
+      "blocker": "Paid ATSHack 1115a failed judge 6/10; pinned repairs have no accepted 8+/10 Fargate proof.",
+      "nextMilestone": "Prove one complete 8+/10 paid Fargate site preserving checkout."
     },
     {
       "key": "saas",
@@ -75,8 +75,8 @@
       "day60": 25,
       "day90": 35,
       "confidence": "medium",
-      "blocker": "No complete deployed supported SaaS or existing-app engineering handoff.",
-      "nextMilestone": "Deliver and support a full SaaS and existing-app change."
+      "blocker": "No complete deployed customer SaaS or existing-app handoff.",
+      "nextMilestone": "Deliver and support SaaS and existing-app change."
     },
     {
       "key": "workforce",
@@ -87,8 +87,8 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Five repeated real-provider worker outcomes and unattended recovery remain unverified.",
-      "nextMilestone": "Prove recurring five-worker live-provider outcomes."
+      "blocker": "Five recurring real-provider worker results and safe recovery not verified.",
+      "nextMilestone": "Prove five-worker recurring live-provider operation."
     },
     {
       "key": "customAgents",
@@ -99,8 +99,8 @@
       "day60": 30,
       "day90": 40,
       "confidence": "high",
-      "blocker": "No customer-specific governed agent built, activated and monitored automatically.",
-      "nextMilestone": "Activate and monitor a governed custom agent."
+      "blocker": "No governed automatically built and activated custom customer agent.",
+      "nextMilestone": "Build, activate and monitor an owner-specific agent."
     },
     {
       "key": "coordination",
@@ -111,32 +111,32 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Build recovery ladder merged but no accepted unattended paid-build recovery.",
-      "nextMilestone": "Prove unattended safe Fargate recovery."
+      "blocker": "Recovery and Bedrock failover merged; no unattended paid build recovery proven.",
+      "nextMilestone": "Prove unattended real Fargate failure recovery."
     },
     {
       "key": "reliability",
       "name": "Reliability, security & ongoing maintenance",
       "group": "V3 capability",
-      "current": 82,
+      "current": 84,
       "day30": 89,
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Businessbuilder #1099 documents unmerged P0 cross-tenant domain and cross-copy revocation defects plus P1 mail/billing defects; no current verified release or restore.",
-      "nextMilestone": "Merge/verify security fixes and prove live release plus restore."
+      "blocker": "#1099/#1108 verified P0 fixes merged; no proven production release/restore and #1095 retries open.",
+      "nextMilestone": "Verify merged safeguards in live release and restore."
     },
     {
       "key": "journey",
       "name": "Complete customer journey & ownership",
       "group": "V3 capability",
-      "current": 92,
+      "current": 93,
       "day30": 95,
       "day60": 97,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Owner's real interactive $1 checkout form may be lost in generated site; skill #33 OPEN; no accepted paid-to-owned handoff.",
-      "nextMilestone": "Preserve real buy/booking paths and hand off 3 owned sites."
+      "blocker": "Owner-site reader and old-site protection merged, but go-live gate off, checkout continuity and three handoffs unproven.",
+      "nextMilestone": "Preserve real purchase paths and hand off three sites."
     },
     {
       "key": "commercial",
@@ -147,8 +147,8 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "No verified paid-to-accepted premium fulfillment, including surviving existing buy flow.",
-      "nextMilestone": "Verify attributed payment through owner acceptance."
+      "blocker": "No repeatable paid premium website fulfillment or measured acquisition results.",
+      "nextMilestone": "Prove paid order through accepted live delivery."
     },
     {
       "key": "economics",
@@ -159,54 +159,55 @@
       "day60": 25,
       "day90": 40,
       "confidence": "high",
-      "blocker": "No accepted Fargate site cost/margin or routine autonomy and founder-hour logs.",
-      "nextMilestone": "Reconcile site margins and measure founder technical hours."
+      "blocker": "No accepted site margin, autonomy denominator or founder technical-hour log.",
+      "nextMilestone": "Measure accepted-site margins and founder workload."
     }
   ],
   "v1Remaining": [
-    "Preserve owner buying and booking paths; prove one independently rated 8+/10 paid Fargate website with working forms.",
-    "Verify unattended recovery and three published/exported owner-accepted handoffs.",
-    "Fix and verify verified-domain tenant isolation and cross-copy session revocation before launch (#1099 draft)."
+    "Prove one independently judged 8+/10 paid Fargate build preserving the real owner checkout and forms.",
+    "Verify live release, unattended recovery and three accepted ownership handoffs.",
+    "Production-verify merged tenant/session and billing/domain security safeguards."
   ],
   "v2Remaining": [
-    "Prove all five standard workers repeatedly with real providers, recaps and unattended recovery.",
-    "Close verified cross-tenant, opt-out, inbound-email and payment-state bugs; verify release-gated integration."
+    "Prove five workers repeatedly with real providers, owner recaps and unattended recovery.",
+    "Release-verify channel, payment and security integration fixes; close outstanding retries."
   ],
-  "biggestChange": "Nov 15: Stromation #348/#349 merged ATSHack 1112h purchase/judge and front-end skill guards, but skill #33's real owner checkout preservation is open and businessbuilder #1099 documents unmerged P0 security and P1 billing issues.",
+  "biggestChange": "Nov 16: businessbuilder #1099/#1108 merged verified P0 security/billing/domain fixes, #1102/#1103 added owner-site safety, and Stromation #354 pinned skill repairs; paid ATSHack 1115a still missed the judge at 6/10.",
   "improvements": [
-    "Stromation #348/#349 merged on main c473e450: judge now knows the actual primary action link; skill #30 pin adds buy path, image-fit, readability and owner-proof guards. #349 PR CI succeeded, not a live paid-site acceptance.",
-    "Skill #32 merged (showcase geometry/looks) and skill-main 69cf735 added November 15 responsive similarity refinements; these latest standalone skill commits are not automatically deployed or current pinned Stromation code.",
-    "Businessbuilder #1098 merged on main 149409f and aims to reduce CI cost, with a stricter full release gate; it explicitly gives up some cross-module and nightly pre-merge detection."
+    "Merged businessbuilder #1099/#1108 confirmed cross-tenant and cross-copy revocation fixes, refunds, unsubscribe, inbound email, ad-spend and domain verification safeguards.",
+    "Merged businessbuilder #1102/#1103 protects existing site links, reviews, legacy pages and go-live undo; the go-live gate defaults off.",
+    "Merged Stromation #354 adds Bedrock-only Claude fallback and pins skill 0ae42cf3 (#37/#38), fixing 1115a judge-issue classes and smoke fixtures.",
+    "Skill-main #41/#42 adds offer roles and included lines, but newer than pinned. Businessbuilder #1117/#1118 and Stromation #355/#356/#357 remain unmerged and the reader-v2 flag off."
   ],
   "regressions": [
-    "Businessbuilder draft #1099 reports tests failing on main for P0 tenant verified-email-domain ownership and cross-copy session revocation, alongside opt-out, inbound-mail and refund/checkout issues; fixes not merged; no proof of live exploitation.",
-    "Businessbuilder release CI 43633309667 was cancelled, and #1098 targeted CI removes multiple continuous checks, so current main does not have a verified clean full release verdict.",
-    "ATSHack 1112h surfaced misleading /book judge context and need to preserve the actual owner checkout/interactive form; merged Stromation fixes and open skill #33 lack deployed paid acceptance."
+    "ATSHack paid 1115a passed other checks but scored 6/10 on independent judging, not 8+/10. No rerun with latest pinned skill verified accepted.",
+    "No newly verified full release/restore or three ownership handoffs; public SelfOperate site retrieval inaccessible, not evidence of an outage.",
+    "Open #1095 retries, #1114/#1115 guards and #1117/#1118 site-reader v2 receive no implemented credit."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "businessbuilder main 149409f (#1098 CI policy); Stromation main c473e450 (#348/#349); front-end skill-main 69cf735 with #32 merged.",
-      "Skill PR #33 and businessbuilder draft #1099, #1095 are OPEN and receive no implemented credit."
+      "businessbuilder main 3daf10f includes #1099/#1108/#1102/#1103; Stromation main 760bc1cc pins skill 0ae42cf3; skill-main merged newer #41/#42 (not pinned)."
     ],
     "deployed": [
-      "No newly inspected production build/release or paid Fargate website; previous R19 live standard-worker flag evidence dated Nov 13, not repeat outcome proof."
+      "No new verified production release or accepted paid Fargate site; Nov 13 R19 standard worker flag evidence is not five recurring outcomes.",
+      "Site-reader v2 and go-live gate are off by default; open PRs uncredited."
     ],
     "verified": [
-      "#348 reported 153 local tests and #349 PR CI 43635298743 success. Skill #32 reported local look-same tests; no independent 8+/10 production acceptance.",
-      "Businessbuilder main full release 43633309667 cancelled. Stromation ungated-push-alarm failures 43657442636/43657437888 are process alarms, not verified customer outage."
+      "Targeted merged P0 regression tests and Stromation Bedrock failover CI; paid ATSHack 1115a judge 6/10, no accepted 8+/10 build.",
+      "Recent green PR CI for open site-reader work is not deployment/release proof."
     ]
   },
   "promisesOverreach": [
-    "Open product #1099/#1095 and skill #33 have no merged or live credit.",
-    "The latest skill geometry changes on skill-main are not proof of a pinned production skill or accepted site.",
-    "Merged skill checks and green PR CI do not establish an independent 8+/10 paid accepted Fargate website, its safe recovery or three owner handoffs.",
-    "Five worker outcomes, complete SaaS, custom-agent activation, 95–99% autonomy denominator, margin and founder hours remain unverified."
+    "Open #1117/#1118/#1114/#1115 and Stromation #355-#357 receive no merged or live credit.",
+    "Merged P0 fixes and green tests do not establish a running production release; #1103 gate off by default.",
+    "Skill #41/#42 merged to skill-main but not the current Stromation pinned skill.",
+    "No accepted paid 8+/10 production Fargate build, three handoffs, five repeated worker results, SaaS/custom agent, autonomy denominator, margins or 1–2 founder technical hours/week."
   ],
-  "founderWorkloadTrend": "No measured representative autonomous workflow denominator or Darius-only technical hours; customer approvals, account setup and specialist reviews excluded.",
+  "founderWorkloadTrend": "No measured representative autonomy numerator/denominator or Darius-only technical hours; owner approvals and specialist reviews excluded.",
   "nextActions": [
-    "Fix and pin the preserved real owner checkout/button behavior (#33), verify pinned builder and deliver one independently judged 8+/10 paid Fargate site with working purchase path.",
-    "Verify forms, booking, domain ownership and recovery; repeat three accepted handoffs with reconciled costs.",
-    "Before broader live launch, close and release-verify #1099's verified security/billing defects; then prove recurring worker outcomes."
+    "Verify one paid premium AWS Fargate ATSHack website with 8+/10 independent judge score, real $1 purchase form and working forms.",
+    "Check live hosting, existing legacy links, safe recovery and ownership handoff; repeat for three accepted sites.",
+    "Before wider release, production-verify merged P0 protections and restore, then prove standard workers."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -225,10 +226,10 @@
     "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
   },
   "costReporting": {
-    "measuredSpend": "Earlier paid ATSHack 1112g trial reported $1.66 and stopped. ATSHack 1112h produced a repair brief, no verified accepted-site cost/margin. #1098 cites $340 CI spend over Nov 1–14, which is not a completed-site margin.",
-    "reservedUnconfirmedSpend": "No paid tests, deployment or infrastructure changes initiated for this report.",
-    "estimatedFutureCosts": "No verified accepted-site margin or forward spend rate.",
+    "measuredSpend": "Paid ATSHack 1115a reached judge but was not an accepted site; accepted-site spend, unit margin and founder time not measured. No paid tests for this forecast.",
+    "reservedUnconfirmedSpend": "No paid tests, deployments, account creation or cloud/spending configuration changes for forecast.",
+    "estimatedFutureCosts": "No verified accepted-site margin or current future spend estimate.",
     "note": "Forecast-only JSON changes. CI spend is not website unit economics."
   },
-  "method": "Nov 15 05:59 America/Chicago: read businessbuilder main 149409f, Stromation main c473e450, skill-main 69cf735, product #1098/#1099/#1095/#1096, skill #32/#33, Stromation #347/#348/#349 and recent workflow runs. Assessed prior R19 production flags and paid ATSHack 1112f/g/h reports; no independent accepted 8+/10 Fargate site, three handoffs, five repeated live-provider outcomes, SaaS/custom agent, autonomy proof, margin or founder technical-hour logs. Read-only evidence assessment; no paid tests or product/cloud changes."
+  "method": "Nov 16 06:16 America/Chicago: inspected businessbuilder main 3daf10f, Stromation main 760bc1c, pinned skill 0ae42cf3, current skill-main PR #41/#42, PRs businessbuilder #1099/#1102/#1103/#1108/#1112/#1114/#1115/#1117/#1118, Stromation #354-#357, and recent workflow runs. Paid ATSHack 1115a judged 6/10; prior R19 active worker flags are not repeated outcomes. No independent accepted 8+/10 production Fargate site, 3 handoffs, 5 repeated workers, SaaS, custom agents, restore, cost margins or measured autonomy/founder hours. ATSHack public site fetched read-only; SelfOperate site not retrievable, not claimed broken. No paid/product/cloud changes."
 }
