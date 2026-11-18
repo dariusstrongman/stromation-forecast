@@ -5467,6 +5467,139 @@
       },
       "biggestChange": "Nov 17: businessbuilder merged site-reader/owner fact flow and approval/spend safeguards and R29 CI passed, but no premium live delivery is proven.",
       "method": "Nov 17 05:56 America/Chicago: reviewed businessbuilder main a669915 and R29 CI release run 43937686783 (success), PRs #1114-#1122 and open #1095; Stromation main 7b9874f and green main CI/merge train, open #358; skill-main and open #50/#51/#55 with blind ATSHack homepage ~5.5/10, latest paid 1115a 6/10. Read-only ATSHack site accessible, SelfOperate public page not retrievable (not outage evidence). No accepted site, 3 handoffs, five live workers, SaaS/custom agents, margins or measured autonomy/founder workload. No paid/product/cloud changes."
+    },
+    {
+      "date": "2026-11-18",
+      "asOf": "2026-11-18T06:02:51-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "name": "V1 readiness",
+          "current": 87,
+          "confidence": "medium",
+          "status": "No new mainline builder release or accepted premium website; R29 CI remains green without live delivery proof.",
+          "summary": "Nov 18: businessbuilder main remains a669915 (Nov 16), green R29 release CI but no production Fargate acceptance. Skill-main since Nov 17 contains hourly CLOUD-LOOP.md logs only, not builder changes; draft designer #56 fixture selftest 33/33 but no real-site run. Paid ATSHack 1115a 6/10 and blind homepage ~5.5/10 remain latest documented evaluations. Missing independent 8+/10 live site, genuine checkout/forms, 3 accepted handoffs and unattended recovery."
+        },
+        "v2": {
+          "name": "V2 readiness",
+          "current": 85,
+          "confidence": "medium",
+          "status": "No new merged worker capability or repeated provider outcomes; CI clean, active operating proof still missing.",
+          "summary": "Nov 18: businessbuilder main unchanged at a669915, Stromation main unchanged at 7b9874f (Nov 16); latest Stromation merge-train check green Nov 18 05:56 CT but on unchanged main. Alex monthly page audit #1123 remains open/default-off; no implemented-capability credit. No proof of five recurring live-provider workers, robust integration operation or unattended recoveries."
+        },
+        "v3": {
+          "name": "V3 / Full 10/10 vision",
+          "current": 65,
+          "confidence": "medium",
+          "status": "Unmerged designer-mode experiments improved potential quality workflow only; complete SaaS, custom agents, mature autonomy and economic proof still absent.",
+          "summary": "Nov 18: skill draft #56 adds designer-mode critic and screenshots with 33/33 fixture selftests, explicitly not run on a real site; draft DESIGN_CONTROL #55 defaults off, site-reader #1122, Alex #1123, Stromation #358 open. No new deployed premium site or repeated production acceptance. SaaS, custom agent delivery, 95–99% unattended denominator, margins and founder-only hours remain unproven."
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null,
+        "scope": "Representative supported routine workflows",
+        "observationWindow": null,
+        "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2",
+        "targetContext": "mature V3 scale",
+        "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 83,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 85,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 86,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 84,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 93,
+          "day30": 95,
+          "day60": 97,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 87,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Nov 18: designer-mode draft skill #56 now has 33/33 local fixture tests, but no real-site run, mainline builder change or verified premium delivery.",
+      "method": "Nov 18 06:02 CT: compared GitHub connector main SHA and commit timestamps for businessbuilder (a669915), Stromation (7b9874f), front-end skill (only hourly CLOUD-LOOP.md logs); reviewed draft designer #56 (33/33 planted fixture tests, no real-site run), draft flag #55, businessbuilder #1122/#1123 and Stromation #358, latest release and merge-train workflows. Earlier paid ATSHack 1115a judged 6/10 and blind homepage ~5.5/10 remain most recent published evidence. No accepted 8+/10 production site, repeated workers, SaaS, custom agents, margin or autonomy/founder workload measurements. No paid or product/cloud changes."
     }
   ]
 }
