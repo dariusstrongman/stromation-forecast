@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-11-18",
-  "asOf": "2026-11-18T06:02:51-06:00",
+  "date": "2026-11-19",
+  "asOf": "2026-11-19T06:10:05-06:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
       "current": 87,
       "confidence": "medium",
-      "status": "No new mainline builder release or accepted premium website; R29 CI remains green without live delivery proof.",
-      "summary": "Nov 18: businessbuilder main remains a669915 (Nov 16), green R29 release CI but no production Fargate acceptance. Skill-main since Nov 17 contains hourly CLOUD-LOOP.md logs only, not builder changes; draft designer #56 fixture selftest 33/33 but no real-site run. Paid ATSHack 1115a 6/10 and blind homepage ~5.5/10 remain latest documented evaluations. Missing independent 8+/10 live site, genuine checkout/forms, 3 accepted handoffs and unattended recovery."
+      "status": "R33 code bundle merged but release gate refused at Plan; no accepted 8+/10 live Fargate site or verified production release.",
+      "summary": "Nov 19: businessbuilder main 1302f465 includes merged R33 bundle #1164 (18 feature/fix PRs), including existing-site intake fix #1168, Maya UX and safety, yet 44509037106 CI release failed at Plan with every test/deploy skipped. R33 not confirmed staged or live. Stromation main 7b9874f unchanged; designer runtime #359 and skill #57 are open, not implemented. Latest paid ATSHack site scored 6/10 and blind homepage ~5.5/10; no independently accepted 8+/10 live Fargate site, verified $1 checkout/forms, three owner handoffs or unattended recovery."
     },
     "v2": {
       "name": "V2 readiness",
-      "current": 85,
+      "current": 81,
       "confidence": "medium",
-      "status": "No new merged worker capability or repeated provider outcomes; CI clean, active operating proof still missing.",
-      "summary": "Nov 18: businessbuilder main unchanged at a669915, Stromation main unchanged at 7b9874f (Nov 16); latest Stromation merge-train check green Nov 18 05:56 CT but on unchanged main. Alex monthly page audit #1123 remains open/default-off; no implemented-capability credit. No proof of five recurring live-provider workers, robust integration operation or unattended recoveries."
+      "status": "New worker exam exposed weak mainline owner-facing answers; R33 merged improvements remain unproven live.",
+      "summary": "Nov 19: 320-item real-path worker exam #1152 scores on main average about 3.6/10 (Maya 3.8, Jordan 4.3, Alex 3.6, Avery 2.8, Richard 3.5), with 32 invented facts and no unsafe actions in that test. Draft #1159/#1169 scored around 7.0-7.1/10 held-out with safety improvements but remain open and flags off, so receive no implementation credit. R33 adds guided worker setup, Maya mail drafts and notifications in merged code, but no production repeated all-five outcomes, verified reliable provider paths or unattended recovery."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
-      "current": 65,
+      "current": 64,
       "confidence": "medium",
-      "status": "Unmerged designer-mode experiments improved potential quality workflow only; complete SaaS, custom agents, mature autonomy and economic proof still absent.",
-      "summary": "Nov 18: skill draft #56 adds designer-mode critic and screenshots with 33/33 fixture selftests, explicitly not run on a real site; draft DESIGN_CONTROL #55 defaults off, site-reader #1122, Alex #1123, Stromation #358 open. No new deployed premium site or repeated production acceptance. SaaS, custom agent delivery, 95–99% unattended denominator, margins and founder-only hours remain unproven."
+      "status": "Merged worker/UX improvements offset by direct evidence of weak mainline answer quality; core SaaS, custom-agent and economic proof still absent.",
+      "summary": "Nov 19: developer-facing R33 mainline merged #1164, yet release gate 44509037106 failed at Plan, tests/deploy skipped. Mainline 5-worker held-out/exam evidence #1152 reveals 3.6/10 answer quality; unmerged smart-worker #1159/#1169 scores ~7.0/10 do not count toward implemented capability. Unmerged designer Stromation #359 and skill #57 have simulated/fixture validation but no real accepted premium build. No full SaaS, automated custom agent, 95–99% routine workflow denominator, accepted economics or measured founder-only hours."
     }
   },
   "autonomyProof": {
@@ -51,8 +51,8 @@
       "day60": 94,
       "day90": 95,
       "confidence": "high",
-      "blocker": "Need repeated live cross-industry business validation.",
-      "nextMilestone": "Validate live briefs and justified refusals."
+      "blocker": "Need repeated cross-industry live validated briefs and scope choices.",
+      "nextMilestone": "Cross-industry real brief acceptance."
     },
     {
       "key": "website",
@@ -63,8 +63,8 @@
       "day60": 94,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "Need 8+/10 independently accepted live Fargate site; designer-mode #56 draft and untested on real sites.",
-      "nextMilestone": "Independently deliver and accept one full premium Fargate site with working checkout/forms."
+      "blocker": "Need independently accepted 8+/10 Fargate site with real working buy/forms; designer PRs unmerged.",
+      "nextMilestone": "Prove one 8+/10 premium Fargate site plus live checkout/form flows."
     },
     {
       "key": "saas",
@@ -75,20 +75,20 @@
       "day60": 25,
       "day90": 35,
       "confidence": "medium",
-      "blocker": "Need deployed full SaaS and existing-app change handoffs.",
-      "nextMilestone": "Deliver and support SaaS and existing-app change."
+      "blocker": "Need complete deployed SaaS and supported existing-app change handoffs.",
+      "nextMilestone": "Complete and deliver a SaaS and supported existing-app change."
     },
     {
       "key": "workforce",
       "name": "Standard AI workforce capability",
       "group": "V3 capability",
-      "current": 85,
-      "day30": 89,
-      "day60": 92,
-      "day90": 95,
+      "current": 71,
+      "day30": 82,
+      "day60": 88,
+      "day90": 93,
       "confidence": "medium",
-      "blocker": "Need repeated live-provider outcomes across all five workers; #1123 open and default off.",
-      "nextMilestone": "Prove five-worker recurring live-provider operation."
+      "blocker": "Need all five repeatedly useful live; baseline owner-facing worker exam averaged only ~3.6/10, smart-worker PRs open.",
+      "nextMilestone": "Prove improved answers and live outcomes for all five with flags live and recurrence."
     },
     {
       "key": "customAgents",
@@ -99,8 +99,8 @@
       "day60": 30,
       "day90": 40,
       "confidence": "high",
-      "blocker": "Need automated governed customer-agent activation.",
-      "nextMilestone": "Build, activate and monitor an owner-specific agent."
+      "blocker": "Need hands-off governed custom-agent creation, activation and monitoring.",
+      "nextMilestone": "Activate, govern and monitor a customer-specific agent."
     },
     {
       "key": "coordination",
@@ -111,8 +111,8 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Need proven unattended paid-build failure recovery.",
-      "nextMilestone": "Prove unattended real Fargate failure recovery."
+      "blocker": "Need measured unattended recovery after real failed paid site builds.",
+      "nextMilestone": "Prove production unattended failure and recovery."
     },
     {
       "key": "reliability",
@@ -123,20 +123,20 @@
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Need production release and recovery/restore proof; R29 CI success only, no new deployed verification.",
-      "nextMilestone": "Verify merged safeguards in live release and restore."
+      "blocker": "Need R33 release/staging/production pass and verified restore; release 44509037106 refused at Plan.",
+      "nextMilestone": "Pass release gate, stage safely, validate production and restore."
     },
     {
       "key": "journey",
       "name": "Complete customer journey & ownership",
       "group": "V3 capability",
-      "current": 93,
+      "current": 92,
       "day30": 95,
       "day60": 97,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Need live checkout/forms plus 3 site handoffs; v2 reader off.",
-      "nextMilestone": "Preserve real purchase paths and hand off three sites."
+      "blocker": "Need real checkout/form preservation and three owner-accepted live website handoffs.",
+      "nextMilestone": "Finish one real purchase-to-live handoff, then three owner acceptances."
     },
     {
       "key": "commercial",
@@ -147,8 +147,8 @@
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Need repeatable paid customer fulfillment and acquisition evidence.",
-      "nextMilestone": "Prove paid order through accepted live delivery."
+      "blocker": "Need repeatable paid order-to-accepted-site fulfillment.",
+      "nextMilestone": "Prove paid customer fulfillment and acquisition."
     },
     {
       "key": "economics",
@@ -159,52 +159,56 @@
       "day60": 25,
       "day90": 40,
       "confidence": "high",
-      "blocker": "Need accepted margins, autonomy denominator and founder-hours log.",
-      "nextMilestone": "Measure accepted-site margins and founder workload."
+      "blocker": "Need accepted-site margin, routine-workflow denominator and founder-only hour log.",
+      "nextMilestone": "Record accepted cost/margin and founder-only weekly hours."
     }
   ],
   "v1Remaining": [
-    "Deliver an independently accepted 8+/10 paid Fargate website with real checkout/forms.",
-    "Verify production release and unattended recovery; complete 3 owner handoffs.",
-    "Production-verify merged security, billing and tenant safeguards."
+    "Prove an independently judged 8+/10 live Fargate site with preserved real checkout/forms.",
+    "Pass release/staging/production gates and prove unattended recovery.",
+    "Complete three owner-accepted website handoffs with safeguard verification."
   ],
   "v2Remaining": [
-    "Prove five workers repeatedly using real providers and safe recovery.",
-    "Production-verify integration reliability, retries and approval/spend safeguards."
+    "Prove five standard workers repeatedly with useful live-provider outcomes and fewer invented answers.",
+    "Verify production provider integrations, approvals, reliability and self-recovery."
   ],
-  "biggestChange": "Nov 18: designer-mode draft skill #56 now has 33/33 local fixture tests, but no real-site run, mainline builder change or verified premium delivery.",
+  "biggestChange": "Nov 19: R33 bundled 18 reviewed PRs into main, but its release gate was rejected at Plan; a new real-path five-worker exam showed ~3.6/10 baseline answers.",
   "improvements": [
-    "Draft front-end skill #56 introduces a designer-mode/critic workflow; 33/33 planted-fixture selftests passed, but remains unmerged and untested on a real site.",
-    "Stromation main 7b9874f merge-train check 44299105711 succeeded Nov 18 05:56 CT; no new code or deployment from it.",
-    "businessbuilder R29 main release CI run 43937686783 previously passed; canonical businessbuilder main remains a669915."
+    "R33 #1164 merged 18 PRs including worker setup, owner notification, Maya email UX, Alex site-edit UI and existing-site intake #1168 contract test.",
+    "CI plan refusal bug #1171 merged to main 1302f465 so plan-only red runs do not consume the next real release gate.",
+    "Draft designer skill #57 has 183/183 selftests and fixture form roundtrip; prototype Stromation engine #359 exists, both open with feature flags off."
   ],
   "regressions": [
-    "No independently accepted 8+/10 paid Fargate site; latest documented ATSHack paid judge 6/10 and blind homepage ~5.5/10.",
-    "Unmerged/default-off skill #55/#56, businessbuilder #1122/#1123 and Stromation #358 get no implemented credit; no real designer-mode build completed.",
-    "No verified production release, 3 handoffs, all-five recurring live workers, complete SaaS, custom-agent delivery, unit economics, or unattended operating denominator."
+    "New 320-question real-path mainline worker exam #1152 averaged ~3.6/10; direct evidence lowered V2 and workforce scores despite earlier feature-count confidence.",
+    "R33 release workflow 44509037106 failed in Plan and ran no tests or deploy; merged changes are not live proof.",
+    "Designer #359, skill #57 and smart workforce #1159/#1169 remain unmerged; no accepted 8+/10 live site or complete SaaS/custom agent proof."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "No new product merges since Nov 17 check; businessbuilder main a669915 and Stromation main 7b9874f unchanged. Front-end skill main only CLOUD-LOOP.md check logs since Nov 17."
+      "businessbuilder main 1302f465 (Nov 19 05:14 CT) includes R33 bundle #1164, existing-site intake fix #1168 and CI refusal fix #1171.",
+      "Stromation main 7b9874f unchanged since Nov 16; front-end skill main 4c45a2c contains no merged designer engine."
     ],
     "deployed": [
-      "No new deployment verified; SITE_READER_V2_ENABLED and DESIGN_CONTROL pilot remain off or unmerged."
+      "No R33 staging or production deploy independently verified; R33 release run 44509037106 refused in Plan, deploy skipped.",
+      "No real-site designer activation; prototype flags remain off/unmerged."
     ],
     "verified": [
-      "R29 release CI 43937686783 success on unchanged businessbuilder main; Stromation merge-train 44299105711 success Nov 18 05:56 CT on unchanged main.",
-      "Designer-mode draft #56 33/33 planted-fixture selftests, no real-site run; last accepted premium live build not shown; latest paid judge 6/10 and blind homepage ~5.5/10."
+      "GitHub R33 release 44509037106: Plan failure, all substantive jobs and deploy skipped (not a product regression by itself).",
+      "New 320-item mainline 5-worker exam #1152 averaged ~3.6/10 with 32 invented facts; draft #1159/#1169 held-out ~7.0-7.1/10, open/default-off.",
+      "Skill #57 183/183 selftests with fixture form door; no accepted paid Fargate site, reliable repeat provider outcomes or three owner handoffs."
     ]
   },
   "promisesOverreach": [
-    "Green R29 CI and Stromation merge-train runs do not establish production deployment or premium-site acceptance.",
-    "Draft designer #56 and DESIGN_CONTROL #55 are not merged or proven on real sites; builder PR #1123 remains open/default off.",
-    "No verified 8+/10 live site, 3 accepted handoffs, 5 recurring workers, complete SaaS, custom agents, unit economics or low-founder workload."
+    "R33 merged code and CI infrastructure retry success do not show a successful release gate, deploy, customer journey or live recovery.",
+    "5-worker draft blind score ~7.0 cannot be applied to mainline live workforce; baseline 3.6 was owner-facing eval, not every workflow.",
+    "Designer engine #359 and bundle skill #57 are unmerged, with no independent premium site acceptance.",
+    "Unit margins, 95–99% unattended supported-workflow numerator/denominator and 1–2 founder hours/week remain unmeasured."
   ],
-  "founderWorkloadTrend": "No representative 95–99% supported workflow numerator/denominator, or measured founder-only technical hours; customer approvals and specialist review do not count as founder work.",
+  "founderWorkloadTrend": "No representative unattended workflow denominator and no Darius-only technical operating-hours log; customer approvals/account setup/specialist review are excluded.",
   "nextActions": [
-    "Prove one independently judged 8+/10 complete ATSHack Fargate build with authentic $1 checkout and working forms.",
-    "Check production hosting, link preservation, safe recovery and owner handoff before repeating on three sites.",
-    "Promote only tested builder/skill improvements and verify merged safeguards in production before expanding scope."
+    "Get a real release/staging gate to pass for website delivery, then run independent 8+/10 Fargate premium-site acceptance with authentic checkout/forms.",
+    "Show safe failure recovery and owner handoff on the accepted site before repeating across three owners.",
+    "Defer open worker intelligence and V3 buildout until website builder proof exists."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -223,10 +227,10 @@
     "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
   },
   "costReporting": {
-    "measuredSpend": "No new paid trials triggered; latest documented paid ATSHack judge 6/10, unaccepted site. Accepted-site margins and Darius-only hours unmeasured.",
-    "reservedUnconfirmedSpend": "No paid tests, deployments, account creation, access expansion or spending-limit changes by this forecast.",
-    "estimatedFutureCosts": "No verified accepted-site margin or current future spend estimate.",
-    "note": "Forecast-only JSON changes. CI spend is not website unit economics."
+    "measuredSpend": "No new spend triggered by this forecast. Current accepted-site economics remain unmeasured; earlier ATSHack paid build judged 6/10. Worker exam spending in separate PR is not production unit economics.",
+    "reservedUnconfirmedSpend": "No paid tests, deployments, accounts, access expansion, limits or product/cloud settings changed by this forecast.",
+    "estimatedFutureCosts": "No defensible accepted-site gross margin or routine founder workload forecast verified.",
+    "note": "Read-only assessments plus two forecast JSON file updates only."
   },
-  "method": "Nov 18 06:02 CT: compared GitHub connector main SHA and commit timestamps for businessbuilder (a669915), Stromation (7b9874f), front-end skill (only hourly CLOUD-LOOP.md logs); reviewed draft designer #56 (33/33 planted fixture tests, no real-site run), draft flag #55, businessbuilder #1122/#1123 and Stromation #358, latest release and merge-train workflows. Earlier paid ATSHack 1115a judged 6/10 and blind homepage ~5.5/10 remain most recent published evidence. No accepted 8+/10 production site, repeated workers, SaaS, custom agents, margin or autonomy/founder workload measurements. No paid or product/cloud changes."
+  "method": "Nov 19 ~06:09 CT via connected GitHub: businessbuilder main 1302f465 (R33 #1164 merged + #1171), R33 CI release 44509037106 Plan-only failure; Stromation main 7b9874f unchanged; prototype designer #359 and front-end skill #57 open, skill fixtures 183/183 but no real site. Evaluated worker real-path exam #1152 (320 baseline items, 3.6/10 mean across five), #1159/#1169 open held-out ~7.0-7.1, flags off. Checked open R34 #1163/#1166/#1172, no accepted premium Fargate site, live recovery, three handoffs, five recurring provider workers, full SaaS/custom agents or measured economics/autonomy/founder-only hours. No paid tests, deployments or product/cloud changes."
 }

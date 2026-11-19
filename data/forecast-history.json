@@ -5600,6 +5600,139 @@
       },
       "biggestChange": "Nov 18: designer-mode draft skill #56 now has 33/33 local fixture tests, but no real-site run, mainline builder change or verified premium delivery.",
       "method": "Nov 18 06:02 CT: compared GitHub connector main SHA and commit timestamps for businessbuilder (a669915), Stromation (7b9874f), front-end skill (only hourly CLOUD-LOOP.md logs); reviewed draft designer #56 (33/33 planted fixture tests, no real-site run), draft flag #55, businessbuilder #1122/#1123 and Stromation #358, latest release and merge-train workflows. Earlier paid ATSHack 1115a judged 6/10 and blind homepage ~5.5/10 remain most recent published evidence. No accepted 8+/10 production site, repeated workers, SaaS, custom agents, margin or autonomy/founder workload measurements. No paid or product/cloud changes."
+    },
+    {
+      "date": "2026-11-19",
+      "asOf": "2026-11-19T06:10:05-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "name": "V1 readiness",
+          "current": 87,
+          "confidence": "medium",
+          "status": "R33 code bundle merged but release gate refused at Plan; no accepted 8+/10 live Fargate site or verified production release.",
+          "summary": "Nov 19: businessbuilder main 1302f465 includes merged R33 bundle #1164 (18 feature/fix PRs), including existing-site intake fix #1168, Maya UX and safety, yet 44509037106 CI release failed at Plan with every test/deploy skipped. R33 not confirmed staged or live. Stromation main 7b9874f unchanged; designer runtime #359 and skill #57 are open, not implemented. Latest paid ATSHack site scored 6/10 and blind homepage ~5.5/10; no independently accepted 8+/10 live Fargate site, verified $1 checkout/forms, three owner handoffs or unattended recovery."
+        },
+        "v2": {
+          "name": "V2 readiness",
+          "current": 81,
+          "confidence": "medium",
+          "status": "New worker exam exposed weak mainline owner-facing answers; R33 merged improvements remain unproven live.",
+          "summary": "Nov 19: 320-item real-path worker exam #1152 scores on main average about 3.6/10 (Maya 3.8, Jordan 4.3, Alex 3.6, Avery 2.8, Richard 3.5), with 32 invented facts and no unsafe actions in that test. Draft #1159/#1169 scored around 7.0-7.1/10 held-out with safety improvements but remain open and flags off, so receive no implementation credit. R33 adds guided worker setup, Maya mail drafts and notifications in merged code, but no production repeated all-five outcomes, verified reliable provider paths or unattended recovery."
+        },
+        "v3": {
+          "name": "V3 / Full 10/10 vision",
+          "current": 64,
+          "confidence": "medium",
+          "status": "Merged worker/UX improvements offset by direct evidence of weak mainline answer quality; core SaaS, custom-agent and economic proof still absent.",
+          "summary": "Nov 19: developer-facing R33 mainline merged #1164, yet release gate 44509037106 failed at Plan, tests/deploy skipped. Mainline 5-worker held-out/exam evidence #1152 reveals 3.6/10 answer quality; unmerged smart-worker #1159/#1169 scores ~7.0/10 do not count toward implemented capability. Unmerged designer Stromation #359 and skill #57 have simulated/fixture validation but no real accepted premium build. No full SaaS, automated custom agent, 95–99% routine workflow denominator, accepted economics or measured founder-only hours."
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null,
+        "scope": "Representative supported routine workflows",
+        "observationWindow": null,
+        "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2",
+        "targetContext": "mature V3 scale",
+        "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 83,
+          "day30": 89,
+          "day60": 94,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 71,
+          "day30": 82,
+          "day60": 88,
+          "day90": 93,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 86,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 84,
+          "day30": 89,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 92,
+          "day30": 95,
+          "day60": 97,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 87,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Nov 19: R33 bundled 18 reviewed PRs into main, but its release gate was rejected at Plan; a new real-path five-worker exam showed ~3.6/10 baseline answers.",
+      "method": "Nov 19 ~06:09 CT via connected GitHub: businessbuilder main 1302f465 (R33 #1164 merged + #1171), R33 CI release 44509037106 Plan-only failure; Stromation main 7b9874f unchanged; prototype designer #359 and front-end skill #57 open, skill fixtures 183/183 but no real site. Evaluated worker real-path exam #1152 (320 baseline items, 3.6/10 mean across five), #1159/#1169 open held-out ~7.0-7.1, flags off. Checked open R34 #1163/#1166/#1172, no accepted premium Fargate site, live recovery, three handoffs, five recurring provider workers, full SaaS/custom agents or measured economics/autonomy/founder-only hours. No paid tests, deployments or product/cloud changes."
     }
   ]
 }
