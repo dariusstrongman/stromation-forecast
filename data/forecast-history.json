@@ -5866,6 +5866,139 @@
       },
       "biggestChange": "Nov 20: R34 mainline release CI passed and Stromation's off-by-default designer engine merged; R35 changes remain open with no live premium site acceptance.",
       "method": "Nov 20 ~06:00 CT: GitHub connector reviewed businessbuilder main bcc8835c, R34 #1174 merged, green full release CI 44648757776; Stromation main 3f9bba0 includes default-off designer #359, skill PR #57 open; R35 #1198 and worker/provider/payment fixes open, CI in progress. No independent staging/live site rollout, owner-accepted 8+/10 premium Fargate build, authentic forms or checkout, three owner handoffs, recurring five-worker provider outcomes, complete SaaS/custom agents, economics/autonomy/founder-hour proof. No paid tests, deployments, or product/cloud edits."
+    },
+    {
+      "date": "2026-11-21",
+      "asOf": "2026-11-21T05:57:41-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "name": "V1 readiness",
+          "current": 85,
+          "confidence": "medium",
+          "status": "R35 merged and main release CI passed before the latest staging-only flag change; staging paid TEST site reached live builder, designer failed and fallback spent until manual stop; queue isolation and live site acceptance not proven.",
+          "summary": "Nov 21 05:57 CT: businessbuilder R35 #1198 merged; main 1adbd7c passed full release CI 44817269331, while latest 4e6fd36 release run 44825717160 stopped in Plan because 3 release gates/20h limit was reached (not a test regression). Nov 20 Birchwood staging Stripe TEST order entered the live builder queue; designer crashed on facts shape, old-engine fallback continued spending, operator had to intervene. Stromation #365-#368 merged including stop-spending, deployment guard and facts-shape fixes; no AWS deployment proof. R36 builder separate staging queue #1204, truthful paid start #1203 and intake continuity #1199 open with zero implemented credit. Front-end designer integration #57 open. No independently accepted 8+/10 live Fargate premium site, real checkout/form roundtrip, three owner handoffs, or proven unattended failure recovery."
+        },
+        "v2": {
+          "name": "V2 readiness",
+          "current": 80,
+          "confidence": "medium",
+          "status": "R35 merged but worker improvements are default-off and unproven live; isolation and checkout issues surfaced in staging.",
+          "summary": "Nov 21: main includes R35 bundle #1198 and prior R34 worker intelligence, but production TEAM_KNOWLEDGE_ENABLED and TEAM_CHAT_BRAIN_ENABLED remain default-off. Worker PR #1192 still open; its corrected 100-item held-out comparison improved 6.33 to 6.62/10 but under the 8.5 bar, with 3 invented facts and 1 unsafe claim. No five repeatedly useful live-provider outcomes, full verified integrations or unattended recovery. Staging Stripe TEST order hitting live builder queue is concrete operational regression; protective Stromation code merged but not deployed or proven."
+        },
+        "v3": {
+          "name": "V3 / Full 10/10 vision",
+          "current": 63,
+          "confidence": "medium",
+          "status": "R35 code and designer safety hotfixes merged, but staging isolation incident invalidates reliable paid-site proof; SaaS, custom agents and economics remain unverified.",
+          "summary": "Nov 21: businessbuilder R35 #1198 merged; 44817269331 release CI succeeded on preceding main, but 44825717160 was Plan-capped on latest SHA. Stromation 8aedbe4 includes #365-#368 safety fixes; separated staging queue #1204 not merged/deployed. Staging Stripe TEST Birchwood designer run failed, fell back and required manual stop, so no accepted site or recovery proof. Skill #57 open; workforce routing #1192 open and sub-8.5 held-out; no complete SaaS, automated custom agents, mature 95–99% supported-workflow autonomy denominator, accepted-site margins or 1–2 founder-only hours/week data."
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null,
+        "scope": "Representative supported routine workflows",
+        "observationWindow": null,
+        "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2",
+        "targetContext": "mature V3 scale",
+        "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 81,
+          "day30": 87,
+          "day60": 93,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 70,
+          "day30": 82,
+          "day60": 88,
+          "day90": 93,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 83,
+          "day30": 88,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 82,
+          "day30": 87,
+          "day60": 91,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 89,
+          "day30": 93,
+          "day60": 96,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 86,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Nov 20 staging Stripe TEST Birchwood website build entered the live builder queue; its designer failed, legacy fallback spent further, and a person stopped it. R35 merged and safety hotfixes landed, but the separate staging queue remains unmerged/unproven.",
+      "method": "Nov 21 05:57 CT GitHub connector: businessbuilder main 4e6fd3690c3b1694040ea8d2f252e663d1ce9418 R35 #1198 merged; release CI 44817269331 success on 1adbd7c and newer 44825717160 Plan-capped 3 gates/20h, not test regression. Stromation main 8aedbe4641f169c4c2c1b2f488c26a1bcf916ade #365-#368 merged with CI 44898949171 success but deployed status unknown. Reviewed #1204 (staging Stripe TEST Birchwood routed to live builder), #366 (tool_error facts checker + old-engine fallback to $6.87, manual stop), #368 facts-shape fix, #1203 truthful paid start/intake 403, #1192 corrected held-out 6.33 to 6.62 under 8.5, #1195 open $897 live checkout path, front-end skill #57 open. No accepted premium 8+/10 Fargate live site, owner handoffs, isolated staged deployment, repeated five-worker live outcomes, complete SaaS/custom agents, measured margins/autonomy/founder time. This forecast did not trigger tests, deployment, configuration or spend."
     }
   ]
 }
