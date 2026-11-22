@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-11-21",
-  "asOf": "2026-11-21T05:57:41-06:00",
+  "date": "2026-11-22",
+  "asOf": "2026-11-22T05:57:00-06:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
       "current": 85,
       "confidence": "medium",
-      "status": "R35 merged and main release CI passed before the latest staging-only flag change; staging paid TEST site reached live builder, designer failed and fallback spent until manual stop; queue isolation and live site acceptance not proven.",
-      "summary": "Nov 21 05:57 CT: businessbuilder R35 #1198 merged; main 1adbd7c passed full release CI 44817269331, while latest 4e6fd36 release run 44825717160 stopped in Plan because 3 release gates/20h limit was reached (not a test regression). Nov 20 Birchwood staging Stripe TEST order entered the live builder queue; designer crashed on facts shape, old-engine fallback continued spending, operator had to intervene. Stromation #365-#368 merged including stop-spending, deployment guard and facts-shape fixes; no AWS deployment proof. R36 builder separate staging queue #1204, truthful paid start #1203 and intake continuity #1199 open with zero implemented credit. Front-end designer integration #57 open. No independently accepted 8+/10 live Fargate premium site, real checkout/form roundtrip, three owner handoffs, or proven unattended failure recovery."
+      "status": "R35 code remains merged and Stromation added identity-bound bridge safety, but R36 dedicated staging queue is open and no independently accepted 8+/10 premium website or safe end-to-end paid delivery is verified.",
+      "summary": "Nov 22 05:57 CT: businessbuilder main 4e6fd3690 (Nov 20) remains latest; R35 #1198 merged, prior full release CI 44817269331 passed on 1adbd7c, but latest SHA deployment and release proof not established. Stromation main 231f08f (Nov 21) merged #369, binding bridge owner commands to stable company/deployment/tenant/job identity and publishing refusals; 1,209 local tests reported, not live proof. R36 separated builder queue #1204 remains draft/open, while R36 bundle #1205 and spend guard #1206 remain open and receive no implemented credit. Nov 20 staging Stripe TEST Birchwood had reached live builder, failed designer and required manual intervention; no verified fix deployment. No independent 8+/10 Fargate premium site, authentic checkout/forms, three owner handoffs or unattended recovery."
     },
     "v2": {
       "name": "V2 readiness",
       "current": 80,
       "confidence": "medium",
-      "status": "R35 merged but worker improvements are default-off and unproven live; isolation and checkout issues surfaced in staging.",
-      "summary": "Nov 21: main includes R35 bundle #1198 and prior R34 worker intelligence, but production TEAM_KNOWLEDGE_ENABLED and TEAM_CHAT_BRAIN_ENABLED remain default-off. Worker PR #1192 still open; its corrected 100-item held-out comparison improved 6.33 to 6.62/10 but under the 8.5 bar, with 3 invented facts and 1 unsafe claim. No five repeatedly useful live-provider outcomes, full verified integrations or unattended recovery. Staging Stripe TEST order hitting live builder queue is concrete operational regression; protective Stromation code merged but not deployed or proven."
+      "status": "R36 worker/money/intake bundle is open and not credited; existing worker brain flags remain default-off; five repeated provider-backed successes and integrations are unproven.",
+      "summary": "Nov 22: businessbuilder main unchanged at 4e6fd3690; R36 bundle #1205 with worker/intake/checkout fixes and R36 spend guard #1206 are open and no deployed capability credit applies. Earlier worker held-out 6.62/10 remains under 8.5 quality bar; no newly verified repeated live-provider outcomes from all five workers. Nov 20 staging/live builder isolation regression unresolved in deployed evidence. Stromation #369 identity guard merged with only local test proof."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
       "current": 63,
       "confidence": "medium",
-      "status": "R35 code and designer safety hotfixes merged, but staging isolation incident invalidates reliable paid-site proof; SaaS, custom agents and economics remain unverified.",
-      "summary": "Nov 21: businessbuilder R35 #1198 merged; 44817269331 release CI succeeded on preceding main, but 44825717160 was Plan-capped on latest SHA. Stromation 8aedbe4 includes #365-#368 safety fixes; separated staging queue #1204 not merged/deployed. Staging Stripe TEST Birchwood designer run failed, fell back and required manual stop, so no accepted site or recovery proof. Skill #57 open; workforce routing #1192 open and sub-8.5 held-out; no complete SaaS, automated custom agents, mature 95–99% supported-workflow autonomy denominator, accepted-site margins or 1–2 founder-only hours/week data."
+      "status": "Identity-bound bridge commands improved merged autonomy safeguards, but no proof of live website fulfillment, full SaaS, custom agents, mature autonomy, reliable economics or low founder workload.",
+      "summary": "Nov 22: new Stromation main 231f08f includes bridge command binding/refusal fix #369 with 1,209 local passing tests; businessbuilder main remains 4e6fd3690; R36 bundle #1205 and isolated staging queue #1204 remain open. No proven deployed isolation or independent 8+/10 paid website delivery. Complete SaaS and automated custom agents remain unverified; worker quality below bar, and routine 95-99% autonomy denominator, unit margins and founder-only weekly hours unmeasured."
     }
   },
   "autonomyProof": {
@@ -63,8 +63,8 @@
       "day60": 93,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "Need accepted 8+/10 premium live site; designer pin, forms and isolated staging proven.",
-      "nextMilestone": "Prove isolated premium paid site with authentic links/forms."
+      "blocker": "Need isolated staging and independently accepted 8+/10 premium live site with working forms.",
+      "nextMilestone": "Verify a paid-path designer build, real forms and owner acceptance."
     },
     {
       "key": "saas",
@@ -87,7 +87,7 @@
       "day60": 88,
       "day90": 93,
       "confidence": "medium",
-      "blocker": "Need five useful live workers with >8.5/10 factual performance.",
+      "blocker": "Need five useful live workers and accurate grounded replies above 8.5/10.",
       "nextMilestone": "Improve held-out scores, then prove provider-backed outcomes."
     },
     {
@@ -106,13 +106,13 @@
       "key": "coordination",
       "name": "Autonomous coordination & recovery",
       "group": "V3 capability",
-      "current": 83,
+      "current": 84,
       "day30": 88,
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Need unattended recovery without uncontrolled fallback spending.",
-      "nextMilestone": "Demonstrate safe fail-stop and hands-free recovery."
+      "blocker": "Need deployed identity-safe command handling and hands-free builder recovery.",
+      "nextMilestone": "Prove bridge refusals, safe fail-stop and unattended recovery live."
     },
     {
       "key": "reliability",
@@ -123,8 +123,8 @@
       "day60": 91,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Need deployed staging isolation, green current release and proven restore.",
-      "nextMilestone": "Isolate queues and prove deployed end-to-end recovery."
+      "blocker": "Need deployed separate staging queue, validated guard and restored release proof.",
+      "nextMilestone": "Verify staging never touches live builder and safe restore."
     },
     {
       "key": "journey",
@@ -135,7 +135,7 @@
       "day60": 96,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Need truthful paid-start status, working checkout and 3 owner handoffs.",
+      "blocker": "Need truthful paid-start status, real checkout and three owner handoffs.",
       "nextMilestone": "Verify truthful paid purchase-to-live handoffs."
     },
     {
@@ -164,56 +164,55 @@
     }
   ],
   "v1Remaining": [
-    "Prove safe staging/live builder queue separation and bounded designer failure/recovery.",
-    "Independently accept an 8+/10 premium Fargate site with real forms/checkout; finish 3 owner handoffs."
+    "Deploy and prove isolated staging builder queue plus bounded failure/recovery.",
+    "Accept an independent 8+/10 premium live site with authentic checkout/forms and three owner handoffs."
   ],
   "v2Remaining": [
-    "Prove five accurate, helpful live workers with real integrations.",
-    "Verify safe paid flows, approvals, recovery and separated staging."
+    "Prove five helpful accurate workers on real integrated providers.",
+    "Verify safe paid customer journey, reliable integrations and unattended recovery."
   ],
-  "biggestChange": "Nov 20 staging Stripe TEST Birchwood website build entered the live builder queue; its designer failed, legacy fallback spent further, and a person stopped it. R35 merged and safety hotfixes landed, but the separate staging queue remains unmerged/unproven.",
+  "biggestChange": "Nov 21 Stromation merged #369 identity-bound owner commands and visible bridge refusals (1,209 local tests); R36 customer/worker bundle #1205 remains open and the dedicated staging queue #1204 is still unmerged and unproven.",
   "improvements": [
-    "businessbuilder R35 bundle #1198 merged to main (97d1a909); release 44817269331 passed on main 1adbd7c after R35 and router fix.",
-    "Stromation #365-#368 merged: command-scoped follow-ups, stop-spending on failed designer, live/staging admission guard, Birchwood facts-shape checker fix; CI passed.",
-    "Main 4e6fd369 includes staging-only test order flag classification fix #1202; latest release gate stopped for frequency cap, not test failure."
+    "Stromation main 231f08f merged #369 on Nov 21: bridge owner commands are bound to stable company, tenant, deployment and job identity; refused/late commands publish visible outcomes (1,209 local tests, no new failures).",
+    "R36 #1205 has a reviewed combined change set for payments, workers, site intake and audits; labeled ready-to-merge but still open, no implemented credit.",
+    "R35 remains merged on businessbuilder main 4e6fd36; prior full CI passed 44817269331 on 1adbd7c; latest release/deploy not independently verified."
   ],
   "regressions": [
-    "Nov 20 Birchwood staging Stripe TEST order was misrouted to the live builder queue; designer tool_error at $3.20 and old-engine fallback reached $6.87 before manual stop, per Stromation #366/#367. Safety fixes are merged but not verified deployed.",
-    "R36 separate staging queue #1204 and paid-start honesty #1203 remain open; staging found erroneous 'building starts now' message and 403 after prepared intake.",
-    "Worker PR #1192 remains open and corrected held-out average 6.62/10 is below 8.5 with 3 unsupported facts/1 unsafe claim; production intelligence flags are off.",
-    "No independent accepted 8+/10 live premium site, three owner handoffs or production recovery."
+    "Nov 20 Birchwood staging Stripe TEST job entered live builder and required manual stop after designer failure; no demonstrated AWS staging/live queue split yet. Guard fixes merged earlier but deployment unverified.",
+    "R36 dedicated staging builder queue #1204 remains draft/open; no safe isolated paid proof or 8+/10 accepted Fargate site.",
+    "R36 #1205 worker/checkout/intake and spend guard #1206 remain open, default-off/unverified; prior worker held-out score 6.62/10 below 8.5.",
+    "No verified checkout/forms roundtrip, three owner handoffs, autonomous recovery, SaaS/custom-agent product delivery or economic/founder-hours data."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "businessbuilder main 4e6fd369: R35 #1198, release-gate fixes #1200/#1201, staging-only env #1202.",
-      "Stromation main 8aedbe4 includes #365 #366 #367 #368; deployment guard and fail-stop are committed but not proven running.",
-      "R36 businessbuilder #1199/#1203/#1204 and site-skill #57 remain open; no implemented credit."
+      "businessbuilder main 4e6fd369 includes R35 #1198, gate fixes #1200/#1201 and env fix #1202; no newer main commit as of check.",
+      "Stromation main 231f08f merged #369 identity-bound bridge owner commands/refusals on Nov 21 atop previous #365-#368 safety fixes.",
+      "R36 businessbuilder #1204/#1205/#1206 remain open; no credit for unmerged code."
     ],
     "deployed": [
-      "Staging Stripe TEST Birchwood was run via staging web but routed into live builder queue; this is evidence of wrong queue isolation, not premium production acceptance.",
-      "Stromation isolation/fail-stop/facts fix merged only; AWS image rebuild or deployment unverified. R36 dedicated staging queue unmerged.",
-      "No verified live site designer switch activation or owner accepted premium delivery."
+      "Nov 20 staging Stripe TEST Birchwood reached live builder queue; historical incorrect isolation, not successful site proof.",
+      "No verified current AWS deploy of Stromation #365-#369 nor dedicated staging queue.",
+      "No live designer-enabled production website accepted."
     ],
     "verified": [
-      "businessbuilder main 1adbd7c release run 44817269331 passed full release CI; latest 4e6fd36 run 44825717160 stopped in Plan due cap of 3 release gates per 20h, no tests started.",
-      "Stromation CI for #367/#368 passed; connector shows main 8aedbe4 and merge-train success 44898949171.",
-      "Stromation PR #366/#367 documented staging Stripe TEST misrouting, designer tool_error and manual stop.",
-      "Worker PR #1192 corrected held-out 100 items: before 6.33, after 6.62; below 8.5, open PR not live.",
-      "No accepted 8+/10 live Fargate site, 3 owner handoffs, autonomous recovery, unit economics or founder time measurement."
+      "GitHub verified businessbuilder main 4e6fd369 and Stromation main 231f08f; full R35 release CI 44817269331 passed on earlier 1adbd7c, newer run was Plan-capped.",
+      "Stromation PR #369 reports 1,209 passing local WSL tests and no new failures; merged, but not deployed outcome.",
+      "R36 #1205 reviewed changes not merged; #1204 staging isolated queue draft/open.",
+      "No independent premium 8+/10 live website, three owner handoffs, repeated provider-backed worker evidence, economics or founder-only workload measurement."
     ]
   },
   "promisesOverreach": [
-    "Main green release run on previous commit is CI proof, not latest SHA release or deployed website proof; latest Plan fail is rate cap, not failing test suite.",
-    "Builder staging payment path is unsafe until dedicated queue + deployment guard run on correct services; merged guards not automatically deployed.",
-    "Failed Birchwood Stripe TEST run is not a delivered paying customer or accepted 8+/10 site.",
-    "Site designer skill #57 and worker #1192 are open; flags default off; no production efficacy credit.",
-    "Do not interpret test scores as repeated provider-backed worker capability; no margins or founder-hour dataset."
+    "R36 bundle #1205 and staging isolation #1204 are open PRs: do not score as implemented, shipped, or live tested.",
+    "Stromation #369 merged command identity fix, but 1,209 local tests are not proof that the deployed bridge is updated.",
+    "Prior full main CI applies to 1adbd7c not necessarily latest builder main 4e6fd369; CI is not a production launch.",
+    "The Birchwood failed Stripe TEST path is not an accepted website or successful customer handoff.",
+    "Worker answer quality and five real worker outcomes, accepted-site margins and founder hours are not yet proven."
   ],
-  "founderWorkloadTrend": "Nov 20 staging paid TEST build needed human intervention to stop cost. Founder-specific technical hours and supported routine workflow denominator remain unmeasured; owner approvals and specialist review excluded.",
+  "founderWorkloadTrend": "No independent founder-only hour log or successful representative autonomous workflow denominator. Nov 20 staging builder required manual stop; owner approvals and specialist reviews excluded from founder-intervention count.",
   "nextActions": [
-    "Land and safely deploy dedicated staging builder queue #1204 with isolation guard #367 and fail-stop #366, verify no TEST job runs on live service.",
-    "Complete designer pin/integration and prove one independent 8+/10 staging-to-live premium Fargate site with genuine checkout/forms.",
-    "Verify safe recovery plus 3 owner-accepted handoffs before expanding worker/SaaS scope."
+    "Finish #1204 separate staging builder queue safely, verify deployment guard and fail-stop without impacting the live builder.",
+    "Run authorized proof only when ready: independently accept one premium 8+/10 website from isolated paid path with real forms/checkout.",
+    "Verify safe recovery and three completed owner handoffs before expanding worker or V3 scope."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -235,7 +234,7 @@
     "measuredSpend": "No spend initiated by this forecast. A prior Nov 20 staging Stripe TEST designer run reportedly reached $6.87 before manual stop (Stromation #366); this is test spend, not accepted-site unit economics.",
     "reservedUnconfirmedSpend": "No paid tests, deployments, access changes, account creation, product code edits or cloud configuration changes by this forecast.",
     "estimatedFutureCosts": "Accepted-site gross margin, sustained autonomous success ratio and founder-only hours remain unmeasured.",
-    "note": "Read-only evidence checks and forecast-only commit, no operational change."
+    "note": "Read-only repository evidence checks and one forecast-only commit. No paid tests, deployments, product/cloud configuration, accounts or spending-limit changes."
   },
-  "method": "Nov 21 05:57 CT GitHub connector: businessbuilder main 4e6fd3690c3b1694040ea8d2f252e663d1ce9418 R35 #1198 merged; release CI 44817269331 success on 1adbd7c and newer 44825717160 Plan-capped 3 gates/20h, not test regression. Stromation main 8aedbe4641f169c4c2c1b2f488c26a1bcf916ade #365-#368 merged with CI 44898949171 success but deployed status unknown. Reviewed #1204 (staging Stripe TEST Birchwood routed to live builder), #366 (tool_error facts checker + old-engine fallback to $6.87, manual stop), #368 facts-shape fix, #1203 truthful paid start/intake 403, #1192 corrected held-out 6.33 to 6.62 under 8.5, #1195 open $897 live checkout path, front-end skill #57 open. No accepted premium 8+/10 Fargate live site, owner handoffs, isolated staged deployment, repeated five-worker live outcomes, complete SaaS/custom agents, measured margins/autonomy/founder time. This forecast did not trigger tests, deployment, configuration or spend."
+  "method": "Nov 22 05:57 CT read-only GitHub check: businessbuilder main 4e6fd369 (latest Nov 20 22:03 UTC), Stromation main 231f08f (PR #369 merged Nov 21 23:19 UTC), forecast main e610bc9. R36 #1205 ready-to-merge still open, #1204 dedicated staging queue open/draft and #1206 spend guard open/draft. #369 reports 1,209 local passes; no confirmed latest AWS image, service deployment, isolated paid-site delivery, accepted premium site or three owner handoffs. V1 85, V2 80, V3 63; coordination 84 for implemented identity-bound bridge fix only. Other dimensions unchanged without fresh live outcome proof. No paid tests, operational changes, or cloud modifications."
 }

@@ -5999,6 +5999,139 @@
       },
       "biggestChange": "Nov 20 staging Stripe TEST Birchwood website build entered the live builder queue; its designer failed, legacy fallback spent further, and a person stopped it. R35 merged and safety hotfixes landed, but the separate staging queue remains unmerged/unproven.",
       "method": "Nov 21 05:57 CT GitHub connector: businessbuilder main 4e6fd3690c3b1694040ea8d2f252e663d1ce9418 R35 #1198 merged; release CI 44817269331 success on 1adbd7c and newer 44825717160 Plan-capped 3 gates/20h, not test regression. Stromation main 8aedbe4641f169c4c2c1b2f488c26a1bcf916ade #365-#368 merged with CI 44898949171 success but deployed status unknown. Reviewed #1204 (staging Stripe TEST Birchwood routed to live builder), #366 (tool_error facts checker + old-engine fallback to $6.87, manual stop), #368 facts-shape fix, #1203 truthful paid start/intake 403, #1192 corrected held-out 6.33 to 6.62 under 8.5, #1195 open $897 live checkout path, front-end skill #57 open. No accepted premium 8+/10 Fargate live site, owner handoffs, isolated staged deployment, repeated five-worker live outcomes, complete SaaS/custom agents, measured margins/autonomy/founder time. This forecast did not trigger tests, deployment, configuration or spend."
+    },
+    {
+      "date": "2026-11-22",
+      "asOf": "2026-11-22T05:57:00-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "name": "V1 readiness",
+          "current": 85,
+          "confidence": "medium",
+          "status": "R35 code remains merged and Stromation added identity-bound bridge safety, but R36 dedicated staging queue is open and no independently accepted 8+/10 premium website or safe end-to-end paid delivery is verified.",
+          "summary": "Nov 22 05:57 CT: businessbuilder main 4e6fd3690 (Nov 20) remains latest; R35 #1198 merged, prior full release CI 44817269331 passed on 1adbd7c, but latest SHA deployment and release proof not established. Stromation main 231f08f (Nov 21) merged #369, binding bridge owner commands to stable company/deployment/tenant/job identity and publishing refusals; 1,209 local tests reported, not live proof. R36 separated builder queue #1204 remains draft/open, while R36 bundle #1205 and spend guard #1206 remain open and receive no implemented credit. Nov 20 staging Stripe TEST Birchwood had reached live builder, failed designer and required manual intervention; no verified fix deployment. No independent 8+/10 Fargate premium site, authentic checkout/forms, three owner handoffs or unattended recovery."
+        },
+        "v2": {
+          "name": "V2 readiness",
+          "current": 80,
+          "confidence": "medium",
+          "status": "R36 worker/money/intake bundle is open and not credited; existing worker brain flags remain default-off; five repeated provider-backed successes and integrations are unproven.",
+          "summary": "Nov 22: businessbuilder main unchanged at 4e6fd3690; R36 bundle #1205 with worker/intake/checkout fixes and R36 spend guard #1206 are open and no deployed capability credit applies. Earlier worker held-out 6.62/10 remains under 8.5 quality bar; no newly verified repeated live-provider outcomes from all five workers. Nov 20 staging/live builder isolation regression unresolved in deployed evidence. Stromation #369 identity guard merged with only local test proof."
+        },
+        "v3": {
+          "name": "V3 / Full 10/10 vision",
+          "current": 63,
+          "confidence": "medium",
+          "status": "Identity-bound bridge commands improved merged autonomy safeguards, but no proof of live website fulfillment, full SaaS, custom agents, mature autonomy, reliable economics or low founder workload.",
+          "summary": "Nov 22: new Stromation main 231f08f includes bridge command binding/refusal fix #369 with 1,209 local passing tests; businessbuilder main remains 4e6fd3690; R36 bundle #1205 and isolated staging queue #1204 remain open. No proven deployed isolation or independent 8+/10 paid website delivery. Complete SaaS and automated custom agents remain unverified; worker quality below bar, and routine 95-99% autonomy denominator, unit margins and founder-only weekly hours unmeasured."
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null,
+        "scope": "Representative supported routine workflows",
+        "observationWindow": null,
+        "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2",
+        "targetContext": "mature V3 scale",
+        "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 81,
+          "day30": 87,
+          "day60": 93,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 70,
+          "day30": 82,
+          "day60": 88,
+          "day90": 93,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 84,
+          "day30": 88,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 82,
+          "day30": 87,
+          "day60": 91,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 89,
+          "day30": 93,
+          "day60": 96,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 86,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Nov 21 Stromation merged #369 identity-bound owner commands and visible bridge refusals (1,209 local tests); R36 customer/worker bundle #1205 remains open and the dedicated staging queue #1204 is still unmerged and unproven.",
+      "method": "Nov 22 05:57 CT read-only GitHub check: businessbuilder main 4e6fd369 (latest Nov 20 22:03 UTC), Stromation main 231f08f (PR #369 merged Nov 21 23:19 UTC), forecast main e610bc9. R36 #1205 ready-to-merge still open, #1204 dedicated staging queue open/draft and #1206 spend guard open/draft. #369 reports 1,209 local passes; no confirmed latest AWS image, service deployment, isolated paid-site delivery, accepted premium site or three owner handoffs. V1 85, V2 80, V3 63; coordination 84 for implemented identity-bound bridge fix only. Other dimensions unchanged without fresh live outcome proof. No paid tests, operational changes, or cloud modifications."
     }
   ]
 }
