@@ -6265,6 +6265,139 @@
       },
       "biggestChange": "No new mainline product merges or accepted live website delivery were verified today; R36 staging isolation #1204 and broader bundle #1205 remain open.",
       "method": "Nov 23 05:55 CT: read-only GitHub checks found unchanged businessbuilder main 4e6fd3690 and Stromation main 231f08f, builder CodeBuild success status, R36 #1204 dedicated staging queue, #1205 money/workers/intake bundle, and #1206 spend guard still open. No confirmed deployed isolation, accepted 8+/10 Fargate site, authentic paid handoffs, three owner handoffs, five workers, complete SaaS/custom agents, measured economics or autonomous founder-only hours. V1 85, V2 80, V3 63 and dimensions unchanged because no new live evidence; no paid tests, product/cloud changes or deployment."
+    },
+    {
+      "date": "2026-11-24",
+      "asOf": "2026-11-24T06:04:54-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "name": "V1 readiness",
+          "current": 85,
+          "confidence": "medium",
+          "status": "Mainline unchanged; both CodeBuild statuses green, but separate staging queue and paid premium website delivery remain unproven.",
+          "summary": "Nov 24 06:04 CT: businessbuilder main 4e6fd3690 and Stromation main 231f08f unchanged; both report successful AWS CodeBuild statuses. Latest builder workflow records are from Nov 21. R36 staging isolation #1204 and release bundle #1205 still open, unmerged, no implemented credit. No new PR or issue updates since Nov 23 in accessible search. Nov 20 Birchwood Stripe TEST order entered live builder, failed designer and required manual stop; no independently verified deployed separation, safe unattended recovery, accepted 8+/10 premium live Fargate site, real checkout/forms or three owner handoffs. Direct deployment records unavailable through the connector."
+        },
+        "v2": {
+          "name": "V2 readiness",
+          "current": 80,
+          "confidence": "medium",
+          "status": "No new implemented or live worker capability verified; R36 checkout, worker and spend-control PRs remain open.",
+          "summary": "Nov 24 06:04 CT: unchanged businessbuilder and Stromation main heads; #1205, #1206 and #1192 confirmed open. R36 bundle excludes latest worker round; production worker brain flags were previously reported off and no activation proof was found. Prior held-out 6.62/10 remains below 8.5. No newly verified five provider-backed useful worker outcomes, reliable integrations, complete paid customer handoffs or unattended recovery. Green CI is not live outcome evidence."
+        },
+        "v3": {
+          "name": "V3 / Full 10/10 vision",
+          "current": 63,
+          "confidence": "medium",
+          "status": "No new implemented or production-proven milestone; SaaS, custom agents, mature autonomy and economic evidence remain outstanding.",
+          "summary": "Nov 24 06:04 CT: canonical main heads unchanged at 4e6fd3690 and 231f08f, successful CodeBuild statuses; R36 #1204/#1205/#1206 and worker #1192 remain open. Stromation CURRENT_STATE describes code-level fulfillment chain, not live operational truth. No fresh accepted 8+/10 live premium site, three owner handoffs, complete SaaS/existing-app delivery, automated custom agents, measured 95–99% supported-workflow autonomy or 1–2 founder hours/week. Deployment records not accessible; missing proof is unverified, not broken."
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null,
+        "scope": "Representative supported routine workflows",
+        "observationWindow": null,
+        "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2",
+        "targetContext": "mature V3 scale",
+        "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 81,
+          "day30": 87,
+          "day60": 93,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 70,
+          "day30": 82,
+          "day60": 88,
+          "day90": 93,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 84,
+          "day30": 88,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 82,
+          "day30": 87,
+          "day60": 91,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 89,
+          "day30": 93,
+          "day60": 96,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 86,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Nov 24 audit found both canonical main heads unchanged and both CodeBuild statuses successful; R36 staging isolation remains open, with no fresh live acceptance evidence.",
+      "method": "Nov 24 06:04 CT: independently checked canonical main refs, recent commits, both CodeBuild statuses, builder workflow runs, open R36 PRs #1204/#1205/#1206 and #1192, recent issue/PR activity, and Stromation CURRENT_STATE. Main heads unchanged; no fresh deployment, paid handoff or acceptance evidence; direct deployment records unavailable. Scores 85/80/63 and dimension scores unchanged on evidence, not consistency. No paid tests, deployments, product edits, cloud changes or spending changes."
     }
   ]
 }
