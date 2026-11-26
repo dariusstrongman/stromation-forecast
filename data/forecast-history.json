@@ -6531,6 +6531,139 @@
       },
       "biggestChange": "R36 and four Stromation designer safety PRs merged; R36 production promotion rolled back on worker health, with a merged CI-green fix awaiting verified re-promotion.",
       "method": "Nov 25: checked canonical main commits, PR metadata and proof notes, both current CodeBuild statuses, main workflow runs and release job conclusions. Full R36 release gate passed before reported production rollback; fix gate passed with deploy skipped. Merged designer safety work earns implementation credit, not live quality credit. Scores 87/81/64 based on mixed implementation gains and operational risk; no direct successful re-promotion evidence. No paid tests or product changes."
+    },
+    {
+      "date": "2026-11-26",
+      "asOf": "2026-11-26T06:04:47-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "name": "V1 readiness",
+          "current": 88,
+          "confidence": "medium",
+          "status": "Staging isolation and designer preflight implemented; live acceptance and safe deployment remain unverified.",
+          "summary": "Nov 26: businessbuilder main 03ce4aba6 and Stromation main 49658cb53. Staging queue #1204 and staging prefix/signing-key #1219 merged; #1219 reports manual restoration on stg-web :323 after a staging deploy, not durable end-to-end isolation proof. Stromation #376 merged, 371 targeted tests, 4 real preflight cases and 94 pin checks reported passing; merge train 45750231281 and current CodeBuild green. Businessbuilder release CI 45684464178 passed on b8bcb0fbf (live ECS drift skipped; no actual production rollout shown); latest main combined status empty. #1218/#1222 permit optional fast pre-launch release with quick CI and skipped full gate/staging, retaining rollout smoke and rollback. #1209/#1213 early-access email signup merged, activation unverified. Audit integrity series merged, including #1224/#1229/#1231, but staging replays retained only 1/8 then 2 findings and no actions; final fix unverified on fresh replay. #1192/#1223 workforce and #1206 spend guard remain open. Public site could not be read by available web tool. No accepted 8+/10 live site, supported revisions, real checkout/forms, three owner handoffs or unattended recovery proof."
+        },
+        "v2": {
+          "name": "V2 readiness",
+          "current": 81,
+          "confidence": "medium",
+          "status": "Audit and pre-launch safeguards improved in code; no new five-worker production outcomes.",
+          "summary": "Nov 26: businessbuilder main 03ce4aba6 and Stromation main 49658cb53. Staging queue #1204 and staging prefix/signing-key #1219 merged; #1219 reports manual restoration on stg-web :323 after a staging deploy, not durable end-to-end isolation proof. Stromation #376 merged, 371 targeted tests, 4 real preflight cases and 94 pin checks reported passing; merge train 45750231281 and current CodeBuild green. Businessbuilder release CI 45684464178 passed on b8bcb0fbf (live ECS drift skipped; no actual production rollout shown); latest main combined status empty. #1218/#1222 permit optional fast pre-launch release with quick CI and skipped full gate/staging, retaining rollout smoke and rollback. #1209/#1213 early-access email signup merged, activation unverified. Audit integrity series merged, including #1224/#1229/#1231, but staging replays retained only 1/8 then 2 findings and no actions; final fix unverified on fresh replay. #1192/#1223 workforce and #1206 spend guard remain open. Public site could not be read by available web tool. Worker brain activation, held-out quality, provider integration outcomes and automatic recovery remain unverified."
+        },
+        "v3": {
+          "name": "V3 / Full 10/10 vision",
+          "current": 64,
+          "confidence": "medium",
+          "status": "Incremental website and delivery safety gains; no complete SaaS, custom-agent or economic proof.",
+          "summary": "Nov 26: businessbuilder main 03ce4aba6 and Stromation main 49658cb53. Staging queue #1204 and staging prefix/signing-key #1219 merged; #1219 reports manual restoration on stg-web :323 after a staging deploy, not durable end-to-end isolation proof. Stromation #376 merged, 371 targeted tests, 4 real preflight cases and 94 pin checks reported passing; merge train 45750231281 and current CodeBuild green. Businessbuilder release CI 45684464178 passed on b8bcb0fbf (live ECS drift skipped; no actual production rollout shown); latest main combined status empty. #1218/#1222 permit optional fast pre-launch release with quick CI and skipped full gate/staging, retaining rollout smoke and rollback. #1209/#1213 early-access email signup merged, activation unverified. Audit integrity series merged, including #1224/#1229/#1231, but staging replays retained only 1/8 then 2 findings and no actions; final fix unverified on fresh replay. #1192/#1223 workforce and #1206 spend guard remain open. Public site could not be read by available web tool. No complete SaaS/existing-app delivery, custom-agent activation, accepted-site margin, representative autonomy denominator or measured founder-only hours."
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null,
+        "scope": "Representative supported routine workflows",
+        "observationWindow": null,
+        "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2",
+        "targetContext": "mature V3 scale",
+        "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 84,
+          "day30": 87,
+          "day60": 93,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 72,
+          "day30": 82,
+          "day60": 88,
+          "day90": 93,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 88,
+          "day30": 88,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 83,
+          "day30": 87,
+          "day60": 91,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 91,
+          "day30": 93,
+          "day60": 96,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 88,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Separate staging queue #1204 and designer fail-closed preflight #376 merged, removing major implementation blockers, but durable deployed isolation and accepted paid website delivery are still unverified.",
+      "method": "Nov 26: checked canonical commits, PR metadata and reported test/replay evidence, main workflow runs and job conclusions, current commit statuses and public-site access (unavailable). Scored new implemented safeguards separately from deployment and real outcomes; prior release CI green, latest main status absent, no verified production re-promotion. No credit for open worker PRs or fast-gate bypass. Scores 88/81/64."
     }
   ]
 }

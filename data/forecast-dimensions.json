@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-11-25",
-  "asOf": "2026-11-25T06:00:49-06:00",
+  "date": "2026-11-26",
+  "asOf": "2026-11-26T06:04:47-06:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
-      "current": 87,
+      "current": 88,
       "confidence": "medium",
-      "status": "Paid-path safety and designer recovery improved in merged code; release rollback and staging isolation still block launch proof.",
-      "summary": "Nov 25: businessbuilder main 90863d147 and Stromation main b70250fe9. R36 #1205 merged; full release CI 45502194066 passed on a90a45fb4; production promotion rolled back on worker health 503 (#1210). Fix #1210 merged and targeted tests (355) plus release CI 45547061109 passed; deploy job skipped, successful re-promotion unverified. Both current CodeBuild statuses green. Stromation #370–#373 merged; merge train 45579866948 passed. Separate staging queue #1204 remains open. Intake defaults and scope deduplication, bounded retry, fenced checkpoints and fail-closed receipts improve implementation. Designer revisions/polish/picture changes explicitly refuse in #370; promised revision support remains incomplete. No accepted 8+/10 live Fargate site, real checkout/forms, three owner handoffs or unattended recovery proof."
+      "status": "Staging isolation and designer preflight implemented; live acceptance and safe deployment remain unverified.",
+      "summary": "Nov 26: businessbuilder main 03ce4aba6 and Stromation main 49658cb53. Staging queue #1204 and staging prefix/signing-key #1219 merged; #1219 reports manual restoration on stg-web :323 after a staging deploy, not durable end-to-end isolation proof. Stromation #376 merged, 371 targeted tests, 4 real preflight cases and 94 pin checks reported passing; merge train 45750231281 and current CodeBuild green. Businessbuilder release CI 45684464178 passed on b8bcb0fbf (live ECS drift skipped; no actual production rollout shown); latest main combined status empty. #1218/#1222 permit optional fast pre-launch release with quick CI and skipped full gate/staging, retaining rollout smoke and rollback. #1209/#1213 early-access email signup merged, activation unverified. Audit integrity series merged, including #1224/#1229/#1231, but staging replays retained only 1/8 then 2 findings and no actions; final fix unverified on fresh replay. #1192/#1223 workforce and #1206 spend guard remain open. Public site could not be read by available web tool. No accepted 8+/10 live site, supported revisions, real checkout/forms, three owner handoffs or unattended recovery proof."
     },
     "v2": {
       "name": "V2 readiness",
       "current": 81,
       "confidence": "medium",
-      "status": "R36 checkout, audit and partial worker improvements merged, but rollout failed and worker brain activation is unverified.",
-      "summary": "Nov 25: businessbuilder main 90863d147 and Stromation main b70250fe9. R36 #1205 merged; full release CI 45502194066 passed on a90a45fb4; production promotion rolled back on worker health 503 (#1210). Fix #1210 merged and targeted tests (355) plus release CI 45547061109 passed; deploy job skipped, successful re-promotion unverified. Both current CodeBuild statuses green. Stromation #370–#373 merged; merge train 45579866948 passed. Separate staging queue #1204 remains open. Worker round 3 #1192, spend guard #1206, paid-start honesty #1203 remain open. Existing-site plan and worker brain flags previously off; no new activation or live outcome proof. Need five useful accurate provider-backed workers, reliable integrations and automatic recovery."
+      "status": "Audit and pre-launch safeguards improved in code; no new five-worker production outcomes.",
+      "summary": "Nov 26: businessbuilder main 03ce4aba6 and Stromation main 49658cb53. Staging queue #1204 and staging prefix/signing-key #1219 merged; #1219 reports manual restoration on stg-web :323 after a staging deploy, not durable end-to-end isolation proof. Stromation #376 merged, 371 targeted tests, 4 real preflight cases and 94 pin checks reported passing; merge train 45750231281 and current CodeBuild green. Businessbuilder release CI 45684464178 passed on b8bcb0fbf (live ECS drift skipped; no actual production rollout shown); latest main combined status empty. #1218/#1222 permit optional fast pre-launch release with quick CI and skipped full gate/staging, retaining rollout smoke and rollback. #1209/#1213 early-access email signup merged, activation unverified. Audit integrity series merged, including #1224/#1229/#1231, but staging replays retained only 1/8 then 2 findings and no actions; final fix unverified on fresh replay. #1192/#1223 workforce and #1206 spend guard remain open. Public site could not be read by available web tool. Worker brain activation, held-out quality, provider integration outcomes and automatic recovery remain unverified."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
       "current": 64,
       "confidence": "medium",
-      "status": "Better implemented paid intake and bounded recovery; complete SaaS, custom agents and economic proof absent.",
-      "summary": "Nov 25: businessbuilder main 90863d147 and Stromation main b70250fe9. R36 #1205 merged; full release CI 45502194066 passed on a90a45fb4; production promotion rolled back on worker health 503 (#1210). Fix #1210 merged and targeted tests (355) plus release CI 45547061109 passed; deploy job skipped, successful re-promotion unverified. Both current CodeBuild statuses green. Stromation #370–#373 merged; merge train 45579866948 passed. Separate staging queue #1204 remains open. No live accepted site, complete SaaS/existing-app handoff, custom-agent activation, measured autonomy denominator or founder-only hours. No product/deployment actions initiated."
+      "status": "Incremental website and delivery safety gains; no complete SaaS, custom-agent or economic proof.",
+      "summary": "Nov 26: businessbuilder main 03ce4aba6 and Stromation main 49658cb53. Staging queue #1204 and staging prefix/signing-key #1219 merged; #1219 reports manual restoration on stg-web :323 after a staging deploy, not durable end-to-end isolation proof. Stromation #376 merged, 371 targeted tests, 4 real preflight cases and 94 pin checks reported passing; merge train 45750231281 and current CodeBuild green. Businessbuilder release CI 45684464178 passed on b8bcb0fbf (live ECS drift skipped; no actual production rollout shown); latest main combined status empty. #1218/#1222 permit optional fast pre-launch release with quick CI and skipped full gate/staging, retaining rollout smoke and rollback. #1209/#1213 early-access email signup merged, activation unverified. Audit integrity series merged, including #1224/#1229/#1231, but staging replays retained only 1/8 then 2 findings and no actions; final fix unverified on fresh replay. #1192/#1223 workforce and #1206 spend guard remain open. Public site could not be read by available web tool. No complete SaaS/existing-app delivery, custom-agent activation, accepted-site margin, representative autonomy denominator or measured founder-only hours."
     }
   },
   "autonomyProof": {
@@ -58,13 +58,13 @@
       "key": "website",
       "name": "Premium website delivery",
       "group": "V3 capability",
-      "current": 82,
+      "current": 84,
       "day30": 87,
       "day60": 93,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "Need deployed isolation, accepted 8+/10 live site with forms, and supported revisions (designer currently refuses).",
-      "nextMilestone": "Verify paid-path designer delivery and revision support."
+      "blocker": "Need deployed isolated designer, accepted 8+/10 live site with forms and supported revisions.",
+      "nextMilestone": "Verify paid-path designer delivery and revisions."
     },
     {
       "key": "saas",
@@ -87,7 +87,7 @@
       "day60": 88,
       "day90": 93,
       "confidence": "medium",
-      "blocker": "Need five useful live workers and held-out grounded replies above 8.5/10; round 3 open.",
+      "blocker": "Need five useful live workers, grounded held-out replies above 8.5/10; #1192 and #1223 open.",
       "nextMilestone": "Prove enabled provider-backed outcomes."
     },
     {
@@ -106,25 +106,25 @@
       "key": "coordination",
       "name": "Autonomous coordination & recovery",
       "group": "V3 capability",
-      "current": 87,
+      "current": 88,
       "day30": 88,
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Need deployed one-resume, fail-closed receipts and hands-free recovery proof.",
-      "nextMilestone": "Verify bounded recovery on isolated staging and live path."
+      "blocker": "Need deployed fail-closed preflight and hands-free bounded recovery proof.",
+      "nextMilestone": "Verify isolated staging and live recovery."
     },
     {
       "key": "reliability",
       "name": "Reliability, security & ongoing maintenance",
       "group": "V3 capability",
-      "current": 82,
+      "current": 83,
       "day30": 87,
       "day60": 91,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Need successful R36 re-promotion, separate staging queue and safe restore proof.",
-      "nextMilestone": "Verify fixed worker health live, then staging isolation."
+      "blocker": "Need durable deployed isolation, successful production rollout, full gate/restore proof and image security disposition.",
+      "nextMilestone": "Verify deployment bindings and full release safety."
     },
     {
       "key": "journey",
@@ -135,20 +135,20 @@
       "day60": 96,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Need real checkout, truthful paid-start, supported revisions and three owner handoffs.",
+      "blocker": "Need verified real checkout, truthful paid start, supported revisions and three owner handoffs.",
       "nextMilestone": "Prove paid purchase-to-live handoffs."
     },
     {
       "key": "commercial",
       "name": "Commercial delivery & acquisition readiness",
       "group": "V3 capability",
-      "current": 87,
+      "current": 88,
       "day30": 90,
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Need owner-accepted paid fulfillment and repeatable acquisition.",
-      "nextMilestone": "Complete first owner-accepted paid delivery."
+      "blocker": "Need confirmed early-access activation, owner-accepted paid fulfillment and repeatable acquisition.",
+      "nextMilestone": "Prove paid delivery and acquisition funnel."
     },
     {
       "key": "economics",
@@ -164,50 +164,51 @@
     }
   ],
   "v1Remaining": [
-    "Verify successful R36 rollout, separate staging queue and bounded unattended recovery.",
-    "Accept independent 8+/10 premium live site with real checkout/forms, supported revisions and three owner handoffs."
+    "Verify durable staging isolation, successful production rollout, full release safety and bounded unattended recovery.",
+    "Accept independent 8+/10 premium live website with real checkout/forms, supported revisions and three owner handoffs."
   ],
   "v2Remaining": [
     "Prove five accurate useful live workers and reliable integrations.",
     "Verify paid customer journey and unattended recovery."
   ],
-  "biggestChange": "R36 and four Stromation designer safety PRs merged; R36 production promotion rolled back on worker health, with a merged CI-green fix awaiting verified re-promotion.",
+  "biggestChange": "Separate staging queue #1204 and designer fail-closed preflight #376 merged, removing major implementation blockers, but durable deployed isolation and accepted paid website delivery are still unverified.",
   "improvements": [
-    "R36 #1205 merged checkout, audit, worker and intake safety; full release CI 45502194066 green.",
-    "Worker health fix #1210 merged; 355 targeted tests reported passing and current release CI 45547061109 green.",
-    "Stromation #370–#373 merged: durable revision refusal, operator holds, intake defaults, bounded checkpoint resume and fail-closed receipts; current merge train and CodeBuild green."
+    "#1204/#1219 merged: separate staging queue, staging prefix/signing key and fail-closed binding checks.",
+    "Stromation #376 merged: no-cost preflight, controller facts, ship gate and browser retry; merge train 45750231281 passed.",
+    "#1209/#1213 early access with confirmed-email path and runtime flag merged; audit integrity fixes through #1231 merged.",
+    "Release CI 45684464178 green after libzstd1 fix #1214; full gate on preceding SHA, not current main."
   ],
   "regressions": [
-    "R36 production promotion rolled back on worker health 503 per #1210; successful re-promotion not verified.",
-    "Designer engine rejects revisions, polish and picture changes (#370); must support promised customer revisions.",
-    "Staging queue #1204 and spend guard #1206 remain open; no fresh premium acceptance or live workforce proof."
+    "Staging deploy dropped isolation bindings and needed manual restoration per #1219; merged fix not verified by repeated deploy.",
+    "Optional fast release #1218/#1222 can bypass full gate and staging; no launch readiness credit for bypass.",
+    "Audit staging replay retained only 2 findings and no actions; final checker fix not yet proven on fresh replay.",
+    "Designer revisions remain refused; image scan #376 reports unresolved CVEs under changed scanner, so security acceptance is unproven."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "Businessbuilder 90863d147 includes #1205, #1207, #1210.",
-      "Stromation b70250fe9 includes #370–#373.",
-      "#1204, #1206, #1203 and worker round 3 #1192 remain open."
+      "businessbuilder 03ce4aba6 includes #1204, #1219, #1218, #1222, #1209/#1213 and audit fixes #1231.",
+      "Stromation 49658cb53 includes #376; #1192/#1223 workforce and #1206 spend guard open."
     ],
     "deployed": [
-      "R36 production promotion rolled back on worker health 503 per #1210.",
-      "Current fix release CI deploy job skipped; no verified re-promotion or isolated staging queue."
+      "Staging deployment and manually restored stg-web :323 bindings reported in #1219; durable fix and production re-promotion not verified.",
+      "Early access activation, new builder image deployment and full paid-path acceptance unverified."
     ],
     "verified": [
-      "Full R36 release CI 45502194066 and current selective release CI 45547061109 successful; both CodeBuild statuses green.",
-      "Stromation merge train 45579866948 successful; #373 reports 477 targeted tests passing.",
-      "No new independently accepted premium live site, live worker or economic proof."
+      "Release CI 45684464178 green on b8bcb0fbf; live ECS drift skipped; latest businessbuilder main has no combined status.",
+      "Stromation current merge train and CodeBuild green; #376 reports 371 tests and 4 real preflight checks.",
+      "Audit staging replay evidence remains poor; no fresh accepted website, live workforce or unit economics."
     ]
   },
   "promisesOverreach": [
-    "Merged safeguards and green CI are not live delivery or recovery proof.",
-    "Designer revision refusal is safe but not promised revision fulfillment.",
-    "Open PRs and disabled flags are not implemented live capability.",
-    "No accepted-site margin, autonomous workflow denominator or founder-only hours measurements."
+    "Merged queue and preflight are not deployed isolation or accepted-site proof.",
+    "Optional fast release must not substitute for full launch validation.",
+    "Early-access code is not paid fulfillment; revisions remain unsupported.",
+    "No measured margins, autonomous workflow denominator or founder-only hours."
   ],
-  "founderWorkloadTrend": "No new measured founder-only hours or representative workflow denominator; production rollback and previous test stop are operational evidence, not quantified founder intervention.",
+  "founderWorkloadTrend": "No measured founder-only hours or representative workflow denominator; manual staging binding repair is operational effort, not necessarily founder intervention.",
   "nextActions": [
-    "Verify R36 worker-health fix rollout and complete/deploy #1204 staging isolation.",
-    "Prove independent 8+/10 premium live site with authentic checkout/forms, bounded recovery and supported revisions.",
+    "Verify production rollout and durable staging queue/prefix/signing-key isolation after redeploy.",
+    "Prove independent 8+/10 premium live website with authentic checkout/forms, supported revisions and bounded recovery.",
     "Complete three owner handoffs before broadening V3 work."
   ],
   "businessOutlook": {
@@ -230,7 +231,7 @@
     "measuredSpend": "No spend initiated by this forecast. A prior Nov 20 staging Stripe TEST designer run reportedly reached $6.87 before manual stop (Stromation #366); this is test spend, not accepted-site unit economics.",
     "reservedUnconfirmedSpend": "No paid tests, deployments, access changes, account creation, product code edits or cloud configuration changes by this forecast.",
     "estimatedFutureCosts": "Accepted-site gross margin, sustained autonomous success ratio and founder-only hours remain unmeasured.",
-    "note": "Nov 25 read-only evidence checks and forecast-only commit; no paid tests, deployments, product or cloud changes, account creation or spending adjustments."
+    "note": "Nov 26 read-only evidence checks and forecast-only commit; no paid tests, deployments, product/cloud changes, account creation or spending adjustments."
   },
-  "method": "Nov 25: checked canonical main commits, PR metadata and proof notes, both current CodeBuild statuses, main workflow runs and release job conclusions. Full R36 release gate passed before reported production rollback; fix gate passed with deploy skipped. Merged designer safety work earns implementation credit, not live quality credit. Scores 87/81/64 based on mixed implementation gains and operational risk; no direct successful re-promotion evidence. No paid tests or product changes."
+  "method": "Nov 26: checked canonical commits, PR metadata and reported test/replay evidence, main workflow runs and job conclusions, current commit statuses and public-site access (unavailable). Scored new implemented safeguards separately from deployment and real outcomes; prior release CI green, latest main status absent, no verified production re-promotion. No credit for open worker PRs or fast-gate bypass. Scores 88/81/64."
 }
