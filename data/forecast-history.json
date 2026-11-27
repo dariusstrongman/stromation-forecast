@@ -6664,6 +6664,139 @@
       },
       "biggestChange": "Separate staging queue #1204 and designer fail-closed preflight #376 merged, removing major implementation blockers, but durable deployed isolation and accepted paid website delivery are still unverified.",
       "method": "Nov 26: checked canonical commits, PR metadata and reported test/replay evidence, main workflow runs and job conclusions, current commit statuses and public-site access (unavailable). Scored new implemented safeguards separately from deployment and real outcomes; prior release CI green, latest main status absent, no verified production re-promotion. No credit for open worker PRs or fast-gate bypass. Scores 88/81/64."
+    },
+    {
+      "date": "2026-11-27",
+      "asOf": "2026-11-27T06:01:27-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "name": "V1 readiness",
+          "current": 87,
+          "confidence": "medium",
+          "status": "Staging runs revealed significant design-quality and owner-intake failures; fixes merged, but no accepted post-fix delivery.",
+          "summary": "Nov 27: businessbuilder main f1884881f and Stromation main c4a6142e7. Staging Tidy Paws run stopped at S5 ($6.59), a later run scored 5.5/10 with SVG art and missing fonts, and run 5 stopped at planning ($2.98) despite only minor findings. Stromation #378–380 and #382–383 merged fixes for section-loop grading, stock photos, fonts, competitor study, plan gating and checkpoint reuse; #383 reports 482 targeted tests, exact merge-train heavy checks passed, current CodeBuild green. No accepted post-fix site or unattended recovery demonstrated. Businessbuilder #1232 merged tenant/company-scoped intake-record fix after second owner's staging save returned 403 despite starting build; no post-fix journey shown. #1234 merged durable worker jobs and approval retries (98 focused tests, local Postgres checks). #1241 reports e2e9 audit reached minimum but failed final delivery gate; fixes merged without fresh passing replay. #1242 reports five audit settings enabled in prod Nov 27 and staging deploy refused by parity guard; overlay fix merged, redeployment unverified. Latest businessbuilder combined status empty; latest visible full release CI 45684464178 passed Nov 25 on b8bcb0fbf. #1192/#1223 worker intelligence, #1203 truthful paid start and #1206 shared spend guard remain open. No verified complete SaaS, custom agent, paid handoffs, repeatable economics or autonomy denominator. Need durable deployed isolation, successful production rollout, independent 8+/10 site, checkout/forms, revisions, three handoffs and automatic recovery."
+        },
+        "v2": {
+          "name": "V2 readiness",
+          "current": 81,
+          "confidence": "medium",
+          "status": "Worker recovery implementation improved, but audit delivery and live worker quality remain unproven.",
+          "summary": "Nov 27: businessbuilder main f1884881f and Stromation main c4a6142e7. Staging Tidy Paws run stopped at S5 ($6.59), a later run scored 5.5/10 with SVG art and missing fonts, and run 5 stopped at planning ($2.98) despite only minor findings. Stromation #378–380 and #382–383 merged fixes for section-loop grading, stock photos, fonts, competitor study, plan gating and checkpoint reuse; #383 reports 482 targeted tests, exact merge-train heavy checks passed, current CodeBuild green. No accepted post-fix site or unattended recovery demonstrated. Businessbuilder #1232 merged tenant/company-scoped intake-record fix after second owner's staging save returned 403 despite starting build; no post-fix journey shown. #1234 merged durable worker jobs and approval retries (98 focused tests, local Postgres checks). #1241 reports e2e9 audit reached minimum but failed final delivery gate; fixes merged without fresh passing replay. #1242 reports five audit settings enabled in prod Nov 27 and staging deploy refused by parity guard; overlay fix merged, redeployment unverified. Latest businessbuilder combined status empty; latest visible full release CI 45684464178 passed Nov 25 on b8bcb0fbf. #1192/#1223 worker intelligence, #1203 truthful paid start and #1206 shared spend guard remain open. No verified complete SaaS, custom agent, paid handoffs, repeatable economics or autonomy denominator. Need five accurate useful live workers, reliable integrations, paid journey and unattended recovery."
+        },
+        "v3": {
+          "name": "V3 / Full 10/10 vision",
+          "current": 64,
+          "confidence": "medium",
+          "status": "Designer and worker implementation improved; actual site quality and audit delivery evidence offset gains.",
+          "summary": "Nov 27: businessbuilder main f1884881f and Stromation main c4a6142e7. Staging Tidy Paws run stopped at S5 ($6.59), a later run scored 5.5/10 with SVG art and missing fonts, and run 5 stopped at planning ($2.98) despite only minor findings. Stromation #378–380 and #382–383 merged fixes for section-loop grading, stock photos, fonts, competitor study, plan gating and checkpoint reuse; #383 reports 482 targeted tests, exact merge-train heavy checks passed, current CodeBuild green. No accepted post-fix site or unattended recovery demonstrated. Businessbuilder #1232 merged tenant/company-scoped intake-record fix after second owner's staging save returned 403 despite starting build; no post-fix journey shown. #1234 merged durable worker jobs and approval retries (98 focused tests, local Postgres checks). #1241 reports e2e9 audit reached minimum but failed final delivery gate; fixes merged without fresh passing replay. #1242 reports five audit settings enabled in prod Nov 27 and staging deploy refused by parity guard; overlay fix merged, redeployment unverified. Latest businessbuilder combined status empty; latest visible full release CI 45684464178 passed Nov 25 on b8bcb0fbf. #1192/#1223 worker intelligence, #1203 truthful paid start and #1206 shared spend guard remain open. No verified complete SaaS, custom agent, paid handoffs, repeatable economics or autonomy denominator. Need complete supported SaaS/existing-app delivery, custom agents, mature autonomy, unit economics and low founder workload."
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null,
+        "scope": "Representative supported routine workflows",
+        "observationWindow": null,
+        "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2",
+        "targetContext": "mature V3 scale",
+        "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 82,
+          "day30": 87,
+          "day60": 93,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 73,
+          "day30": 82,
+          "day60": 88,
+          "day90": 93,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 89,
+          "day30": 88,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 83,
+          "day30": 87,
+          "day60": 91,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 90,
+          "day30": 93,
+          "day60": 96,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 87,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Tidy Paws staging designer scored 5.5/10 and later stopped at planning; designer quality and checkpoint fixes merged (#378–383), but no accepted post-fix website has been shown.",
+      "method": "Nov 27: independently checked canonical commits, merged/open PRs, reported staging journey results, PR merge-train confirmation, main CI status and workflow runs. New concrete design and intake regressions offset merged fixes, with worker and recovery implementation gains; no evidence of accepted post-fix delivery. Scores 87/81/64."
     }
   ]
 }
