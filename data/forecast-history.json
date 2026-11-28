@@ -6797,6 +6797,139 @@
       },
       "biggestChange": "Tidy Paws staging designer scored 5.5/10 and later stopped at planning; designer quality and checkpoint fixes merged (#378–383), but no accepted post-fix website has been shown.",
       "method": "Nov 27: independently checked canonical commits, merged/open PRs, reported staging journey results, PR merge-train confirmation, main CI status and workflow runs. New concrete design and intake regressions offset merged fixes, with worker and recovery implementation gains; no evidence of accepted post-fix delivery. Scores 87/81/64."
+    },
+    {
+      "date": "2026-11-28",
+      "asOf": "2026-11-28T05:56:20-06:00",
+      "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
+      "milestones": {
+        "v1": {
+          "name": "V1 readiness",
+          "current": 89,
+          "confidence": "medium",
+          "status": "Production rollout and intake smoke improved; designer budget/quality repairs merged, but paid website acceptance remains missing.",
+          "summary": "Nov 28: businessbuilder main f62af1bb9 and Stromation main 8e10dfebf5. #1271 reports AWS-checked production web :506/worker :339, Alex outage watch enabled after staging and a clean 12-minute watch; #1256/#1262/#1265 report site reader, editing, flow walk, broken-output and worker spend-checkin flips. Committed live snapshot confirms TEAM_CHAT_BRAIN and TEAM_KNOWLEDGE enabled on both processes. #1223 merged with 1,263 local tests and stub replay (good replies blocked/replaced 21/23 to 1/1; not a live held-out quality result); #1192 remains open. #1261/#1263/#1264/#1266/#1268 extend all five workers and calendar writes, but booking lane requires further flags/IAM and provider proof. #1252 reports staging signed-in intake save 201 and production read-only smoke passed; #1203 paid-start honesty merged but activation and full journey not established. #1250 reports staging audit e2e12 passed and retained before/after but improvement section omitted; latest repair not replayed. #1254/#1260 fix worker heartbeat starvation, following production rollback; #1257 merged writable /tmp and loud spend-guard failures; #1206 merged shared guard, worker flag now on, end-to-end enforcement not independently demonstrated. Stromation #384/#385 merged designer pin 5 and one per-job design budget with reserved grading tail, resume/regrade and 300 designer tests; #385 exact heavy checks passed, current CodeBuild green. Desktop-first switch is default off and not equivalent to full-site acceptance. No new accepted 8+/10 complete site after Tidy Paws failures, automatic recovery in real paid build, three handoffs, measured margins or founder-only hours. Latest businessbuilder main combined status empty; current release full gate not independently established (recent visible runs are CI infrastructure retry)."
+        },
+        "v2": {
+          "name": "V2 readiness",
+          "current": 85,
+          "confidence": "medium",
+          "status": "Worker intelligence and monitoring now enabled in production; broader worker tools merged; provider-backed outcomes and accuracy remain unproven.",
+          "summary": "Nov 28: businessbuilder main f62af1bb9 and Stromation main 8e10dfebf5. #1271 reports AWS-checked production web :506/worker :339, Alex outage watch enabled after staging and a clean 12-minute watch; #1256/#1262/#1265 report site reader, editing, flow walk, broken-output and worker spend-checkin flips. Committed live snapshot confirms TEAM_CHAT_BRAIN and TEAM_KNOWLEDGE enabled on both processes. #1223 merged with 1,263 local tests and stub replay (good replies blocked/replaced 21/23 to 1/1; not a live held-out quality result); #1192 remains open. #1261/#1263/#1264/#1266/#1268 extend all five workers and calendar writes, but booking lane requires further flags/IAM and provider proof. #1252 reports staging signed-in intake save 201 and production read-only smoke passed; #1203 paid-start honesty merged but activation and full journey not established. #1250 reports staging audit e2e12 passed and retained before/after but improvement section omitted; latest repair not replayed. #1254/#1260 fix worker heartbeat starvation, following production rollback; #1257 merged writable /tmp and loud spend-guard failures; #1206 merged shared guard, worker flag now on, end-to-end enforcement not independently demonstrated. Stromation #384/#385 merged designer pin 5 and one per-job design budget with reserved grading tail, resume/regrade and 300 designer tests; #385 exact heavy checks passed, current CodeBuild green. Desktop-first switch is default off and not equivalent to full-site acceptance. No new accepted 8+/10 complete site after Tidy Paws failures, automatic recovery in real paid build, three handoffs, measured margins or founder-only hours. Latest businessbuilder main combined status empty; current release full gate not independently established (recent visible runs are CI infrastructure retry)."
+        },
+        "v3": {
+          "name": "V3 / Full 10/10 vision",
+          "current": 66,
+          "confidence": "medium",
+          "status": "Deployment, workforce and recovery capabilities improved; SaaS, custom agents and economic proof remain outstanding.",
+          "summary": "Nov 28: businessbuilder main f62af1bb9 and Stromation main 8e10dfebf5. #1271 reports AWS-checked production web :506/worker :339, Alex outage watch enabled after staging and a clean 12-minute watch; #1256/#1262/#1265 report site reader, editing, flow walk, broken-output and worker spend-checkin flips. Committed live snapshot confirms TEAM_CHAT_BRAIN and TEAM_KNOWLEDGE enabled on both processes. #1223 merged with 1,263 local tests and stub replay (good replies blocked/replaced 21/23 to 1/1; not a live held-out quality result); #1192 remains open. #1261/#1263/#1264/#1266/#1268 extend all five workers and calendar writes, but booking lane requires further flags/IAM and provider proof. #1252 reports staging signed-in intake save 201 and production read-only smoke passed; #1203 paid-start honesty merged but activation and full journey not established. #1250 reports staging audit e2e12 passed and retained before/after but improvement section omitted; latest repair not replayed. #1254/#1260 fix worker heartbeat starvation, following production rollback; #1257 merged writable /tmp and loud spend-guard failures; #1206 merged shared guard, worker flag now on, end-to-end enforcement not independently demonstrated. Stromation #384/#385 merged designer pin 5 and one per-job design budget with reserved grading tail, resume/regrade and 300 designer tests; #385 exact heavy checks passed, current CodeBuild green. Desktop-first switch is default off and not equivalent to full-site acceptance. No new accepted 8+/10 complete site after Tidy Paws failures, automatic recovery in real paid build, three handoffs, measured margins or founder-only hours. Latest businessbuilder main combined status empty; current release full gate not independently established (recent visible runs are CI infrastructure retry)."
+        }
+      },
+      "autonomyProof": {
+        "measurement": "not measured",
+        "numerator": null,
+        "denominator": null,
+        "scope": "Representative supported routine workflows",
+        "observationWindow": null,
+        "note": "Representative success/attempt denominator is still unavailable; do not imply the 95–99% V3 mature target has been measured."
+      },
+      "founderWorkload": {
+        "measurement": "unknown",
+        "hoursPerWeek": null,
+        "targetHoursPerWeek": "1–2",
+        "targetContext": "mature V3 scale",
+        "note": "Darius minutes are not comprehensively separated from operator effort, customer approvals or specialist review."
+      },
+      "dimensions": {
+        "understanding": {
+          "current": 91,
+          "day30": 92,
+          "day60": 94,
+          "day90": 95,
+          "confidence": "high"
+        },
+        "website": {
+          "current": 84,
+          "day30": 87,
+          "day60": 93,
+          "day90": 97,
+          "confidence": "medium"
+        },
+        "saas": {
+          "current": 15,
+          "day30": 18,
+          "day60": 25,
+          "day90": 35,
+          "confidence": "medium"
+        },
+        "workforce": {
+          "current": 79,
+          "day30": 82,
+          "day60": 88,
+          "day90": 93,
+          "confidence": "medium"
+        },
+        "customAgents": {
+          "current": 20,
+          "day30": 24,
+          "day60": 30,
+          "day90": 40,
+          "confidence": "high"
+        },
+        "coordination": {
+          "current": 90,
+          "day30": 90,
+          "day60": 92,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "reliability": {
+          "current": 86,
+          "day30": 87,
+          "day60": 91,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "journey": {
+          "current": 92,
+          "day30": 93,
+          "day60": 96,
+          "day90": 98,
+          "confidence": "high"
+        },
+        "commercial": {
+          "current": 89,
+          "day30": 90,
+          "day60": 93,
+          "day90": 95,
+          "confidence": "medium"
+        },
+        "economics": {
+          "current": 10,
+          "day30": 15,
+          "day60": 25,
+          "day90": 40,
+          "confidence": "high"
+        }
+      },
+      "businessOutlook": {
+        "reliability": "illustrative scenario",
+        "customersMin": 0,
+        "customersMax": 8,
+        "mrrMin": 0,
+        "mrrMax": 1800,
+        "recurringRevenueOnly": true,
+        "assumptions": [
+          "The website-builder asset/recovery defect is fixed and the merged repair release is deployed and repeatedly proven within roughly 30 days.",
+          "SelfOperate receives about 150–500 qualified prospects/visitors over 90 days.",
+          "Paid conversion is roughly 1–2% while the product remains supervised.",
+          "Supervised delivery capacity remains roughly 2–4 projects per month.",
+          "Roughly half to three-quarters of eligible delivered customers retain the $299/month ongoing SelfOperate service after any included period."
+        ],
+        "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
+      },
+      "biggestChange": "Production worker intelligence and Alex outage monitoring are enabled, and Stromation #385 merged a unified designer budget/resume system, but no new independently accepted premium website is evidenced.",
+      "method": "Nov 28: independently checked canonical main commits, updated/open PRs, deployment flag snapshot, reported staging/production smoke, audit replay, designer merge-train comments, combined CI status and recent workflow runs. Increased readiness for verified deployment and implemented worker/recovery changes, not for unproven full website quality. Scores 89/85/66."
     }
   ]
 }

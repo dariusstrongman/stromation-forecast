@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "rubricVersion": "selfoperate-v1-v2-v3-2026-10-02",
-  "date": "2026-11-27",
-  "asOf": "2026-11-27T06:01:27-06:00",
+  "date": "2026-11-28",
+  "asOf": "2026-11-28T05:56:20-06:00",
   "milestones": {
     "v1": {
       "name": "V1 readiness",
-      "current": 87,
+      "current": 89,
       "confidence": "medium",
-      "status": "Staging runs revealed significant design-quality and owner-intake failures; fixes merged, but no accepted post-fix delivery.",
-      "summary": "Nov 27: businessbuilder main f1884881f and Stromation main c4a6142e7. Staging Tidy Paws run stopped at S5 ($6.59), a later run scored 5.5/10 with SVG art and missing fonts, and run 5 stopped at planning ($2.98) despite only minor findings. Stromation #378–380 and #382–383 merged fixes for section-loop grading, stock photos, fonts, competitor study, plan gating and checkpoint reuse; #383 reports 482 targeted tests, exact merge-train heavy checks passed, current CodeBuild green. No accepted post-fix site or unattended recovery demonstrated. Businessbuilder #1232 merged tenant/company-scoped intake-record fix after second owner's staging save returned 403 despite starting build; no post-fix journey shown. #1234 merged durable worker jobs and approval retries (98 focused tests, local Postgres checks). #1241 reports e2e9 audit reached minimum but failed final delivery gate; fixes merged without fresh passing replay. #1242 reports five audit settings enabled in prod Nov 27 and staging deploy refused by parity guard; overlay fix merged, redeployment unverified. Latest businessbuilder combined status empty; latest visible full release CI 45684464178 passed Nov 25 on b8bcb0fbf. #1192/#1223 worker intelligence, #1203 truthful paid start and #1206 shared spend guard remain open. No verified complete SaaS, custom agent, paid handoffs, repeatable economics or autonomy denominator. Need durable deployed isolation, successful production rollout, independent 8+/10 site, checkout/forms, revisions, three handoffs and automatic recovery."
+      "status": "Production rollout and intake smoke improved; designer budget/quality repairs merged, but paid website acceptance remains missing.",
+      "summary": "Nov 28: businessbuilder main f62af1bb9 and Stromation main 8e10dfebf5. #1271 reports AWS-checked production web :506/worker :339, Alex outage watch enabled after staging and a clean 12-minute watch; #1256/#1262/#1265 report site reader, editing, flow walk, broken-output and worker spend-checkin flips. Committed live snapshot confirms TEAM_CHAT_BRAIN and TEAM_KNOWLEDGE enabled on both processes. #1223 merged with 1,263 local tests and stub replay (good replies blocked/replaced 21/23 to 1/1; not a live held-out quality result); #1192 remains open. #1261/#1263/#1264/#1266/#1268 extend all five workers and calendar writes, but booking lane requires further flags/IAM and provider proof. #1252 reports staging signed-in intake save 201 and production read-only smoke passed; #1203 paid-start honesty merged but activation and full journey not established. #1250 reports staging audit e2e12 passed and retained before/after but improvement section omitted; latest repair not replayed. #1254/#1260 fix worker heartbeat starvation, following production rollback; #1257 merged writable /tmp and loud spend-guard failures; #1206 merged shared guard, worker flag now on, end-to-end enforcement not independently demonstrated. Stromation #384/#385 merged designer pin 5 and one per-job design budget with reserved grading tail, resume/regrade and 300 designer tests; #385 exact heavy checks passed, current CodeBuild green. Desktop-first switch is default off and not equivalent to full-site acceptance. No new accepted 8+/10 complete site after Tidy Paws failures, automatic recovery in real paid build, three handoffs, measured margins or founder-only hours. Latest businessbuilder main combined status empty; current release full gate not independently established (recent visible runs are CI infrastructure retry)."
     },
     "v2": {
       "name": "V2 readiness",
-      "current": 81,
+      "current": 85,
       "confidence": "medium",
-      "status": "Worker recovery implementation improved, but audit delivery and live worker quality remain unproven.",
-      "summary": "Nov 27: businessbuilder main f1884881f and Stromation main c4a6142e7. Staging Tidy Paws run stopped at S5 ($6.59), a later run scored 5.5/10 with SVG art and missing fonts, and run 5 stopped at planning ($2.98) despite only minor findings. Stromation #378–380 and #382–383 merged fixes for section-loop grading, stock photos, fonts, competitor study, plan gating and checkpoint reuse; #383 reports 482 targeted tests, exact merge-train heavy checks passed, current CodeBuild green. No accepted post-fix site or unattended recovery demonstrated. Businessbuilder #1232 merged tenant/company-scoped intake-record fix after second owner's staging save returned 403 despite starting build; no post-fix journey shown. #1234 merged durable worker jobs and approval retries (98 focused tests, local Postgres checks). #1241 reports e2e9 audit reached minimum but failed final delivery gate; fixes merged without fresh passing replay. #1242 reports five audit settings enabled in prod Nov 27 and staging deploy refused by parity guard; overlay fix merged, redeployment unverified. Latest businessbuilder combined status empty; latest visible full release CI 45684464178 passed Nov 25 on b8bcb0fbf. #1192/#1223 worker intelligence, #1203 truthful paid start and #1206 shared spend guard remain open. No verified complete SaaS, custom agent, paid handoffs, repeatable economics or autonomy denominator. Need five accurate useful live workers, reliable integrations, paid journey and unattended recovery."
+      "status": "Worker intelligence and monitoring now enabled in production; broader worker tools merged; provider-backed outcomes and accuracy remain unproven.",
+      "summary": "Nov 28: businessbuilder main f62af1bb9 and Stromation main 8e10dfebf5. #1271 reports AWS-checked production web :506/worker :339, Alex outage watch enabled after staging and a clean 12-minute watch; #1256/#1262/#1265 report site reader, editing, flow walk, broken-output and worker spend-checkin flips. Committed live snapshot confirms TEAM_CHAT_BRAIN and TEAM_KNOWLEDGE enabled on both processes. #1223 merged with 1,263 local tests and stub replay (good replies blocked/replaced 21/23 to 1/1; not a live held-out quality result); #1192 remains open. #1261/#1263/#1264/#1266/#1268 extend all five workers and calendar writes, but booking lane requires further flags/IAM and provider proof. #1252 reports staging signed-in intake save 201 and production read-only smoke passed; #1203 paid-start honesty merged but activation and full journey not established. #1250 reports staging audit e2e12 passed and retained before/after but improvement section omitted; latest repair not replayed. #1254/#1260 fix worker heartbeat starvation, following production rollback; #1257 merged writable /tmp and loud spend-guard failures; #1206 merged shared guard, worker flag now on, end-to-end enforcement not independently demonstrated. Stromation #384/#385 merged designer pin 5 and one per-job design budget with reserved grading tail, resume/regrade and 300 designer tests; #385 exact heavy checks passed, current CodeBuild green. Desktop-first switch is default off and not equivalent to full-site acceptance. No new accepted 8+/10 complete site after Tidy Paws failures, automatic recovery in real paid build, three handoffs, measured margins or founder-only hours. Latest businessbuilder main combined status empty; current release full gate not independently established (recent visible runs are CI infrastructure retry)."
     },
     "v3": {
       "name": "V3 / Full 10/10 vision",
-      "current": 64,
+      "current": 66,
       "confidence": "medium",
-      "status": "Designer and worker implementation improved; actual site quality and audit delivery evidence offset gains.",
-      "summary": "Nov 27: businessbuilder main f1884881f and Stromation main c4a6142e7. Staging Tidy Paws run stopped at S5 ($6.59), a later run scored 5.5/10 with SVG art and missing fonts, and run 5 stopped at planning ($2.98) despite only minor findings. Stromation #378–380 and #382–383 merged fixes for section-loop grading, stock photos, fonts, competitor study, plan gating and checkpoint reuse; #383 reports 482 targeted tests, exact merge-train heavy checks passed, current CodeBuild green. No accepted post-fix site or unattended recovery demonstrated. Businessbuilder #1232 merged tenant/company-scoped intake-record fix after second owner's staging save returned 403 despite starting build; no post-fix journey shown. #1234 merged durable worker jobs and approval retries (98 focused tests, local Postgres checks). #1241 reports e2e9 audit reached minimum but failed final delivery gate; fixes merged without fresh passing replay. #1242 reports five audit settings enabled in prod Nov 27 and staging deploy refused by parity guard; overlay fix merged, redeployment unverified. Latest businessbuilder combined status empty; latest visible full release CI 45684464178 passed Nov 25 on b8bcb0fbf. #1192/#1223 worker intelligence, #1203 truthful paid start and #1206 shared spend guard remain open. No verified complete SaaS, custom agent, paid handoffs, repeatable economics or autonomy denominator. Need complete supported SaaS/existing-app delivery, custom agents, mature autonomy, unit economics and low founder workload."
+      "status": "Deployment, workforce and recovery capabilities improved; SaaS, custom agents and economic proof remain outstanding.",
+      "summary": "Nov 28: businessbuilder main f62af1bb9 and Stromation main 8e10dfebf5. #1271 reports AWS-checked production web :506/worker :339, Alex outage watch enabled after staging and a clean 12-minute watch; #1256/#1262/#1265 report site reader, editing, flow walk, broken-output and worker spend-checkin flips. Committed live snapshot confirms TEAM_CHAT_BRAIN and TEAM_KNOWLEDGE enabled on both processes. #1223 merged with 1,263 local tests and stub replay (good replies blocked/replaced 21/23 to 1/1; not a live held-out quality result); #1192 remains open. #1261/#1263/#1264/#1266/#1268 extend all five workers and calendar writes, but booking lane requires further flags/IAM and provider proof. #1252 reports staging signed-in intake save 201 and production read-only smoke passed; #1203 paid-start honesty merged but activation and full journey not established. #1250 reports staging audit e2e12 passed and retained before/after but improvement section omitted; latest repair not replayed. #1254/#1260 fix worker heartbeat starvation, following production rollback; #1257 merged writable /tmp and loud spend-guard failures; #1206 merged shared guard, worker flag now on, end-to-end enforcement not independently demonstrated. Stromation #384/#385 merged designer pin 5 and one per-job design budget with reserved grading tail, resume/regrade and 300 designer tests; #385 exact heavy checks passed, current CodeBuild green. Desktop-first switch is default off and not equivalent to full-site acceptance. No new accepted 8+/10 complete site after Tidy Paws failures, automatic recovery in real paid build, three handoffs, measured margins or founder-only hours. Latest businessbuilder main combined status empty; current release full gate not independently established (recent visible runs are CI infrastructure retry)."
     }
   },
   "autonomyProof": {
@@ -58,13 +58,13 @@
       "key": "website",
       "name": "Premium website delivery",
       "group": "V3 capability",
-      "current": 82,
+      "current": 84,
       "day30": 87,
       "day60": 93,
       "day90": 97,
       "confidence": "medium",
-      "blocker": "Need independently accepted 8+/10 live site after designer fixes, real forms and supported revisions.",
-      "nextMilestone": "Verify post-fix paid-path designer delivery and revisions."
+      "blocker": "Need independent 8+/10 complete live site after pin 5/budget D, working forms and supported revisions.",
+      "nextMilestone": "Prove full post-fix designer journey including mobile and functional acceptance."
     },
     {
       "key": "saas",
@@ -82,13 +82,13 @@
       "key": "workforce",
       "name": "Standard AI workforce capability",
       "group": "V3 capability",
-      "current": 73,
+      "current": 79,
       "day30": 82,
       "day60": 88,
       "day90": 93,
       "confidence": "medium",
-      "blocker": "Need five accurate useful live workers and grounded held-out replies above 8.5/10; #1192/#1223 remain open.",
-      "nextMilestone": "Prove enabled provider-backed outcomes and durable jobs."
+      "blocker": "Need five repeatedly useful live workers, provider-backed actions and held-out answer quality above 8.5/10.",
+      "nextMilestone": "Prove enabled intelligence and booking/integration outcomes with grounded evaluation."
     },
     {
       "key": "customAgents",
@@ -106,49 +106,49 @@
       "key": "coordination",
       "name": "Autonomous coordination & recovery",
       "group": "V3 capability",
-      "current": 89,
-      "day30": 88,
+      "current": 90,
+      "day30": 90,
       "day60": 92,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Need hands-free bounded recovery and checkpoint resume verified in staging/live.",
-      "nextMilestone": "Prove unattended recovery and resume after failure."
+      "blocker": "Need hands-free bounded recovery and checkpoint resume verified in real delivery.",
+      "nextMilestone": "Prove automatic failure recovery and resume without founder/operator rescue."
     },
     {
       "key": "reliability",
       "name": "Reliability, security & ongoing maintenance",
       "group": "V3 capability",
-      "current": 83,
+      "current": 86,
       "day30": 87,
       "day60": 91,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Need durable deployed isolation, successful current production rollout, full gate and restore proof.",
-      "nextMilestone": "Verify staging redeploy and release safety."
+      "blocker": "Need current full release gate, durable deployed builder isolation, verified spend guard and restore.",
+      "nextMilestone": "Verify production/staging isolation and failure recovery on current versions."
     },
     {
       "key": "journey",
       "name": "Complete customer journey & ownership",
       "group": "V3 capability",
-      "current": 90,
+      "current": 92,
       "day30": 93,
       "day60": 96,
       "day90": 98,
       "confidence": "high",
-      "blocker": "Need post-fix multi-owner intake, real checkout, truthful paid start, supported revisions and three handoffs.",
+      "blocker": "Need real checkout, truthful paid start activation, post-fix multi-owner intake, revisions and three handoffs.",
       "nextMilestone": "Prove purchase-to-live journeys with multiple owners."
     },
     {
       "key": "commercial",
       "name": "Commercial delivery & acquisition readiness",
       "group": "V3 capability",
-      "current": 87,
+      "current": 89,
       "day30": 90,
       "day60": 93,
       "day90": 95,
       "confidence": "medium",
-      "blocker": "Need passing paid audit delivery gate, owner-accepted website fulfillment and repeatable acquisition.",
-      "nextMilestone": "Prove accepted paid delivery before acquisition scale."
+      "blocker": "Need complete paid audit with all promised sections and accepted website fulfillment, repeatable acquisition.",
+      "nextMilestone": "Prove paid website delivery before acquisition scale."
     },
     {
       "key": "economics",
@@ -164,52 +164,56 @@
     }
   ],
   "v1Remaining": [
-    "Verify durable staging isolation, current production rollout, full release safety and bounded unattended recovery.",
-    "Prove post-fix multi-owner intake and independent 8+/10 premium live site with real checkout/forms, supported revisions and three owner handoffs."
+    "Independently accept an 8+/10 full premium live website with real checkout/forms and revisions; complete three owner handoffs.",
+    "Verify current full release gate, durable deployed builder isolation, paid-start activation and bounded unattended recovery."
   ],
   "v2Remaining": [
-    "Prove five accurate useful live workers and reliable integrations.",
-    "Verify paid audit and website delivery, paid customer journey and unattended recovery."
+    "Prove five accurate useful live workers and provider-backed integrations including approved booking.",
+    "Verify complete paid audit/website delivery and unattended recovery."
   ],
-  "biggestChange": "Tidy Paws staging designer scored 5.5/10 and later stopped at planning; designer quality and checkpoint fixes merged (#378–383), but no accepted post-fix website has been shown.",
+  "biggestChange": "Production worker intelligence and Alex outage monitoring are enabled, and Stromation #385 merged a unified designer budget/resume system, but no new independently accepted premium website is evidenced.",
   "improvements": [
-    "Stromation #378–380, #382–383 merged: scoped section grading, stock photos/fonts, study-first planning, serious-findings-only stop and checkpoint reuse; #383 reports 482 tests and green CodeBuild.",
-    "Businessbuilder #1232 merged company-scoped intake answers; local regression tests passed.",
-    "#1234 merged durable worker jobs and approval retries, with focused tests and local Postgres checks.",
-    "#1233/#1235/#1238/#1239/#1241 merged audit finding and checker improvements; #1242 merged staging overlay guard compatibility."
+    "#1271 AWS-checked production snapshot web :506/worker :339; outage watch staging-first with clean 12-minute production watch. #1256/#1262/#1265 report additional production flags; TEAM_CHAT_BRAIN and TEAM_KNOWLEDGE now on.",
+    "#1223 merged grounded worker chat improvements; 1,263 local tests, stub replay preserved good answers; #1261/#1263/#1264/#1266/#1268 merged broader tools and gated calendar actions.",
+    "#1252 staging intake save 201 and production read-only signed-in smoke passed; #1203 paid-start fix merged.",
+    "#1250 staging audit e2e12 passed with before/after; improvement section repair merged but no replay.",
+    "Stromation #384/#385 pin 5, unified bounded design budget, reserve grading, checkpoint resume/regrade; 300 designer tests and exact heavy checks passed.",
+    "#1206 shared spend guard merged; #1257 writable temp/loud failure fix merged; #1254/#1260 worker health repairs."
   ],
   "regressions": [
-    "Tidy Paws staging stopped before full build at $6.59; later staging output scored 5.5/10; run 5 stopped at plan for $2.98. Post-fix acceptance unverified.",
-    "Second owner's intake save returned 403 after starting build; #1232 fix merged but journey unverified.",
-    "Audit e2e9 met minimum but final gate failed; final repair not replay-verified.",
-    "Staging deploy refused after prod audit flags activated; overlay fix merged but redeploy unverified."
+    "Alex broken-output activation initially caused worker health rollback (#1254); later production flip reported successful (#1262).",
+    "Spend guard initially unavailable because no writable temp (#1257); worker flag now enabled but actual enforcement not independently verified.",
+    "Audit e2e12 still omitted improvement section; latest fix not replayed.",
+    "Tidy Paws previous design failure and budget stalls not superseded by independent accepted full-site proof."
   ],
   "mergedDeployedVerified": {
     "merged": [
-      "businessbuilder f1884881f includes #1232/#1234 and audit fixes through #1242; #1192/#1223/#1203/#1206 open.",
-      "Stromation c4a6142e7 includes #377–380/#382–383."
+      "businessbuilder f62af1bb9 includes #1203/#1206/#1223/#1252/#1254/#1257/#1260–1269/#1271; #1192 open.",
+      "Stromation 8e10dfebf5 includes #384/#385."
     ],
     "deployed": [
-      "Staging Tidy Paws designer runs and audit replays reported in PRs; final fixed designer version deployment not verified.",
-      "#1242 reports prod audit flags enabled Nov 27 and staging deployment refused; repaired staging deployment and full current production rollout not verified."
+      "Repo-recorded AWS checks verify web :506/worker :339 flags; #1271 reports outage watch on worker only; TEAM_CHAT_BRAIN/TEAM_KNOWLEDGE on both.",
+      "#1252 reports staging and production signed-in smoke; #1250 reports staging audit replay.",
+      "New calendar booking and designer Budget D production activation not established."
     ],
     "verified": [
-      "Stromation #383 exact merge-train checks passed and current CodeBuild green; 482 targeted tests reported.",
-      "Latest visible businessbuilder full release CI 45684464178 green on older b8bcb0fbf; current main combined status empty.",
-      "Concrete staging failures reported; no accepted post-fix site, multi-owner journey, passing audit gate, live worker outcomes or unit economics."
+      "Stromation exact #385 merge-train heavy checks and CodeBuild green; 300 designer engine tests, prior sweep 559.",
+      "#1271 clean 12-minute production watch; #1252 staging intake 201, production read-only probe; #1250 e2e12 pass but omitted improvement section.",
+      "Latest businessbuilder combined status empty; recent visible runs are CI infrastructure retry, not proof of full current release gate. No independently accepted premium site, five useful live worker outcomes or unit economics."
     ]
   },
   "promisesOverreach": [
-    "Merged designer fixes and checkpoint reuse are not accepted-site quality or hands-free recovery.",
-    "Reported enabled audit flags do not prove successful paid audit delivery.",
-    "Worker job fixes do not prove five accurate live workers.",
-    "No measured margins, autonomous workflow denominator or founder-only hours."
+    "Enabled intelligence and uptime flags do not prove five accurate, useful workers or repeated provider-backed actions.",
+    "Budget D tests do not prove accepted site, margin or unattended live recovery.",
+    "A desktop-first score is not full-site acceptance; #384 keeps automatic checks and default-off switch.",
+    "Audit replay pass with omitted improvement section is not complete paid fulfillment.",
+    "No measured founder-only hours, autonomy denominator or accepted-site margins."
   ],
-  "founderWorkloadTrend": "No measured founder-only hours or representative supported-workflow denominator; staging fixes and plan resume controls are implementation/operational evidence, not founder workload proof.",
+  "founderWorkloadTrend": "No new measured founder-only hours or supported-workflow denominator; operator resume and newly enabled worker features are not proof of low founder workload.",
   "nextActions": [
-    "Verify repaired staging deploy and durable isolation, then resume/complete the designer journey within existing authorized controls.",
-    "Independently accept an 8+/10 premium website with real checkout/forms, supported revisions, multi-owner intake and bounded recovery.",
-    "Complete three owner handoffs before broadening V3 work."
+    "Prove the repaired designer on existing authorized staging/paid-path evidence, including full quality, functioning forms and revisions.",
+    "Verify durable builder isolation, current release safety and bounded automatic recovery.",
+    "Complete multi-owner checkout and three handoffs before broadening V3."
   ],
   "businessOutlook": {
     "reliability": "illustrative scenario",
@@ -228,10 +232,10 @@
     "note": "This is not a reliable demand forecast yet. One-time website/business build revenue is excluded from MRR."
   },
   "costReporting": {
-    "measuredSpend": "No spend initiated by this forecast. PR #378 reports $6.59 on a failed Tidy Paws staging run; #383 reports $2.98 on run 5; #1241 reports $0.159 on audit replay e2e9. These are test costs, not accepted delivery economics.",
+    "measuredSpend": "No spend initiated by forecast. #1250 reports audit replay e2e12 capped at $0.40, not exact spend; prior Tidy Paws failures documented Nov 27. Budget D defaults to $10 with hard $30 code ceiling; this is a cap, not accepted-site cost.",
     "reservedUnconfirmedSpend": "No paid tests, deployments, access changes, account creation, product code edits or cloud configuration changes by this forecast.",
     "estimatedFutureCosts": "Accepted-site gross margin, autonomous success ratio and founder-only hours remain unmeasured.",
-    "note": "Nov 27 read-only repository evidence checks and forecast-only commit; no product/cloud changes or spending adjustments."
+    "note": "Nov 28 read-only repository evidence checks and forecast-only commit; no product/cloud changes or spending adjustments."
   },
-  "method": "Nov 27: independently checked canonical commits, merged/open PRs, reported staging journey results, PR merge-train confirmation, main CI status and workflow runs. New concrete design and intake regressions offset merged fixes, with worker and recovery implementation gains; no evidence of accepted post-fix delivery. Scores 87/81/64."
+  "method": "Nov 28: independently checked canonical main commits, updated/open PRs, deployment flag snapshot, reported staging/production smoke, audit replay, designer merge-train comments, combined CI status and recent workflow runs. Increased readiness for verified deployment and implemented worker/recovery changes, not for unproven full website quality. Scores 89/85/66."
 }
